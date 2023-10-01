@@ -1,0 +1,325 @@
+1
+
+00:00:01,380  -->  00:00:02,380
+Ótimo!
+
+2
+
+00:00:02,380  -->  00:00:04,960
+Avançamos bastante até aqui!
+
+3
+
+00:00:04,960  -->  00:00:11,130
+Agora, você sabe um pouco mais sobre a sintaxe
+do Python e sobre os comandos "if", "elif", "else"
+
+4
+
+00:00:11,130  -->  00:00:13,160
+e sobre funções.
+
+5
+
+00:00:13,160  -->  00:00:18,380
+Nesta seção, abordaremos outro tópico
+importante da linguagem Python: as listas.
+
+6
+
+00:00:18,380  -->  00:00:21,489
+Então, o que é uma lista?
+
+7
+
+00:00:21,489  -->  00:00:27,310
+Uma lista é um tipo de sequência de dados
+como números inteiros, frações ou texto.
+
+8
+
+00:00:27,310  -->  00:00:32,640
+Portanto, entender as listas está relacionado a
+sua capacidade de organizar dados - é uma habilidade
+
+9
+
+00:00:32,640  -->  00:00:34,900
+crucial no mercado de trabalho atual.
+
+10
+
+00:00:34,900  -->  00:00:42,190
+Além disso, você verá que o Python cria um ambiente
+amigável para lidar com listas.
+
+11
+
+00:00:42,190  -->  00:00:46,760
+Imagine que você queira criar uma lista chamada
+participante que contenha os nomes: John,
+
+12
+
+00:00:46,760  -->  00:00:49,240
+Leila, Gregory e Cate.
+
+13
+
+00:00:49,240  -->  00:00:52,650
+Agora vamos criar uma variável
+genérica.
+
+14
+
+00:00:52,650  -->  00:00:58,030
+Mas tenha cuidado com duas coisas: coloque as
+strings dentro de colchetes e certifique-se
+
+15
+
+00:00:58,030  -->  00:01:00,440
+de usar aspas.
+
+16
+
+00:01:00,440  -->  00:01:06,049
+Estes colchetes indicam os elementos
+dentro de uma lista e não algum outro tipo
+
+17
+
+00:01:06,049  -->  00:01:07,580
+de sequência.
+
+18
+
+00:01:07,580  -->  00:01:13,049
+Bom, podemos ver que a lista "participantes" já
+foi preparada.
+
+19
+
+00:01:13,049  -->  00:01:17,049
+Será que eu consigo extrair o nome
+de um membro do grupo?
+
+20
+
+00:01:17,049  -->  00:01:18,210
+Claro que eu consigo.
+
+21
+
+00:01:18,210  -->  00:01:22,400
+Você se lembra de como extraímos a letra
+"d" de Friday?
+
+22
+
+00:01:22,400  -->  00:01:26,289
+Usando colchetes após a palavra “Friday”.
+
+23
+
+00:01:26,289  -->  00:01:27,740
+A lógica aqui é a mesma.
+
+24
+
+00:01:27,740  -->  00:01:32,749
+Eu vou escrever o nome da lista e entre
+colchetes indicarei a posição correspondente
+
+25
+
+00:01:32,749  -->  00:01:34,950
+ao nome em que estou interessado.
+
+26
+
+00:01:34,950  -->  00:01:40,170
+É importante que eu não use parênteses
+ou chaves.
+
+27
+
+00:01:40,170  -->  00:01:44,249
+Por exemplo, vou extrair o nome Leila.
+
+28
+
+00:01:44,249  -->  00:01:49,340
+Como programadores, começamos a contar a partir de zero,
+então: 0, 1...
+
+29
+
+00:01:49,340  -->  00:01:51,819
+1 deve ser a posição correta!
+
+30
+
+00:01:51,819  -->  00:01:54,369
+E é!
+
+31
+
+00:01:54,369  -->  00:01:59,849
+Apenas para reforçar, em tal situação,
+um cientista da computação pode dizer que você acessou
+
+32
+
+00:01:59,849  -->  00:02:02,850
+a lista indexando o valor 1.
+
+33
+
+00:02:02,850  -->  00:02:08,580
+Isso significa que você extraiu o segundo
+elemento nessa lista.
+
+34
+
+00:02:08,580  -->  00:02:13,180
+Ok, bom.
+
+35
+
+00:02:13,180  -->  00:02:18,060
+Além disso, há uma maneira de chegar ao
+último elemento da sua lista - comece a contar
+
+36
+
+00:02:18,060  -->  00:02:20,650
+do final até o começo.
+
+37
+
+00:02:20,650  -->  00:02:26,890
+Agora, você precisa colocar o sinal de menos antes do
+dígito e não caia na armadilha de pensar que
+
+38
+
+00:02:26,890  -->  00:02:30,090
+começamos a contar a partir do 0 novamente!
+
+39
+
+00:02:30,090  -->  00:02:39,420
+Para obter Cate, temos que escrever -1;
+para obter Gregory escrevemos -2;
+
+40
+
+00:02:39,420  -->  00:02:41,350
+Ok!
+
+41
+
+00:02:41,350  -->  00:02:48,900
+Agora vamos estudar um recurso importante das listas - que é substituir
+e deletar itens em uma lista.
+
+42
+
+00:02:48,900  -->  00:02:55,400
+Vamos supor que Cate teve que sair por algum motivo,
+mas Maria poderia substituí-la.
+
+43
+
+00:02:55,400  -->  00:03:01,250
+Veja o que podemos fazer: acessar o valor na
+posição número 3, que se refere
+
+44
+
+00:03:01,250  -->  00:03:05,280
+a Cate e atribuir-lhe o nome
+"Maria".
+
+45
+
+00:03:05,280  -->  00:03:10,020
+Vamos verificar se nossa intuição estava correta.
+
+46
+
+00:03:10,020  -->  00:03:12,820
+100% correto!
+
+47
+
+00:03:12,820  -->  00:03:14,220
+Ótimo!
+
+48
+
+00:03:14,220  -->  00:03:19,960
+Vamos ver outra situação: infelizmente, Gregory tem
+uma oferta melhor em outro lugar, então ele também
+
+49
+
+00:03:19,960  -->  00:03:21,160
+sai fora.
+
+50
+
+00:03:21,160  -->  00:03:25,960
+Não há ninguém para substituí-lo, mas devemos
+ajustar nossa lista corretamente.
+
+51
+
+00:03:25,960  -->  00:03:29,450
+O comando "del" pode nos dar o resultado
+que queremos.
+
+52
+
+00:03:29,450  -->  00:03:38,580
+Digite del, então indexe corretamente a posição
+de Gregory digitando participantes 2 e...
+
+53
+
+00:03:38,580  -->  00:03:40,440
+Pronto!
+
+54
+
+00:03:40,440  -->  00:03:46,140
+Importante notar que ao deletar um elemento
+ocorre uma alteração de todos os elementos seguintes.
+
+55
+
+00:03:46,140  -->  00:03:50,730
+Depois de remover Gregory, a posição de Maria
+se deslocou para a esquerda e agora está
+
+56
+
+00:03:50,730  -->  00:03:52,450
+na segunda posição.
+
+57
+
+00:03:52,450  -->  00:03:56,040
+Não há elemento na terceira posição.
+
+58
+
+00:03:56,040  -->  00:04:00,760
+Na nossa próxima lição, nós vamos aprender o que
+fazer se tivermos que adicionar uma nova pessoa à nossa lista.
+
+59
+
+00:04:00,760  -->  00:04:01,780
+Obrigado por assistir!

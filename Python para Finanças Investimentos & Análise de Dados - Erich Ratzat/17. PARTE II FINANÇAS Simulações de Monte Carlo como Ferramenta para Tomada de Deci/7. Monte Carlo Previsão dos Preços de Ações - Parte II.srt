@@ -1,0 +1,203 @@
+1
+00:00:00,630 --> 00:00:06,810
+Maravilha pessoal vamos continuar de onde paramos no vídeo anterior calculamos os valores do drift e
+
+2
+00:00:06,810 --> 00:00:11,420
+do desvio padrão que precisaríamos para o cálculo dos retornos diários.
+
+3
+00:00:11,550 --> 00:00:20,540
+A função Trip nos permite verificar o seu tipo e verificar que é uma sedes ambas para prosseguir com
+
+4
+00:00:20,540 --> 00:00:21,320
+a nossa tarefa.
+
+5
+00:00:21,340 --> 00:00:24,580
+Devemos converter esses valores em uma rotina.
+
+6
+00:00:25,830 --> 00:00:30,510
+Você já sabe que o método Wei do Não pai pode nos ajudar com isso.
+
+7
+00:00:30,540 --> 00:00:38,910
+No entanto deixou de mostrar que ao digitar pontos velhos depois de um objeto pandas seja ele uma série
+
+8
+00:00:39,030 --> 00:00:40,410
+ou um Data Frame.
+
+9
+00:00:40,440 --> 00:00:49,840
+Isso faz com que o objeto seja transferido para um rei não pai consegue ver nós obtemos o mesmo resultado
+
+10
+00:00:49,840 --> 00:00:53,990
+para o drift do mesmo jeito que fizemos com o pai.
+
+11
+00:00:54,910 --> 00:01:04,580
+Então St David ponto velhos fornece um resultado análogo e nos permite obter o desvio padrão ótico.
+
+12
+00:01:04,630 --> 00:01:11,500
+O segundo componente do movimento browniano é uma variável aleatória z um número que corresponde à distância
+
+13
+00:01:11,500 --> 00:01:20,060
+entre a média e os eventos é expresso como o número de desvios padrão a função do sai Pai Nosso ponto
+
+14
+00:01:20,100 --> 00:01:27,570
+PBF nos permite obter esse resultado se o evento tem noventa e cinco por cento de chance de ocorrer.
+
+15
+00:01:27,570 --> 00:01:34,740
+A distância entre esse evento e a média vai ser aproximadamente 1,65 desvios padrão beleza.
+
+16
+00:01:34,940 --> 00:01:41,710
+é assim que funciona para complementar o segundo componente vamos precisar de números aleatórios.
+
+17
+00:01:41,760 --> 00:01:48,630
+A já conhecida função lente do Não pai pode nos ajudar a fazer isso facilmente se quisermos criar uma
+
+18
+00:01:48,630 --> 00:01:55,550
+matriz multidimensional precisaremos inserir dois argumentos então vou digitar 10 e 2.
+
+19
+00:01:55,730 --> 00:01:59,550
+Aqui está obtivemos uma matriz 10 por 2.
+
+20
+00:01:59,550 --> 00:02:06,840
+Vamos incluir esse elemento aleatório dentro da distribuição CPF para obter a distância da média correspondente
+
+21
+00:02:06,840 --> 00:02:10,810
+a cada uma dessas probabilidades geradas aleatoriamente.
+
+22
+00:02:10,830 --> 00:02:17,490
+O primeiro número da primeira linha corresponde à primeira probabilidade da primeira linha da matriz
+
+23
+00:02:17,490 --> 00:02:18,450
+X.
+
+24
+00:02:18,570 --> 00:02:25,090
+O segundo elemento a segunda probabilidade como mostrado na matriz X e assim por diante.
+
+25
+00:02:25,170 --> 00:02:25,960
+ótimo.
+
+26
+00:02:26,190 --> 00:02:31,600
+A expressão correspondente a Z será do tipo norte pp.
+
+27
+00:02:31,810 --> 00:02:42,240
+Abrir parênteses não pai lendo lentes abriu outro parênteses 10 e 2 e fecha todos os parentes o recém
+
+28
+00:02:42,240 --> 00:02:49,500
+criado usou as probabilidades geradas pela função lente e se converteu em distâncias em relação à média
+
+29
+00:02:49,500 --> 00:02:50,440
+zero.
+
+30
+00:02:50,460 --> 00:02:52,800
+Medida pelo número de desvios padrão.
+
+31
+00:02:53,430 --> 00:02:58,860
+Essa expressão criará um valor de z tal como definido na nossa forma ok.
+
+32
+00:02:58,950 --> 00:03:06,090
+Então uma vez que construímos essas ferramentas e calculamos todas as variáveis necessárias estamos
+
+33
+00:03:06,090 --> 00:03:08,790
+prontos para calcular o setor nos diários.
+
+34
+00:03:08,910 --> 00:03:10,760
+Parece que tudo está no lugar.
+
+35
+00:03:10,900 --> 00:03:16,500
+Então primeiro gostaria de especificar os intervalos de tempo que vamos usar.
+
+36
+00:03:16,500 --> 00:03:22,920
+Vai ser mil porque estamos interessados em prever o preço da ação para os próximos mil dias.
+
+37
+00:03:23,040 --> 00:03:29,910
+Então para iterações vou atribuir o valor de 10 o que significa que eu vou perguntar ao computador para
+
+38
+00:03:29,910 --> 00:03:34,410
+produzir 10 séries de previsões futuras dos preços da ação.
+
+39
+00:03:34,440 --> 00:03:35,250
+Maravilha.
+
+40
+00:03:35,550 --> 00:03:43,800
+A variável dele 10 nos mostrará qual vai ser o resultado de elevada potência e discutimos isso até a
+
+41
+00:03:43,800 --> 00:03:49,380
+hora que você se lembra vamos precisar da função XP normal pai.
+
+42
+00:03:49,680 --> 00:03:56,940
+O que significa que vamos calcular o número de Euler e elevada potência da expressão escrita entre parênteses
+
+43
+00:03:57,630 --> 00:04:04,290
+nos parênteses teremos o valor do drift e o produto do desvio padrão e do componente aleatório criado
+
+44
+00:04:04,290 --> 00:04:11,410
+com a ajuda do módulo menor seu valor percentual foi gerado com a função do não pai usando o intervalo
+
+45
+00:04:11,410 --> 00:04:19,210
+de tempo iterações especificando as dimensões da matriz preenchida com o valor de 0 a 1 ótimo.
+
+46
+00:04:19,470 --> 00:04:26,340
+Então a forma que usamos na célula anterior nos permitiria obter uma matriz de mil por 10 valores do
+
+47
+00:04:26,340 --> 00:04:32,100
+setor nos diários 10 conjuntos de mil preços futuros aleatórios das ações.
+
+48
+00:04:32,100 --> 00:04:32,660
+ótimo.
+
+49
+00:04:32,730 --> 00:04:35,460
+Estamos a um passo de completar esse exercício.
+
+50
+00:04:35,520 --> 00:04:36,900
+Faremos isso na próxima aula.
+
+51
+00:04:37,110 --> 00:04:38,080
+Obrigado por assistir.

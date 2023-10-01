@@ -1,0 +1,508 @@
+1
+
+00:00:00,940  -->  00:00:06,210
+Por favor, sinta-se à vontade para voltar a este vídeo
+enquanto prossegue com o resto das aulas.
+
+2
+
+00:00:06,210  -->  00:00:11,139
+Eu sei que alguns dos assuntos mencionados
+aqui podem parecer um pouco técnico demais para
+
+3
+
+00:00:11,139  -->  00:00:16,619
+esta etapa do curso, mas ao mesmo tempo
+acredito que este seja o momento certo para compartilhar
+
+4
+
+00:00:16,619  -->  00:00:18,790
+essas informações com vocês.
+
+5
+
+00:00:18,790  -->  00:00:22,230
+Então, não pule esta aula, por favor.
+
+6
+
+00:00:22,230  -->  00:00:26,840
+Vamos analisar os dados financeiros por
+uma perspectiva mais técnica.
+
+7
+
+00:00:26,840  -->  00:00:32,230
+Primeiro, os dados que você vai usar em finanças,
+ou qualquer outro tipo de análises, vem de
+
+8
+
+00:00:32,230  -->  00:00:37,030
+uma das duas fontes: um servidor web ou de seu computador.
+
+9
+
+00:00:37,030  -->  00:00:43,620
+Na prática, para acessar dados armazenados em um servidor
+web, você vai precisar conectar a respectiva API
+
+10
+
+00:00:43,620  -->  00:00:46,660
+(Application Programming Interface).
+
+11
+
+00:00:46,660  -->  00:00:50,979
+No nosso caso, vamos precisar de APIs de dados financeiros.
+
+12
+
+00:00:50,979  -->  00:00:55,479
+Nós também podemos chama-los de fontes online de dados
+financeiros.
+
+13
+
+00:00:55,479  -->  00:01:04,820
+Como exemplos temos o IEX, o Morningstar, o Alpha Vantage,
+e o Quandl APIs, entre muitos outros.
+
+14
+
+00:01:04,820  -->  00:01:10,300
+Só um parênteses, uma característica
+desses servidores é que eles fornecem dados
+
+15
+
+00:01:10,300  -->  00:01:11,300
+atualizados.
+
+16
+
+00:01:11,300  -->  00:01:15,370
+É por isso que você vai precisar de uma conexão
+com a internet para acessar essas APIs.
+
+17
+
+00:01:15,370  -->  00:01:20,860
+E, além disso, do ponto de vista do
+Python, o "Pandas Data-Reader" é um
+
+18
+
+00:01:20,860  -->  00:01:26,300
+exemplo de módulo que vai ajudar você a baixar
+dados dessas fontes online e a prepara-los
+
+19
+
+00:01:26,300  -->  00:01:28,910
+para análises.
+
+20
+
+00:01:28,910  -->  00:01:33,750
+Além de extrair dados on-line, você pode
+usar as informações armazenadas como certos tipos de
+
+21
+
+00:01:33,750  -->  00:01:35,610
+arquivos no seu computador.
+
+22
+
+00:01:35,610  -->  00:01:41,630
+Um formato de arquivo que todo programador ou analista
+precisa saber como trabalhar é o formato csv
+
+23
+
+00:01:41,630  -->  00:01:45,640
+do inglês comma separated values
+
+24
+
+00:01:45,640  -->  00:01:51,850
+É claro que você não vai precisar de uma conexão com a internet
+para usar os dados armazenados em C.S.V.
+
+25
+
+00:01:51,850  -->  00:01:57,480
+Por outro lado, normalmente esses dados não vão ter dados
+atualizados.
+
+26
+
+00:01:57,480  -->  00:02:01,690
+É importante saber que não existe uma
+resposta de certo ou errado para essas escolhas.
+
+27
+
+00:02:01,690  -->  00:02:07,760
+Nos próximos vídeos, nós vamos esclarecer
+como cada uma delas funciona e vamos apresentar a vocês
+
+28
+
+00:02:07,760  -->  00:02:10,030
+as ferramentas de programação relevantes.
+
+29
+
+00:02:10,030  -->  00:02:15,870
+Com certeza saber trabalhar com diferentes tipos de dados
+vai somar ao seu conjunto de habilidades - como os especialistas
+
+30
+
+00:02:15,870  -->  00:02:20,920
+costumam dizer, normalmente é mais difícil limpar
+e organizar seus dados do que fazer
+
+31
+
+00:02:20,920  -->  00:02:23,670
+as análises financeiras propriamente ditas.
+
+32
+
+00:02:23,670  -->  00:02:28,670
+A primeira vista, pode parecer que a partir desta aula
+você deve se inclinar mais para os APIs, não
+
+33
+
+00:02:28,670  -->  00:02:29,670
+é mesmo?
+
+34
+
+00:02:29,670  -->  00:02:33,280
+Afinal trabalhar com dados atualizados acaba sendo mais interessante
+e você só precisa de uma conexão com a Internet.
+
+35
+
+00:02:33,280  -->  00:02:37,110
+Então, por que se preocupar em usar arquivos CSV?
+
+36
+
+00:02:37,110  -->  00:02:38,830
+Aqui está o por quê.
+
+37
+
+00:02:38,830  -->  00:02:44,410
+Primeiro, serviços da web são propensos a parar de
+funcionar por períodos de tempo indeterminados.
+
+38
+
+00:02:44,410  -->  00:02:50,810
+Segundo, é possível que uma determinada API
+possa conter apenas parte dos dados que você precisa
+
+39
+
+00:02:50,810  -->  00:02:52,880
+para uma análise financeira adequada.
+
+40
+
+00:02:52,880  -->  00:02:58,890
+Atualmente, não há API gratuita disponível
+que forneça dados financeiros tão ricos como um usuário
+
+41
+
+00:02:58,890  -->  00:03:00,160
+gostaria.
+
+42
+
+00:03:00,160  -->  00:03:06,150
+Algumas APIs somente oferecem dados sobre ações de maneira parcial,
+enquanto outras disponibilizam dados mais amplos inclusive
+
+43
+
+00:03:06,150  -->  00:03:10,140
+sobre ações estrangeiras e índices de mercado.
+
+44
+
+00:03:10,140  -->  00:03:14,510
+É certo que um analista pode precisar trabalhar
+com tudo isso.
+
+45
+
+00:03:14,510  -->  00:03:20,500
+Além disso, algumas APIs só permitem que você conecte
+usando o Python 3 e não quando usar
+
+46
+
+00:03:20,500  -->  00:03:22,230
+o Python 2.
+
+47
+
+00:03:22,230  -->  00:03:26,710
+Enquanto isso outras APIs permitem você se conectar
+usando ambas versões.
+
+48
+
+00:03:26,710  -->  00:03:33,580
+Na verdade, até pouco tempo atrás tínhamos uma API gratuita - o
+Yahoo Finance API - que fornecia todos os tipos de
+
+49
+
+00:03:33,580  -->  00:03:38,660
+dados acima mencionados, e fazia
+isso com qualquer versão do Python.
+
+50
+
+00:03:38,660  -->  00:03:44,010
+Para ser sincero, foi com essa
+API que nós baseamos todo o nosso curso.
+
+51
+
+00:03:44,010  -->  00:03:49,240
+É por isso que, ao longo do curso, você vai ver
+que nós usamos o Yahoo como fonte de dados
+
+52
+
+00:03:49,240  -->  00:03:50,760
+em nossos códigos.
+
+53
+
+00:03:50,760  -->  00:03:57,390
+No entanto, em um belo dia, os serviços
+do Yahoo foram interrompidos, e então, as pessoas que
+
+54
+
+00:03:57,390  -->  00:04:01,090
+dependiam dele tiveram que procurar um substituto.
+
+55
+
+00:04:01,090  -->  00:04:06,710
+A API do Google Finance estava disponível, e
+poderia substituir a funcionalidade fornecida
+
+56
+
+00:04:06,710  -->  00:04:09,030
+pelo Yahoo em grande parte.
+
+57
+
+00:04:09,030  -->  00:04:13,280
+O problema é que seus serviços também foram interrompidos.
+
+58
+
+00:04:13,280  -->  00:04:18,750
+Descobrir por que os gigantes da internet como Google e Yahoo
+interromperam tais serviços está além do nosso alcance.
+
+59
+
+00:04:18,750  -->  00:04:22,200
+Enfim, é assim que as coisas são e precisamos
+nos adaptar.
+
+60
+
+00:04:22,200  -->  00:04:27,940
+Então, devemos nos concentrar em nosso curso ao invés de
+focar em diferentes APIs.
+
+61
+
+00:04:27,940  -->  00:04:30,940
+O que nós queremos dizer é o seguinte:
+
+62
+
+00:04:30,940  -->  00:04:36,420
+Para ter certeza que toda a parte financeira
+do curso flua suavemente, do início ao fim,
+
+63
+
+00:04:36,420  -->  00:04:40,260
+use, por favor, os arquivos .csv anexados aos
+videos.
+
+64
+
+00:04:40,260  -->  00:04:46,020
+Embora as informações contidas neles
+não estejam atualizadas, vai ser mais melhor
+
+65
+
+00:04:46,020  -->  00:04:50,770
+e é o jeito mais fácil de lidar com
+dados que nós podemos fornecer.
+
+66
+
+00:04:50,770  -->  00:04:56,910
+Isso permitirá que você foque em programar, em teoria
+financeira, e na relação entre as duas.
+
+67
+
+00:04:56,910  -->  00:05:01,100
+Como já mencionamos, estas são as habilidades mais
+importantes que você vai adquirir neste
+
+68
+
+00:05:01,100  -->  00:05:03,650
+curso.
+
+69
+
+00:05:03,650  -->  00:05:09,380
+E se você quer saber como os arquivos csv foram criados,
+eles foram são baseados em dados baixados
+
+70
+
+00:05:09,380  -->  00:05:13,280
+da API do Yahoo Finance, quando ela ainda estava
+funcionando.
+
+71
+
+00:05:13,280  -->  00:05:19,090
+Se você estiver achando tudo muito confuso lembre-se
+de que os arquivos CSV podem ser encontrados
+
+72
+
+00:05:19,090  -->  00:05:22,940
+na seção de recursos de cada aula.
+
+73
+
+00:05:22,940  -->  00:05:25,979
+Esses arquivos são os que se encaixam melhor nas metas
+do curso.
+
+74
+
+00:05:25,979  -->  00:05:32,180
+Agora, se você quiser trabalhar com dados financeiros
+atualizados, nós sugerimos que você
+
+75
+
+00:05:32,180  -->  00:05:39,390
+use a API do Morningstar ou do Alpha Vantage
+independentemente se você está usando o Python 2 ou
+
+76
+
+00:05:39,390  -->  00:05:40,390
+o Python 3.
+
+77
+
+00:05:40,390  -->  00:05:43,940
+Somente use o IEX se você estiver usando o Python 3.
+
+78
+
+00:05:43,940  -->  00:05:50,960
+No entanto, lembre-se: não podemos garantir
+que você sempre terá acesso a esses serviços.
+
+79
+
+00:05:50,960  -->  00:05:52,580
+Eles podem ser interrompidos de uma hora para outra.
+
+80
+
+00:05:52,580  -->  00:05:58,570
+O que significa que baixar dados deles
+pode se tornar temporária ou permanentemente impossível.
+
+81
+
+00:05:58,570  -->  00:06:02,979
+Nós vamos postar mensagens na seção de
+anúncios do curso se houver mudanças importantes
+
+82
+
+00:06:02,979  -->  00:06:06,430
+no status quo que devem ser compartilhadas com
+vocês.
+
+83
+
+00:06:06,430  -->  00:06:11,360
+No entanto, se você não conseguir obter
+as informações exatas que precisa para uma aula
+
+84
+
+00:06:11,360  -->  00:06:18,130
+específica, esteja preparado para
+mudar a API ou trabalhar com os arquivos
+
+85
+
+00:06:18,130  -->  00:06:19,400
+CSV.
+
+86
+
+00:06:19,400  -->  00:06:25,460
+Nós sabemos que esta foi uma aula longa e um pouco
+confusa, mas não tivemos escolha - foi preciso
+
+87
+
+00:06:25,460  -->  00:06:31,580
+preparar um vídeo apresentando a vocês as opções
+existentes quando usamos dados financeiros em Python.
+
+88
+
+00:06:31,580  -->  00:06:37,330
+No próximo vídeo, vamos mostrar como
+distribuímos os arquivos do Jupyter no
+
+89
+
+00:06:37,330  -->  00:06:41,830
+curso e como vocês poderão acessá-los.
+
+90
+
+00:06:41,830  -->  00:06:42,509
+Vejo vocês lá!

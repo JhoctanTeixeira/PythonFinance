@@ -1,0 +1,207 @@
+1
+00:00:01,190 --> 00:00:02,450
+Estamos quase lá.
+
+2
+00:00:02,570 --> 00:00:09,200
+Tudo o que temos que fazer nessa aula é criar uma lista de preços cada preço deve ser igual ao produto
+
+3
+00:00:09,200 --> 00:00:17,400
+do preço observado no dia anterior e o retorno diário simulado portanto uma vez que obtemos o preço
+
+4
+00:00:17,400 --> 00:00:18,540
+no Dia T.
+
+5
+00:00:18,570 --> 00:00:24,100
+Podemos estimar o preço esperado da ação que teremos no dia tem mais um.
+
+6
+00:00:24,120 --> 00:00:30,780
+Esse processo será repetido mil vezes e vamos obter uma previsão de mil dias dos preços da ação de uma
+
+7
+00:00:30,780 --> 00:00:32,400
+empresa a partir de hoje.
+
+8
+00:00:32,430 --> 00:00:39,940
+Isso parece incrível mas por onde vamos começar já criamos uma matriz contendo os retornos diários certo.
+
+9
+00:00:40,110 --> 00:00:43,690
+Assim a variável dos retornos diários já está pronta.
+
+10
+00:00:43,800 --> 00:00:50,950
+No entanto qual será o primeiro preço na nossa lista 0 1 milhão.
+
+11
+00:00:50,960 --> 00:00:55,560
+Claro que não dá para fazer previsões com qualidade sobre o futuro.
+
+12
+00:00:55,580 --> 00:01:02,390
+O primeiro preço da ação em nossa lista deve ser o último do nosso conjunto de dados que é o preço atual
+
+13
+00:01:02,390 --> 00:01:03,740
+do mercado.
+
+14
+00:01:03,740 --> 00:01:11,240
+Vamos chamar essa variável S 0 já que ela contém o preço da ação hoje no ponto de partida que é o momento
+
+15
+00:01:11,250 --> 00:01:14,170
+0 com a ajuda do método.
+
+16
+00:01:14,190 --> 00:01:21,150
+Aí Locke e do operador Index podemos indicar que precisamos do último valor da tabela digitando menos
+
+17
+00:01:21,150 --> 00:01:23,110
+1 dentro dos colchetes.
+
+18
+00:01:23,340 --> 00:01:24,390
+Perfeito.
+
+19
+00:01:24,480 --> 00:01:28,110
+Esse é o primeiro preço da ação na nossa lista.
+
+20
+00:01:28,110 --> 00:01:37,630
+Vamos continuar a preenchê la quão grande ela deve ser tão grande quanto a matriz de retornos diários.
+
+21
+00:01:37,730 --> 00:01:38,840
+Certo.
+
+22
+00:01:38,840 --> 00:01:45,080
+é por isso que a matriz a lista de preços pode ser no máximo tão grande quanto a matriz do setor nos
+
+23
+00:01:45,080 --> 00:01:48,630
+diários e como todos nós esperávamos.
+
+24
+00:01:48,650 --> 00:01:55,060
+O meu pai tem um método que pode criar uma lei com as mesmas dimensões que um bem que já existe e que
+
+25
+00:01:55,070 --> 00:01:56,800
+nós ficamos.
+
+26
+00:01:56,810 --> 00:02:06,040
+Esse método é chamado de ponto zeros Andrew Link como argumento insira a matriz do setor nos diários
+
+27
+00:02:06,860 --> 00:02:13,410
+vamos obter uma matriz de mil por 10 elementos tal como a dimensão dos retornos diários e depois preenchê
+
+28
+00:02:13,430 --> 00:02:22,550
+la com zero mas porque criamos esse objeto bem porque agora podemos substituir esses zeros pelos preços
+
+29
+00:02:22,550 --> 00:02:24,940
+esperados das ações usando um loop.
+
+30
+00:02:25,400 --> 00:02:26,320
+Vamos fazer isso.
+
+31
+00:02:26,660 --> 00:02:32,540
+Primeiro temos que definir a primeira linha da nossa lista de preços para fx 0.
+
+32
+00:02:32,580 --> 00:02:40,280
+é isso mesmo não é apenas o primeiro valor mas toda a linha de 10 elementos porque S 0 vai ser o preço
+
+33
+00:02:40,280 --> 00:02:46,640
+inicial para cada uma das 10 iterações que pretendemos gerar obteremos a seguinte matriz
+
+34
+00:02:49,220 --> 00:02:56,310
+finalmente podemos gerar valores para a nossa lista de preços temos que criar um loop que começa no
+
+35
+00:02:56,310 --> 00:02:58,250
+dia 1 e termina no dia 1000.
+
+36
+00:02:58,980 --> 00:03:04,390
+Nós podemos simplesmente escrever a fórmula para o preço esperado da ação no dia T.
+
+37
+00:03:04,410 --> 00:03:14,690
+Dessa forma será igual ao preço no Dia T menos 1 vezes no retorno diário observado no dia até vamos
+
+38
+00:03:14,690 --> 00:03:23,730
+verificar se Completamos a lista de preços com certeza consegue ver se quiséssemos pilotar isso em um
+
+39
+00:03:23,730 --> 00:03:26,070
+gráfico de tamanho 10 por 6.
+
+40
+00:03:26,070 --> 00:03:33,740
+Podemos fazer isso usando a sintaxe do médio para o clube quando executar mas nós obteremos 10 possíveis
+
+41
+00:03:33,740 --> 00:03:37,340
+caminhos de preço esperado das ações da Procter Gamble.
+
+42
+00:03:37,460 --> 00:03:42,400
+Começando pelo último dia para o qual temos dados disponíveis através do Yahoo.
+
+43
+00:03:42,400 --> 00:03:49,700
+Nós chamamos isso de iterações uma vez que o computador irá alterar através da fórmula que escrevemos
+
+44
+00:03:49,880 --> 00:03:51,100
+10 vezes.
+
+45
+00:03:51,110 --> 00:03:53,270
+Aqui estão os caminhos que esses mulambos.
+
+46
+00:03:53,390 --> 00:03:57,670
+Incrível não é esse exercício foi interessante não foi.
+
+47
+00:03:57,770 --> 00:04:02,890
+Percebemos que nos envolvemos em uma linguagem mais técnica com conceitos mais avançados.
+
+48
+00:04:03,230 --> 00:04:08,660
+Mas esse é o tipo de tópico que você precisa dominar para entrar no campo das finanças ou da ciência
+
+49
+00:04:08,660 --> 00:04:09,480
+de dados.
+
+50
+00:04:09,590 --> 00:04:12,530
+Assista novamente essa aula para fixar o conteúdo.
+
+51
+00:04:12,620 --> 00:04:16,640
+Na próxima vamos aprender mais sobre derivativos e precificação de ações.
+
+52
+00:04:16,880 --> 00:04:17,810
+Obrigado praxe.

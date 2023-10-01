@@ -1,0 +1,214 @@
+1
+
+00:00:00,179  -->  00:00:04,650
+Usamos iterações quando temos que passar
+
+2
+
+00:00:02,850  -->  00:00:08,280
+por variáveis que fazem parte de
+
+3
+
+00:00:04,650  -->  00:00:10,380
+uma lista. Nesta aula, mostrarei como
+
+4
+
+00:00:08,280  -->  00:00:14,090
+contar o número de itens de uma lista cujo valor seja
+
+5
+
+00:00:10,380  -->  00:00:14,090
+menor do que 20.
+
+6
+
+00:00:14,190  -->  00:00:19,980
+Primeiro vamos definir uma função que recebe como
+
+7
+
+00:00:17,460  -->  00:00:23,060
+argumento "numbers". Esse "numbers" vai
+
+8
+
+00:00:19,980  -->  00:00:23,060
+ser uma variável do tipo lista.
+
+9
+
+00:00:23,130  -->  00:00:29,370
+O truque é criar uma variável que,
+
+10
+
+00:00:25,550  -->  00:00:32,120
+por assim dizer, parta de zero. Vamos chamá-la
+
+11
+
+00:00:29,370  -->  00:00:35,070
+de total.
+
+12
+
+00:00:32,120  -->  00:00:37,489
+A ideia é que, quando determinadas condições
+
+13
+
+00:00:35,070  -->  00:00:40,680
+forem verificadas, a variável total mudará seu valor.
+
+14
+
+00:00:37,489  -->  00:00:42,510
+É por isso que, em tal situação, é
+
+15
+
+00:00:40,680  -->  00:00:46,559
+apropriado chamar essa variável de
+
+16
+
+00:00:42,510  -->  00:00:50,269
+soma contínua. Quando
+
+17
+
+00:00:46,559  -->  00:00:50,269
+consideramos x na lista "numbers"
+
+18
+
+00:00:51,020  -->  00:00:55,000
+se x for menor do que 20
+
+19
+
+00:00:56,000  -->  00:01:00,220
+incrementaremos o total em 1
+
+20
+
+00:01:02,030  -->  00:01:07,000
+e finalmente retornaremos o valor total
+
+21
+
+00:01:08,310  -->  00:01:14,890
+isso significa que se x for menor do que 20
+
+22
+
+00:01:11,890  -->  00:01:19,290
+o total aumentará em 1 e se se for maior
+
+23
+
+00:01:14,890  -->  00:01:23,050
+ou igual a 20, o total não aumentará.
+
+24
+
+00:01:19,290  -->  00:01:24,760
+Assim, para uma determinada lista, essa função 'contar'
+
+25
+
+00:01:23,050  -->  00:01:28,630
+retornará a quantidade de números
+
+26
+
+00:01:24,760  -->  00:01:31,770
+menores que 20. Vamos verificar se esta
+
+27
+
+00:01:28,630  -->  00:01:31,770
+função funciona corretamente.
+
+28
+
+00:01:36,940  -->  00:01:43,380
+Nesta lista, temos quatro números que
+
+29
+
+00:01:39,850  -->  00:01:43,380
+são menores do de 20, certo?
+
+30
+
+00:01:43,940  -->  00:01:47,540
+Vamos verificar isso.
+
+31
+
+00:01:48,369  -->  00:01:54,950
+Ótimo! Agora se eu adicionar 17 por exemplo
+
+32
+
+00:01:52,880  -->  00:01:57,520
+em algum lugar da lista, o resultado será
+
+33
+
+00:01:54,950  -->  00:01:57,520
+ajustado automaticamente.
+
+34
+
+00:01:58,710  -->  00:02:06,820
+5. Perfeito! A propósito,
+
+35
+
+00:02:04,479  -->  00:02:09,489
+veja como toda a declaração if
+
+36
+
+00:02:06,820  -->  00:02:11,530
+tem seu espaçamento ainda mais à direita. Isso
+
+37
+
+00:02:09,489  -->  00:02:13,300
+nos permite separá-lo logicamente do
+
+38
+
+00:02:11,530  -->  00:02:16,300
+resto do código na célula que
+
+39
+
+00:02:13,300  -->  00:02:18,370
+essa função se refere. Se você está ansioso
+
+40
+
+00:02:16,300  -->  00:02:22,000
+para saber como fazer a iteração de um dicionário
+
+41
+
+00:02:18,370  -->  00:02:24,610
+em Python e tenho certeza de que você está,
+
+42
+
+00:02:22,000  -->  00:02:27,180
+verá isso em nosso próximo vídeo. Obrigado por
+
+43
+
+00:02:24,610  -->  00:02:27,180
+assistir!

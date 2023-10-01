@@ -1,0 +1,108 @@
+1
+
+00:00:01,100  -->  00:00:02,370
+E aí tudo bem? Ótimo!
+
+2
+
+00:00:02,370  -->  00:00:06,620
+Vamos dar uma olhada em outro conceito importante
+que nos ajudará bastante quando trabalharmos
+
+3
+
+00:00:06,620  -->  00:00:09,800
+no Python - é o conceito de indexação.
+
+4
+
+00:00:10,120  -->  00:00:14,820
+Essa é uma técnica que usaremos com frequência
+mais tarde no curso, especialmente quando nos concentramos
+
+5
+
+00:00:14,820  -->  00:00:18,000
+nas aplicações do Python no mundo das
+finanças.
+
+6
+
+00:00:18,000  -->  00:00:22,250
+Aqui está um exemplo de como funciona a indexação.
+
+7
+
+00:00:22,250  -->  00:00:25,780
+A palavra "Friday" está escrita aqui, certo?
+
+8
+
+00:00:25,780  -->  00:00:28,810
+Seria possível extrair a letra "d" dela?
+
+9
+
+00:00:28,810  -->  00:00:32,270
+Sim, podemos fazer isso usando colchetes.
+
+10
+
+00:00:32,270  -->  00:00:37,390
+E dentro deles, devemos especificar a posição
+da letra que nós gostaríamos de extrair.
+
+11
+
+00:00:37,390  -->  00:00:42,969
+Uma coisa muito importante que você deve lembrar
+é que, no Python, nós contamos a partir do 0, não do
+
+12
+
+00:00:42,969  -->  00:00:46,780
+1! Então é: 0, 1, 2, 3, 4, e assim por diante.
+
+13
+
+00:00:47,720  -->  00:00:55,240
+É por isso que ao solicitar a quarta letra,
+'d', escrevo 3 aqui.
+
+14
+
+00:00:55,249  -->  00:00:57,000
+Consegue ver?
+
+15
+
+00:00:57,010  -->  00:00:59,959
+E obtemos de fato a letra "d".
+
+16
+
+00:00:59,959  -->  00:01:04,949
+Se tivéssemos colocado 4, teríamos obtido a letra
+'a'.
+
+17
+
+00:01:04,949  -->  00:01:09,430
+Essa é a sintaxe nessa ocasião - colchetes
+logo depois da palavra, ou da string
+
+18
+
+00:01:09,430  -->  00:01:14,050
+de caracteres, se você quiser, e um número indicando
+a posição de interesse.
+
+19
+
+00:01:14,050  -->  00:01:16,630
+É assim que a indexação funciona no Python.
+
+20
+
+00:01:16,630  -->  00:01:17,619
+Obrigado por assistir!

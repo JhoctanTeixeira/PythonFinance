@@ -1,0 +1,247 @@
+1
+
+00:00:00,620  -->  00:00:06,009
+Em finanças você irá trabalhar constantemente com
+dados de séries temporais, representado por uma série de
+
+2
+
+00:00:06,009  -->  00:00:08,580
+de dados indexados cronologicamente.
+
+3
+
+00:00:08,580  -->  00:00:13,830
+Portanto, ao trabalhar com esse tipo de dado, você
+pode plotar os valores das variáveis
+
+4
+
+00:00:13,830  -->  00:00:15,179
+no tempo.
+
+5
+
+00:00:15,179  -->  00:00:20,190
+Por exemplo, vamos pegar os dados que você importou
+no vídeo anterior do arquivo CSV
+
+6
+
+00:00:20,190  -->  00:00:23,280
+'Data zero dois'.
+
+7
+
+00:00:23,280  -->  00:00:27,920
+Aqui, nós vemos que os valores de 'Data'
+foram incluídos em outra coluna, enquanto o
+
+8
+
+00:00:27,920  -->  00:00:33,510
+nosso índice foi plotado em relação aos
+números de 0 a 1,204.
+
+9
+
+00:00:33,510  -->  00:00:35,050
+Por quê?
+
+10
+
+00:00:35,050  -->  00:00:43,440
+Bom, o Python atribui números automaticamente
+a cada linha de seus dados, começando do 0.
+
+11
+
+00:00:43,440  -->  00:00:49,530
+Na linguagem do Python, podemos dizer que o Panda processou
+os dados com um índice padrão de números inteiros.
+
+12
+
+00:00:49,530  -->  00:00:55,640
+Por isso que nessa e em situações parecidas,
+nosso trabalho vai ser definir outra coluna como um
+
+13
+
+00:00:55,640  -->  00:00:57,960
+índice da tabela.
+
+14
+
+00:00:57,960  -->  00:00:59,859
+Existem duas maneiras de fazer isso.
+
+15
+
+00:00:59,859  -->  00:01:03,660
+Vamos olhar os dados da tabela "Mydata02".
+
+16
+
+00:01:03,660  -->  00:01:07,880
+Nós queremos plotar os dados em relação aos valores
+da coluna 'Data'.
+
+17
+
+00:01:07,880  -->  00:01:15,290
+Vamos fazer diferente, podemos fazer o upload dos dados mais uma vez, mas
+agora vamos adicionar uma vírgula, e escrever "index
+
+18
+
+00:01:15,290  -->  00:01:22,250
+column", "index COL", sinal de igual
+e o nome da coluna que queremos, no caso - 'Date'.
+
+19
+
+00:01:22,250  -->  00:01:28,840
+Vamos executar esse comando isso para ver se
+obtivemos o resultado desejado.
+
+20
+
+00:01:28,840  -->  00:01:31,140
+Tá lá!
+
+21
+
+00:01:31,140  -->  00:01:35,900
+'Data' agora é o nosso novo índice!
+
+22
+
+00:01:35,900  -->  00:01:44,130
+OK... vamos rolar para baixo e ver o que
+temos em "MyData03".
+
+23
+
+00:01:44,130  -->  00:01:49,290
+Uma coluna chamada 'Year' e alguns indicadores
+econômicos.
+
+24
+
+00:01:49,290  -->  00:01:53,360
+Nós podemos usar a coluna 'Year' como nosso índice.
+
+25
+
+00:01:53,360  -->  00:01:57,930
+Agora, para fazer isso você precisa usar o método "Set
+
+26
+
+00:01:57,930  -->  00:02:02,350
+underscore Index".
+
+27
+
+00:02:02,350  -->  00:02:07,390
+E entre parênteses, você precisa indicar
+a coluna de interesse que no caso é - 'Year'.
+
+28
+
+00:02:07,390  -->  00:02:08,890
+Feito.
+
+29
+
+00:02:08,890  -->  00:02:15,930
+Vamos executar esta célula para ver se fizemos
+tudo certo.
+
+30
+
+00:02:15,930  -->  00:02:18,790
+Cem por cento!
+
+31
+
+00:02:18,790  -->  00:02:20,879
+Perfeito!
+
+32
+
+00:02:20,879  -->  00:02:24,730
+Há uma parte complicada em relação à segunda
+abordagem que usamos.
+
+33
+
+00:02:24,730  -->  00:02:30,749
+"Set underscore index" vai mostrar apenas
+os dados com os índices que você indicou.
+
+34
+
+00:02:30,749  -->  00:02:36,420
+Se você recuperar o conteúdo da tabela "My
+Data03", você vai ver que ainda
+
+35
+
+00:02:36,420  -->  00:02:41,769
+vai estar com um índice com números inteiros.
+
+36
+
+00:02:41,769  -->  00:02:46,340
+O truque que vai resolver esse problema é
+usar o método "Set underscore index"
+
+37
+
+00:02:46,340  -->  00:02:51,510
+para reatribuir o conteúdo da variável "My
+Data03".
+
+38
+
+00:02:51,510  -->  00:02:57,890
+Quando você checar o conteúdo, você vai ver que
+o novo formato, tendo agora 'Year' como
+
+39
+
+00:02:57,890  -->  00:02:59,499
+um índice.
+
+40
+
+00:02:59,499  -->  00:03:01,069
+É só isso?
+
+41
+
+00:03:01,069  -->  00:03:04,530
+Exatamente.
+
+42
+
+00:03:04,530  -->  00:03:05,680
+Muito bom!
+
+43
+
+00:03:05,680  -->  00:03:13,659
+Essas são as duas maneiras de converter uma tabela
+de dados em séries temporais no
+
+44
+
+00:03:13,659  -->  00:03:14,659
+Python.
+
+45
+
+00:03:14,659  -->  00:03:15,809
+Obrigado por assistir!

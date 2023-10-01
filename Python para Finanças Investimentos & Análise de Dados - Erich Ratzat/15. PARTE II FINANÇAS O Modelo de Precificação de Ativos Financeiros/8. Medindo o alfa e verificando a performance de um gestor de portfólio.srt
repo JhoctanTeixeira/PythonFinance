@@ -1,0 +1,223 @@
+1
+00:00:00,390 --> 00:00:07,200
+Até agora aprendemos sobre agressões a fronteira eficiente de Markovic índice de Sharpe O modelo de
+
+2
+00:00:07,200 --> 00:00:14,160
+precificação de ativos financeiros KPMG aprendemos a calcular o risco retorno à variância Covariância
+
+3
+00:00:14,160 --> 00:00:15,330
+de um portfólio.
+
+4
+00:00:15,390 --> 00:00:23,180
+Também aprendemos o que é o Beta e como ele pode ser interpretado no contexto do capítulo isso é excelente.
+
+5
+00:00:23,290 --> 00:00:30,890
+Estamos progredindo bastante nessa aula vamos adicionar outra ferramenta ao nosso arsenal de conhecimento
+
+6
+00:00:30,890 --> 00:00:32,030
+financeiro.
+
+7
+00:00:32,030 --> 00:00:40,130
+Vamos aprender a interpretar o interceptor do modelo cap o chamado Alfa no mundo das finanças e dos
+
+8
+00:00:40,130 --> 00:00:41,010
+investimentos.
+
+9
+00:00:41,030 --> 00:00:47,540
+O Alfa é muitas vezes interpretado como uma medida de quão bom ou ruim o desempenho de um gestor de
+
+10
+00:00:47,540 --> 00:00:54,470
+fundos tem sido a premissa básica do KPMG e de que os mercados financeiros são eficientes e o valor
+
+11
+00:00:54,470 --> 00:00:56,210
+do Alpha é zero.
+
+12
+00:00:56,210 --> 00:01:01,970
+Dado que o beta multiplicado pelo prêmio de risco nos dá da compensação pelo risco que o investidor
+
+13
+00:01:01,970 --> 00:01:10,240
+assumiu o Alpha nos mostra qual o retorno que podemos obter sem aumentar nosso risco um grande gestor
+
+14
+00:01:10,240 --> 00:01:16,270
+de portfólio alguém que consegue ter desempenho superior ao do mercado pode alcançar um alvo alto e
+
+15
+00:01:16,270 --> 00:01:22,270
+inversamente o gestor de investimentos fraco pode até mesmo obter um Alpha negativo o que significa
+
+16
+00:01:22,330 --> 00:01:28,740
+que ele teve um desempenho inferior ao do mercado e como é que um gestor consegue ter desempenho superior
+
+17
+00:01:28,740 --> 00:01:30,260
+ao do mercado B.
+
+18
+00:01:30,300 --> 00:01:35,980
+Para fazer isso ele não pode simplesmente investir numa carteira diversificada e relaxar certo.
+
+19
+00:01:36,060 --> 00:01:39,940
+Ele tem que selecionar ações que vão compor uma carteira vencedora.
+
+20
+00:01:39,990 --> 00:01:45,000
+é claro que é mais fácil dizer o que fazer mas os profissionais da área têm conhecimento profundo de
+
+21
+00:01:45,000 --> 00:01:51,120
+certas indústrias empresas e da Bolsa de Valores e tentarão superar o desempenho do mercado.
+
+22
+00:01:51,130 --> 00:01:57,120
+Isso pode ser feito escolhendo a dedo as ações tal como Warren Buffett faz ou através de estratégias
+
+23
+00:01:57,120 --> 00:01:59,150
+ativas de investimentos.
+
+24
+00:01:59,160 --> 00:02:05,640
+O termo estratégia ativa significa que o investidor vai tentar encontrar alguma oportunidade nas oscilações
+
+25
+00:02:05,640 --> 00:02:08,270
+de curto prazo dos preços das ações.
+
+26
+00:02:08,310 --> 00:02:12,630
+Você não compra simplesmente uma carteira de ações que replicam o S&amp;P.
+
+27
+00:02:12,900 --> 00:02:18,270
+Você tem que escolher uma carteira de ações que vai ser melhor do que o próprio S&amp;P 500.
+
+28
+00:02:18,340 --> 00:02:25,270
+E além disso precisa realizar o lucro dessa carteira o investidor ativo faz isso diversas vezes.
+
+29
+00:02:25,580 --> 00:02:28,500
+é o que chamamos de balanceamento da carteira.
+
+30
+00:02:28,500 --> 00:02:32,940
+De tempos em tempos ele seleciona novas ações para compor seu portfólio.
+
+31
+00:02:32,940 --> 00:02:35,520
+Isso é gestão ativa de portfólio.
+
+32
+00:02:35,520 --> 00:02:40,980
+O horizonte de tempo típico dos investimentos ativos depende da situação mas pode ser de segundos até
+
+33
+00:02:40,980 --> 00:02:42,180
+vários meses.
+
+34
+00:02:42,180 --> 00:02:47,490
+A gestão ativa é a base sobre a qual os profissionais de investimentos justificam seus honorários.
+
+35
+00:02:47,530 --> 00:02:48,970
+E esse é um ponto importante.
+
+36
+00:02:49,020 --> 00:02:54,360
+Se um gestor de investimento cobrar de você um %1 do valor investido ele precisa superar o desempenho
+
+37
+00:02:54,360 --> 00:02:56,250
+do mercado em mais de um por cento.
+
+38
+00:02:56,250 --> 00:03:01,530
+Caso contrário seria melhor investir no fundo passivo que vai te cobrar uma pequena parte do montante
+
+39
+00:03:01,860 --> 00:03:03,060
+investido.
+
+40
+00:03:03,060 --> 00:03:09,150
+Devemos sempre prestar atenção e não devemos esquecer que o Alpha só é comparável quando o perfil de
+
+41
+00:03:09,150 --> 00:03:13,070
+risco dos investimentos que estão sendo comparados são semelhantes.
+
+42
+00:03:13,110 --> 00:03:18,570
+Não devemos por exemplo comparar uma carteira de empresas pequena sem liquidez que opera em um mercado
+
+43
+00:03:18,570 --> 00:03:23,780
+emergente com uma carteira bem diversificada de empresas americanas considerado blue chips.
+
+44
+00:03:23,910 --> 00:03:29,430
+A prova de que a maioria dos gestores de investimentos lutam para conseguir um Alfa consistentemente
+
+45
+00:03:29,430 --> 00:03:34,080
+superior a zero causou uma tendência importante na indústria de investimentos.
+
+46
+00:03:34,110 --> 00:03:40,980
+A maioria dos investidores sabe que fundos passivos bem diversificados cobram taxas muito baixas e são
+
+47
+00:03:40,980 --> 00:03:42,420
+muito eficientes.
+
+48
+00:03:42,420 --> 00:03:48,510
+Assim os investidores começaram a considerar essa gestão passiva como uma alternativa à gestão ativa
+
+49
+00:03:48,510 --> 00:03:50,250
+dos gestores profissionais.
+
+50
+00:03:50,250 --> 00:03:56,100
+William Sharpe acredita que os investidores devem apostar na eficiência dos mercados e não deveriam
+
+51
+00:03:56,100 --> 00:04:01,740
+se preocupar em pagar altas taxas de gestão dado que apenas 2 por cento dos fundos entregam um Alpha
+
+52
+00:04:01,740 --> 00:04:05,720
+positivo que é consistentemente diferente de zero na nossa próxima aula.
+
+53
+00:04:05,730 --> 00:04:10,560
+Vamos aprender a calcular o Alpha dos diferentes instrumentos de investimento e vamos sentar analisar
+
+54
+00:04:10,560 --> 00:04:11,400
+seu desempenho.
+
+55
+00:04:11,400 --> 00:04:12,390
+Por enquanto é isso.
+
+56
+00:04:12,480 --> 00:04:13,020
+Obrigado por.

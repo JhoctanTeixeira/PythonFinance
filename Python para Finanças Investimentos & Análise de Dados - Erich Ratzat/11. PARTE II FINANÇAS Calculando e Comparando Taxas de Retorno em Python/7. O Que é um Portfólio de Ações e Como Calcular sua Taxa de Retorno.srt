@@ -1,0 +1,190 @@
+1
+
+00:00:00,229  -->  00:00:04,410
+Até agora, nós consideramos um investidor que
+possui apenas uma ação.
+
+2
+
+00:00:04,410  -->  00:00:06,700
+Mas isso raramente acontece.
+
+3
+
+00:00:06,700  -->  00:00:12,699
+A maioria dos investidores possui várias ações, e o
+conjunto de ações que um investidor possui é chamado
+
+4
+
+00:00:12,699  -->  00:00:15,110
+de portfolio ou carteira de investimento.
+
+5
+
+00:00:15,110  -->  00:00:21,160
+Todo investidor tenta selecionar e adicionar ações
+que vão otimizar a taxa global de retorno
+
+6
+
+00:00:21,160  -->  00:00:23,400
+de sua carteira.
+
+7
+
+00:00:23,400  -->  00:00:29,240
+Mas antes de mergulhar nisso e considerar as estratégias
+de otimização da carteira, nós precisamos aprender
+
+8
+
+00:00:29,240  -->  00:00:32,480
+como calcular a taxa de retorno de uma carteira.
+
+9
+
+00:00:32,480  -->  00:00:38,120
+Vamos usar o exemplo de um portfólio simples
+composto por quatro ações.
+
+10
+
+00:00:38,120  -->  00:00:45,230
+As quatro ações que trabalharemos serão Apple, IBM, GE,
+e a Ford Motor Company.
+
+11
+
+00:00:45,230  -->  00:00:46,260
+Perfeito.
+
+12
+
+00:00:46,260  -->  00:00:52,019
+A taxa média anual de retorno dessas
+ações é mostrada do lado direito.
+
+13
+
+00:00:52,019  -->  00:00:57,039
+Nós queremos calcular a taxa histórica de
+retorno de uma carteira que contém essas
+
+14
+
+00:00:57,039  -->  00:00:58,789
+quatro ações.
+
+15
+
+00:00:58,789  -->  00:01:05,010
+Isso vai nos mostrar a taxa de retorno que
+pode ser esperada desta carteira no
+
+16
+
+00:01:05,010  -->  00:01:06,010
+futuro.
+
+17
+
+00:01:06,010  -->  00:01:07,010
+Certo.
+
+18
+
+00:01:07,010  -->  00:01:11,900
+Calcular a taxa de retorno de uma carteira
+é uma tarefa fácil e intuitiva.
+
+19
+
+00:01:11,900  -->  00:01:17,840
+Como nós temos as taxas de retorno de ações
+individuais, só temos que multiplicar cada
+
+20
+
+00:01:17,840  -->  00:01:24,050
+taxa de retorno de determinada ação pelo seu peso
+em relação a toda a carteira.
+
+21
+
+00:01:24,050  -->  00:01:31,950
+Portanto, se esta for uma carteira com pesos iguais,
+cada ação terá um peso de 25%.
+
+22
+
+00:01:31,950  -->  00:01:38,410
+Então, nós temos que multiplicar esses pesos pela
+taxa de retorno das quatro ações.
+
+23
+
+00:01:38,410  -->  00:01:51,400
+Eu vou multiplicar 25% pela taxa de retorno da Apple,
+25% vezes o retorno da IBM, 25% vezes o retorno da GE,
+
+24
+
+00:01:51,400  -->  00:01:55,150
+e 25% vezes o retorno da Ford.
+
+25
+
+00:01:55,150  -->  00:02:00,960
+A soma das quatro partes nos dá
+a taxa de retorno da carteira.
+
+26
+
+00:02:00,960  -->  00:02:01,960
+Ótimo.
+
+27
+
+00:02:01,960  -->  00:02:06,210
+E se essa não fosse uma carteira com pesos
+iguais?
+
+28
+
+00:02:06,210  -->  00:02:17,019
+Se o peso das quatro ações fosse 40%
+da Apple, 40% da IBM, 15% da GE, e 5% da Ford, os cálculos
+
+29
+
+00:02:17,019  -->  00:02:23,710
+seriam os mesmo, a única diferença
+é que deveríamos substituir aqueles 25% pelos novos
+
+30
+
+00:02:23,710  -->  00:02:24,710
+pesos.
+
+31
+
+00:02:24,710  -->  00:02:27,420
+Aqui está o que vamos ter neste caso.
+
+32
+
+00:02:27,420  -->  00:02:31,170
+A segunda carteira de ações vai apresentar uma taxa de retorno
+maior.
+
+33
+
+00:02:31,170  -->  00:02:36,980
+Em seguida, nós vamos aplicar o que aprendemos aqui e
+vamos calcular a taxa de retorno de uma carteira no
+
+34
+
+00:02:36,980  -->  00:02:37,580
+Python.

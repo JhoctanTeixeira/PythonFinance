@@ -1,0 +1,178 @@
+1
+
+00:00:01,140  -->  00:00:02,140
+Ótimo!
+
+2
+
+00:00:02,140  -->  00:00:04,110
+Vamos avançar mais um pouco na nossa aprendizagem.
+
+3
+
+00:00:04,110  -->  00:00:08,760
+A partir dessa lição vamos trabalhar com as
+funções do Python. Elas são ferramentas indispensáveis
+
+4
+
+00:00:08,760  -->  00:00:10,440
+para programadores.
+
+5
+
+00:00:10,440  -->  00:00:16,740
+A melhor maneira de aprender é fazendo, assim, vamos
+criar uma função e ver como ela funciona.
+
+6
+
+00:00:16,740  -->  00:00:21,210
+Para dizer ao computador que você quer criar
+uma função, você só precisa escrever "def" no começo
+
+7
+
+00:00:21,210  -->  00:00:22,210
+da linha.
+
+8
+
+00:00:22,210  -->  00:00:25,150
+Def não é um comando nem uma função.
+
+9
+
+00:00:25,150  -->  00:00:26,849
+É uma palavra reservada.
+
+10
+
+00:00:26,849  -->  00:00:31,339
+Para indicar palavras reservadas, o Jupyter irá automaticamente
+mudar a cor da fonte para verde.
+
+11
+
+00:00:31,339  -->  00:00:35,250
+Então você pode digitar o nome da função
+que você vai usar.
+
+12
+
+00:00:35,250  -->  00:00:40,399
+Por exemplo, "simple", pois iremos criar uma
+função bem simples.
+
+13
+
+00:00:40,399  -->  00:00:43,269
+Então podemos adicionar os parênteses.
+
+14
+
+00:00:43,269  -->  00:00:47,920
+Tecnicamente falando, dentro desses parênteses você
+pode colocar os parâmetros da sua função
+
+15
+
+00:00:47,920  -->  00:00:50,170
+se ela exigir que você tenha algum.
+
+16
+
+00:00:50,170  -->  00:00:53,609
+Não tem problema se sua função não tiver parâmetros.
+
+17
+
+00:00:53,609  -->  00:00:58,559
+Este é o caso da função que estamos criando agora.
+
+18
+
+00:00:58,559  -->  00:01:05,360
+Em seguida, não deixe de colocar dois pontos após
+o nome da função.
+
+19
+
+00:01:05,360  -->  00:01:10,060
+É inconveniente continuar na
+mesma linha quando a função se torna mais longa.
+
+20
+
+00:01:10,060  -->  00:01:14,910
+É muito melhor construir o hábito de colocar
+as instruções em uma nova linha com um espaçamento
+
+21
+
+00:01:14,910  -->  00:01:16,350
+novamente.
+
+22
+
+00:01:16,350  -->  00:01:20,479
+Boa legibilidade conta para um bom estilo na
+hora de programar.
+
+23
+
+00:01:20,479  -->  00:01:31,430
+Tudo bem, vamos ver o que acontecerá quando
+pedirmos ao programa para imprimir uma frase.
+
+24
+
+00:01:31,430  -->  00:01:34,619
+Não aconteceu nada, pelo menos por enquanto.
+
+25
+
+00:01:34,619  -->  00:01:39,320
+O computador criou a função “simple”
+que pode imprimir a frase “My first function”,
+
+26
+
+00:01:39,320  -->  00:01:41,580
+mas foi só isso.
+
+27
+
+00:01:41,580  -->  00:01:44,710
+Para rodar a função que devemos chamá-la.
+
+28
+
+00:01:44,710  -->  00:01:47,439
+Devemos pedir a função para fazer o seu trabalho.
+
+29
+
+00:01:47,439  -->  00:01:54,719
+Obteremos o resultado assim que digitarmos
+o nome "simple", e parênteses.
+
+30
+
+00:01:54,719  -->  00:01:57,229
+Viu só?
+
+31
+
+00:01:57,229  -->  00:01:59,740
+Ótimo!
+
+32
+
+00:01:59,740  -->  00:02:01,049
+Isso é tudo por enquanto.
+
+33
+
+00:02:01,049  -->  00:02:02,130
+Obrigado por assistir!

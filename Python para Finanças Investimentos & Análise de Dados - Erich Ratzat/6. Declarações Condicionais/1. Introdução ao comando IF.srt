@@ -1,0 +1,225 @@
+1
+
+00:00:01,469  -->  00:00:06,640
+Nas aulas anteriores, você viu como
+atribuir diferentes valores a uma variável.
+
+2
+
+00:00:06,640  -->  00:00:11,710
+Nessa aula, você verá que esses valores são
+os elementos mais básicos
+
+3
+
+00:00:11,710  -->  00:00:18,110
+necessários para formar não apenas variáveis, mas
+qualquer expressão.
+
+4
+
+00:00:18,110  -->  00:00:23,640
+O exemplo mais claro de instruções condicionais
+em Python é o comando if.
+
+5
+
+00:00:23,640  -->  00:00:29,460
+O uso desse comando é intuitivo, mas
+é muito importante aprender a sintaxe.
+
+6
+
+00:00:29,460  -->  00:00:38,280
+Pense no seguinte exemplo: se 5 for igual a 15 dividido
+por 3, então imprima “Hooray"!
+
+7
+
+00:00:40,940  -->  00:00:45,580
+Primeiro, não se esqueça que devemos usar o igual de igual
+duas vezes porque estamos verificando
+
+8
+
+00:00:45,580  -->  00:00:51,970
+se 5 é igual a 15 dividido por 3 e
+não apenas atribuindo o valor de 15 dividido
+
+9
+
+00:00:51,970  -->  00:00:54,220
+por 3 ao número 5.
+
+10
+
+00:00:54,340  -->  00:00:58,580
+5 nesse caso não é um nome de uma variável; é um número.
+
+11
+
+00:00:58,580  -->  00:00:59,580
+Beleza?!
+
+12
+
+00:00:59,580  -->  00:01:02,829
+Agora, precisamos colocar um sinal de dois pontos ao final da expressão.
+
+13
+
+00:01:02,829  -->  00:01:09,250
+O sinal de dois pontos irá informar ao computador o que fazer
+se a condição que acabamos de escrever estiver satisfeita.
+
+14
+
+00:01:09,250  -->  00:01:14,340
+Para obter uma boa legibilidade do nosso código, aconselhamos que você
+escreva o comando "print" em uma nova linha.
+
+15
+
+00:01:14,340  -->  00:01:20,140
+Lembre-se de colocar um espaçamento (também chamado de indentação) aqui.
+Caso contrário, o programa retornará um erro.
+
+16
+
+00:01:20,140  -->  00:01:26,850
+Ok. Agora sim deve funcionar corretamente.
+
+17
+
+00:01:26,850  -->  00:01:32,570
+Sim, 5 é igual a 15 dividido por 3.
+
+18
+
+00:01:32,570  -->  00:01:34,340
+E o computador imprimiu "Hooray!˜
+
+19
+
+00:01:34,340  -->  00:01:36,720
+Será que vai funcionar se escrevermos que 5 é igual
+
+20
+
+00:01:36,720  -->  00:01:40,850
+a 18 dividido por 3?
+
+21
+
+00:01:40,850  -->  00:01:47,380
+Não deve funcionar já que 5 é diferente de
+6.
+
+22
+
+00:01:47,380  -->  00:01:52,170
+Não temos nenhum resultado porque não dissemos
+ao computador o que fazer se a condição dada
+
+23
+
+00:01:52,170  -->  00:01:53,500
+não for satisfeita.
+
+24
+
+00:01:53,500  -->  00:01:58,810
+Por isso não há motivo para o computador
+imprimir “Hooray!”
+
+25
+
+00:01:58,810  -->  00:02:02,460
+O gráfico pode ajudá-lo a imaginar o processo
+das condicionais.
+
+26
+
+00:02:02,460  -->  00:02:08,110
+Antes de exibir o resultado da operação,
+o computador segue esses passos lógicos:
+
+27
+
+00:02:08,110  -->  00:02:13,671
+Se a parte da condicional não for executada
+porque a condição if não é verdadeira, nosso
+
+28
+
+00:02:13,671  -->  00:02:20,500
+programa nos conduzirá diretamente a algum outro
+resultado ou, como neste caso, não fará nada.
+
+29
+
+00:02:20,500  -->  00:02:25,870
+Após qualquer uma das duas situações o programa
+irá para o próximo ponto e vai progredir
+
+30
+
+00:02:25,870  -->  00:02:28,400
+a partir daí.
+
+31
+
+00:02:28,400  -->  00:02:34,620
+Vamos tentar com um sinal de desigualdade que
+pode ser escrito com um ponto de exclamação e
+
+32
+
+00:02:34,620  -->  00:02:36,380
+com um sinal de igual.
+
+33
+
+00:02:36,380  -->  00:02:40,810
+5 é diferente de 3 vezes 6?
+
+34
+
+00:02:40,810  -->  00:02:41,880
+Sim, é.
+
+35
+
+00:02:41,880  -->  00:02:46,010
+É verdade que é diferente.
+
+36
+
+00:02:46,010  -->  00:02:52,150
+Por isso, temos “Hooray!” como resultado.
+
+37
+
+00:02:52,150  -->  00:02:55,130
+Esta foi uma breve introdução aos comandos if.
+
+38
+
+00:02:55,130  -->  00:02:59,560
+Essa lógica irá ajudá-lo a avançar para a próxima
+aula, onde vamos complicar as coisas
+
+39
+
+00:02:59,560  -->  00:03:01,010
+um pouco mais.
+
+40
+
+00:03:01,010  -->  00:03:02,790
+Mas não muito.
+
+41
+
+00:03:02,790  -->  00:03:03,810
+Obrigado por assistir!

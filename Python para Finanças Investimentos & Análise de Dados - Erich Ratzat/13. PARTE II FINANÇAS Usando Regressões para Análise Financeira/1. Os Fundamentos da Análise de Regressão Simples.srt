@@ -1,0 +1,306 @@
+1
+
+00:00:00,290  -->  00:00:05,759
+Análise de regressão é uma das ferramentas mais
+utilizadas no mundo das finanças.
+
+2
+
+00:00:05,759  -->  00:00:12,170
+Ela quantifica a relação entre uma variável,
+chamada variável dependente, e uma ou mais
+
+3
+
+00:00:12,170  -->  00:00:16,430
+variáveis ​​explicativas, também chamadas de variáveis
+​​independentes.
+
+4
+
+00:00:16,430  -->  00:00:21,730
+A análise de regressão pode ser útil quando queremos
+prever uma variável dependente futura com
+
+5
+
+00:00:21,730  -->  00:00:24,320
+a ajuda de padrões baseados em dados históricos.
+
+6
+
+00:00:24,320  -->  00:00:29,030
+Vamos voltar ao exemplo que mencionamos
+antes - os preços das casas.
+
+7
+
+00:00:29,030  -->  00:00:32,700
+Quanto maior a casa, mais cara
+ela é, certo?
+
+8
+
+00:00:32,700  -->  00:00:38,120
+Nessa relação, estamos considerando duas
+variáveis - o preço de uma casa e o seu
+
+9
+
+00:00:38,120  -->  00:00:39,120
+tamanho.
+
+10
+
+00:00:39,120  -->  00:00:46,350
+A variável explicativa é o tamanho, pois isso nos ajuda
+a explicar por que certas casas custam mais.
+
+11
+
+00:00:46,350  -->  00:00:51,640
+E a variável dependente é o preço, conforme
+está sendo explicada.
+
+12
+
+00:00:51,640  -->  00:00:55,170
+E sabemos que de fato existe uma relação
+entre os dois.
+
+13
+
+00:00:55,170  -->  00:01:01,560
+Portanto, o raciocínio básico é que, se soubermos
+o valor da variável explicativa (tamanho
+
+14
+
+00:01:01,560  -->  00:01:07,850
+da casa), podemos determinar o valor esperado
+da variável dependente - preço da casa.
+
+15
+
+00:01:07,850  -->  00:01:11,229
+Existem muitos outros fatores que determinam
+o preço da casa.
+
+16
+
+00:01:11,229  -->  00:01:14,320
+Tamanho é um, mas não é o único fator.
+
+17
+
+00:01:14,320  -->  00:01:20,890
+Se usarmos apenas uma variável em uma regressão,
+ela é chamada de regressão simples, enquanto as regressões
+
+18
+
+00:01:20,890  -->  00:01:26,280
+com mais de uma variável são chamadas de regressões
+multivariadas.
+
+19
+
+00:01:26,280  -->  00:01:28,440
+As regressões simples são mais fáceis de entender.
+
+20
+
+00:01:28,440  -->  00:01:32,450
+Então, vamos começar descrevendo uma regressão simples.
+
+21
+
+00:01:32,450  -->  00:01:36,420
+Imagine que temos duas variáveis: X e Y.
+
+22
+
+00:01:36,420  -->  00:01:41,890
+Y indica os preços e X representa o tamanho
+da casa.
+
+23
+
+00:01:41,890  -->  00:01:42,890
+Ok?
+
+24
+
+00:01:42,890  -->  00:01:46,200
+Nós podemos usar o gráfico XY que mostramos anteriormente.
+
+25
+
+00:01:46,200  -->  00:01:51,689
+Cada observação que vemos no gráfico contém
+informações sobre o tamanho real e o preço
+
+26
+
+00:01:51,689  -->  00:01:54,880
+das casas listadas em um anúncio de jornal.
+
+27
+
+00:01:54,880  -->  00:01:55,920
+Ótimo!
+
+28
+
+00:01:55,920  -->  00:01:59,780
+Nós podemos ver facilmente que as duas variáveis ​​estão conectadas.
+
+29
+
+00:01:59,780  -->  00:02:02,420
+Casas maiores têm preços mais altos.
+
+30
+
+00:02:02,420  -->  00:02:08,970
+A análise de regressão pressupõe a existência
+de uma relação linear entre as duas variáveis.
+
+31
+
+00:02:08,970  -->  00:02:14,169
+Uma linha reta é a solução adequada nesse caso e pode
+nos ajudar a descrever o relacionamento entre todos
+
+32
+
+00:02:14,169  -->  00:02:16,860
+os pontos de dados que vemos no gráfico.
+
+33
+
+00:02:16,860  -->  00:02:21,579
+Como determinamos qual é a melhor linha
+que vai nos ajudar a descrever a relação
+
+34
+
+00:02:21,579  -->  00:02:24,579
+entre os preços das casas e o tamanho da casa?
+
+35
+
+00:02:24,579  -->  00:02:31,769
+Bem, nós simplesmente temos que encontrar uma linha que minimize
+o erro observado entre elas e as observações
+
+36
+
+00:02:31,769  -->  00:02:33,489
+reais.
+
+37
+
+00:02:33,489  -->  00:02:37,159
+Conseguem ver como diferentes observações tendem a desviar?
+
+38
+
+00:02:37,159  -->  00:02:42,840
+Uma regressão linear vai calcular o erro
+observado ao usar linhas diferentes e vamos
+
+39
+
+00:02:42,840  -->  00:02:46,529
+determinar qual delas contém o menor erro.
+
+40
+
+00:02:46,529  -->  00:02:51,700
+Cada desvio da linha é um erro,
+porque se desvia da predição que
+
+41
+
+00:02:51,700  -->  00:02:54,349
+a linha teria fornecido.
+
+42
+
+00:02:54,349  -->  00:02:56,819
+Todos nós fizemos a álgebra básica, certo?
+
+43
+
+00:02:56,819  -->  00:03:01,540
+Você se lembra da equação de uma linha reta,
+também conhecida como equação linear?
+
+44
+
+00:03:01,540  -->  00:03:05,699
+É:
+Y = mx + b
+
+45
+
+00:03:05,699  -->  00:03:11,079
+Onde "m" é a inclinação da linha, e "b" é
+o intercepto de Y.
+
+46
+
+00:03:11,079  -->  00:03:12,099
+Ótimo!
+
+47
+
+00:03:12,099  -->  00:03:18,010
+Dado que isso é uma regressão linear e sua
+saída é uma linha, nós esperamos obter
+
+48
+
+00:03:18,010  -->  00:03:22,310
+uma equação, com uma forma muito semelhante
+a essa.
+
+49
+
+00:03:22,310  -->  00:03:30,209
+A maioria dos livros mostra isso como
+Y = alfa + beta * X, mas é basicamente
+
+50
+
+00:03:30,209  -->  00:03:32,299
+a mesma coisa, não é?
+
+51
+
+00:03:32,299  -->  00:03:35,589
+Alfa substitui b, e beta substitui m.
+
+52
+
+00:03:35,589  -->  00:03:36,629
+Perfeito.
+
+53
+
+00:03:36,629  -->  00:03:42,839
+Mais tarde, vamos explicar os significados financeiros
+dos coeficientes Alfa e Beta.
+
+54
+
+00:03:42,839  -->  00:03:47,650
+No entanto, antes de fazer isso, vamos aprender
+como distinguir regressões que
+
+55
+
+00:03:47,650  -->  00:03:52,699
+são sólidas em termos de capacidades preditivas
+e regressões que são fracas e pouco confiáveis.

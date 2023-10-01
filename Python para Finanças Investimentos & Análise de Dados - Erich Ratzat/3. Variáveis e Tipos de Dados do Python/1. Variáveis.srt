@@ -1,0 +1,403 @@
+1
+
+00:00:01,640  -->  00:00:03,060
+Olá, tudo certo?
+
+2
+
+00:00:03,060  -->  00:00:06,990
+Aqueça seus dedos: nesta aula vamos
+começar a programar!
+
+3
+
+00:00:06,990  -->  00:00:10,360
+Um dos principais conceitos em programação são
+as vaiáveis.
+
+4
+
+00:00:10,360  -->  00:00:12,870
+Variável é como um melhor amigo!
+
+5
+
+00:00:12,870  -->  00:00:14,600
+Você vai lidar com ela o tempo todo.
+
+6
+
+00:00:14,600  -->  00:00:16,960
+Você vai usar uma variável para armazenar informações.
+
+7
+
+00:00:16,960  -->  00:00:19,190
+Elas representam a entrada dos seus dados.
+
+8
+
+00:00:19,190  -->  00:00:24,659
+Digamos que você queira ter uma variável x
+que seja igual ao valor de 5 e em seguida peça
+
+9
+
+00:00:24,659  -->  00:00:28,230
+ao computador para informar o valor dessa
+variável.
+
+10
+
+00:00:28,230  -->  00:00:32,579
+Então, devemos dizer ao computador que x é igual
+a 5.
+
+11
+
+00:00:32,579  -->  00:00:35,239
+E é assim que você vai fazer isso em Python.
+
+12
+
+00:00:35,239  -->  00:00:38,190
+Digite x igual a 5.
+
+13
+
+00:00:38,190  -->  00:00:42,440
+Para passar pelo processo de programação,
+a linha que diz que x é igual a 5 é chamada de
+
+14
+
+00:00:42,440  -->  00:00:44,899
+comando ou programa.
+
+15
+
+00:00:44,899  -->  00:00:47,050
+Isto é apenas uma linha de texto.
+
+16
+
+00:00:47,050  -->  00:00:50,460
+Para fazer algo com essa linha, nós devemos executá-la.
+
+17
+
+00:00:50,460  -->  00:00:54,179
+Só então o computador fará operações
+com ela.
+
+18
+
+00:00:54,179  -->  00:01:00,109
+Pressione Shift e Enter (não só Enter), e
+uma variável de nome x será criada e terá
+
+19
+
+00:01:00,109  -->  00:01:02,660
+o valor de 5 atribuído a ela.
+
+20
+
+00:01:02,660  -->  00:01:09,160
+Para ser mais preciso, o sinal de igual "=" em Python
+e em programação significa "atribuir" ou "armazenar".
+
+21
+
+00:01:10,040  -->  00:01:14,900
+OK, nós executamos esta operação,
+mas não vimos nenhum resultado.
+
+22
+
+00:01:14,900  -->  00:01:19,500
+Como poderíamos pedir ao computador para nos mostrar o
+resultado do que acabamos de fazer?
+
+23
+
+00:01:19,500  -->  00:01:23,820
+Para isso basta escrever x e então
+pressionar Shift e Enter.
+
+24
+
+00:01:23,900  -->  00:01:26,700
+E aqui está o resultado - 5.
+
+25
+
+00:01:27,400  -->  00:01:28,440
+Ótimo.
+
+26
+
+00:01:28,440  -->  00:01:33,320
+Como você pode ver, digitando em uma única linha de
+código traz alguns conceitos de programação
+
+27
+
+00:01:33,329  -->  00:01:34,329
+implícitos.
+
+28
+
+00:01:34,329  -->  00:01:38,680
+Nas próximas aulas, vamos garantir que
+todos os conceitos fiquem cada vez mais claros.
+
+29
+
+00:01:38,680  -->  00:01:49,040
+Agora, vamos atribuir o valor 8 a uma variável
+que chamaremos de y. ... Apertando, Shift e Enter...
+
+30
+
+00:01:49,040  -->  00:01:50,440
+e podemos verificar y.
+
+31
+
+00:01:50,600  -->  00:01:54,960
+Porém, vou digitar Y maiúsculo para ver o que acontece.
+
+32
+
+00:01:55,760  -->  00:01:56,600
+Olha só!
+
+33
+
+00:01:56,780  -->  00:01:58,240
+Um erro!
+
+34
+
+00:01:58,240  -->  00:02:02,400
+Isso nos mostra que o Python é sensível a letras maiúsculas
+e minúsculas, então preste atenção nisso.
+
+35
+
+00:02:02,400  -->  00:02:06,479
+Então faz diferença se você usar letras minúsculas ou
+maiúsculas.
+
+36
+
+00:02:06,479  -->  00:02:12,000
+Uma outra maneira de executar a instrução
+que fornecerá o valor que atribuímos a
+
+37
+
+00:02:12,000  -->  00:02:15,070
+y seria usar o comando "print".
+
+38
+
+00:02:15,070  -->  00:02:19,700
+A primeira vista, isso parece redundante quando mostramos
+que podemos apenas digitar "y".
+
+39
+
+00:02:19,700  -->  00:02:24,230
+Ainda assim, esse comando é executado com frequência:
+você verá isso na maior parte dos código produzidos
+
+40
+
+00:02:24,230  -->  00:02:25,760
+por profissionais.
+
+41
+
+00:02:25,760  -->  00:02:29,320
+Ele complementa o fluxo lógico das suas instruções.
+
+42
+
+00:02:29,320  -->  00:02:34,250
+Por exemplo, se dissermos "print y", o
+computador simplesmente executará este comando e
+
+43
+
+00:02:34,250  -->  00:02:41,680
+vai mostrar o valor de y como uma declaração, e
+isso é tudo que um programador deve ver algumas vezes.
+
+44
+
+00:02:42,480  -->  00:02:45,840
+O comando "print" existe no Python 3 também.
+
+45
+
+00:02:45,850  -->  00:02:50,909
+Sua funcionalidade é praticamente idêntica
+à que acabamos de descrever para o Python 2 com
+
+46
+
+00:02:50,909  -->  00:02:57,130
+a única diferença que no Python 3 você deve colocar
+o nome da variável entre parênteses,
+
+47
+
+00:02:57,130  -->  00:02:58,220
+neste caso y.
+
+48
+
+00:02:58,220  -->  00:03:05,510
+Então, você pode pressionar "Shift" e "Enter"
+para executar o código na célula e ver que
+
+49
+
+00:03:05,510  -->  00:03:11,239
+o resultado é o mesmo - o
+número 8.
+
+50
+
+00:03:11,239  -->  00:03:16,379
+A diferença decorre do fato de que o Python
+3 trata "print" como uma função, enquanto
+
+51
+
+00:03:16,379  -->  00:03:19,900
+o Python 2 - como um comando.
+
+52
+
+00:03:19,900  -->  00:03:24,440
+Mas não vamos nos aprofundar em explicar
+isso, pois há uma seção inteira dedicada
+
+53
+
+00:03:24,440  -->  00:03:29,659
+às funções do Python; em que tudo sobre
+funções vai ficar muito mais claro.
+
+54
+
+00:03:29,659  -->  00:03:35,760
+Portanto, a partir de agora, se você estiver usando o Python
+3, e você vir "print" seguido por um nome
+
+55
+
+00:03:35,760  -->  00:03:40,599
+de uma variável, basta adicionar parênteses
+ao redor do nome da variável e tá tudo
+
+56
+
+00:03:40,599  -->  00:03:42,290
+certo.
+
+57
+
+00:03:42,290  -->  00:03:43,830
+Ótimo!
+
+58
+
+00:03:43,830  -->  00:03:46,790
+Esperamos que você tenha achado essa comparação útil.
+
+59
+
+00:03:46,790  -->  00:03:52,290
+Agora vamos continuar falando sobre as variáveis ​​do
+Python.
+
+60
+
+00:03:52,290  -->  00:03:55,769
+A última coisa que eu gostaria de compartilhar com você
+nessa aula é que você pode atribuir um certo
+
+61
+
+00:03:55,769  -->  00:03:59,379
+número de valores ao mesmo número de variáveis.
+
+62
+
+00:03:59,379  -->  00:04:07,250
+​​Para criar as variáveis ​​x e y, temos que
+atribuir dois valores - digamos 1 e 2.
+
+63
+
+00:04:07,250  -->  00:04:13,400
+Devemos separar cada uma das variáveis ​​e
+cada um dos valores com uma vírgula.
+
+64
+
+00:04:13,400  -->  00:04:18,270
+Os parênteses aqui não são obrigatórios, mas
+os usamos para melhorar a legibilidade do
+
+65
+
+00:04:18,270  -->  00:04:19,540
+nosso código.
+
+66
+
+00:04:19,540  -->  00:04:29,240
+Agora, se eu chamar x ou y separadamente, o computador
+me fornecerá corretamente seus respectivos valores.
+
+67
+
+00:04:29,880  -->  00:04:34,760
+É muito importante que o número de variáveis ​​
+nessa linha seja igual ao número de valores;
+
+68
+
+00:04:34,760  -->  00:04:38,980
+caso contrário, você receberá uma mensagem de erro.
+
+69
+
+00:04:40,600  -->  00:04:41,920
+Consegue ver?
+
+70
+
+00:04:42,040  -->  00:04:43,340
+Ótimo!
+
+71
+
+00:04:43,340  -->  00:04:46,060
+Esse é um ótimo começo para nossa jornada em Python!
+
+72
+
+00:04:46,060  -->  00:04:49,160
+Por favor faça os exercícios dessa
+aula para praticar!
+
+73
+
+00:04:49,160  -->  00:04:50,950
+Nos vemos na próxima!

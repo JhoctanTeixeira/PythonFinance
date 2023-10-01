@@ -1,0 +1,374 @@
+1
+
+00:00:00,979  -->  00:00:07,660
+OK, então vamos ver como podemos aplicar em Python
+o que aprendemos sobre covariância e correlação.
+
+2
+
+00:00:07,660  -->  00:00:13,619
+Agora que vocês já sabem o que é covariância, vocês
+podem entender o conceito de uma matriz de covariância
+
+3
+
+00:00:13,619  -->  00:00:15,230
+mais facilmente.
+
+4
+
+00:00:15,230  -->  00:00:20,279
+É uma representação da maneira como duas ou mais
+variáveis ​​se relacionam entre si.
+
+5
+
+00:00:20,279  -->  00:00:26,249
+A covariância entre uma variável e ela própria
+é na verdade a variância dessa mesma variável.
+
+6
+
+00:00:26,249  -->  00:00:31,539
+Então, ao longo da diagonal principal, vocês terão
+as variâncias das variáveis, ​​e o restante
+
+7
+
+00:00:31,539  -->  00:00:36,969
+da tabela será preenchido com as covariâncias
+entre elas.
+
+8
+
+00:00:36,969  -->  00:00:39,149
+Ótimo!
+
+9
+
+00:00:39,149  -->  00:00:42,840
+No nosso caso, as variáveis ​​são os preços das nossas duas ações.
+
+10
+
+00:00:42,840  -->  00:00:49,329
+Portanto, esperamos uma matriz de covariância 2 por 2
+com as variâncias de cada ação ao longo
+
+11
+
+00:00:49,329  -->  00:00:54,280
+da diagonal principal e a covariância entre
+as duas ações exibidas nas outras duas
+
+12
+
+00:00:54,280  -->  00:00:55,719
+células.
+
+13
+
+00:00:55,719  -->  00:01:02,500
+Em Python, não há necessidade de fazer cálculos
+matemáticos manualmente.
+
+14
+
+00:01:02,500  -->  00:01:07,540
+O método "var" do NumPy calcula
+a variância de um objeto para nós.
+
+15
+
+00:01:07,540  -->  00:01:13,470
+Nós usamos isso para calcular as variações dos
+preços das ações da Procter & Gamble e da Beiersdorf.
+
+16
+
+00:01:13,470  -->  00:01:16,910
+Nós anualizamos esses valores logo após isso.
+
+17
+
+00:01:16,910  -->  00:01:25,870
+Nesse estágio, é desnecessário criar
+um
+dataframe e preencher cada célula com valores.
+
+18
+
+00:01:25,870  -->  00:01:30,280
+O método "cov", cujo nome vem
+do termo "covariance", faz isso automaticamente
+
+19
+
+00:01:30,280  -->  00:01:33,150
+para nós.
+
+20
+
+00:01:33,150  -->  00:01:40,570
+Na segunda célula, nós anualizamos o resultado
+para obter a matriz de covariância anual.
+
+21
+
+00:01:40,570  -->  00:01:45,960
+Vamos examinar essa matriz célula por célula.
+
+22
+
+00:01:45,960  -->  00:01:50,970
+A célula no canto superior esquerdo nos mostra a
+variância da ação da P&G.
+
+23
+
+00:01:50,970  -->  00:01:53,180
+É isso então?
+
+24
+
+00:01:53,180  -->  00:01:56,510
+Vamos verificar.
+
+25
+
+00:01:56,510  -->  00:01:59,850
+Sim, 100%!
+
+26
+
+00:01:59,850  -->  00:02:06,310
+A célula no canto inferior direito representa
+a variância da outra ação que estamos examinando,
+
+27
+
+00:02:06,310  -->  00:02:08,489
+“Beiersdorf”.
+
+28
+
+00:02:08,489  -->  00:02:10,670
+Olha só.
+
+29
+
+00:02:10,670  -->  00:02:15,349
+O método "cov" é útil, porque
+nos permite obter o outro número mais
+
+30
+
+00:02:15,349  -->  00:02:16,579
+facilmente.
+
+31
+
+00:02:16,579  -->  00:02:22,340
+As duas células restantes mostram o mesmo valor,
+porque a covariância entre P&G e Beiersdorf
+
+32
+
+00:02:22,340  -->  00:02:26,780
+e a covariância entre Beiersdorf e
+P&G é a mesma.
+
+33
+
+00:02:26,780  -->  00:02:29,319
+Ok, muito bom!
+
+34
+
+00:02:29,319  -->  00:02:42,870
+Agora, vamos calcular a correlação com
+a ajuda do método "corr".
+
+35
+
+00:02:42,870  -->  00:02:46,969
+Ao longo da diagonal principal, vemos exatamente 1.
+
+36
+
+00:02:46,969  -->  00:02:48,569
+Por que isso?
+
+37
+
+00:02:48,569  -->  00:02:55,450
+Porque dividimos as variações de P&G e
+Beiersdorf pelos... mesmos valores.
+
+38
+
+00:02:55,450  -->  00:03:00,390
+E faz sentido que o movimento de uma
+ação esteja perfeitamente correlacionada com ela mesma,
+
+39
+
+00:03:00,390  -->  00:03:01,390
+Certo?
+
+40
+
+00:03:01,390  -->  00:03:03,549
+Aqui está a fórmula da correlação.
+
+41
+
+00:03:03,549  -->  00:03:09,560
+O produto do desvio padrão de X
+e o desvio padrão de X é a variância
+
+42
+
+00:03:09,560  -->  00:03:10,709
+de x.
+
+43
+
+00:03:10,709  -->  00:03:12,370
+Lembre-se disso!
+
+44
+
+00:03:12,370  -->  00:03:17,200
+Como foi o caso da matriz de covariância,
+as outras duas células na tabela de correlação
+
+45
+
+00:03:17,200  -->  00:03:19,349
+contêm o mesmo número.
+
+46
+
+00:03:19,349  -->  00:03:25,260
+Eles nos dizem que o retorno das ações das duas
+empresas tem baixa correlação.
+
+47
+
+00:03:25,260  -->  00:03:30,779
+Voce deve ser bem cuidadoso aqui - essa não é a
+correlação entre o preço das duas
+
+48
+
+00:03:30,779  -->  00:03:31,939
+ações.
+
+49
+
+00:03:31,939  -->  00:03:37,810
+Essa distinção muitas vezes cria uma certa confusão ao
+se fazer uma análise financeira.
+
+50
+
+00:03:37,810  -->  00:03:43,250
+Correlação entre os preços e a correlação
+entre os retornos pode mostrar valores diferentes.
+
+51
+
+00:03:43,250  -->  00:03:49,319
+Eles geralmente têm implicações diferentes,
+e é importante respeitar essas distinções.
+
+52
+
+00:03:49,319  -->  00:03:54,590
+Resumidamente, a correlação entre os retornos,
+é o mesmo que dizer a correlação
+
+53
+
+00:03:54,590  -->  00:03:59,870
+entre a taxa de retorno, reflete a
+dependência entre os preços em momentos diferentes
+
+54
+
+00:03:59,870  -->  00:04:05,480
+e foca nos retornos de sua carteira,
+e não nos níveis de preço das ações.
+
+55
+
+00:04:05,480  -->  00:04:11,950
+Como um investidor, retorno é o que vocês se preocupam,
+e não o preço nominal da ação, certo?
+
+56
+
+00:04:11,950  -->  00:04:16,739
+Vocês querem saber quanto vão ganhar depois
+de investir em uma determinada empresa, não o preço
+
+57
+
+00:04:16,739  -->  00:04:19,920
+cotado de suas ações.
+
+58
+
+00:04:19,920  -->  00:04:26,030
+Finalmente, não caia na armadilha de anualizar
+a tabela de correlação.
+
+59
+
+00:04:26,030  -->  00:04:31,640
+Ela não contém valores médios diários - ela
+nos mostra a relação que existe entre
+
+60
+
+00:04:31,640  -->  00:04:33,080
+duas variáveis.
+
+61
+
+00:04:33,080  -->  00:04:35,780
+Portanto, não precisamos multiplicar por 250.
+
+62
+
+00:04:35,780  -->  00:04:42,420
+Nesta aula, nós apresentamos um conceito muito
+importante.
+
+63
+
+00:04:42,420  -->  00:04:47,660
+O Python pode ajudá-lo a estimar determinadas medidas,
+mas não é capaz de fornecer uma justificativa
+
+64
+
+00:04:47,660  -->  00:04:50,620
+econômica e financeira perfeita.
+
+65
+
+00:04:50,620  -->  00:04:54,500
+É você quem deve interpretar os
+números.
+
+66
+
+00:04:54,500  -->  00:04:57,980
+Espero que você tenha se divertido assistindo este video.
+
+67
+
+00:04:57,980  -->  00:04:59,030
+Vejo você na próxima aula!

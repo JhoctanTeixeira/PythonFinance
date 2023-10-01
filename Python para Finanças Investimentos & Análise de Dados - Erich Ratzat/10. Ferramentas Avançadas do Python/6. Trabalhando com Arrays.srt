@@ -1,0 +1,482 @@
+1
+
+00:00:01,120  -->  00:00:05,640
+Arrays são estruturas de dados fundamentais em
+qualquer linguagem de programação.
+
+2
+
+00:00:05,880  -->  00:00:11,309
+À primeira vista, arrays são semelhantes às listas
+- eles representam objetos, e os objetos
+
+3
+
+00:00:11,309  -->  00:00:13,510
+em um array são chamados de elementos do array.
+
+4
+
+00:00:13,510  -->  00:00:19,790
+A principal diferença entre um array e uma
+lista é que todos os elementos do array devem ser
+
+5
+
+00:00:19,790  -->  00:00:25,110
+do mesmo tipo de dado - por exemplo, eles
+todos devem ser números inteiros ou então todos números decimais.
+
+6
+
+00:00:25,110  -->  00:00:27,910
+A situação com listas é diferente.
+
+7
+
+00:00:27,910  -->  00:00:33,520
+Uma lista pode conter um número inteiro, uma string, outra
+string e assim por diante.
+
+8
+
+00:00:33,520  -->  00:00:34,690
+Ok.
+
+9
+
+00:00:34,690  -->  00:00:35,859
+Perfeito.
+
+10
+
+00:00:35,859  -->  00:00:42,149
+Agora que sabemos o que é um array, vamos
+criar uma e explicar suas principais características.
+
+11
+
+00:00:42,149  -->  00:00:48,670
+A primeira coisa que faremos é importar o NumPy,
+pois esta é a biblioteca para computação científica.
+
+12
+
+00:00:48,670  -->  00:00:53,350
+Você encontrará frequentemente a convenção "np",
+que é simplesmente uma abreviação.
+
+13
+
+00:00:53,350  -->  00:00:55,720
+Vamos usá-la aqui.
+
+14
+
+00:00:56,580  -->  00:00:57,560
+Ok.
+
+15
+
+00:00:57,640  -->  00:01:03,980
+Agora, eu vou atribuir um array NumPy para a variável
+"a".
+
+16
+
+00:01:03,980  -->  00:01:07,120
+Entre parênteses, eu colocarei um lista de
+listas.
+
+17
+
+00:01:07,120  -->  00:01:16,160
+A primeira será composta dos valores
+0, 1, 2 e 3, e a outra lista conterá os números
+
+18
+
+00:01:16,160  -->  00:01:20,870
+4, 5, 6, e 7.
+
+19
+
+00:01:21,540  -->  00:01:25,160
+Vamos olhar a variável "a" agora.
+
+20
+
+00:01:25,160  -->  00:01:30,600
+Aparentemente a variável "a" é um array em que as
+duas listas são mostradas uma acima da outra.
+
+21
+
+00:01:30,610  -->  00:01:31,640
+Ótimo!
+
+22
+
+00:01:31,640  -->  00:01:37,690
+Preste atenção ao fato de que o tipo array NumPy
+n-dimensional é referido como um array
+
+23
+
+00:01:37,690  -->  00:01:38,690
+"n.d.".
+
+24
+
+00:01:38,690  -->  00:01:41,130
+E é sempre homogêneo.
+
+25
+
+00:01:41,130  -->  00:01:46,740
+Isso significa que todos os blocos devem ser do mesmo
+tipo de dados e interpretados da mesma maneira.
+
+26
+
+00:01:46,740  -->  00:01:52,560
+Por exemplo, se eu colocar John no lugar de
+"1" no primeiro bloco, uma indicação
+
+27
+
+00:01:52,560  -->  00:01:56,490
+de que há algo errado com o tipo de dados
+vai aparecer.
+
+28
+
+00:01:56,490  -->  00:02:00,220
+O mesmo acontecerá se eu excluir o bloco.
+
+29
+
+00:02:01,020  -->  00:02:02,180
+Consegue ver?
+
+30
+
+00:02:02,440  -->  00:02:07,960
+Portanto, seu trabalho será organizar seus arrays
+com o mesmo número de elementos e garantir que
+
+31
+
+00:02:07,960  -->  00:02:10,780
+esses elementos sejam do mesmo tipo de dados.
+
+32
+
+00:02:10,780  -->  00:02:15,019
+Vamos restaurar a seleção anterior
+de valores.
+
+33
+
+00:02:15,040  -->  00:02:17,560
+Ok, bom.
+
+34
+
+00:02:17,880  -->  00:02:24,040
+Para ajudar você a internalizar a sintaxe que acabamos
+de usar, considere que "array" é uma função.
+
+35
+
+00:02:24,049  -->  00:02:30,280
+A estrutura é idêntica à de
+métodos de uma determinada classe, mas aqui, NumPy
+
+36
+
+00:02:30,280  -->  00:02:36,719
+não é apenas uma classe - é algo maior,
+um pacote inteiro de vários módulos, e cada um
+
+37
+
+00:02:36,719  -->  00:02:39,129
+contendo suas próprias classes.
+
+38
+
+00:02:39,129  -->  00:02:43,370
+"np" ponto array é a maneira de usar a
+função de array.
+
+39
+
+00:02:43,370  -->  00:02:49,629
+Essa função tem algumas listas como argumentos e retorna
+uma estrutura de dados no formato NumPy de array.
+
+40
+
+00:02:49,629  -->  00:02:50,819
+Fantástico!
+
+41
+
+00:02:50,819  -->  00:02:57,480
+Para ver a forma do array, basta digitar "a"
+ponto "shape", e você obterá uma tupla indicando
+
+42
+
+00:02:57,480  -->  00:03:01,909
+que o objeto tem 2 linhas e 4 colunas.
+
+43
+
+00:03:01,909  -->  00:03:06,909
+Ignore os caracteres "L" após os dígitos;
+eles simplesmente se referem ao tipo de dados dos
+
+44
+
+00:03:06,909  -->  00:03:09,940
+valores obtidos, que é "Long".
+
+45
+
+00:03:09,960  -->  00:03:12,160
+Legal!
+
+46
+
+00:03:12,180  -->  00:03:15,250
+E como podemos acessar um dos valores em
+um array?
+
+47
+
+00:03:15,250  -->  00:03:20,620
+Tenho certeza que você sabe a resposta - entre parênteses,
+digite o número da linha e, em seguida, o número
+
+48
+
+00:03:20,620  -->  00:03:21,939
+da coluna.
+
+49
+
+00:03:21,939  -->  00:03:23,950
+Conte do 0 em ambos os casos.
+
+50
+
+00:03:23,950  -->  00:03:29,110
+Então, "a" parênteses, 1 e 3, retornará...
+
+51
+
+00:03:29,110  -->  00:03:30,560
+7?
+
+52
+
+00:03:30,560  -->  00:03:32,020
+Exatamente!
+
+53
+
+00:03:32,020  -->  00:03:33,489
+Perfeito!
+
+54
+
+00:03:33,489  -->  00:03:35,930
+Você sabe como alterar um valor em um array.
+
+55
+
+00:03:35,930  -->  00:03:41,540
+Indique a posição do valor que você gostaria
+de substituir, digamos 1 e 2, correspondendo
+
+56
+
+00:03:41,540  -->  00:03:49,920
+ao valor de 6, e depois do sinal de igual,
+digite o novo valor, digamos, 8.
+
+57
+
+00:03:52,780  -->  00:03:54,740
+Perfeito!
+
+58
+
+00:03:54,749  -->  00:03:59,799
+A segunda linha da nossa array se torna 4, 5, 8
+e 7.
+
+59
+
+00:03:59,799  -->  00:04:06,360
+Por último, qual você acha que será o resultado
+se você passar um único valor dentro dos colchetes?
+
+60
+
+00:04:06,360  -->  00:04:08,889
+O que fará o comando "a[0]"?
+
+61
+
+00:04:08,889  -->  00:04:13,389
+Isso irá extrair a linha 0 para você.
+
+62
+
+00:04:13,389  -->  00:04:15,740
+E a[1]?
+
+63
+
+00:04:15,760  -->  00:04:18,780
+A Linha 1 do índice,
+
+64
+
+00:04:18,780  -->  00:04:19,820
+Ótimo!
+
+65
+
+00:04:19,820  -->  00:04:20,870
+Ok.
+
+66
+
+00:04:20,870  -->  00:04:25,740
+Provavelmente você está se perguntando por que os arrays são
+tão importantes e como eles podem nos ajudar quando
+
+67
+
+00:04:25,740  -->  00:04:27,710
+analisarmos dados financeiros.
+
+68
+
+00:04:27,710  -->  00:04:33,580
+Bem, "array" é uma estrutura de dados que
+irá carregar e organizar valores em vetores,
+
+69
+
+00:04:33,580  -->  00:04:36,570
+matrizes, e outros objetos multidimensionais.
+
+70
+
+00:04:36,570  -->  00:04:39,870
+Vamos lembrar rapidamente de alguns conceitos matemáticos.
+
+71
+
+00:04:39,870  -->  00:04:45,430
+Um vetor é um objeto que possui magnitude
+e direção, certo?
+
+72
+
+00:04:45,430  -->  00:04:51,340
+Então, em um plano cartesiano, o vetor b de
+3 e 5 será essa linha.
+
+73
+
+00:04:52,820  -->  00:04:58,819
+Em Python, este vetor pode ser escrito como um
+array NumPy de uma única lista com elementos
+
+74
+
+00:04:58,820  -->  00:05:01,560
+3 e 5.
+
+75
+
+00:05:04,009  -->  00:05:08,600
+Uma array unidimensional é também chamado de vetor.
+
+76
+
+00:05:08,610  -->  00:05:13,680
+Seguindo a mesma lógica, um array
+bidimensional é chamado de matriz.
+
+77
+
+00:05:13,680  -->  00:05:18,800
+Matrizes são o termo de álgebra linear que
+os financistas usam em quase todos os cálculos,
+
+78
+
+00:05:18,800  -->  00:05:21,840
+e eles não podem viver sem eles.
+
+79
+
+00:05:21,840  -->  00:05:27,610
+Matematicamente falando, uma matriz é uma representação
+bidimensional de dados para a qual muitas operações
+
+80
+
+00:05:27,610  -->  00:05:30,770
+matemáticas poderosas podem ser aplicadas.
+
+81
+
+00:05:30,770  -->  00:05:38,690
+Eu estou falando sobre soma, subtração
+multiplicação, transposição, e assim por diante.
+
+82
+
+00:05:38,690  -->  00:05:44,270
+Esses recursos permitem manipular dados,
+e o array NumPy é a ferramenta do Python que
+
+83
+
+00:05:44,270  -->  00:05:46,350
+permite que você faça isso.
+
+84
+
+00:05:46,350  -->  00:05:47,520
+Ótimo!
+
+85
+
+00:05:47,520  -->  00:05:53,289
+Se o conceito de array parecer um pouco vago,
+não se preocupe, pois nas próximas aulas nós
+
+86
+
+00:05:53,289  -->  00:05:54,930
+vamos trabalhar com ele muitas vezes.
+
+87
+
+00:05:54,930  -->  00:06:00,069
+Na verdade, até o final do curso trabalhar
+com matrizes vai ser moleza
+
+88
+
+00:06:00,069  -->  00:06:00,560
+para você.

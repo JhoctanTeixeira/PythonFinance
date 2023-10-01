@@ -1,0 +1,201 @@
+1
+
+00:00:01,130  -->  00:00:02,130
+Vamos la!
+
+2
+
+00:00:02,130  -->  00:00:03,130
+Ótimo!
+
+3
+
+00:00:03,130  -->  00:00:08,040
+Você está familiarizado com a sintaxe principal do Python,
+e isso irá ajudá-lo nas próximas aulas.
+
+4
+
+00:00:08,040  -->  00:00:12,360
+Nessa seção, nós aprenderemos mais sobre
+os operadores que nos ajudarão em nossas tarefas
+
+5
+
+00:00:12,360  -->  00:00:13,670
+em Python.
+
+6
+
+00:00:13,670  -->  00:00:17,010
+Vamos começar com operadores de comparação.
+
+7
+
+00:00:17,010  -->  00:00:22,210
+Nós dissemos que se digitarmos o sinal de igualdade duas vezes,
+podemos verificar se os lados esquerdo e direito
+
+8
+
+00:00:22,210  -->  00:00:24,920
+da expressão são iguais.
+
+9
+
+00:00:25,520  -->  00:00:31,040
+Bem, se usarmos um ponto de exclamação e um
+sinal de igualdade, poderemos então verificar se os dois
+
+10
+
+00:00:31,040  -->  00:00:32,880
+lados não são iguais.
+
+11
+
+00:00:32,880  -->  00:00:41,370
+Então, é falso dizer que 10 não é igual a 10,
+E é verdade que 10 não é
+
+12
+
+00:00:41,370  -->  00:00:44,320
+igual a 15.
+
+13
+
+00:00:44,320  -->  00:00:49,330
+Se usarmos um ponto de exclamação e o sinal de igual,
+e os dois lados que estamos comparando, são 10 e
+
+14
+
+00:00:49,330  -->  00:00:55,130
+15, obteremos uma expressão verdadeira, pois queremos verificar
+se eles não são iguais.
+
+15
+
+00:00:55,130  -->  00:00:56,810
+Prosseguindo...
+
+16
+
+00:00:56,810  -->  00:00:57,810
+O que vem a seguir?
+
+17
+
+00:00:57,810  -->  00:01:01,190
+"Maior que" e "Menor que".
+
+18
+
+00:01:01,190  -->  00:01:05,900
+Podemos usar os símbolos de maior e menor para testar
+se um valor é maior ou menor que outro
+
+19
+
+00:01:05,900  -->  00:01:07,060
+valor.
+
+20
+
+00:01:07,060  -->  00:01:10,720
+100 é maior do que 50?
+
+21
+
+00:01:11,060  -->  00:01:12,960
+Sim, é.
+
+22
+
+00:01:12,960  -->  00:01:14,900
+É menor?
+
+23
+
+00:01:16,160  -->  00:01:18,080
+Não, não é.
+
+24
+
+00:01:18,090  -->  00:01:20,020
+E é por isso que o resultado é "False".
+
+25
+
+00:01:20,020  -->  00:01:21,939
+Ótimo!
+
+26
+
+00:01:21,939  -->  00:01:26,350
+A lógica por trás da verificação se um operador
+é maior ou igual a, e menor
+
+27
+
+00:01:26,350  -->  00:01:29,840
+ou igual a, é a mesma.
+
+28
+
+00:01:30,140  -->  00:01:34,619
+Não se esqueça de que no lado direito do
+sinal não estamos limitados a colocar apenas
+
+29
+
+00:01:34,620  -->  00:01:37,520
+um número, como 10.
+
+30
+
+00:01:37,520  -->  00:01:41,640
+Nós podemos inserir uma expressão como 10 + 10.
+
+31
+
+00:01:41,960  -->  00:01:45,820
+Então, 15 é maior ou igual a 10 + 10?
+
+32
+
+00:01:46,500  -->  00:01:47,780
+Não.
+
+33
+
+00:01:49,340  -->  00:01:54,380
+15 é menor ou igual a 10 + 5?
+
+34
+
+00:01:54,389  -->  00:01:56,399
+Sim, isso é verdadeiro.
+
+35
+
+00:01:56,399  -->  00:01:57,520
+Ótimo!
+
+36
+
+00:01:57,520  -->  00:02:01,659
+Isso cobre praticamente tudo
+sobre os operadores de comparação.
+
+37
+
+00:02:01,659  -->  00:02:07,229
+Agora vamos ver o que significa a expressões com
+operadores lógicos, também conhecidos como
+
+38
+
+00:02:07,229  -->  00:02:08,789
+operadores Booleanos.

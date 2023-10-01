@@ -1,0 +1,283 @@
+1
+00:00:00,180 --> 00:00:06,390
+Um derivativo ou instrumento financeiro cujo preço é determinado ou melhor dizendo derivado com base
+
+2
+00:00:06,390 --> 00:00:13,230
+no desenvolvimento de um ou mais ativos como ações títulos taxa de juros commodities e taxa de câmbio
+
+3
+00:00:14,440 --> 00:00:21,820
+é um contrato que envolve pelo menos duas partes e descreve como e quando essas duas partes vão realizar
+
+4
+00:00:21,820 --> 00:00:23,940
+o fechamento do negócio.
+
+5
+00:00:23,950 --> 00:00:30,400
+Alguns contratos de derivativos são negociados em mercados regulamentados enquanto outros são negociados
+
+6
+00:00:30,400 --> 00:00:33,130
+no mercado de balcão que não é regulado.
+
+7
+00:00:33,130 --> 00:00:39,760
+Os derivativos negociados em mercados regulamentados têm uma estrutura contratual uniforme e são muito
+
+8
+00:00:39,760 --> 00:00:41,360
+mais simples de entender.
+
+9
+00:00:41,380 --> 00:00:47,890
+Originalmente os derivativos serviam como instrumento de rede às empresas interessadas em comprar esses
+
+10
+00:00:47,890 --> 00:00:52,360
+contratos estavam mais preocupadas em proteger os seus investimentos.
+
+11
+00:00:52,360 --> 00:00:58,870
+Então se um empresário vendia alguma de suas mercadorias em libras e recebia o pagamento dali a três
+
+12
+00:00:58,870 --> 00:01:06,430
+meses ele estaria mais disposto a comprar um contrato de derivativo que lhe permitiria trocar as libras
+
+13
+00:01:06,430 --> 00:01:13,090
+que ele receberia em três meses por dólares hoje bloqueando as receitas que ele receberia da venda hoje.
+
+14
+00:01:13,930 --> 00:01:16,620
+Esse era o contexto inicial dos derivativos.
+
+15
+00:01:16,750 --> 00:01:22,600
+No entanto com o tempo as instituições financeiras inovaram bastante e introduziram a chamada engenharia
+
+16
+00:01:22,600 --> 00:01:27,400
+financeira e novos tipos de derivativos que surgiram no mundo de hoje.
+
+17
+00:01:27,490 --> 00:01:29,740
+Há muitos tipos de derivativos.
+
+18
+00:01:29,740 --> 00:01:35,700
+Alguns são bastante complicados é difícil de entender mesmo para pessoas da área.
+
+19
+00:01:35,740 --> 00:01:41,890
+Podemos distinguir entre três grupos de pessoas que lidam com derivativos pessoas interessadas em proteger
+
+20
+00:01:41,890 --> 00:01:49,540
+seus investimentos fazendo os especuladores e aqueles que fazem arbitragem procurando encontrar discrepâncias
+
+21
+00:01:49,780 --> 00:01:54,640
+nos preços e lucrar com isso não assumindo qualquer risco nessa aula.
+
+22
+00:01:54,640 --> 00:02:01,000
+Vamos sentar aprender os quatro tipos principais de derivativos e como eles funcionam então na nossa
+
+23
+00:02:01,000 --> 00:02:07,780
+próxima aula aprendemos como usar a fórmula de Black shows para precificar esses derivativos.
+
+24
+00:02:07,780 --> 00:02:15,580
+Existem quatro tipos principais de derivativos financeiros termo futuros swaps e opções um contrato
+
+25
+00:02:15,580 --> 00:02:22,270
+a termo é usado quando duas partes concordam que uma parte venderá para a outra um ativo subjacente
+
+26
+00:02:22,390 --> 00:02:23,780
+no momento futuro.
+
+27
+00:02:23,920 --> 00:02:30,920
+O preço do ativo é previamente acordado digamos com um produtor de milho e daqui a três meses terei
+
+28
+00:02:30,940 --> 00:02:35,440
+uma certa quantia de milho que vai ser colhida e que precisa ser vendida.
+
+29
+00:02:35,440 --> 00:02:41,290
+Eu gostaria de fixar o preço do milho hoje e ter a certeza da receita que vou ter.
+
+30
+00:02:41,380 --> 00:02:48,090
+Esse é um exemplo clássico de REDD um contrato de derivativo utilizado para reduzir o risco.
+
+31
+00:02:48,370 --> 00:02:51,640
+Ao mesmo tempo a parte concorda em comprar o milho.
+
+32
+00:02:51,640 --> 00:02:57,820
+Pode ser uma indústria de milho que quer travar o custo de suas matérias primas e ambas as partes se
+
+33
+00:02:57,820 --> 00:03:01,040
+beneficiariam do contrato futuros.
+
+34
+00:03:01,050 --> 00:03:05,520
+São contratos padronizados tipicamente estipulados pelo mercado.
+
+35
+00:03:05,520 --> 00:03:12,920
+A diferença entre futuros e o termo é o nível de padronização e a participação de uma câmara de compensação.
+
+36
+00:03:13,200 --> 00:03:18,010
+A transação é feita através do mercado e as contrapartes não se conhecem.
+
+37
+00:03:18,420 --> 00:03:24,840
+Os contratos de swap são instrumentos derivativos em que duas partes concordam em trocar fluxo de caixa
+
+38
+00:03:25,050 --> 00:03:32,540
+com base num ativo subjacente em um dado momento futuro o ativo subjacente pode ser uma taxa de juros.
+
+39
+00:03:32,540 --> 00:03:37,370
+O preço de uma ação o preço de um título o preço de uma commodity e assim por diante.
+
+40
+00:03:37,370 --> 00:03:44,920
+Os contratos de swap mais utilizados são flaps de taxa de juros uma parte concorda em receber um fluxo
+
+41
+00:03:44,920 --> 00:03:52,060
+de caixa baseado em uma taxa de juros fixa enquanto a outra concorda em receber o fluxo de caixa baseado
+
+42
+00:03:52,060 --> 00:03:53,970
+numa taxa de juros flutuante.
+
+43
+00:03:54,520 --> 00:04:00,860
+Então se o estipular um contrato de swap é concordar em pagar uma taxa de juros fixa de cinco por cento
+
+44
+00:04:01,250 --> 00:04:08,200
+verso de uma taxa variável e o contrato subjacente é de 100 mil quando o contrato expirar eu devo fazer
+
+45
+00:04:08,200 --> 00:04:17,300
+o seguinte cálculo 100 mil vezes cinco por cento que é igual a 5 mil essa é a quantia de dinheiro que
+
+46
+00:04:17,300 --> 00:04:25,650
+devo a outra parte vamos supor que a taxa de juros tenha a flutuar para seis por cento seis sete vezes
+
+47
+00:04:25,660 --> 00:04:32,020
+cem mil e igual a seis mil então a outra parte vai me dever seis mil.
+
+48
+00:04:32,030 --> 00:04:38,600
+Na realidade as duas partes vão negociar apenas a diferença entre essas duas quantias e não trocar todo
+
+49
+00:04:38,600 --> 00:04:39,600
+o fluxo de caixa.
+
+50
+00:04:39,800 --> 00:04:49,930
+Ok o último tipo de contrato de derivativos que vamos considerar aqui são as opções um contrato de opção
+
+51
+00:04:50,010 --> 00:04:58,030
+permite ao seu proprietário comprar ou vender um ativo subjacente a um preço também conhecido como preço
+
+52
+00:04:58,030 --> 00:05:04,630
+de exercício o possuidor do contrato de opção pode comprar ou vender o ativo pelo preço dado mas ele
+
+53
+00:05:04,630 --> 00:05:07,000
+pode também decidir não fazer.
+
+54
+00:05:07,000 --> 00:05:13,300
+Se o preço do ativo não for vantajoso os contratos de opção podem ser exercidos até uma determinada
+
+55
+00:05:13,300 --> 00:05:15,880
+data chamada data de vencimento.
+
+56
+00:05:15,910 --> 00:05:22,030
+As opções que envolvem a compra de um ativo são chamadas opções de compra como no inglês enquanto as
+
+57
+00:05:22,030 --> 00:05:27,580
+opções baseados na venda de um ativo são as opções de venda Pot no inglês.
+
+58
+00:05:27,580 --> 00:05:34,090
+Além disso podemos distinguir entre opções europeias e americanas as opções europeias só podem ser exercidas
+
+59
+00:05:34,090 --> 00:05:38,840
+no vencimento enquanto as opções americanas podem ser exercidas a qualquer momento.
+
+60
+00:05:39,340 --> 00:05:42,820
+Vamos eram exemplos de como uma opção de compra européia funciona.
+
+61
+00:05:42,820 --> 00:05:50,650
+Se eu possuir uma opção europeia de Ação e o seu preço atual é de 120 com uma opção de preço de exercício
+
+62
+00:05:50,650 --> 00:05:58,120
+de 125 e vencimento daqui a seis meses quando a opção expirar dentro desses seis meses eu serei capaz
+
+63
+00:05:58,120 --> 00:06:00,920
+de decidir se devo ou não exercê lo.
+
+64
+00:06:00,970 --> 00:06:04,870
+Se exercê la compraria as ações por 125.
+
+65
+00:06:04,870 --> 00:06:08,730
+Qualquer investidor racional comprará apenas as ações.
+
+66
+00:06:08,800 --> 00:06:15,610
+Se o preço da sua ação estiver sendo negociado acima desses 125 certo ok.
+
+67
+00:06:15,700 --> 00:06:18,250
+Esses são os quatro tipos de derivativos.
+
+68
+00:06:18,620 --> 00:06:25,030
+Mas como é que ficamos eles como podemos determinar o preço certo o justo a pagar.
+
+69
+00:06:25,420 --> 00:06:28,220
+Para uma opção de compra como a que acabamos de ver.
+
+70
+00:06:28,300 --> 00:06:30,930
+Isso é o que vamos aprender a fazer na nossa proximal.
+
+71
+00:06:31,000 --> 00:06:31,960
+Por enquanto era isso.

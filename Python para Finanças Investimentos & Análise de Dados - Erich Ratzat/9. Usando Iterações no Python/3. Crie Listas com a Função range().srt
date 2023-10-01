@@ -1,0 +1,165 @@
+1
+
+00:00:01,160  -->  00:00:06,529
+Posteriormente no curso, vamos trabalhar com uma
+sequencia de dados em listas, e
+
+2
+
+00:00:06,529  -->  00:00:11,330
+será nesse momento que poderemos usar a função nativa "range" do Python
+que significa intervalo.
+
+3
+
+00:00:11,330  -->  00:00:14,780
+Ela vai nos ajudar a criar uma lista de números.
+
+4
+
+00:00:14,780  -->  00:00:20,670
+A sintaxe da função é a seguinte:
+digite "range" e entre parênteses especifique
+
+5
+
+00:00:20,670  -->  00:00:24,890
+o início, o final e um valor do passo.
+
+6
+
+00:00:24,890  -->  00:00:29,500
+O valor inicial será o primeiro número
+na lista.
+
+7
+
+00:00:29,500  -->  00:00:33,120
+o valor final será maior que o último
+valor na lista.
+
+8
+
+00:00:33,120  -->  00:00:40,520
+Ele será igual ao último número
+mais 1 (isso faz parte da lógica do Python, ok?).
+
+9
+
+00:00:40,520  -->  00:00:46,290
+O chamado valor do passo representa a distância
+entre cada dois valores consecutivos na
+
+10
+
+00:00:46,290  -->  00:00:47,290
+lista.
+
+11
+
+00:00:47,290  -->  00:00:54,310
+A especificação do  valor final é obrigatória, enquanto
+os valores de início e o valor do passo são opcionais.
+
+12
+
+00:00:54,310  -->  00:01:00,330
+Se não for especificado, o valor inicial será automaticamente
+substituído por 0 e o valor do passo será
+
+13
+
+00:01:00,330  -->  00:01:02,770
+considerado igual a 1.
+
+14
+
+00:01:02,770  -->  00:01:08,550
+Você também pode considerar o valor final como
+o mais importante, o valor inicial como menos importante,
+
+15
+
+00:01:08,550  -->  00:01:14,800
+e o valor do passo como o menos importante.
+
+16
+
+00:01:14,800  -->  00:01:21,440
+Por esse motivo, o intervalo de 10 fornecerá
+uma lista de 10 elementos assumindo que começa em 0,
+
+17
+
+00:01:21,440  -->  00:01:26,680
+já que não tivemos um valor inicial indicado e vai terminar
+no décimo número consecutivo, que é o número
+
+18
+
+00:01:26,680  -->  00:01:27,950
+nove.
+
+19
+
+00:01:27,950  -->  00:01:35,420
+Em outra célula, se na função de intervalo
+declararmos como argumentos os números 3 e 7, por exemplo,
+
+20
+
+00:01:35,420  -->  00:01:40,020
+o Python aceitará 3 como um valor inicial, e
+e 7 como um valor final do intervalo.
+
+21
+
+00:01:40,020  -->  00:01:46,450
+De modo que teremos quatro elementos - 3, 4, 5, e
+6.
+
+22
+
+00:01:46,450  -->  00:01:48,110
+Ótimo.
+
+23
+
+00:01:48,110  -->  00:01:56,700
+Para especificar o valor do passo em um intervalo, os outros
+dois argumentos também devem ser escolhidos.
+
+24
+
+00:01:56,700  -->  00:02:02,400
+Nesta situação, vamos obter uma lista com
+todos os números ímpares de 1 a 19 inclusive.
+
+25
+
+00:02:02,400  -->  00:02:07,540
+Começarei com o número 1 e a lista
+terminará com o número 19, que é igual ao valor
+
+26
+
+00:02:07,540  -->  00:02:13,110
+final 20 menos 1, indicando somente os números
+ímpares.
+
+27
+
+00:02:13,110  -->  00:02:16,860
+É assim que podemos criar listas com a função intervalo
+em Python.
+
+28
+
+00:02:16,860  -->  00:02:20,980
+Na nossa próxima aula, vamos ver como isso pode
+ser aplicado na prática.
+
+29
+
+00:02:20,980  -->  00:02:21,830
+Obrigado por assistir!

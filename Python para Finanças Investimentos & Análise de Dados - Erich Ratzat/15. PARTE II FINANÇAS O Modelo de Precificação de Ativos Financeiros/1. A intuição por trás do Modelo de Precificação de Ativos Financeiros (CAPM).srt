@@ -1,0 +1,385 @@
+1
+
+00:00:00,610  -->  00:00:06,870
+Em 1960, Harry Markowitz e Bob Sharpe se conheceram,
+e Markowitz ofereceu a Sharpe, então com 26 anos,
+
+2
+
+00:00:06,870  -->  00:00:11,599
+para que continuasse sua pesquisa sobre como funcionam várias
+ações juntas.
+
+3
+
+00:00:11,599  -->  00:00:16,880
+Sharpe escreveu sua tese sobre esse assunto e
+criou um dos modelos mais importantes da
+
+4
+
+00:00:16,880  -->  00:00:19,000
+história das finanças.
+
+5
+
+00:00:19,000  -->  00:00:23,980
+O modelo CAPM não é muito diferente do que
+o considerado por Markowitz.
+
+6
+
+00:00:23,980  -->  00:00:25,650
+Investidores são avessos ao risco.
+
+7
+
+00:00:25,650  -->  00:00:31,020
+Eles preferem obter um retorno maior, mas também
+são cautelosos quanto aos riscos que estão correndo
+
+8
+
+00:00:31,020  -->  00:00:36,730
+e desejam otimizar suas carteiras em termos
+de ambas variáveis: risco e retorno.
+
+9
+
+00:00:36,730  -->  00:00:41,790
+Os investidores não estão dispostos a comprar nada
+além da carteira ideal que otimiza
+
+10
+
+00:00:41,790  -->  00:00:45,630
+seus retornos esperados e desvios padrão.
+
+11
+
+00:00:45,630  -->  00:00:51,510
+Sharpe introduziu o conceito de uma carteira de
+mercado que é uma cesta de todos os investimentos
+
+12
+
+00:00:51,510  -->  00:00:58,930
+possíveis no mundo (tanto títulos de dívida como ações),
+e sendo que a combinação de risco e retorno dessa carteira
+
+13
+
+00:00:58,930  -->  00:01:02,680
+é superior a de qualquer outra carteira.
+
+14
+
+00:01:02,680  -->  00:01:07,970
+O retorno esperado da carteira de mercado
+coincide com o retorno esperado do
+
+15
+
+00:01:07,970  -->  00:01:08,970
+mercado.
+
+16
+
+00:01:08,970  -->  00:01:14,859
+E por se tratar de uma carteira diversificada,
+faz sentido que seja ótima em termos de risco
+
+17
+
+00:01:14,859  -->  00:01:18,470
+- não contém o risco idiossincrático.
+
+18
+
+00:01:18,470  -->  00:01:24,880
+O único risco enfrentado pelos investidores, que possuem
+a carteira de mercado, é o risco sistemático.
+
+19
+
+00:01:24,880  -->  00:01:30,659
+E esperamos que essa carteira esteja em algum lugar
+na fronteira eficiente, pois é uma carteira
+
+20
+
+00:01:30,659  -->  00:01:33,430
+eficiente, a mais eficiente, na verdade.
+
+21
+
+00:01:33,430  -->  00:01:34,430
+Ótimo.
+
+22
+
+00:01:34,430  -->  00:01:39,600
+Até agora, isso parece uma simples extensão
+das ideias introduzidas por Markowitz; no entanto,
+
+23
+
+00:01:39,600  -->  00:01:47,439
+o CAPM pressupõe a existência de um ativo livre
+de risco, um investimento sem risco (zero desvio
+
+24
+
+00:01:47,439  -->  00:01:48,740
+padrão).
+
+25
+
+00:01:48,740  -->  00:01:53,890
+Esse ativo tem uma taxa de retorno positiva, mas risco zero
+associado a ele.
+
+26
+
+00:01:53,890  -->  00:01:58,729
+E isso automaticamente significa que haverá
+pessoas tão avessas ao risco que vão preferir
+
+27
+
+00:01:58,729  -->  00:02:01,479
+comprar somente os ativos sem risco (em inglês: risk-free).
+
+28
+
+00:02:01,479  -->  00:02:07,869
+Se os investidores quiserem ter 100% de certeza de que seu investimento
+contém risco zero, eles vão estar dispostos a aceitar
+
+29
+
+00:02:07,869  -->  00:02:10,470
+uma taxa  esperada de retorno menor.
+
+30
+
+00:02:10,470  -->  00:02:11,520
+Espera aí!
+
+31
+
+00:02:11,520  -->  00:02:16,180
+Mas por que devemos assumir que o risco livre tem
+uma taxa esperada de retorno mais baixa?
+
+32
+
+00:02:16,180  -->  00:02:20,820
+Bem, sob a ótica do CAPM, os mercados são eficientes,
+certo?
+
+33
+
+00:02:20,820  -->  00:02:21,820
+Ok.
+
+34
+
+00:02:21,820  -->  00:02:27,420
+E em um mercado eficiente, os investidores são
+compensados ​​apenas pelo risco adicional que
+
+35
+
+00:02:27,420  -->  00:02:29,010
+estão dispostos a suportar.
+
+36
+
+00:02:29,010  -->  00:02:34,760
+Quando possuem uma carteira eficiente, eles
+não podem arbitrar o sistema e obter um retorno
+
+37
+
+00:02:34,760  -->  00:02:38,840
+esperado mais alto para o mesmo nível de risco.
+
+38
+
+00:02:38,840  -->  00:02:45,240
+Nesse caso, uma taxa de retorno maior significa
+mais risco, e inversamente, um nível mais baixo de
+
+39
+
+00:02:45,240  -->  00:02:48,680
+risco significa também um nível de retorno mais baixo.
+
+40
+
+00:02:48,680  -->  00:02:53,950
+O nível zero de risco traduz-se no nível mais
+baixo de retorno esperado, e é por isso
+
+41
+
+00:02:53,950  -->  00:02:59,790
+que podemos esperar que a taxa livre de risco forneça
+um baixo nível de retorno esperado.
+
+42
+
+00:02:59,790  -->  00:03:01,980
+Maravilha, vamos em frente!
+
+43
+
+00:03:01,980  -->  00:03:03,720
+Estamos quase lá.
+
+44
+
+00:03:03,720  -->  00:03:08,780
+O que muda depois que introduzimos um ativo
+livre de risco?
+
+45
+
+00:03:08,780  -->  00:03:14,349
+Isso significa que a carteira de mercado não é o
+único ativo em que os investidores racionais
+
+46
+
+00:03:14,349  -->  00:03:15,349
+investiriam.
+
+47
+
+00:03:15,349  -->  00:03:19,570
+O investimento livre de risco oferece algo
+novo para os investidores - risco zero.
+
+48
+
+00:03:19,570  -->  00:03:26,540
+Assim, os investidores racionais vão formar suas carteiras,
+considerando tanto a taxa livre de risco quanto a
+
+49
+
+00:03:26,540  -->  00:03:28,480
+carteira de mercado.
+
+50
+
+00:03:28,480  -->  00:03:33,180
+Quanto eles vão investir em risco zero
+e quanto eles vão investir na
+
+51
+
+00:03:33,180  -->  00:03:34,420
+carteira de mercado?
+
+52
+
+00:03:34,420  -->  00:03:37,849
+Bem, depende de quanto eles querem
+ganhar, certo?
+
+53
+
+00:03:37,849  -->  00:03:43,099
+A linha que conecta a taxa livre de risco
+e é tangente à fronteira eficiente é
+
+54
+
+00:03:43,099  -->  00:03:46,220
+chamada de linha Mercado de Capitais.
+
+55
+
+00:03:46,220  -->  00:03:49,830
+Você consegue adivinhar qual é o ponto em que a
+linha do mercado de capitais toca a fronteira
+
+56
+
+00:03:49,830  -->  00:03:51,090
+eficiente?
+
+57
+
+00:03:51,090  -->  00:03:53,630
+Sim, precisamente!
+
+58
+
+00:03:53,630  -->  00:03:55,390
+Essa é a carteira de mercado.
+
+59
+
+00:03:55,390  -->  00:03:56,390
+Ok.
+
+60
+
+00:03:56,390  -->  00:04:02,190
+Assim, todo investidor pode investir em uma combinação
+entre o ativo livre de risco e a carteira de
+
+61
+
+00:04:02,190  -->  00:04:06,090
+mercado, dependendo do risco que quer correr.
+
+62
+
+00:04:06,090  -->  00:04:10,770
+Se estiver disposto a arriscar mais, ele terá
+uma parcela maior da carteira de mercado,
+
+63
+
+00:04:10,770  -->  00:04:15,750
+e, no caso oposto, se não estiver disposto
+a arriscar tanto, ele comprará mais do ativo livre de
+
+64
+
+00:04:15,750  -->  00:04:19,919
+risco e menos da carteira de mercado.
+
+65
+
+00:04:19,919  -->  00:04:25,120
+Investidores que estão mais interessado em retornos esperados
+mais elevados vão poder pegar dinheiro emprestado e investi-
+
+66
+
+00:04:25,120  -->  00:04:31,050
+lo na carteira de mercado, indo ainda mais
+longe ao longo da linha de mercado de capitais.
+
+67
+
+00:04:31,050  -->  00:04:35,389
+Na nossa próxima aula, vamos falar sobre o
+relacionamento entre os ativos individuais
+
+68
+
+00:04:35,389  -->  00:04:40,759
+e a carteira de mercado, e isso vai nos deixar
+mais perto de aprender como construir
+
+69
+
+00:04:40,759  -->  00:04:44,349
+expectativas sobre os preços reais de ativos
+globais.

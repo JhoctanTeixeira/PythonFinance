@@ -1,0 +1,166 @@
+1
+
+00:00:01,090  -->  00:00:04,530
+Nas duas aulas anteriores, nós fizemos o
+trabalho mais pesado.
+
+2
+
+00:00:04,530  -->  00:00:08,710
+Agora vamos completar o exercício e ver
+o resultado do nosso trabalho
+
+3
+
+00:00:08,710  -->  00:00:16,019
+Primeiro, vamos criar um objeto de um data frame
+contendo duas colunas - uma para os retornos
+
+4
+
+00:00:16,019  -->  00:00:19,300
+e outra para as respectivas volatilidades.
+
+5
+
+00:00:19,300  -->  00:00:22,070
+Nós vamos chamar esse objeto de "portfolios".
+
+6
+
+00:00:22,070  -->  00:00:27,460
+Seus dados vão ser compostos por um dicionário
+com as chaves sendo "Return" e "Volatility".
+
+7
+
+00:00:27,460  -->  00:00:31,190
+Esses nomes vão ser atribuídos automaticamente
+como nomes das colunas.
+
+8
+
+00:00:31,190  -->  00:00:35,770
+Os dados contidos em "portfolio returns"
+e "portfolio "volatilities"
+
+9
+
+00:00:35,770  -->  00:00:43,739
+vão constituir os dois pares de valores-chave em nosso dicionário
+e vão preencher as duas colunas.
+
+10
+
+00:00:43,739  -->  00:00:47,410
+Perfeito!
+
+11
+
+00:00:47,410  -->  00:00:54,309
+Uma verificação rápida com o método 'head' e
+'tail' vai nos mostrar que fizemos tudo certo.
+
+12
+
+00:00:54,309  -->  00:00:56,190
+Muito bom!
+
+13
+
+00:00:56,190  -->  00:00:57,670
+Parabéns!
+
+14
+
+00:00:57,670  -->  00:01:01,640
+Você chegou na última célula desse longo
+exercício!
+
+15
+
+00:01:01,640  -->  00:01:05,229
+Agora vem a sintaxe do Matplotlib que você precisa.
+
+16
+
+00:01:05,229  -->  00:01:10,460
+A partir do data frame do "portfolios", vamos plotar
+os dados em um gráfico com um eixo-x correspondendo
+
+17
+
+00:01:10,460  -->  00:01:15,799
+à coluna "Volatility" e um eixo-y
+correspondendo à coluna "Return".
+
+18
+
+00:01:15,799  -->  00:01:21,170
+Uma especificação importante é em relação ao tipo de
+gráfico que queremos inserir.
+
+19
+
+00:01:21,170  -->  00:01:25,039
+No nosso caso, vamos precisar de um gráfico
+de dispersão em inglês chamado de "scatter".
+
+20
+
+00:01:25,039  -->  00:01:30,139
+Depois disso, eu gosto de ajustar o tamanho do
+gráfico, então vou adicionar também um "fig-size"
+
+21
+
+00:01:30,139  -->  00:01:32,090
+de 10 e 6.
+
+22
+
+00:01:32,090  -->  00:01:36,409
+Por último, seja consistente com seu profissionalismo.
+
+23
+
+00:01:36,409  -->  00:01:42,069
+Atribua rótulos significativos para x e para y ao
+gráfico, por exemplo, 'Expected Volatiliy'
+
+24
+
+00:01:42,069  -->  00:01:46,509
+e 'Expected Return'.
+
+25
+
+00:01:46,509  -->  00:01:48,619
+Ótimo!
+
+26
+
+00:01:48,619  -->  00:01:51,590
+Essa é a fronteira eficiente, certo?
+
+27
+
+00:01:51,590  -->  00:01:55,349
+Há mais alguma coisa a dizer - conseguimos!
+
+28
+
+00:01:55,349  -->  00:01:59,929
+Por favor, vá até o arquivo do Jupyter notebook para solidificar
+o conhecimento e as ferramentas que apresentamos nesta aula.
+
+29
+
+00:01:59,929  -->  00:02:05,450
+No exercício complementar lá nos recursos em anexo, nós vamos pedir a você
+para passar por todo o processo por conta própria.
+
+30
+
+00:02:05,450  -->  00:02:06,639
+Obrigado por assistir!

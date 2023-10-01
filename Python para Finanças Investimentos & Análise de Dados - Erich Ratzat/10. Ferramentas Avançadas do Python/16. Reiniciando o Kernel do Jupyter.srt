@@ -1,0 +1,184 @@
+1
+
+00:00:01,170  -->  00:00:05,920
+Este é um vídeo no qual vamos compartilhar duas
+funcionalidades específicas do Jupyter com você.
+
+2
+
+00:00:05,920  -->  00:00:11,220
+Se você trabalhou em um arquivo e o fechou
+depois de ter executado seu código nas células, então na próxima
+
+3
+
+00:00:11,220  -->  00:00:15,809
+vez que abrir o arquivo, você não vai ver o código
+somente nas células de entrada.
+
+4
+
+00:00:15,809  -->  00:00:20,240
+Vai ver também os resultados obtidos
+nos campos de saída.
+
+5
+
+00:00:20,240  -->  00:00:25,860
+Agora, imagine que você queira executar as células
+desde o início.
+
+6
+
+00:00:25,860  -->  00:00:27,740
+O que você deve fazer?
+
+7
+
+00:00:27,740  -->  00:00:34,050
+A melhor maneira de fazer isso é expandir a opção
+do "Kernel" no menu do Jupyter e selecionar a
+
+8
+
+00:00:34,050  -->  00:00:38,149
+opção "Restart and Clear Output".
+
+9
+
+00:00:38,149  -->  00:00:46,359
+Depois que clicar nela, você precisa confirmar
+pressionando o botão "Restart and Clear all
+
+10
+
+00:00:46,359  -->  00:00:48,249
+outputs".
+
+11
+
+00:00:48,249  -->  00:00:53,699
+Em seguida, nós vamos ver que a única coisa que restou
+no arquivo é o código.
+
+12
+
+00:00:53,699  -->  00:00:57,039
+Nenhuma dessas células foi executada.
+
+13
+
+00:00:57,039  -->  00:01:01,739
+É por isso que não existe nenhum número associado
+às células de entradas.
+
+14
+
+00:01:01,739  -->  00:01:07,140
+Então, depois de executar a primeira célula, ela vai
+ter o número 1.
+
+15
+
+00:01:07,140  -->  00:01:14,390
+A próxima será numerada com o número 2, e assim
+por diante.
+
+16
+
+00:01:14,390  -->  00:01:16,810
+Ótimo!
+
+17
+
+00:01:16,810  -->  00:01:21,630
+Outra opção interessante seria selecionar
+"Restart and Run all" depois de expandir
+
+18
+
+00:01:21,630  -->  00:01:24,560
+a opção "Kernel" do menu Jupyter.
+
+19
+
+00:01:24,560  -->  00:01:28,520
+Basicamente, isso vai funcionar de forma semelhante à
+opção que acabamos de ver.
+
+20
+
+00:01:28,520  -->  00:01:34,570
+Desta vez, no entanto, o Python vai executar todos os códigos
+da primeira a última célula, a menos que
+
+21
+
+00:01:34,570  -->  00:01:37,590
+encontre um erro em algum lugar.
+
+22
+
+00:01:37,590  -->  00:01:42,020
+Caso alguma célula contenha erro, o Python
+vai simplesmente parar de executar.
+
+23
+
+00:01:42,020  -->  00:01:46,359
+No nosso caso, não houve erro em nosso
+código, e as células foram colocadas na ordem
+
+24
+
+00:01:46,359  -->  00:01:50,390
+correta, então tudo vai funcionar do começo
+até o final.
+
+25
+
+00:01:50,390  -->  00:01:52,899
+Isso está certo?
+
+26
+
+00:01:52,899  -->  00:01:55,049
+Sim!
+
+27
+
+00:01:55,049  -->  00:01:57,210
+Muito bom!
+
+28
+
+00:01:57,210  -->  00:02:03,130
+Essas opções podem ser aplicadas sempre que você
+precisar refazer o que fez com o arquivo do
+
+29
+
+00:02:03,130  -->  00:02:04,380
+Jupyter.
+
+30
+
+00:02:04,380  -->  00:02:08,880
+Isso geralmente acontece depois de você ficar muito
+tempo trabalhando em um documento, e quiser ver
+
+31
+
+00:02:08,880  -->  00:02:13,160
+se seu código pode ser executado sem problemas desde o início
+até o final.
+
+32
+
+00:02:13,160  -->  00:02:15,810
+Esperamos que você tenha gostado deste vídeo.
+
+33
+
+00:02:15,810  -->  00:02:17,079
+Obrigado por assistir!

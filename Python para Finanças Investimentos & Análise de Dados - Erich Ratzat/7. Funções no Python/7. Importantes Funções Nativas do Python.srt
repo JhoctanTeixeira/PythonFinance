@@ -1,0 +1,280 @@
+1
+
+00:00:00,950  -->  00:00:05,759
+Quando você instala o Python em seu computador,
+também está instalando algumas de suas funções
+
+2
+
+00:00:05,759  -->  00:00:07,250
+internas.
+
+3
+
+00:00:07,250  -->  00:00:12,040
+Isso significa que você não precisará digitar
+o código toda vez que usá-las - estas funções
+
+4
+
+00:00:12,040  -->  00:00:16,420
+já estão em seu computador e podem ser executadas
+diretamente.
+
+5
+
+00:00:16,420  -->  00:00:21,970
+De fato você viu exemplos de funções
+nativas na aula sobre tipos de dados.
+
+6
+
+00:00:21,970  -->  00:00:28,010
+A função "type" permite que você obtenha
+o tipo de variável que você usa como um argumento,
+
+7
+
+00:00:28,010  -->  00:00:35,160
+como nesta célula - "Tipo" de 10 retorna
+"int" que é integer ou número inteiro.
+
+8
+
+00:00:35,160  -->  00:00:39,960
+As funções "int", "float" e "string"
+transformam seus argumentos em um
+
+9
+
+00:00:39,960  -->  00:00:45,060
+tipo inteiro, tipo float ou tipo string respectivamente.
+
+10
+
+00:00:45,060  -->  00:00:57,600
+É por isso que 5.0 foi convertido para 5, 3 foi
+convertido para 3.0, e o número 500 se tornou
+
+11
+
+00:00:57,600  -->  00:00:58,880
+texto.
+
+12
+
+00:00:58,880  -->  00:01:00,160
+Ótimo!
+
+13
+
+00:01:00,160  -->  00:01:05,810
+Agora, vou lhe mostrar algumas outras funções
+nativas que são bastante úteis.
+
+14
+
+00:01:05,810  -->  00:01:13,770
+A função "Max" retorna o maior valor de uma
+sequencia de números.
+
+15
+
+00:01:13,770  -->  00:01:18,219
+É por isso que "Max" retornou um valor de
+30 como resultado nessa célula.
+
+16
+
+00:01:18,219  -->  00:01:19,310
+Muito bom.
+
+17
+
+00:01:19,310  -->  00:01:26,899
+A função "Min" faz exatamente o contrário - ela retorna
+o menor valor de uma sequencia.
+
+18
+
+00:01:26,899  -->  00:01:36,740
+Então, se temos 10 agora - 10
+é o menor valor entre 10, 20 e 30.
+
+19
+
+00:01:36,740  -->  00:01:42,709
+Outra função nativa, "Abs", permite
+que você obtenha o valor absoluto de seus argumentos.
+
+20
+
+00:01:42,709  -->  00:01:47,939
+Seja "z" igual a -20.
+
+21
+
+00:01:47,939  -->  00:01:53,700
+Se executarmos a função "abs" em "z",
+o resultado será o valor absoluto de 20.
+
+22
+
+00:01:53,700  -->  00:01:54,960
+Entendeu?
+
+23
+
+00:01:54,960  -->  00:01:56,229
+Ótimo!
+
+24
+
+00:01:56,229  -->  00:01:59,929
+Uma função essencial que pode ajudá-lo muito
+é a função "sum".
+
+25
+
+00:01:59,929  -->  00:02:04,990
+Ela irá calcular a soma de todos os elementos
+em uma lista designada com um argumento.
+
+26
+
+00:02:04,990  -->  00:02:12,629
+Considere a seguinte lista composta por 1, 2,
+3, e 4.
+
+27
+
+00:02:12,629  -->  00:02:19,680
+Quando eu escrevo "sum list 1", meu resultado será
+igual a 1 + 2 + 3 + 4.
+
+28
+
+00:02:19,680  -->  00:02:23,060
+A soma desses números é igual a 10.
+
+29
+
+00:02:23,060  -->  00:02:29,180
+A função "round" retorna um float de seu argumento,
+arredondando para um número específico de dígitos depois
+
+30
+
+00:02:29,180  -->  00:02:30,900
+da casa decimal.
+
+31
+
+00:02:30,900  -->  00:02:41,350
+"round" 3.555 com 2 dígitos depois da
+casa decimal irá se transformar em 3.56.
+
+32
+
+00:02:41,350  -->  00:02:48,150
+Se o numero de dígitos não for indicado,
+o padrão é zero.
+
+33
+
+00:02:48,150  -->  00:02:51,850
+3.2 é arredondado para baixo para 3.0.
+
+34
+
+00:02:51,850  -->  00:02:53,950
+Ótimo!
+
+35
+
+00:02:53,950  -->  00:02:58,970
+Se você está interessado em elevar 2 a
+potencia de 10, você sabe que poderia digitar "2
+
+36
+
+00:02:58,970  -->  00:03:00,620
+asterisco, asterisco 10".
+
+37
+
+00:03:00,620  -->  00:03:05,840
+Você pode obter o mesmo resultado se você usar a
+função "pow", que significa "power" ou potencia.
+
+38
+
+00:03:05,840  -->  00:03:10,489
+Escreva "pow", e dentro do parênteses,
+especifique a base e a potencia, separadas
+
+39
+
+00:03:10,489  -->  00:03:12,060
+por vírgula.
+
+40
+
+00:03:12,060  -->  00:03:14,709
+Em nosso exemplo, "2 vírgula 10".
+
+41
+
+00:03:14,709  -->  00:03:19,050
+Execute com as teclas "shift and enter" e...
+olha só!
+
+42
+
+00:03:19,050  -->  00:03:20,050
+1024!
+
+43
+
+00:03:20,050  -->  00:03:25,849
+E se você quisesse ver quantos elementos
+existem em um objeto?
+
+44
+
+00:03:25,849  -->  00:03:30,069
+A função "len", que significa comprimento do inglês "lenght",
+vai ajudá-lo a fazer isso.
+
+45
+
+00:03:30,069  -->  00:03:34,319
+Se você escolher uma string como um argumento, a
+função "len" irá dizer quantos
+
+46
+
+00:03:34,319  -->  00:03:39,969
+caracteres existem em uma palavra.
+
+47
+
+00:03:39,969  -->  00:03:47,400
+Por exemplo, na palavra “Mathematics”,
+temos 11 caracteres.
+
+48
+
+00:03:47,400  -->  00:03:51,780
+Existem muitas outras funções nativas no
+Python, mas esses são alguns exemplo que você irá
+
+49
+
+00:03:51,780  -->  00:03:54,510
+usar com freqüência quando estiver programando.
+
+50
+
+00:03:54,510  -->  00:03:55,599
+Obrigado por assistir!

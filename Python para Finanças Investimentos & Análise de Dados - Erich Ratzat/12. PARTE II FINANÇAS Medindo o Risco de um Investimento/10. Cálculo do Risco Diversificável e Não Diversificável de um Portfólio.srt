@@ -1,0 +1,335 @@
+1
+
+00:00:00,940  -->  00:00:02,180
+Ok, pessoal!
+
+2
+
+00:00:02,180  -->  00:00:06,970
+Com esta aula, nós vamos completar a seção
+em que estudamos o cálculo do risco
+
+3
+
+00:00:06,970  -->  00:00:08,080
+financeiro.
+
+4
+
+00:00:08,080  -->  00:00:14,639
+Nossa tarefa aqui é separar um risco diversificável
+e não diversificável de um portfólio de investimentos.
+
+5
+
+00:00:14,639  -->  00:00:20,660
+A carteira que nós vamos usar é simples,
+contém apenas dois títulos, mas os mesmos
+
+6
+
+00:00:20,660  -->  00:00:24,730
+mecanismos podem ser aplicados quando se trabalha
+com uma carteira maior.
+
+7
+
+00:00:24,730  -->  00:00:28,800
+Para começar, nós vamos precisar dos pesos dos
+dois ativos.
+
+8
+
+00:00:28,800  -->  00:00:34,309
+Dado que esta é uma carteira igualmente ponderada
+das duas ações, nós vamos precisar de uma matriz NumPy
+
+9
+
+00:00:34,309  -->  00:00:38,320
+contendo o duas vezes o valor de 0,5.
+
+10
+
+00:00:38,320  -->  00:00:42,649
+Nós já criamos uma e chamamos de "weights".
+
+11
+
+00:00:42,649  -->  00:00:48,229
+Os valores dessa matriz podem ser acessados ​​depois
+que indexarmos o zero e a primeira posição entre
+
+12
+
+00:00:48,229  -->  00:00:51,379
+colchetes.
+
+13
+
+00:00:51,379  -->  00:00:58,079
+Ok, os pesos da carteira estão prontos.
+
+14
+
+00:00:58,079  -->  00:01:03,590
+Uma maneira de estimar o risco diversificável anual
+é obter a variância da carteira
+,
+
+15
+
+00:01:03,590  -->  00:01:07,940
+e depois subtrair a variância anual ponderada
+de cada ação.
+
+16
+
+00:01:07,940  -->  00:01:14,000
+Isso ocasionalmente vai nos permitir enfatizar a
+diferença entre criar uma matriz "ND"
+
+17
+
+00:01:14,000  -->  00:01:16,870
+com colchetes simples ou duplos.
+
+18
+
+00:01:16,870  -->  00:01:21,370
+Nós explicamos em um dos vídeos anteriores
+que cada par de colchetes ao redor
+
+19
+
+00:01:21,370  -->  00:01:27,570
+do nome da coluna vai adicionar uma dimensão
+à matriz NumPy.
+
+20
+
+00:01:27,570  -->  00:01:32,310
+Por uma questão de argumento, vamos usar essa
+estrutura para criar a variância anual de
+
+21
+
+00:01:32,310  -->  00:01:33,780
+cada empresa.
+
+22
+
+00:01:33,780  -->  00:01:40,270
+O que registra os valores das variâncias da
+P&G e Beiersdorf não como decimais, mas como elementos
+
+23
+
+00:01:40,270  -->  00:01:45,200
+únicos em matrizes 1 por 1 - que são matrizes
+bidimensionais.
+
+24
+
+00:01:45,200  -->  00:01:51,090
+Por essa razão, nós devemos esperar um resultado
+errado quando calculamos o risco não sistemático
+
+25
+
+00:01:51,090  -->  00:01:55,380
+também conhecido como risco diversificável.
+
+26
+
+00:01:55,380  -->  00:02:00,060
+A fórmula que digitamos está correta.
+
+27
+
+00:02:00,060  -->  00:02:03,340
+Bem, nós não vemos um erro, mas a resposta
+é estranha mesmo assim, certo?
+
+28
+
+00:02:03,340  -->  00:02:09,140
+Em vez de um número decimal nós obtivemos um vetor sem
+números.
+
+29
+
+00:02:09,140  -->  00:02:15,250
+Esse pequeno exercício foi para lembrá-lo de
+ter cuidado ao criar objetos NumPy.
+
+30
+
+00:02:15,250  -->  00:02:20,700
+Vamos ver duas técnicas que podem ajudá-lo
+a resolver esse problema.
+
+31
+
+00:02:20,700  -->  00:02:26,270
+Como a variância de Procter & Gamble é
+armazenada em uma matriz 1 por 1, esse vai ser um valor
+
+32
+
+00:02:26,270  -->  00:02:27,270
+único.
+
+33
+
+00:02:27,270  -->  00:02:33,400
+Se vocês aplicarem a conhecida função decimal,
+vocês vão transformar esses valores em um float.
+
+34
+
+00:02:33,400  -->  00:02:35,290
+Legal!
+
+35
+
+00:02:35,290  -->  00:02:42,280
+Como alternativa, quando vocês atribuem um valor a
+"PG, var, A", vocês podem usar colchetes simples
+
+36
+
+00:02:42,280  -->  00:02:46,240
+quando indicar que vai usar os dados da
+coluna P.G.
+
+37
+
+00:02:46,240  -->  00:02:49,790
+Isso vai armazenar automaticamente o resultado como
+um valor decimal.
+
+38
+
+00:02:49,790  -->  00:02:56,070
+A linha "data type float 64" vai desaparecer,
+e você vai ver mais dígitos após o ponto
+
+39
+
+00:02:56,070  -->  00:02:57,740
+decimal.
+
+40
+
+00:02:57,740  -->  00:02:59,410
+Ótimo!
+
+41
+
+00:02:59,410  -->  00:03:09,580
+Para ser consistente, vamos aplicar o segundo
+método à variância anual da Beiersdorf
+
+42
+
+00:03:09,580  -->  00:03:10,780
+também.
+
+43
+
+00:03:10,780  -->  00:03:16,599
+"BEI, var, A" vai ser um ponto flutuante.
+
+44
+
+00:03:16,599  -->  00:03:19,130
+Bom!
+
+45
+
+00:03:19,130  -->  00:03:24,630
+Será que podemos estimar novamente o risco
+diversificável também conhecido como risco não sistemático?
+
+46
+
+00:03:24,630  -->  00:03:29,120
+Sim, podemos.
+
+47
+
+00:03:29,120  -->  00:03:35,330
+E nós obtemos um valor decimal cuja transformação
+mostra que é um número menor que um por cento.
+
+48
+
+00:03:35,330  -->  00:03:36,500
+Ótimo!
+
+49
+
+00:03:36,500  -->  00:03:45,739
+A parte restante da variância da carteira
+é o risco sistemático.
+
+50
+
+00:03:45,739  -->  00:03:53,260
+Como vocês podem ver, se subtrairmos o
+risco não sistemático de toda a variância,
+
+51
+
+00:03:53,260  -->  00:04:01,690
+ou se somarmos as variâncias anuais ponderadas, nós
+vamos obter o mesmo valor.
+
+52
+
+00:04:01,690  -->  00:04:09,690
+A verificação que fizemos na última célula
+confirma nossos resultados - nós obtemos o valor
+
+53
+
+00:04:09,690  -->  00:04:15,400
+boleano "True" no resultado conforme verificamos
+a igualdade entre as duas variáveis, "SR
+
+54
+
+00:04:15,400  -->  00:04:17,359
+1", e "SR 2".
+
+55
+
+00:04:17,359  -->  00:04:18,359
+Ok.
+
+56
+
+00:04:18,359  -->  00:04:19,359
+Legal!
+
+57
+
+00:04:19,359  -->  00:04:20,359
+Estamos indo bem!
+
+58
+
+00:04:20,359  -->  00:04:24,770
+Na próxima aula, vamos começar um novo tópico
+- análise de regressão.
+
+59
+
+00:04:24,770  -->  00:04:25,770
+Te vejo lá!
+
+60
+
+00:04:25,770  -->  00:04:26,850
+E... obrigado por assistir!

@@ -1,0 +1,181 @@
+1
+
+00:00:01,280  -->  00:00:03,270
+Certo...
+
+2
+
+00:00:03,270  -->  00:00:09,080
+Nessa aula, nós vamos mostrar uma técnica
+muito legal do NumPy que vai facilitar todas as
+
+3
+
+00:00:09,080  -->  00:00:13,039
+manipulações com matriz que você terá que executar
+no Python.
+
+4
+
+00:00:13,039  -->  00:00:17,510
+Esta ferramenta é frequentemente usada, especialmente em
+finanças.
+
+5
+
+00:00:17,510  -->  00:00:23,460
+Nós vamos simplesmente continuar com o arquivo do Jupyter
+notebook
+que usamos em nossas 2 aulas anteriores em Python.
+
+6
+
+00:00:23,460  -->  00:00:29,180
+Só para lembrar, as empresas as quais estamos trabalhando
+são P&G e Beierdorf, e o período de análise
+
+7
+
+00:00:29,180  -->  00:00:33,670
+começa em primeiro de janeiro de 2007.
+
+8
+
+00:00:33,670  -->  00:00:42,510
+Suponha que temos uma carteira igualmente ponderada,
+com 50% investido em P&G e 50% em Beiersdorf.
+
+9
+
+00:00:42,510  -->  00:00:47,430
+Nós vamos ter que salvar esses valores em uma matriz
+NumPy, chamada "weights".
+
+10
+
+00:00:47,430  -->  00:00:52,690
+O código na próxima linha se refere a uma multiplicação de matrizes.
+
+11
+
+00:00:52,690  -->  00:00:57,239
+Não vamos entrar em muitos detalhes, mas se 'a'
+e 'b' são números, é simples
+
+12
+
+00:00:57,239  -->  00:01:01,379
+estimar 'a' vezes 'b' elevado ao quadrado.
+
+13
+
+00:01:01,379  -->  00:01:09,750
+Mas quando usamos matrizes e vetores, o cálculo
+algébrico se parece com isso: a versão
+
+14
+
+00:01:09,750  -->  00:01:16,049
+transposta dos pesos do vetor deve ser multiplicada
+pela matriz de covariância anualizada, e em seguida
+
+15
+
+00:01:16,049  -->  00:01:19,530
+devemos multiplicar pelo vetor de pesos normal.
+
+16
+
+00:01:19,530  -->  00:01:23,170
+Toda essa estrutura vai produzir um único
+número.
+
+17
+
+00:01:23,170  -->  00:01:28,680
+O produto da multiplicação do NumPy faz essa operação
+ser bem intuitiva para implementar.
+
+18
+
+00:01:28,680  -->  00:01:33,810
+Para obter o vetor 'weights' transposto,
+use a notação "ponto T" depois do nome
+
+19
+
+00:01:33,810  -->  00:01:39,570
+do objeto 'weights', e em seguida pegue
+o produto da multiplicação da matriz da covariância
+
+20
+
+00:01:39,570  -->  00:01:43,119
+anualizada e o peso do vetor.
+
+21
+
+00:01:43,119  -->  00:01:49,689
+O resultado dessa linha é a variância da carteira
+que estudamos na nossa aula anterior.
+
+22
+
+00:01:49,689  -->  00:01:53,899
+Se estamos interessados na volatilidade da
+carteira, nós devemos elevar a expressão
+
+23
+
+00:01:53,899  -->  00:01:59,860
+à potência de 0,5.
+
+24
+
+00:01:59,860  -->  00:02:04,840
+Ótimo!
+
+25
+
+00:02:04,840  -->  00:02:07,780
+Dessa vez, nós fizemos os cálculos bem rápido.
+
+26
+
+00:02:07,780  -->  00:02:12,830
+Por que complicar as coisas se podemos usar a fórmula
+de produto usando o NumPy, certo?
+
+27
+
+00:02:12,830  -->  00:02:18,040
+O cálculo matemático clássico nos
+tomaria muito mais tempo.
+
+28
+
+00:02:18,040  -->  00:02:22,470
+A mesma estrutura desse cálculo pode ser usada
+quando calcularmos o risco de investimento em
+
+29
+
+00:02:22,470  -->  00:02:28,650
+uma carteira de múltiplos ativos, onde pesos maiores
+e matrizes de covariância estarão envolvidos.
+
+30
+
+00:02:28,650  -->  00:02:35,569
+Na nossa próxima aula, vamos dividir o risco de
+volatilidade da carteira em duas partes e explicaremos
+
+31
+
+00:02:35,569  -->  00:02:36,890
+seu significado.
+
+32
+
+00:02:36,890  -->  00:02:37,800
+Obrigado por assistir!

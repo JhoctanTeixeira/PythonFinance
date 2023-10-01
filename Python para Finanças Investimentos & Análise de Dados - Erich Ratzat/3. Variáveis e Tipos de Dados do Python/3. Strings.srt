@@ -1,0 +1,475 @@
+1
+
+00:00:00,989  -->  00:00:05,180
+Nessa aula, vamos aprender sobre outro
+tipo de valores que muito úteis
+
+2
+
+00:00:05,180  -->  00:00:07,089
+em Python.
+
+3
+
+00:00:07,089  -->  00:00:10,480
+"Strings" são valores de texto compostos por uma sequência
+de caracteres.
+
+4
+
+00:00:10,480  -->  00:00:14,820
+Vamos ver como podemos criar uma string na
+prática.
+
+5
+
+00:00:14,820  -->  00:00:20,609
+Se pedirmos ao computador para exibir o nome
+George desta forma, obteremos uma mensagem de erro.
+
+6
+
+00:00:20,609  -->  00:00:21,849
+Por quê?
+
+7
+
+00:00:21,849  -->  00:00:26,800
+Porque o Python assume que George é o nome
+de uma variável para a qual não atribuímos nenhum
+
+8
+
+00:00:26,800  -->  00:00:27,800
+valor.
+
+9
+
+00:00:27,800  -->  00:00:31,440
+Vou te mostrar o truque de mágica que corrigirá
+esse erro.
+
+10
+
+00:00:31,460  -->  00:00:37,240
+Vamos digitar aspas simples em torno
+do nome George, primeiro.
+
+11
+
+00:00:37,620  -->  00:00:43,640
+E agora vamos digitar aspas duplas
+em torno dele.
+
+12
+
+00:00:43,640  -->  00:00:47,900
+Percebe que o resultado dos dois jeitos é o mesmo.
+
+13
+
+00:00:47,900  -->  00:00:52,360
+É assim que o Python exibe resultados de texto se
+você não usar o comando print.
+
+14
+
+00:00:52,360  -->  00:00:56,840
+Se você usar o "print", o resultado será mostrado
+sem aspas - você poderá ver o
+
+15
+
+00:00:56,860  -->  00:00:59,240
+texto sem formatação.
+
+16
+
+00:01:03,180  -->  00:01:09,140
+Se nós atribuirmos este valor a uma nova variável,
+digamos que x4, nós teremos seu resultado da mesma forma
+
+17
+
+00:01:09,140  -->  00:01:13,780
+como fizemos com os inteiros e os decimais.
+
+18
+
+00:01:13,780  -->  00:01:15,399
+Tá certo, então é isso.
+
+19
+
+00:01:15,400  -->  00:01:21,880
+Se os valores que você deseja armazenar não forem
+numéricos, as aspas podem entrar em jogo!
+
+20
+
+00:01:22,420  -->  00:01:27,560
+Imagine que a variável y deve representar
+o número de dólares que você tem em seu bolso.
+
+21
+
+00:01:27,560  -->  00:01:32,700
+Além disso, você gostaria de pedir ao computador
+para imprimir uma frase que diz "Y dollars",
+
+22
+
+00:01:32,720  -->  00:01:35,540
+onde y é um número.
+
+23
+
+00:01:35,960  -->  00:01:41,080
+A maneira correta de combinar o valor de y e
+da string "Dollars" é usar um sinal de
+
+24
+
+00:01:41,090  -->  00:01:42,770
+"+", como mostrado aqui.
+
+25
+
+00:01:42,770  -->  00:01:46,509
+Vamos executar esta célula para verificar se fizemos
+corretamente.
+
+26
+
+00:01:46,509  -->  00:01:50,329
+Aparentemente, nós não respeitamos alguma regra
+de programação em Python.
+
+27
+
+00:01:50,329  -->  00:01:54,140
+Não podemos colocar diferentes tipos de variáveis
+​​na mesma expressão.
+
+28
+
+00:01:54,140  -->  00:01:59,439
+Y é um inteiro, e "Dollars" é uma string.
+
+29
+
+00:01:59,439  -->  00:02:01,889
+Podemos converter y em uma string.
+
+30
+
+00:02:01,889  -->  00:02:06,290
+"String", "str", é a função nativa
+que precisamos.
+
+31
+
+00:02:06,290  -->  00:02:11,280
+Da mesma forma que fizemos para números inteiros e decimais,
+"string" irá converter nosso número em texto, e isso
+
+32
+
+00:02:11,280  -->  00:02:13,910
+irá corrigir nosso resultado.
+
+33
+
+00:02:13,910  -->  00:02:18,780
+Para resumir o que dissemos até agora, o Python pode
+adivinhar automaticamente o tipo de dados que você está
+
+34
+
+00:02:18,780  -->  00:02:19,890
+digitando.
+
+35
+
+00:02:19,890  -->  00:02:24,010
+Está dentro de suas capacidades saber com
+certeza se você atribuiu um inteiro,
+
+36
+
+00:02:24,010  -->  00:02:27,190
+um decimal, a valor Booleano, ou uma string.
+
+37
+
+00:02:27,190  -->  00:02:31,780
+Você não precisa declarar os tipos de variáveis
+​​explicitamente, como deve fazer em outras linguagens de
+
+38
+
+00:02:31,780  -->  00:02:33,310
+programação.
+
+39
+
+00:02:33,310  -->  00:02:37,050
+O Python sempre sabe o tipo de variável.
+
+40
+
+00:02:37,050  -->  00:02:39,420
+O que vai acontecer por exemplo se você digitar...
+
+41
+
+00:02:39,420  -->  00:02:41,280
+“I’m fine”?
+
+42
+
+00:02:41,560  -->  00:02:46,660
+Você precisa digitar o apóstrofe na língua
+Inglesa, mas não para o Python.
+
+43
+
+00:02:47,160  -->  00:02:52,420
+Observe, se você executar o comando assim,
+cometerá um erro.
+
+44
+
+00:02:52,420  -->  00:02:57,580
+Para evitar isso, em tais situações, você pode
+diferenciar os dois símbolos - coloque
+
+45
+
+00:02:57,580  -->  00:03:02,320
+o texto entre aspas duplas e deixe o
+apóstrofe, que tecnicamente coincide com
+
+46
+
+00:03:02,320  -->  00:03:07,760
+as aspas simples entre I e M. Agora, está
+tudo certo.
+
+47
+
+00:03:07,760  -->  00:03:09,800
+Uma maneira alternativa de fazer isso seria
+
+48
+
+00:03:09,800  -->  00:03:14,260
+deixar as aspas de lado e colocar uma
+barra invertida antes do apóstrofe na
+
+49
+
+00:03:14,260  -->  00:03:18,880
+frase, e teríamos também o mesmo
+resultado correto.
+
+50
+
+00:03:19,120  -->  00:03:24,400
+Essa barra invertida é chamada de caractere de escape,
+pois altera a interpretação dos caracteres
+
+51
+
+00:03:24,400  -->  00:03:27,200
+imediatamente após ela.
+
+52
+
+00:03:27,200  -->  00:03:33,740
+E se quisermos escrever "press "Enter"",
+onde colocamos o Enter, seria entre aspas?
+
+53
+
+00:03:33,740  -->  00:03:37,250
+Seguimos a mesma lógica - os símbolos externos devem diferir
+dos internos.
+
+54
+
+00:03:37,250  -->  00:03:39,960
+Coloque aspas simples nos extremos.
+
+55
+
+00:03:40,160  -->  00:03:42,760
+E você obtém o resultado desejado!
+
+56
+
+00:03:42,760  -->  00:03:47,300
+Finalmente, vamos ver algumas maneiras de
+declarar valores.
+
+57
+
+00:03:47,310  -->  00:03:50,820
+Digamos que você queira imprimir a frase "Red car" na
+mesma linha.
+
+58
+
+00:03:50,820  -->  00:03:57,210
+Se eu escrevo desse modo - duas palavras próximas
+uma da outra, separadas por um espaço em branco,
+
+59
+
+00:03:57,210  -->  00:04:00,030
+vou vê-las juntas.
+
+60
+
+00:04:00,030  -->  00:04:05,080
+Um truque seria colocar um espaço em branco antes
+do segundo apóstrofe da primeira palavra.
+
+61
+
+00:04:05,080  -->  00:04:10,940
+Vamos ver... legal, esse parece o resultado
+desejado.
+
+62
+
+00:04:12,420  -->  00:04:17,040
+Outra técnica seria adicionar
+uma das strings a outra digitando
+
+63
+
+00:04:17,040  -->  00:04:21,600
+o sinal de mais entre as duas, assim como
+fizemos com o exemplo "10-dollar" um minuto
+
+64
+
+00:04:21,600  -->  00:04:22,680
+atrás.
+
+65
+
+00:04:22,780  -->  00:04:23,800
+Ok.
+
+66
+
+00:04:24,140  -->  00:04:29,640
+Como sua intuição provavelmente está te dizendo, se você
+imprimir esta combinação, você obterá
+
+67
+
+00:04:29,640  -->  00:04:34,800
+o mesmo resultado, mas não terá as
+aspas nos dois lados.
+
+68
+
+00:04:35,880  -->  00:04:38,159
+E... aqui está um novo truque.
+
+69
+
+00:04:38,159  -->  00:04:42,150
+Eu vou digitar "print 'Red'", e então
+colocarei uma vírgula, que recebe o nome em inglês de
+
+70
+
+00:04:42,150  -->  00:04:47,240
+"trailling comma", e o Python irá imprimir a próxima palavra,
+'car', na mesma linha, separando as
+
+71
+
+00:04:47,240  -->  00:04:49,430
+duas palavras com um espaço em branco.
+
+72
+
+00:04:49,430  -->  00:04:52,220
+Shift mais Enter... ótimo!
+
+73
+
+00:04:52,220  -->  00:04:57,140
+Vamos imprimir o número 3 ao lado do número
+5.
+
+74
+
+00:04:57,960  -->  00:04:59,840
+Eeeeee - fantástico!
+
+75
+
+00:04:59,849  -->  00:05:01,590
+Tá lá!
+
+76
+
+00:05:01,590  -->  00:05:06,160
+O que vai acontecer se eu não usar o comando
+"print" e apenas listar alguns números inteiros, decimais,
+
+77
+
+00:05:06,160  -->  00:05:10,560
+e strings separando eles com vírgulas?
+
+78
+
+00:05:10,940  -->  00:05:16,820
+O Python executará o comando como esperado,
+mas colocará os valores entre parênteses.
+
+79
+
+00:05:16,820  -->  00:05:18,680
+Incrível, não?
+
+80
+
+00:05:18,820  -->  00:05:24,340
+Nós progredimos bastante até aqui, e você
+aprendeu muito sobre a sintaxe do Python.
+
+81
+
+00:05:24,340  -->  00:05:29,380
+Como fizemos até agora, indo passo a passo, talvez,
+pareça simples e fácil, mas na verdade é
+
+82
+
+00:05:29,500  -->  00:05:33,300
+bem importante respeitar a sintaxe de uma
+linguagem de programação.
+
+83
+
+00:05:33,300  -->  00:05:36,850
+Nas próximas aulas, você verá que isso é verdade.
+
+84
+
+00:05:36,850  -->  00:05:41,590
+Fique ligado na próxima aula, vamos
+continuar explorando a sintaxe do Python.
+
+85
+
+00:05:41,590  -->  00:05:42,610
+Obrigado por assistir!

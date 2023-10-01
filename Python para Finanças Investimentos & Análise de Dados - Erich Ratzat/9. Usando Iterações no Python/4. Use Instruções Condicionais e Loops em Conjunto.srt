@@ -1,0 +1,201 @@
+1
+
+00:00:00,870  -->  00:00:06,560
+Agora que você sabe o que a função "range"
+faz, vamos vê-la em um for-loop.
+Para imprimir todos os valores de 2 a potencia
+de 0, 2 à potência de 1 e assim por diante, até
+
+2
+
+00:00:12,610  -->  00:00:20,640
+2 à potência de 9, podemos usar o seguinte
+código: para “n” no intervalo de 10, imprima “2
+
+3
+
+00:00:20,640  -->  00:00:22,360
+estrelas duplas n ”.
+
+4
+
+00:00:22,360  -->  00:00:27,550
+Eu também terei que inserir uma vírgula, porque
+Eu quero ver o resultado em uma única
+
+5
+
+00:00:27,550  -->  00:00:28,760
+linha.
+
+6
+
+00:00:28,760  -->  00:00:29,970
+Bom.
+Eu acredito que você concorda que não foi necessário
+especificar o nome de uma lista que existe
+
+7
+
+00:00:35,679  -->  00:00:39,879
+em nosso código - usando uma lista criada através da
+a função "range" vai funcionar
+também!
+
+8
+
+00:00:41,039  -->  00:00:48,530
+Agora, vamos ser ousados e criar uma iteração
+que inclui uma condicional no corpo do loop.
+
+9
+
+00:00:48,530  -->  00:00:54,199
+Podemos dizer ao computador para imprimir todo os
+valores pares entre 0 e 19 e aparecer "ímpar"
+
+10
+
+00:00:54,199  -->  00:00:57,079
+nos lugares onde temos números ímpares.
+
+11
+
+00:00:57,079  -->  00:01:02,460
+Vamos traduzir isso em passos
+computacionais.
+
+12
+
+00:01:02,460  -->  00:01:07,960
+Se x deixa um resto de 0 quando dividido
+por 2, que é o mesmo que dizer "se x
+é par ”, então imprima x na mesma linha.
+
+13
+
+00:01:12,230  -->  00:01:19,160
+"Caso contrário", que significa que, a menos que x seja par,
+ou se x for ímpar, imprima “Ímpar”.
+
+14
+
+00:01:19,160  -->  00:01:21,330
+Ótimo!
+
+15
+
+00:01:21,330  -->  00:01:29,450
+Esse é um exemplo de uma combinação de uma
+iteração e uma condicional em Python.
+
+16
+
+00:01:29,450  -->  00:01:34,660
+Existem duas maneiras principais de programar um loop,
+e até esse momento, nós vimos apenas
+
+17
+
+00:01:34,660  -->  00:01:36,410
+a primeira.
+
+18
+
+00:01:36,410  -->  00:01:41,270
+Nós temos uma lista x que contém os números
+0, 1 e 2.
+
+19
+
+00:01:41,270  -->  00:01:46,490
+Vimos que podemos imprimir cada um dos seus elementos
+digitando “para cada item na lista x,
+
+20
+
+00:01:46,490  -->  00:01:50,310
+imprima aquele item ”.
+
+21
+
+00:01:50,310  -->  00:01:55,670
+A segunda maneira encontra sua aplicação prática
+em códigos mais sofisticados.
+
+22
+
+00:01:55,670  -->  00:02:00,750
+Sua estrutura aproveita as funções range
+e len da seguinte maneira: “para
+
+23
+
+00:02:00,750  -->  00:02:06,980
+cada item no intervalo que passa pelos
+elementos da lista x, que é “len com
+
+24
+
+00:02:06,980  -->  00:02:12,999
+um argumento x ”, imprima cada item”.
+
+25
+
+00:02:12,999  -->  00:02:18,489
+Se fizermos isso, a nossa variável fará um loop
+através de uma nova lista criada pelo intervalo, e que
+
+26
+
+00:02:18,489  -->  00:02:22,200
+tem tantos elementos quanto a própria lista x.
+Por favor, note que, nesta situação, a segunda
+linha do nosso código precisa de indexação para extrair
+
+27
+
+00:02:27,590  -->  00:02:31,639
+cada item da lista “x”.
+
+28
+
+00:02:31,639  -->  00:02:37,200
+Na prática, vamos imprimir o elemento
+na posição 0 da lista x, depois o elemento
+na posição 1 e, finalmente, o elemento na
+posição 2.
+
+29
+
+00:02:43,049  -->  00:02:47,920
+Para concluir, ambas as abordagens podem levar ao
+mesmo resultado.
+Embora a segunda pareça desnecessariamente
+complicada, em programação avançada, pode
+
+30
+
+00:02:52,519  -->  00:02:54,719
+acabar por ser muito mais útil.
+
+31
+
+00:02:54,719  -->  00:02:57,249
+Então, é importante que você saiba ambas.
+
+32
+
+00:02:57,249  -->  00:03:01,849
+Não pule os exercícios que acompanham
+essa lição, pois eles vão reforçar o que
+
+33
+
+00:03:01,849  -->  00:03:03,150
+você aprendeu aqui!
+
+34
+
+00:03:03,150  -->  00:03:04,159
+Obrigado por assistir!

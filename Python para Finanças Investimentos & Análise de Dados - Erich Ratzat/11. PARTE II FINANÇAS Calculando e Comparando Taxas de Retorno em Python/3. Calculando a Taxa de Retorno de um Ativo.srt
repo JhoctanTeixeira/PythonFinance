@@ -1,0 +1,399 @@
+1
+
+00:00:00,199  -->  00:00:05,790
+O principal objetivo de cada investidor é obter uma
+boa taxa de retorno do seu investimento.
+
+2
+
+00:00:05,790  -->  00:00:07,309
+O que eu quero dizer com isso?
+
+3
+
+00:00:07,309  -->  00:00:12,690
+Bem, imagine que você comprou uma ação
+da Apple no começo do ano.
+
+4
+
+00:00:12,690  -->  00:00:16,870
+Naquela época, as ações da Apple estavam sendo negociadas a $105.
+
+5
+
+00:00:16,870  -->  00:00:20,800
+No final do ano, o preço subiu
+para $116.
+
+6
+
+00:00:20,800  -->  00:00:26,960
+Assim, além dos custos de transação
+decorrentes do negócio e dos dividendos pagos pela
+
+7
+
+00:00:26,960  -->  00:00:34,950
+empresa ao longo do ano, se você vender
+suas ações hoje, você vai receber $116,
+
+8
+
+00:00:34,950  -->  00:00:38,370
+então você teve um lucro de $11.
+
+9
+
+00:00:38,370  -->  00:00:39,770
+Será que isso é muito?
+
+10
+
+00:00:39,770  -->  00:00:42,890
+Você deveria ficar feliz com o investimento que você
+fez?
+
+11
+
+00:00:42,890  -->  00:00:47,870
+A única maneira de responder essa pergunta é
+comparando o investimento das ações da Apple
+
+12
+
+00:00:47,870  -->  00:00:53,530
+com outros investimentos, o valor que você teria
+ganhado se tivesse comprado outras ações.
+
+13
+
+00:00:53,530  -->  00:00:57,230
+No entanto, diferentes ações têm preços diferentes,
+certo?
+
+14
+
+00:00:57,230  -->  00:01:02,620
+Portanto, nós precisamos de uma medida que garanta
+a comparabilidade entre os investimentos com preços
+
+15
+
+00:01:02,620  -->  00:01:04,210
+de mercado diferentes.
+
+16
+
+00:01:04,210  -->  00:01:06,259
+E isso é bem fácil de fazer.
+
+17
+
+00:01:06,259  -->  00:01:11,659
+Tudo o que precisamos fazer é calcular o percentual
+de retorno do investimento.
+
+18
+
+00:01:11,659  -->  00:01:15,600
+Uma vez feito isso, podemos compará-lo a outros
+investimentos.
+
+19
+
+00:01:15,600  -->  00:01:21,929
+A taxa de retorno do investimento é dada
+pelo preço final menos o preço inicial,
+The rate of return of the investment is given
+by the ending price minus the beginning price,
+
+20
+
+00:01:21,929  -->  00:01:24,770
+e então esse valor é dividido pelo preço inicial.
+
+21
+
+00:01:24,770  -->  00:01:34,880
+Assim, no nosso caso, vai ser $116
+menos $105 dividido por $105.
+
+22
+
+00:01:34,880  -->  00:01:39,240
+Isso nos dá uma taxa de retorno de 10.5%.
+
+23
+
+00:01:39,240  -->  00:01:43,670
+Esse cálculo da taxa de retorno é
+chamado de taxa de retorno simples.
+
+24
+
+00:01:43,670  -->  00:01:48,899
+Está claro como calculamos uma taxa simples
+de retorno de um investimento, certo?
+
+25
+
+00:01:48,899  -->  00:01:54,999
+O valor que tivemos, menos a quantia
+que investimos, dividido pelo valor que
+
+26
+
+00:01:54,999  -->  00:01:55,999
+investimos.
+
+27
+
+00:01:55,999  -->  00:02:02,159
+Se assumirmos que a Apple pagou um dividendo de $2 no
+final do ano, o cálculo da taxa de retorno vai se
+
+28
+
+00:02:02,159  -->  00:02:11,840
+tornar $116 mais $2 menos $105 dividido por
+$105.
+
+29
+
+00:02:11,840  -->  00:02:15,250
+A taxa de retorno vai ser 12.4%.
+
+30
+
+00:02:15,250  -->  00:02:16,800
+Ok.
+
+31
+
+00:02:16,800  -->  00:02:18,360
+Ótimo!
+
+32
+
+00:02:18,360  -->  00:02:23,360
+Podemos calcular o retorno logarítmico do
+investimento calculando o logaritmo
+
+33
+
+00:02:23,360  -->  00:02:35,120
+de $116 dividindo por $105, que é igual ao
+logaritmo de $116 menos o logaritmo de $105.
+
+34
+
+00:02:35,120  -->  00:02:40,709
+O resultado que nós obtivemos usando a fórmula do logaritmo
+é 10.0%.
+
+35
+
+00:02:40,709  -->  00:02:46,659
+Retornos simples e retornos logarítmicos nos fornecem resultados
+ligeiramente diferentes, por isso é importante ser
+
+36
+
+00:02:46,659  -->  00:02:50,640
+consistente com a maneira como calculamos os retornos.
+
+37
+
+00:02:50,640  -->  00:02:56,750
+Se escolhermos calcular retornos simples,
+temos que fazê-lo para todos os novos cálculos
+
+38
+
+00:02:56,750  -->  00:02:57,820
+que vão aparecer.
+
+39
+
+00:02:57,820  -->  00:03:03,620
+E se decidirmos calcular os retornos logarítmicos
+nós devemos usar somente esse método.
+
+40
+
+00:03:03,620  -->  00:03:05,310
+E qual deles devemos escolher?
+
+41
+
+00:03:05,310  -->  00:03:11,659
+Bem, não existe uma regra geral; no entanto,
+a maioria dos econometristas acreditam que o retorno simples
+
+42
+
+00:03:11,659  -->  00:03:17,549
+são preferíveis quando você tem de lidar com
+vários ativos no mesmo período de tempo, e
+
+43
+
+00:03:17,549  -->  00:03:23,420
+retorno logarítmico é preferível quando você faz cálculos
+sobre um único ativo ao longo do tempo.
+
+44
+
+00:03:23,420  -->  00:03:26,829
+Tem uma observação importante que precisamos
+fazer aqui.
+
+45
+
+00:03:26,829  -->  00:03:32,319
+Nós devemos sempre lembrar o período para
+o qual calculamos uma taxa de retorno.
+
+46
+
+00:03:32,319  -->  00:03:37,400
+No exemplo que vimos aqui, calculamos
+uma taxa de retorno anual, porque as ações da
+
+47
+
+00:03:37,400  -->  00:03:43,890
+Apple foram mantidas de 1 de janeiro a
+31 de dezembro - ou seja, um ano inteiro.
+
+48
+
+00:03:43,890  -->  00:03:49,140
+Nós podemos usar a fórmula para calcular taxas
+de retorno para períodos diferentes de um ano.
+
+49
+
+00:03:49,140  -->  00:03:55,459
+Mas devemos ter cuidado, pois os investimentos com
+diferentes períodos não devem ser comparados.
+
+50
+
+00:03:55,459  -->  00:04:00,639
+Nós devemos sempre lembrar o prazo das
+taxas de retorno com que estamos trabalhando.
+
+51
+
+00:04:00,639  -->  00:04:06,900
+Normalmente, investidores usam retornos diários, mensais,
+trimestrais e anuais.
+
+52
+
+00:04:06,900  -->  00:04:10,299
+A expressão mais popular é o anual.
+
+53
+
+00:04:10,299  -->  00:04:16,109
+Além disso, podemos converter facilmente retornos
+diários, mensais e trimestrais em anuais.
+
+54
+
+00:04:16,109  -->  00:04:19,310
+Nós só precisamos usar a seguinte fórmula.
+
+55
+
+00:04:19,310  -->  00:04:25,670
+Aplicando-a, nós podemos ajustar facilmente para retornos
+diários, mensais e trimestrais.
+
+56
+
+00:04:25,670  -->  00:04:26,670
+Tudo certo.
+
+57
+
+00:04:26,670  -->  00:04:31,800
+Agora que sabemos calcular uma taxa de retorno de
+investimento e como converter as taxas de
+
+58
+
+00:04:31,800  -->  00:04:38,440
+retorno com períodos diferentes em
+taxas anuais de retorno, estamos quase prontos.
+
+59
+
+00:04:38,440  -->  00:04:44,510
+Nós só precisamos explicar a conexão entre
+as taxas de retorno históricas versus as taxas de retorno esperadas.
+
+60
+
+00:04:44,510  -->  00:04:48,850
+Todas as pessoas que trabalham com finanças estão interessadas
+em taxas de retorno futuras.
+
+61
+
+00:04:48,850  -->  00:04:55,260
+Dado que, até agora, cientistas e pesquisadores
+não descobriram uma maneira de prever o futuro,
+
+62
+
+00:04:55,260  -->  00:05:00,390
+nós precisamos descobrir uma maneira de ter uma ideia
+sobre as taxas de retorno futuras.
+
+63
+
+00:05:00,390  -->  00:05:07,040
+Nós não podemos prevê-las, mas podemos calcular uma
+aproximação razoável e chamá-la de
+
+64
+
+00:05:07,040  -->  00:05:08,560
+taxa de retorno.
+
+65
+
+00:05:08,560  -->  00:05:13,820
+A melhor ideia que podemos ter sobre uma
+taxa de retorno esperada de um ativo financeiro é seu
+
+66
+
+00:05:13,820  -->  00:05:15,080
+comportamento passado.
+
+67
+
+00:05:15,080  -->  00:05:21,070
+Nós observamos o desempenho histórico
+dos ativos, e essas informações podem nos
+
+68
+
+00:05:21,070  -->  00:05:24,380
+ajudar a criar expectativas sobre o futuro.
+
+69
+
+00:05:24,380  -->  00:05:30,130
+Na próxima aula, nós vamos calcular a taxa
+histórica de retorno de um ativo na prática.
+
+70
+
+00:05:30,130  -->  00:05:30,370
+Vejo você lá!

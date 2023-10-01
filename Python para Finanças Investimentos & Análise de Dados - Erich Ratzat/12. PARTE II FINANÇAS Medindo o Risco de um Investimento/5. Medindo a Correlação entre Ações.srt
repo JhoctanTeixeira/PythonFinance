@@ -1,0 +1,332 @@
+1
+
+00:00:00,160  -->  00:00:06,499
+A correlação ajusta a covariância, assim a relação
+entre as duas variáveis ​​torna-se fácil e
+
+2
+
+00:00:06,499  -->  00:00:07,499
+intuitiva de interpretar.
+
+3
+
+00:00:07,499  -->  00:00:08,499
+Nós precisamos calcular o denominador.
+
+4
+
+00:00:08,499  -->  00:00:09,499
+Nós só precisamos calcular o produto dos
+desvios-padrão de X e Y.
+
+5
+
+00:00:09,499  -->  00:00:10,499
+Matematicamente não é possível obter
+um valor de correlação maior do que 1 ou
+
+6
+
+00:00:10,499  -->  00:00:11,499
+menor do que -1.
+
+7
+
+00:00:11,499  -->  00:00:12,499
+Agora, pensa na correlação.
+
+8
+
+00:00:12,499  -->  00:00:15,059
+Uma correlação de 1 também conhecida como correlação
+positiva perfeita, significa que toda a variabilidade
+
+9
+
+00:00:15,059  -->  00:00:19,770
+da segunda variável é explicada pela primeira variável.
+
+10
+
+00:00:19,770  -->  00:00:25,750
+No nosso caso, isso significa que para cada metro quadrado
+adicional de tamanho, esperamos um aumento
+
+11
+
+00:00:25,750  -->  00:00:29,980
+de US$ 1.000 no preço da casa.
+
+12
+
+00:00:29,980  -->  00:00:36,540
+Cinco metros quadrados adicionais levarão a um
+aumento de preço de US$ 5.000,00, dez metros quadrados adicionais
+
+13
+
+00:00:36,540  -->  00:00:41,180
+a uma aumento de US$ 10.000,00 e assim por diante.
+
+14
+
+00:00:41,180  -->  00:00:48,110
+As observações em nosso gráfico irá formar uma linha
+estreita pois a correlação entre tamanho e preço
+
+15
+
+00:00:48,110  -->  00:00:50,030
+deve ser perfeita.
+
+16
+
+00:00:50,030  -->  00:00:55,750
+Isso significaria que o tamanho é a única variável que
+determina o preço da casa e podemos facilmente
+
+17
+
+00:00:55,750  -->  00:00:59,640
+calcular o preço da casa se soubermos seu tamanho.
+
+18
+
+00:00:59,640  -->  00:01:05,130
+A correlação é considerada positiva porque
+quando adicionamos mais 1 metro quadrado o
+
+19
+
+00:01:05,130  -->  00:01:09,570
+preço sobe mais mil dólares.
+
+20
+
+00:01:09,570  -->  00:01:12,220
+Ele se move na mesma direção.
+
+21
+
+00:01:12,220  -->  00:01:13,440
+Ok.
+
+22
+
+00:01:13,440  -->  00:01:21,090
+É fácil entender que, em situações da vida real,
+raramente podemos ver uma correlação perfeita.
+
+23
+
+00:01:21,090  -->  00:01:27,170
+É muito mais provável observar uma correlação imperfeita
+como a que vimos anteriormente.
+
+24
+
+00:01:27,170  -->  00:01:28,330
+Beleza.
+
+25
+
+00:01:28,330  -->  00:01:33,690
+O tamanho é uma das variáveis ​​mais importantes
+que determinam os preços das casas, mas
+
+26
+
+00:01:33,690  -->  00:01:35,270
+não é o único.
+
+27
+
+00:01:35,270  -->  00:01:41,540
+Outros fatores como localização e ano de
+construção são muito importantes para os compradores,
+
+28
+
+00:01:41,540  -->  00:01:47,380
+então não podemos esperar que uma casa seja
+puramente valorizada com base em seu tamanho.
+
+29
+
+00:01:47,380  -->  00:01:50,410
+E é assim que funciona com a maioria das coisas.
+
+30
+
+00:01:50,410  -->  00:01:52,630
+Até mesmo ações de empresas.
+
+31
+
+00:01:52,630  -->  00:01:56,730
+Existem inúmeras variáveis ​​que determinam os
+preços das ações.
+
+32
+
+00:01:56,730  -->  00:02:03,170
+Crescimento da indústria, crescimento de receita, rentabilidade,
+ambiente regulador, perspectivas de crescimento e outras
+
+33
+
+00:02:03,170  -->  00:02:05,420
+dezenas de variáveis.
+
+34
+
+00:02:05,420  -->  00:02:10,350
+Quanto mais semelhante for o contexto em que duas
+empresas operam, mais correlação haverá entre os
+
+35
+
+00:02:10,350  -->  00:02:16,160
+preços de suas ações, pois elas
+serão influenciadas pelos mesmos fatores
+
+36
+
+00:02:16,160  -->  00:02:17,190
+ou por fatores semelhantes.
+
+37
+
+00:02:17,190  -->  00:02:18,830
+Faz sentido, não é?
+
+38
+
+00:02:18,830  -->  00:02:25,870
+Uma correlação de zero entre duas variáveis ​​significa
+que elas são independentes uma da outra.
+
+39
+
+00:02:25,870  -->  00:02:31,950
+Esperaríamos uma correlação de zero entre
+o preço do café no Brasil e o preço das
+
+40
+
+00:02:31,950  -->  00:02:38,080
+casas em Londres, certo? As duas variáveis ​​
+não têm nada em comum.
+
+41
+
+00:02:38,080  -->  00:02:42,880
+E finalmente podemos ter um coeficiente de correlação
+negativo.
+
+42
+
+00:02:42,880  -->  00:02:49,920
+Pode ser uma correlação negativa perfeita de
+-1 ou muito mais provável uma correlação negativa imperfeita
+
+43
+
+00:02:49,920  -->  00:02:54,690
+de um valor entre -1 e 0.
+
+44
+
+00:02:54,690  -->  00:03:00,130
+Pense no seguinte negócio, uma empresa
+produtora de sorvete e uma empresa que
+
+45
+
+00:03:00,130  -->  00:03:01,770
+vende guarda-chuvas.
+
+46
+
+00:03:01,770  -->  00:03:07,900
+Sorvete geralmente é mais vendido quando o tempo está
+muito bom e por outro lado as pessoas compram guarda-chuvas quando
+
+47
+
+00:03:07,900  -->  00:03:08,900
+está chovendo.
+
+48
+
+00:03:08,900  -->  00:03:13,660
+Obviamente, existe uma correlação negativa
+entre os dois, então, quando uma das empresas
+
+49
+
+00:03:13,660  -->  00:03:16,850
+ganha mais dinheiro, a outra geralmente não ganha.
+
+50
+
+00:03:16,850  -->  00:03:22,080
+Este é um exemplo de uma situação em que
+os preços de duas empresas são influenciados pela mesma
+
+51
+
+00:03:22,080  -->  00:03:28,110
+variável, mas a variável impacta seus negócios
+de uma maneira diferente.
+
+52
+
+00:03:28,110  -->  00:03:29,130
+Ok.
+
+53
+
+00:03:29,130  -->  00:03:30,340
+Muito bom.
+
+54
+
+00:03:30,340  -->  00:03:35,160
+É assim que podemos calcular o coeficiente de correlação
+manualmente.
+
+55
+
+00:03:35,160  -->  00:03:38,640
+A verdade é que ninguém faz isso hoje em dia.
+
+56
+
+00:03:38,640  -->  00:03:41,310
+As pessoas usam diferentes ferramentas para fazer esse cálculo
+automaticamente.
+
+57
+
+00:03:41,310  -->  00:03:46,510
+Na próxima lição, aprenderemos como calcular
+a covariância e a correlação entre os
+
+58
+
+00:03:46,510  -->  00:03:51,900
+preços das duas empresas a Procter & Gamble e a
+Beiersdorf.
+
+59
+
+00:03:51,900  -->  00:03:56,910
+Vai ser muito mais fácil e significativamente
+mais rápido, já que usaremos o Python.
+
+60
+
+00:03:56,910  -->  00:03:57,629
+Obrigado por assistir!

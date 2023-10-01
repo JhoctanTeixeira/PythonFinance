@@ -1,0 +1,8 @@
+APIS de Dados Financeiros OnlineÇ
+
+Iex,
+Moringstar,
+Alpha Vantage,
+Quandl,
+
+Yaho Finance

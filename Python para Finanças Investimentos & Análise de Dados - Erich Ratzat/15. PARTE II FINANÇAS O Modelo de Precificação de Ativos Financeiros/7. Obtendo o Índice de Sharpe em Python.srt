@@ -1,0 +1,55 @@
+1
+00:00:01,140 --> 00:00:05,230
+A nossa próxima tarefa será calcular o índice de Sharpe impacto.
+
+2
+00:00:05,690 --> 00:00:12,140
+Vamos simplesmente continuar a nossa análise da ação da Procter Gamble relativa às pesquisas que representará
+
+3
+00:00:12,140 --> 00:00:15,100
+todo o mercado para variável Sharpe.
+
+4
+00:00:15,140 --> 00:00:22,930
+Devemos atribuir uma expressão que reflete a fórmula desses no numerador só temos que subtrair a taxa
+
+5
+00:00:22,930 --> 00:00:31,400
+livre de risco da taxa esperado de retorno da ação já calculamos o retorno esperado no arquivo do notebook.
+
+6
+00:00:31,400 --> 00:00:38,170
+Aqui podemos usar a variável Peggy Anders diretamente para a taxa livre de risco.
+
+7
+00:00:38,180 --> 00:00:44,580
+Concordamos em usar o título de 10 anos do governo americano certo que é igual a 2,5 por cento.
+
+8
+00:00:44,750 --> 00:00:45,080
+ótimo.
+
+9
+00:00:45,620 --> 00:00:53,340
+Entretanto o denominador é igual ao desvio padrão anualizado da ação mais uma vez usaremos o método
+
+10
+00:00:53,490 --> 00:01:00,860
+STN para obter a volatilidade e vamos analisar esse número multiplicado pela raiz quadrada de 250.
+
+11
+00:01:01,080 --> 00:01:04,850
+Aperte Shift para exibir o valor da variável Sharpe.
+
+12
+00:01:04,880 --> 00:01:10,510
+E aqui vamos nós 0 ponto 21 55.
+
+13
+00:01:10,510 --> 00:01:15,920
+Podemos usar esse índice quando quisermos comparar diferentes ações e portfólio de ações.
+
+14
+00:01:16,000 --> 00:01:21,520
+Agora você já pode adicionar essa outra ferramenta ao seu arsenal obrigado para assistir.

@@ -1,0 +1,74 @@
+1
+
+00:00:01,020  -->  00:00:03,150
+Olá e bem vindo de volta!
+
+2
+
+00:00:03,150  -->  00:00:08,010
+Nessa aula, vamos aprender sobre módulos
+e pacotes.
+
+3
+
+00:00:08,010  -->  00:00:14,680
+Um módulo é um código pré-escrito contendo definições
+de variáveis, funções e classes.
+
+4
+
+00:00:14,680  -->  00:00:21,270
+Seu charme está no fato de poder ser carregado
+em todos os novos programas, dessa forma não precisamos reescrever
+
+5
+
+00:00:21,270  -->  00:00:25,080
+o código manualmente sempre que iniciarmos
+um novo programa.
+
+6
+
+00:00:25,920  -->  00:00:31,620
+Um pacote é uma coleção, ou diretório
+de módulos relacionados do Python.
+
+7
+
+00:00:31,620  -->  00:00:38,260
+Tecnicamente, você poderia criar seus próprios módulos
+e pacotes, mas as coisas são mais fáceis do que isso.
+
+8
+
+00:00:38,260  -->  00:00:43,320
+As pessoas na comunidade de programação desenvolveram um
+conjunto crescente de pacotes que estão prontamente
+
+9
+
+00:00:43,320  -->  00:00:50,110
+disponíveis para download e foram adaptados para vários
+tipos de profissões e especializações.
+
+10
+
+00:00:50,460  -->  00:00:56,100
+Às vezes, as pessoas usam o termo biblioteca ao
+se referir a um pacote, então, por favor, saiba que
+
+11
+
+00:00:56,100  -->  00:00:59,010
+os dois podem ser usados ​​de maneira intercambiável.
+
+12
+
+00:00:59,010  -->  00:01:04,400
+Na próxima aula, aprenderemos como podemos
+trabalhar com módulos e as ferramentas das bibliotecas.
+
+13
+
+00:01:04,400  -->  00:01:05,369
+Obrigado por assistir!

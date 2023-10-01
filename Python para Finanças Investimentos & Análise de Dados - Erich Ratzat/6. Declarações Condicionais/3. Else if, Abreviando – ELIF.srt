@@ -1,0 +1,447 @@
+1
+
+00:00:00,000  -->  00:00:00,033
+Edited at https://subtitletools.com
+
+2
+
+00:00:01,410  -->  00:00:05,629
+Nesta lição, vamos aprender uma maneira elegante,
+de adicionar uma segunda declaração if a uma de
+
+3
+
+00:00:05,629  -->  00:00:07,470
+nossas expressões.
+
+4
+
+00:00:07,470  -->  00:00:12,179
+Isso é feito com a ajuda da palavra reservada elif,
+conforme mostrado neste exemplo.
+
+5
+
+00:00:12,179  -->  00:00:18,890
+Se y não for maior que 5, o computador
+pensará: "mas se y for menos de 5" escrito
+
+6
+
+00:00:18,890  -->  00:00:23,730
+"elif y é menor que 5", então irá imprimir
+"Less".
+
+7
+
+00:00:23,730  -->  00:00:30,179
+E o comando else segue a lógica com
+o respectivo bloco que diz "Retorne "Equal".
+
+8
+
+00:00:30,179  -->  00:00:34,040
+Vamos confirmar que escrevemos o código corretamente.
+
+9
+
+00:00:34,040  -->  00:00:38,270
+Podemos imprimir a função compare com 5
+com um valor de y igual a 10 da
+
+10
+
+00:00:38,270  -->  00:00:46,309
+seguinte maneira... Então, esperamos
+ver uma declaração que diz maior porque
+
+11
+
+00:00:46,309  -->  00:00:48,890
+10 é maior que 5.
+
+12
+
+00:00:48,890  -->  00:00:50,530
+Correto?
+
+13
+
+00:00:50,530  -->  00:00:52,170
+Ok.
+
+14
+
+00:00:52,170  -->  00:00:53,809
+Perfeito.
+
+15
+
+00:00:53,809  -->  00:01:00,680
+E se fizermos a mesma coisa para o
+número dois?
+
+16
+
+00:01:00,680  -->  00:01:03,870
+O computador nos diz que 2 é menor que 5.
+
+17
+
+00:01:03,870  -->  00:01:06,290
+E é isso que esperávamos obter.
+
+18
+
+00:01:06,290  -->  00:01:11,510
+Para o terceiro resultado, devemos comparar
+o número 5 com um número que não é maior
+
+19
+
+00:01:11,510  -->  00:01:13,830
+ou menor que 5.
+
+20
+
+00:01:13,830  -->  00:01:18,410
+Isso só acontecerá se o argumento da
+função for 5, certo?
+
+21
+
+00:01:18,410  -->  00:01:21,000
+Vamos tentar este?
+
+22
+
+00:01:21,000  -->  00:01:22,680
+Ótimo!
+
+23
+
+00:01:22,680  -->  00:01:25,500
+Nós obtivemos "igual", como era esperado.
+
+24
+
+00:01:25,500  -->  00:01:30,690
+Saiba que você pode adicionar quantas instruções elif
+que precisar.
+
+25
+
+00:01:30,690  -->  00:01:32,860
+Vamos dar um exemplo.
+
+26
+
+00:01:32,860  -->  00:01:39,080
+Se y for menor que zero, a string “Negative”
+deve ser exibida.
+
+27
+
+00:01:39,080  -->  00:01:48,410
+Eu colocarei o bloco entre o if e
+a outra instrução elif.
+
+28
+
+00:01:48,410  -->  00:01:57,420
+Vamos ver o que acontece.
+
+29
+
+00:01:57,420  -->  00:02:02,610
+A função com um argumento de menos 3 mostra
+“negative”, assim como esperávamos.
+
+30
+
+00:02:02,610  -->  00:02:07,270
+Deixa eu me certificar se o nosso pequeno programa
+funcionará corretamente se eu pedir para comparar
+
+31
+
+00:02:07,270  -->  00:02:12,640
+a 5 um valor que fica no intervalo
+entre 0 e 5, digamos 3.
+
+32
+
+00:02:12,640  -->  00:02:17,140
+Sim, vemos “Less”, então está tudo bem.
+
+33
+
+00:02:17,140  -->  00:02:22,920
+Um detalhe muito importante que você deve tentar
+lembrar é que o computador sempre lê seus
+
+34
+
+00:02:22,920  -->  00:02:25,570
+comandos de cima para baixo.
+
+35
+
+00:02:25,570  -->  00:02:30,840
+Independentemente da velocidade em que ele funciona
+Ele executa apenas um comando por vez.
+
+36
+
+00:02:30,840  -->  00:02:35,450
+Cientificamente falando, as instruções
+que damos ao computador fazem parte de um fluxo
+
+37
+
+00:02:35,450  -->  00:02:36,670
+de controle.
+
+38
+
+00:02:36,670  -->  00:02:41,110
+Isso é algo como o fluxo do pensamento
+lógico do computador, a maneira como o computador
+
+39
+
+00:02:41,110  -->  00:02:45,430
+pensa - passo a passo, executando as etapas
+em uma ordem rígida.
+
+40
+
+00:02:45,430  -->  00:02:50,740
+Quando ele trabalha com uma declaração condicional,
+a tarefa do computador será executar um
+
+41
+
+00:02:50,740  -->  00:02:54,820
+comando específico uma vez que uma certa condição
+tenha sido satisfeita
+
+42
+
+00:02:54,820  -->  00:02:59,370
+Irá ler seus comandos da declaração if
+na parte superior, passando pelas instruções elif
+
+43
+
+00:02:59,370  -->  00:03:04,550
+no meio até a instrução else no
+final.
+
+44
+
+00:03:04,550  -->  00:03:09,750
+Assim que o computador encontra uma condição que seja
+satisfeita, ele irá imprimir o resultado
+
+45
+
+00:03:09,750  -->  00:03:16,220
+e não executará nenhuma outra parte do código
+a partir desta condição.
+
+46
+
+00:03:16,220  -->  00:03:20,960
+No nosso exemplo, se a primeira instrução estiver
+correta, nós veremos como resultado o
+
+47
+
+00:03:20,960  -->  00:03:25,140
+número 1 que está imprimindo a string  "Greater”.
+
+48
+
+00:03:25,140  -->  00:03:29,660
+O computador irá desconsiderar o comando elif e o
+comando else, e irá proceder com o
+
+49
+
+00:03:29,660  -->  00:03:31,090
+resto do código.
+
+50
+
+00:03:31,090  -->  00:03:36,530
+Se a primeira afirmação não estiver correta,
+avançaremos e o computador verificará
+
+51
+
+00:03:36,530  -->  00:03:40,510
+se a segunda afirmação é verdadeira.
+
+52
+
+00:03:40,510  -->  00:03:48,120
+Caso positivo, veremos como resultado o número 2, que
+está imprimindo a string “Negative”.
+
+53
+
+00:03:48,120  -->  00:03:53,620
+Se não, chegaremos ao número 3
+e assim por diante até que o computador encontre um resultado
+
+54
+
+00:03:53,620  -->  00:03:56,370
+satisfatório para imprimir.
+
+55
+
+00:03:56,370  -->  00:04:02,890
+Agora vou mudar a ordem das duas declarações
+elif para provar que a ordem das instruções é
+
+56
+
+00:04:02,890  -->  00:04:08,430
+importante.
+
+57
+
+00:04:08,430  -->  00:04:13,980
+Ok?
+
+58
+
+00:04:13,980  -->  00:04:19,040
+deixe-me imprimir “compare to five” de menos
+3.
+
+59
+
+00:04:19,040  -->  00:04:21,720
+Ha!
+
+60
+
+00:04:21,720  -->  00:04:24,820
+Em vez de “Negative” nós obtivemos “Less”.
+
+61
+
+00:04:24,820  -->  00:04:29,820
+É assim que o computador raciocina: assuma que y
+é igual a -3.
+
+62
+
+00:04:29,820  -->  00:04:33,100
+Imprima “Greater” se y for maior que
+5.
+
+63
+
+00:04:33,100  -->  00:04:34,630
+É maior que 5?
+
+64
+
+00:04:34,630  -->  00:04:40,270
+Não, então o computador continua e verifica se
+há outras instruções em nosso código.
+
+65
+
+00:04:40,270  -->  00:04:43,060
+Dado que temos outras instruções, ele avança.
+
+66
+
+00:04:43,060  -->  00:04:45,530
+Então, y é menor do que 5?
+
+67
+
+00:04:45,530  -->  00:04:47,620
+Sim, é.
+
+68
+
+00:04:47,620  -->  00:04:51,310
+Neste momento o computador pensa "Ótimo,
+eu achei o resultado"!
+
+69
+
+00:04:51,310  -->  00:04:57,260
+Meu número é menor que 5. Eu satisfiz o que meu
+programador me pediu para fazer. Então eu imprimo “Less”
+
+70
+
+00:04:57,260  -->  00:04:58,960
+e pronto!
+
+71
+
+00:04:58,960  -->  00:05:03,940
+E o computador pára por aí e não executa
+uma única letra do código que segue
+
+72
+
+00:05:03,940  -->  00:05:05,380
+neste bloco.
+
+73
+
+00:05:05,380  -->  00:05:10,650
+O fato de você examinar os casos em que
+y é menor que zero ou igual a 5
+
+74
+
+00:05:10,650  -->  00:05:12,320
+não tem aplicação.
+
+75
+
+00:05:12,320  -->  00:05:14,060
+Eles se tornam inúteis.
+
+76
+
+00:05:14,060  -->  00:05:18,550
+Se você pedir um resultado de -3
+ou 3, você ainda terá que ficar satisfeito
+
+77
+
+00:05:18,550  -->  00:05:22,900
+com o resultado “Less”.
+
+78
+
+00:05:22,900  -->  00:05:25,530
+Você achou isso interessante, não achou?
+
+79
+
+00:05:25,530  -->  00:05:30,300
+Fique focado para a próxima aula, quando nós
+iremos compartilhar algo mais sobre lógica
+
+80
+
+00:05:30,300  -->  00:05:31,300
+computacional.
+
+81
+
+00:05:31,300  -->  00:05:32,479
+Obrigado por assistir!

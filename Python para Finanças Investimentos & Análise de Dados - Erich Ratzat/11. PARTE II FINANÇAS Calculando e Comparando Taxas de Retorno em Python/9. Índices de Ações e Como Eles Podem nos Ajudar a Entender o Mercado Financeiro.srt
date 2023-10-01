@@ -1,0 +1,263 @@
+1
+
+00:00:00,280  -->  00:00:05,950
+Um índice de ações nos dá a ideia de como
+um determinado mercado de ações está desempenhando.
+
+2
+
+00:00:05,950  -->  00:00:11,709
+Ele representa uma amostra grande o suficiente do
+número total de ações naquele mercado e
+
+3
+
+00:00:11,709  -->  00:00:17,180
+pode ser considerado uma boa aproximação do
+desenvolvimento geral do mercado.
+
+4
+
+00:00:17,180  -->  00:00:23,130
+Seria muito difícil medir o desenvolvimento
+de todos os títulos negociados em uma bolsa de valores.
+
+5
+
+00:00:23,130  -->  00:00:27,050
+Alguns títulos são pequenos, e suas ações
+não são negociadas diariamente.
+
+6
+
+00:00:27,050  -->  00:00:34,410
+É por isso que os profissionais usam índices de ações
+para fornecer uma ideia do desempenho geral de um dado mercado.
+
+7
+
+00:00:34,410  -->  00:00:41,640
+Os três índices mais famoso nos EUA são
+o S&P 500, o Dow Jones Industrial Average
+
+8
+
+00:00:41,640  -->  00:00:43,730
+e a NASDAQ.
+
+9
+
+00:00:43,730  -->  00:00:48,719
+O S&P 500 compreende 500 das maiores empresas
+listadas em bolsa.
+
+10
+
+00:00:48,719  -->  00:00:55,559
+O universo do S&P 500 faz com que ele seja
+uma aproximação bem real do mercado de ações dos EUA.
+
+11
+
+00:00:55,559  -->  00:01:02,620
+É um índice ponderado de capitalização de mercado, dessa forma
+as empresas
+são ponderadas de acordo com seu valor de mercado.
+
+12
+
+00:01:02,620  -->  00:01:10,451
+Se o valor de mercado da P&G for 3 vezes o valor de
+mercado da Nike, então uma alteração de 1% no preço das ações da
+
+13
+
+00:01:10,451  -->  00:01:16,420
+P&G terá três vezes o impacto de
+uma alteração de 1% no preço da Nike.
+
+14
+
+00:01:16,420  -->  00:01:22,729
+O índice Dow Jones industrial utiliza
+uma média das 30 maiores ações de capital aberto negociadas
+
+15
+
+00:01:22,729  -->  00:01:24,390
+no mercado dos EUA.
+
+16
+
+00:01:24,390  -->  00:01:29,860
+O Dow Jones Industrial é um dos
+índices
+mais antigos calculados historicamente.
+
+17
+
+00:01:29,860  -->  00:01:36,149
+No entanto, não pode ser usado como uma representação
+do mercado de ações dos EUA, porque ele inclui
+
+18
+
+00:01:36,149  -->  00:01:43,280
+apenas 30 ações igualmente ponderadas - todas
+as ações são consideradas da mesma forma, desconsiderando
+
+19
+
+00:01:43,280  -->  00:01:44,960
+seu tamanho.
+
+20
+
+00:01:44,960  -->  00:01:50,729
+O outro índice importante dos EUA que vamos ver
+é o índice NASDAQ.
+
+21
+
+00:01:50,729  -->  00:01:56,729
+É um índice que agrupa algumas ações que
+estão listadas na bolsa de valores da NASDAQ.
+
+22
+
+00:01:56,729  -->  00:02:02,219
+A maioria das empresas listadas lá são empresas
+de tecnologia de informação, e a NASDAQ nos mostra
+
+23
+
+00:02:02,219  -->  00:02:04,799
+a taxa de retorno das ações do setor de tecnologia.
+
+24
+
+00:02:04,799  -->  00:02:05,920
+Beleza.
+
+25
+
+00:02:05,920  -->  00:02:07,460
+Ótimo!
+
+26
+
+00:02:07,460  -->  00:02:10,159
+Esses são os três índices mais importantes dos EUA.
+
+27
+
+00:02:10,159  -->  00:02:15,840
+Vamos agora olhar alguns índices estrangeiros conhecidos
+pelos investidores profissionais.
+
+28
+
+00:02:15,840  -->  00:02:23,590
+Exemplo de tais índices são o FTSE 100
+do Reino Unido, o DAX da Alemanha, o Nikkei 225
+
+29
+
+00:02:23,590  -->  00:02:29,430
+do Japão, e o SSE Composite Index
+da China.
+
+30
+
+00:02:29,430  -->  00:02:34,489
+Existem alguns índices de ações globais também
+- Morgan Stanley Capital
+
+31
+
+00:02:34,489  -->  00:02:37,590
+International (MSCI).
+
+32
+
+00:02:37,590  -->  00:02:42,060
+Esse índice inclui ações de todos os mercados
+em desenvolvimento no mundo.
+
+33
+
+00:02:42,060  -->  00:02:43,060
+Ok.
+
+34
+
+00:02:43,060  -->  00:02:44,060
+Muito bom.
+
+35
+
+00:02:44,060  -->  00:02:49,550
+Então, por que é importante saber o que são índices
+de ações e como eles estão performando em
+
+36
+
+00:02:49,550  -->  00:02:51,319
+um determinado momento?
+
+37
+
+00:02:51,319  -->  00:02:56,040
+Se você quer saber se uma das
+ações que você possui está desempenhando bem, um
+
+38
+
+00:02:56,040  -->  00:03:00,280
+dos melhores jeitos de comparar é usando um índice
+de ações.
+
+39
+
+00:03:00,280  -->  00:03:04,730
+Compare as ações com o desempenho geral
+do mercado.
+
+40
+
+00:03:04,730  -->  00:03:10,120
+Além disso, o índice de ações dá uma ideia
+do tipo de retorno que você pode esperar se
+
+41
+
+00:03:10,120  -->  00:03:14,040
+investir em uma carteira bem diversificada em
+um determinado mercado.
+
+42
+
+00:03:14,040  -->  00:03:19,379
+Vamos ver como podemos calcular os retornos
+históricos de alguns índices de ações que mencionamos
+
+43
+
+00:03:19,379  -->  00:03:20,750
+nesta aula.
+
+44
+
+00:03:20,750  -->  00:03:26,650
+Vai ser interessante observar como foi o desempenho
+das taxas de retorno da S&P 500, da NASDAQ,
+
+45
+
+00:03:26,650  -->  00:03:28,599
+e de alguns índices estrangeiros.
+
+46
+
+00:03:28,599  -->  00:03:30,240
+Nós vamos fazer isso na nossa próxima aula!

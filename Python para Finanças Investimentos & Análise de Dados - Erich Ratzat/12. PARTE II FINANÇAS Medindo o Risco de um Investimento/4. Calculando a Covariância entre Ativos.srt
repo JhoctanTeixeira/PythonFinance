@@ -1,0 +1,298 @@
+1
+
+00:00:00,229  -->  00:00:01,290
+Ok, ok.
+
+2
+
+00:00:01,290  -->  00:00:02,290
+Ótimo!
+
+3
+
+00:00:02,290  -->  00:00:07,240
+Agora que sabemos que é razoável esperar
+que haja uma relação entre os retornos das ações
+
+4
+
+00:00:07,240  -->  00:00:11,639
+nós precisamos aprender como quantificar
+essa relação.
+
+5
+
+00:00:11,639  -->  00:00:18,349
+Vamos pensar em um exemplo que
+seja fácil de entender e nos ajude a compreender
+
+6
+
+00:00:18,349  -->  00:00:23,509
+a natureza do relacionamento entre duas
+variáveis um pouco melhor.
+
+7
+
+00:00:23,509  -->  00:00:27,109
+Qual é um dos principais fatores que determinam
+os preços do mercado imobiliário?
+
+8
+
+00:00:27,109  -->  00:00:29,289
+O tamanho dos imóveis, certo?
+
+9
+
+00:00:29,289  -->  00:00:35,070
+Tipicamente, casas maiores são mais caras,
+pois as pessoas gostam de ter espaço extra.
+
+10
+
+00:00:35,070  -->  00:00:39,670
+A tabela que você vê aqui nos mostra dados sobre
+várias casas.
+
+11
+
+00:00:39,670  -->  00:00:45,410
+Do lado esquerdo, nós podemos ver o tamanho de cada
+casa, e do lado direito, nós temos o preço
+
+12
+
+00:00:45,410  -->  00:00:48,859
+pelo qual ela está listada em um jornal local.
+
+13
+
+00:00:48,859  -->  00:00:53,170
+Podemos ordenar esses pontos de dados em uma plotagem X-Y.
+
+14
+
+00:00:53,170  -->  00:00:59,429
+O eixo X nos mostrará o tamanho da casa, e o
+eixo Y nos dará a informação sobre
+
+15
+
+00:00:59,429  -->  00:01:00,609
+seu preço.
+
+16
+
+00:01:00,609  -->  00:01:03,680
+Acredito que voce tenha notado um padrão aí.
+
+17
+
+00:01:03,680  -->  00:01:07,620
+Existe uma relação entre essas variáveis.
+
+18
+
+00:01:07,620  -->  00:01:12,680
+Os estatísticos usam o termo correlação para
+medir tal relacionamento.
+
+19
+
+00:01:12,680  -->  00:01:19,370
+O resultado do cálculo da correlação está no
+intervalo de +1 a -1
+
+20
+
+00:01:19,370  -->  00:01:23,590
+Para entender melhor o conceito, gostaria
+de mostrar a fórmula que nos permite
+
+21
+
+00:01:23,590  -->  00:01:28,250
+calcular a correlação entre duas variáveis.
+
+22
+
+00:01:28,250  -->  00:01:29,250
+Aqui está.
+
+23
+
+00:01:29,250  -->  00:01:34,000
+Não se assuste, por favor.
+Vamos aplicá-la na prática pelo exemplo
+
+24
+
+00:01:34,000  -->  00:01:36,110
+que vimos anteriormente.
+
+25
+
+00:01:36,110  -->  00:01:41,010
+X será o tamanho da casa, e Y significa os preços
+da casa.
+
+26
+
+00:01:41,010  -->  00:01:46,820
+Portanto, precisamos calcular o tamanho médio de uma casa
+bem como seu preço médio.
+
+27
+
+00:01:46,820  -->  00:01:48,740
+Isso é simples, não é?
+
+28
+
+00:01:48,740  -->  00:01:55,260
+Eu só preciso somar os tamanhos de todas as casas
+e depois dividir pelo número total de casas
+
+29
+
+00:01:55,260  -->  00:01:57,210
+que temos.
+
+30
+
+00:01:57,210  -->  00:02:01,750
+Farei o mesmo para a variável "preço".
+
+31
+
+00:02:01,750  -->  00:02:03,010
+Ok.
+
+32
+
+00:02:03,010  -->  00:02:04,280
+Excelente.
+
+33
+
+00:02:04,280  -->  00:02:09,550
+Este é o tamanho médio de uma casa e seu preço médio
+de acordo com nosso exemplo.
+
+34
+
+00:02:09,550  -->  00:02:14,390
+Agora vamos calcular o numerador da
+função de covariância.
+
+35
+
+00:02:14,390  -->  00:02:20,030
+A partir da primeira casa, irei multiplicar
+a diferença entre seu tamanho e o tamanho médio de
+
+36
+
+00:02:20,030  -->  00:02:27,530
+uma casa pela diferença entre o preço da mesma casa
+e seu preço médio.
+
+37
+
+00:02:27,530  -->  00:02:31,760
+Agora temos que realizar esse cálculo para
+todas as casas que temos na tabela
+
+38
+
+00:02:31,760  -->  00:02:34,709
+e, em seguida, somar os números que obtivemos.
+
+39
+
+00:02:34,709  -->  00:02:41,082
+Aqui vou colocar o símbolo matemático de soma
+na frente dessa expressão.
+
+40
+
+00:02:41,082  -->  00:02:42,082
+Ótimo!
+
+41
+
+00:02:42,082  -->  00:02:43,082
+Isso nos dá o numerador.
+
+42
+
+00:02:43,082  -->  00:02:44,082
+Matematicamente, o numerador é exatamente
+a covariancia entre as duas variáveis,
+
+43
+
+00:02:44,082  -->  00:02:45,082
+X e Y.
+
+44
+
+00:02:45,082  -->  00:02:47,939
+Nos dá uma noção da direção em que
+as duas variáveis ​​estão se movendo.
+
+45
+
+00:02:47,939  -->  00:02:53,939
+Se elas se moverem na mesma direção, a covariância
+terá um sinal positivo; se elas se moverem em
+
+46
+
+00:02:53,939  -->  00:02:59,470
+direções opostas, a covariância terá um
+sinal negativo e, se seus movimentos forem
+
+47
+
+00:02:59,470  -->  00:03:07,260
+independentes, a covariância entre o tamanho
+da casa e seu preço será igual a zero.
+
+48
+
+00:03:07,260  -->  00:03:09,599
+Entretanto, há um problema com a covariância.
+
+49
+
+00:03:09,599  -->  00:03:18,609
+Embora possa ser um número como 5 ou 50, também
+pode ser algo como 0,0023456.
+
+50
+
+00:03:18,609  -->  00:03:20,639
+Valores totalmente diferentes!
+
+51
+
+00:03:20,639  -->  00:03:23,010
+Como se pode interpretar esses números?
+
+52
+
+00:03:23,010  -->  00:03:28,650
+Avance para a próxima aula para descobrir por que
+a correlação nos ajuda a resolver esse problema
+
+53
+
+00:03:28,650  -->  00:03:31,739
+e entender os dois conceitos um pouco melhor.
+
+54
+
+00:03:31,739  -->  00:03:32,559
+Obrigado por assistir!

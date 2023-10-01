@@ -1,0 +1,307 @@
+1
+
+00:00:01,160  -->  00:00:06,129
+Carregar dados no Python nem sempre é tão simples
+quanto se poderia presumir.
+
+2
+
+00:00:06,129  -->  00:00:11,099
+Não existe um único formato de arquivo
+no qual os dados possam ser armazenados.
+
+3
+
+00:00:11,099  -->  00:00:16,200
+Nessa aula vamos dar uma olhada geral
+nos formatos de arquivo de dados mais comuns e mostrar
+
+4
+
+00:00:16,200  -->  00:00:19,580
+como carregar e salvar dados neles.
+
+5
+
+00:00:19,580  -->  00:00:23,470
+Você viu como pode extrair dados da
+web com a ajuda do módulo Data-Reader do
+
+6
+
+00:00:23,470  -->  00:00:24,570
+Pandas.
+
+7
+
+00:00:24,570  -->  00:00:29,210
+Agora vamos ver como podemos importar dados com Quandl.
+
+8
+
+00:00:29,210  -->  00:00:33,280
+O Quandl está em constante crescimento e recebendo
+muitos elogios.
+
+9
+
+00:00:33,280  -->  00:00:36,730
+Você já deve estar apto a usar dados dessas fontes.
+
+10
+
+00:00:36,730  -->  00:00:41,670
+Nós instalamos o módulo Quandl através do comando pip em um
+dos nossos exercícios anteriores, lembra?
+
+11
+
+00:00:41,670  -->  00:00:48,760
+Portanto, se criarmos um objeto chamado "my data
+0 1", e atribuirmos a ele o dados “Fred/GDP”
+
+12
+
+00:00:48,760  -->  00:00:55,440
+do Quandl e aplicarmos o método
+"get", nossos dados estarão prontamente disponíveis.
+
+13
+
+00:00:55,440  -->  00:00:57,190
+Será que é só isso?
+
+14
+
+00:00:57,190  -->  00:01:00,090
+Vamos dar uma olhada.
+
+15
+
+00:01:00,090  -->  00:01:03,829
+Eu vou aplicar o método "tail".
+
+16
+
+00:01:03,829  -->  00:01:09,090
+E aqui está o resultado do comando - as últimas
+5 linhas.
+
+17
+
+00:01:09,090  -->  00:01:13,850
+E se eu quisesse ver as 10 primeiras linhas?
+
+18
+
+00:01:13,850  -->  00:01:18,490
+Olha só, temos dados estão disponíveis desde o começo
+de 1947!
+
+19
+
+00:01:18,490  -->  00:01:19,490
+Muito bom!
+
+20
+
+00:01:19,490  -->  00:01:29,330
+O formato de valor separado por vírgula, também conhecido
+como "csv", é bem popular hoje em dia.
+
+21
+
+00:01:29,330  -->  00:01:33,880
+Nós podemos salvar os dados do quandl que temos aqui em
+um arquivo "csv".
+
+22
+
+00:01:33,880  -->  00:01:42,960
+Depois de importarmos a biblioteca do Pandas, nós devemos
+aplicar o método "to underscore csv"
+
+23
+
+00:01:42,960  -->  00:01:49,130
+para a variável "my data 01" e entre parênteses; e entre
+aspas, indicar o diretório onde gostaríamos
+
+24
+
+00:01:49,130  -->  00:01:51,420
+de armazenar o arquivo.
+
+25
+
+00:01:51,420  -->  00:01:55,920
+Nós devemos terminar a expressão indicando um
+nome de arquivo e ponto "csv".
+
+26
+
+00:01:55,920  -->  00:02:00,270
+Preste atenção que ao especificar o diretório
+usamos as barras inclinadas.
+
+27
+
+00:02:00,270  -->  00:02:07,200
+Vamos verificar se deu certo verificando o que
+temos nessa pasta.
+
+28
+
+00:02:07,200  -->  00:02:11,090
+Os arquivos "Exemple 0 1 c.s.v." estão lá!
+
+29
+
+00:02:11,090  -->  00:02:12,730
+Muito bom!
+
+30
+
+00:02:12,730  -->  00:02:17,420
+É claro que, nós também podemos abrir um arquivo "csv".
+
+31
+
+00:02:17,420  -->  00:02:21,620
+O método que você usa aqui é "read underscore
+csv"
+
+32
+
+00:02:21,620  -->  00:02:26,790
+Nós devemos usar as mesmas regras indicando
+o diretório do arquivo.
+
+33
+
+00:02:26,790  -->  00:02:29,980
+Nossa variável é chamada "my data 0 2".
+
+34
+
+00:02:29,980  -->  00:02:39,170
+Vamos verificar as primeiras e últimas linhas.
+
+35
+
+00:02:39,170  -->  00:02:45,680
+Ótimo!
+
+36
+
+00:02:45,680  -->  00:02:48,790
+Tudo funciona!
+
+37
+
+00:02:48,790  -->  00:02:54,730
+Quando queremos salvar ou carregar um arquivo do Excel,
+nós temos que seguir exatamente os mesmos passos.
+
+38
+
+00:02:54,730  -->  00:02:57,350
+Ambos são métodos do Pandas.
+
+39
+
+00:02:57,350  -->  00:03:03,120
+Para salvar o Data-Frame em uma tabela
+do Excel, devemos aplicar o método "to
+
+40
+
+00:03:03,120  -->  00:03:04,590
+underscore excel".
+
+41
+
+00:03:04,590  -->  00:03:10,880
+Vamos chamar a planilha de "Example
+02" e colocar o formato "xlsx"
+
+42
+
+00:03:10,880  -->  00:03:12,950
+no final.
+
+43
+
+00:03:12,950  -->  00:03:22,960
+E quando abrirmos o diretório escolhido,
+devemos ver que tudo estará lá certinho.
+
+44
+
+00:03:22,960  -->  00:03:28,850
+E para abrir uma planilha do Excel, vamos criar
+"my data 0 3" e aplicar o método Pandas
+
+45
+
+00:03:28,850  -->  00:03:31,280
+"read underscore Excel".
+
+46
+
+00:03:31,280  -->  00:03:38,240
+Não se esqueça de indicar o formato de arquivo "xlsx".
+
+47
+
+00:03:38,240  -->  00:03:41,220
+Muito bom!
+
+48
+
+00:03:41,220  -->  00:03:47,860
+O resultado foi uma planilha Excel com 52 linhas!
+
+49
+
+00:03:47,860  -->  00:03:51,610
+Parabéns!
+
+50
+
+00:03:51,610  -->  00:03:57,040
+Você acabou de concluir uma parte do curso
+que introduziu tópicos mais avançados
+
+51
+
+00:03:57,040  -->  00:04:00,349
+que agora vai te permitir manipular dados facilmente.
+
+52
+
+00:04:00,349  -->  00:04:04,970
+Nossa próxima aula é muito importante - ela
+vai te levar ao processo de trabalhar
+
+53
+
+00:04:04,970  -->  00:04:10,459
+em um ambiente multidisciplinar, combinando
+conhecimento do mundo quantitativo e de
+
+54
+
+00:04:10,459  -->  00:04:11,930
+programação.
+
+55
+
+00:04:11,930  -->  00:04:16,930
+Logo em seguida, vamos mergulhar em tópicos
+relacionados a investimentos e finanças.
+
+56
+
+00:04:16,930  -->  00:04:17,960
+Obrigado por assistir!

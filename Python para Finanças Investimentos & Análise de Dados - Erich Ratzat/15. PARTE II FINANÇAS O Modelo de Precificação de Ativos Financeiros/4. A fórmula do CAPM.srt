@@ -1,0 +1,211 @@
+1
+00:00:00,300 --> 00:00:01,600
+Muito Bom Excelente.
+
+2
+00:00:01,620 --> 00:00:04,620
+Estamos progredindo nas últimas eleições.
+
+3
+00:00:04,620 --> 00:00:10,830
+Estávamos imaginando um mundo onde todos os investidores eram racionais avessos ao risco e dispostos
+
+4
+00:00:10,830 --> 00:00:17,890
+a otimizar suas carteiras de investimento introduzimos os conceitos de portfólio de mercado e do ativo
+
+5
+00:00:17,890 --> 00:00:25,820
+livre de risco e dissemos que os investidores tomam decisões com base no seu apetite pelo risco os que
+
+6
+00:00:25,820 --> 00:00:32,210
+procuram maiores retornos esperados irão alocar uma parte maior do seu dinheiro no portfólio do mercado
+
+7
+00:00:32,540 --> 00:00:35,090
+e menos no ativo livre de risco.
+
+8
+00:00:35,470 --> 00:00:41,390
+E finalmente introduzimos o conceito de Beta que mede a performance esperada de um ativo em relação
+
+9
+00:00:41,390 --> 00:00:42,440
+a todo o mercado.
+
+10
+00:00:42,900 --> 00:00:48,380
+Estamos prontos agora para completar o quebra cabeças e apresentar um modelo de precificação de ativos
+
+11
+00:00:48,380 --> 00:00:49,280
+financeiros.
+
+12
+00:00:49,370 --> 00:00:56,770
+O CAP vamos dar uma olhada nele o retorno esperado de um ativo é igual retorno do ativo livre de risco
+
+13
+00:00:56,950 --> 00:01:03,720
+mais o beta vez o retorno esperado no mercado menos o retorno do ativo livre de risco.
+
+14
+00:01:03,770 --> 00:01:12,210
+Vamos tentar dar uma interpretação essa forma ok então estamos basicamente dizendo que o retorno esperado
+
+15
+00:01:12,210 --> 00:01:15,150
+de um ativo deve ser igual ao seguinte.
+
+16
+00:01:15,150 --> 00:01:21,300
+Começamos com a taxa de retorno livre de risco que é a taxa mínima necessária que o investidor aceita
+
+17
+00:01:21,450 --> 00:01:23,980
+para comprar um ativo.
+
+18
+00:01:24,090 --> 00:01:28,340
+O investidor deve ser compensado pelo risco que ele está disposto a tomar certo.
+
+19
+00:01:28,580 --> 00:01:35,130
+é por isso que precisamos do prêmio do capital dado pelo retorno esperado do portfólio do mercado menos
+
+20
+00:01:35,130 --> 00:01:36,960
+a taxa de risco.
+
+21
+00:01:37,080 --> 00:01:41,560
+é razoável esperar um incentivo assim dado que todo ativo tem riscos.
+
+22
+00:01:41,820 --> 00:01:50,550
+Ok beleza muito bom mas quanto é que o prêmio de risco deveria ser para satisfazer o investidor.
+
+23
+00:01:50,550 --> 00:01:56,470
+Ele tem de estar relacionado com o montante do risco que ele está disposto a aceitar ou comprar o ativo.
+
+24
+00:01:56,490 --> 00:02:03,360
+Já dissemos que o beta mede a quantidade de risco inerente ao ativo no que se refere à carteira de mercado.
+
+25
+00:02:03,360 --> 00:02:04,530
+Você se lembra.
+
+26
+00:02:04,530 --> 00:02:07,540
+Esse é o modelo de precificação de ativos financeiros.
+
+27
+00:02:07,560 --> 00:02:13,620
+O CAP é um modelo muito elegante e fácil de entender que nos ajuda a criar expectativas em relação ao
+
+28
+00:02:13,620 --> 00:02:17,810
+retorno esperado dos ativos negociados no mercado.
+
+29
+00:02:17,820 --> 00:02:23,730
+Esse é o modelo mais difundido atualmente vamos eram um exemplo ilustrar como poderíamos medir o risco
+
+30
+00:02:23,890 --> 00:02:29,160
+o retorno esperado de um ativo vamos usar a própria Gamba como exemplo.
+
+31
+00:02:29,220 --> 00:02:36,300
+Primeiro temos de nos livrar de algumas das hipóteses utilizadas pelos autores o modelo é usar aproximações
+
+32
+00:02:36,300 --> 00:02:40,580
+da vida real de algumas dessas medidas na economia real.
+
+33
+00:02:40,590 --> 00:02:42,500
+Não existe ativo livre de risco.
+
+34
+00:02:42,510 --> 00:02:44,760
+Todo ativo contém algum risco.
+
+35
+00:02:44,760 --> 00:02:50,700
+De maneira geral o mercado considera que o instrumento financeiro mais próximo de ser livre de risco
+
+36
+00:02:50,880 --> 00:02:55,750
+que podemos ter é o rendimento dos títulos de 10 anos do governo americano.
+
+37
+00:02:55,910 --> 00:03:03,130
+E nesse exemplo com a Procter&amp;Gamble vamos usar o rendimento desses títulos dado que estamos calculando
+
+38
+00:03:03,130 --> 00:03:05,840
+o retorno esperado de uma empresa americana.
+
+39
+00:03:05,920 --> 00:03:11,270
+O rendimento desses títulos de 10 anos é de aproximadamente dois e meio por cento.
+
+40
+00:03:11,500 --> 00:03:15,210
+Portanto essa vai ser a nossa taxa de retorno livre de risco.
+
+41
+00:03:15,250 --> 00:03:16,360
+ótimo.
+
+42
+00:03:16,360 --> 00:03:20,140
+E quanto ao beta B você sabe como calcular o Beta.
+
+43
+00:03:20,140 --> 00:03:25,690
+Por favor lembre se que a melhor referência para o portfólio do mercado é o índice mais negociado no
+
+44
+00:03:25,690 --> 00:03:27,100
+país aquele ativo.
+
+45
+00:03:27,340 --> 00:03:32,100
+Em nosso exemplo usaremos o S&amp;P 500 pois estamos usando uma ação americana.
+
+46
+00:03:32,280 --> 00:03:39,700
+O beta da Procter Gamble é igual a zero pontos 62 pesquisas acadêmicas comprovaram que o prêmio de risco
+
+47
+00:03:39,700 --> 00:03:46,810
+do mercado para ações nos Estados Unidos tem sido entre 4 mil e 5 mil por cento e os praticantes geralmente
+
+48
+00:03:46,810 --> 00:03:51,250
+usam um desses valores ou simplesmente 5 por cento que é o ponto médio.
+
+49
+00:03:51,260 --> 00:03:58,730
+O que é agora podemos calcular o retorno esperado da Procter Gamble e em nossos cálculos estiverem corretos
+
+50
+00:03:59,040 --> 00:04:02,280
+deve dar aproximadamente 5,6 por cento.
+
+51
+00:04:02,940 --> 00:04:09,300
+Quando o investidor comparações a Procter Gamble ele espera ganhar 5,6 por cento para ser compensado
+
+52
+00:04:09,300 --> 00:04:14,200
+pelo risco que ele sai correndo agora você sabe como o CAP funciona.
+
+53
+00:04:14,230 --> 00:04:19,050
+Isso é fantástico porque essa é uma das ferramentas mais úteis no mundo das finanças.

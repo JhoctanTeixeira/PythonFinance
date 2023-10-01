@@ -1,0 +1,152 @@
+1
+
+00:00:01,030  -->  00:00:05,270
+O próximo conceito de programação em Python
+que veremos aqui é fundamental - que é
+
+2
+
+00:00:05,270  -->  00:00:07,230
+o chamado recuo ou indentação.
+
+3
+
+00:00:07,230  -->  00:00:11,870
+A maneira como você o aplica na prática é importante,
+pois essa será a única maneira de comunicar
+
+4
+
+00:00:11,870  -->  00:00:14,660
+suas ideias ao computador corretamente.
+
+5
+
+00:00:14,660  -->  00:00:15,660
+Olha só o que eu quero dizer.
+
+6
+
+00:00:15,660  -->  00:00:21,010
+Vamos definir uma função "five" que
+leve como um argumento um valor desconhecido x.
+
+7
+
+00:00:21,010  -->  00:00:27,010
+Vai ser bem simples - x irá reatribuir
+o valor de 5, e a função irá retornar
+
+8
+
+00:00:27,010  -->  00:00:30,060
+o valor de 5 para nós.
+
+9
+
+00:00:30,060  -->  00:00:35,720
+Preste atenção como estou usando um recuo.
+
+10
+
+00:00:35,720  -->  00:00:43,199
+Agora, podemos imprimir o resultado de 5 com
+um argumento de 3.
+
+11
+
+00:00:43,199  -->  00:00:44,980
+Nada aconteceu.
+
+12
+
+00:00:44,980  -->  00:00:46,200
+Por quê?
+
+13
+
+00:00:46,200  -->  00:00:52,129
+Porque imprimir a função "five" com argumento 3 está dentro de uma função,
+então essa linha será executada apenas quando a função
+
+14
+
+00:00:52,129  -->  00:00:53,519
+for aplicada.
+
+15
+
+00:00:53,519  -->  00:01:00,329
+Agora, se colocarmos para a função "print" para imprimir em uma nova linha,
+alinhada ao comando "def", o resultado será
+
+16
+
+00:01:00,329  -->  00:01:01,800
+diferente.
+
+17
+
+00:01:01,800  -->  00:01:03,239
+Por que isso?
+
+18
+
+00:01:03,239  -->  00:01:08,450
+O comando de imprimir é executado por si só,
+não como parte da função "five".
+
+19
+
+00:01:08,450  -->  00:01:13,990
+"def" e "print" formam duas coisas separadas e, escrevendo
+desta forma, claramente distinguimos blocos
+
+20
+
+00:01:13,990  -->  00:01:17,880
+de códigos ou blocos de comandos.
+
+21
+
+00:01:19,180  -->  00:01:22,200
+E faz sentido usar o recuo, não é?
+
+22
+
+00:01:22,210  -->  00:01:26,820
+Sempre que for escrever uma função você precisará
+começar com um recuo para a direita.
+
+23
+
+00:01:26,820  -->  00:01:31,430
+Sempre que decidir decidir programar alguma coisa, comece
+em um linha nova sem recuo.
+
+24
+
+00:01:31,430  -->  00:01:35,579
+Os blocos de códigos são mais visíveis, e isso
+esclarece a lógica que você está aplicando para resolver
+
+25
+
+00:01:35,579  -->  00:01:37,009
+seus problemas.
+
+26
+
+00:01:37,009  -->  00:01:40,039
+Trabalhar com funções é interessante, não é?
+
+27
+
+00:01:40,039  -->  00:01:42,950
+Continue assim! Eu prometo que voltaremos
+a falar disso em breve.
+
+28
+
+00:01:42,950  -->  00:01:44,020
+Obrigado por assistir!

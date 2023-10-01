@@ -1,0 +1,143 @@
+1
+00:00:00,940 --> 00:00:06,730
+Ok vamos explorar o Próximo indicador que precisamos para continuar nossa análise financeira.
+
+2
+00:00:06,730 --> 00:00:14,450
+O beta de uma ação esse indicador mostra até que ponto a mudança no preço de um ativo está relacionado
+
+3
+00:00:14,450 --> 00:00:21,850
+ao desempenho global do mercado o beta é uma fração o numerador é igual a covariância interação e o
+
+4
+00:00:21,850 --> 00:00:31,360
+mercado é o denominador e a variância do mercado o beta é usualmente medido com dados nos últimos anos.
+
+5
+00:00:31,360 --> 00:00:37,480
+Portanto nessa aula vamos baixar os dados para o período a partir de primeiro de janeiro de 2012 até
+
+6
+00:00:37,480 --> 00:00:45,840
+31 de dezembro de 2016 a Procter&amp;Gamble e a ação que estamos interessados queremos calcular seu beta
+
+7
+00:00:46,020 --> 00:00:55,670
+e nós vamos aproximar a evolução do mercado com o índice S&amp;P 500 ótimo o pai o Panda serão suficientes
+
+8
+00:00:55,700 --> 00:00:57,200
+para essa tarefa.
+
+9
+00:00:57,200 --> 00:01:04,310
+Basta importar o módulo data do PAndAS atribuído e por favor não se esqueça de colocar a data final
+
+10
+00:01:04,310 --> 00:01:06,840
+31 de dezembro de 2016.
+
+11
+00:01:06,920 --> 00:01:10,370
+Caso contrário obteremos um conjunto de dados maiores que o necessário
+
+12
+00:01:13,890 --> 00:01:21,790
+ok mas não estamos interessados aqui praticamente em dois valores o primeiro é a covariância entre a
+
+13
+00:01:21,830 --> 00:01:31,080
+Procter&amp;Gamble e o S&amp;P 500 e o segundo é a variância do S&amp;P 500 novamente precisaremos de retornos logarítmico
+
+14
+00:01:31,350 --> 00:01:37,530
+que podemos usar ou não pai para calcular nem armazenar os valores em uma variável que chamaremos.
+
+15
+00:01:37,530 --> 00:01:44,990
+Sei que o militares ou SEC da escola militares depois de fazermos isso podemos prosseguir criando uma
+
+16
+00:01:44,990 --> 00:01:51,060
+matriz de covariância entre a Procter&amp;Gamble e o mercado com a ajuda do método Cove.
+
+17
+00:01:51,620 --> 00:01:58,940
+Então o comando in Locke nos permite obter a covariância entre a ação e o mercado como um valor de Float
+
+18
+00:01:59,470 --> 00:02:00,590
+o que é o numerador.
+
+19
+00:02:00,590 --> 00:02:01,150
+Pronto.
+
+20
+00:02:01,910 --> 00:02:06,750
+O denominador agora é igual à variância do mercado.
+
+21
+00:02:06,800 --> 00:02:12,290
+No nosso caso isso significa que podemos usar uma nova variável chamada de market.
+
+22
+00:02:12,290 --> 00:02:21,130
+André Escórcio vai contendo a variância anualizada do S&amp;P 500 ótimo aparentemente estamos prontos para
+
+23
+00:02:21,130 --> 00:02:24,780
+calcular o beta para o beta da Procter Gamble.
+
+24
+00:02:25,080 --> 00:02:31,020
+Nós iremos atribuir o quociente da divisão da covariância obtido pela variância do mercado
+
+25
+00:02:34,680 --> 00:02:37,760
+este valor é maior que zero mas menor que 1.
+
+26
+00:02:37,850 --> 00:02:44,490
+Isso significa que a Procter&amp;Gamble é uma ação defensiva quando o mercado sobe o valor patrimonial da
+
+27
+00:02:44,490 --> 00:02:51,050
+própria GAME não vai disparar enquanto que em tempo de crise você normalmente perderá menos.
+
+28
+00:02:51,070 --> 00:02:57,120
+é um sinal de boa prática profissional verificar os seus cálculos desses indicadores populares são corretos
+
+29
+00:02:58,660 --> 00:03:05,760
+nós usamos os dados do Rufo apenas bem vamos dar uma olhada no Google fornece agora para verificar se
+
+30
+00:03:05,760 --> 00:03:14,490
+o valor obtido está coerente podemos permitir uma diferença de 2 a 3 por cento porque os dados os métodos
+
+31
+00:03:14,490 --> 00:03:17,880
+de estimativa podem diferir um pouco.
+
+32
+00:03:17,940 --> 00:03:23,760
+No entanto essa diferença não deve ser maior que isso 2 ou 3 por cento depois de abrir o site do Google
+
+33
+00:03:23,760 --> 00:03:29,050
+Finance pesquise por TG que é o símbolo da Procter Gamble.
+
+34
+00:03:29,090 --> 00:03:31,670
+Aqui está o coeficiente beta dela.
+
+35
+00:03:31,670 --> 00:03:35,940
+Isso valida o que fizemos na sala o valor que obtivemos parece correto.
+
+36
+00:03:36,410 --> 00:03:37,310
+Obrigado por achar.

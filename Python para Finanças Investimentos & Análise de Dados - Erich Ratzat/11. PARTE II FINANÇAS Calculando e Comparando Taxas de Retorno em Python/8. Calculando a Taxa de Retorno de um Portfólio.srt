@@ -1,0 +1,458 @@
+1
+
+00:00:01,079  -->  00:00:05,290
+Certo, muito bom!
+Agora que sabemos o que é uma carteira de ações
+
+2
+
+00:00:05,290  -->  00:00:11,450
+vamos aplicar o que aprendemos
+nas aulas anteriores em Python. Para fazer isso,
+
+3
+
+00:00:11,450  -->  00:00:16,600
+vamos trabalhar com uma carteira hipotética
+composta por ações da "Procter & Gamble",
+
+4
+
+00:00:16,600  -->  00:00:22,470
+"Microsoft", "Ford", e "General Eletric".
+Então, o código que você vê aqui começa
+
+5
+
+00:00:22,470  -->  00:00:28,650
+da seguinte maneira. No começo, nós usamos
+as primeiras células para carregar os dados do Yahoo
+
+6
+
+00:00:28,650  -->  00:00:33,210
+Finance. Isso é feito da mesma forma que
+mostramos a você algumas aulas atrás.
+
+7
+
+00:00:33,210  -->  00:00:40,120
+Uma vez que os dados estejam carregados, nós estamos prontos
+para dar uma primeira análise geral. O resultado nos mostra
+
+8
+
+00:00:40,120  -->  00:00:46,030
+que os dados são limpos, completos, e bem organizados,
+contendo a mesma quantidade de observações
+
+9
+
+00:00:46,030  -->  00:00:53,390
+para cada uma das quatro ações.
+Os valores iniciais e finais parecem razoáveis
+
+10
+
+00:00:53,390  -->  00:01:05,660
+também. Apenas para ter certeza, vamos dar
+uma olhada no site do Yahoo.
+
+11
+
+00:01:05,660  -->  00:01:15,770
+Ok. Como você pode ver, o último preço de fechamento
+da P&G corresponde ao valor que vemos aqui.
+
+12
+
+00:01:15,770  -->  00:01:23,290
+Muito bom!
+Nossa próxima tarefa vai ser criar um gráfico de linhas,
+
+13
+
+00:01:23,290  -->  00:01:27,620
+que vai nos permitir entender como esses
+títulos se comportaram durante todo o período
+
+14
+
+00:01:27,620  -->  00:01:36,440
+analisado. Essa fórmula nos ajuda
+a normalizar os dados para 100. O indexador
+
+15
+
+00:01:36,440  -->  00:01:42,180
+"i-loc" com zero entre colchetes vai extrair
+os dados da primeira coluna da tabela.
+
+16
+
+00:01:42,180  -->  00:01:51,240
+Vamos ver o que acontece em seguida.
+Sim, verdade! Nós acabamos de obter a primeira linha
+
+17
+
+00:01:51,240  -->  00:02:02,280
+de todos os dados. Então, a fórmula vai primeiro
+dividir o valor de preços ajustados de uma determinada
+
+18
+
+00:02:02,280  -->  00:02:09,060
+data pelo primeiro número, e então vai
+multiplicar o quociente obtido por cem.
+
+19
+
+00:02:09,060  -->  00:02:15,230
+Nós dizemos que esses cálculos vão normalizar nossos
+dados para 100.
+
+20
+
+00:02:15,230  -->  00:02:22,000
+Esse é um truque matemático. A primeira linha
+dividida por si mesma vai sempre resultar 1. Multiplicada
+
+21
+
+00:02:22,000  -->  00:02:32,980
+por 100 vai resultar 100. É por isso que no
+gráfico, todas as linhas iniciam a partir do eixo
+
+22
+
+00:02:32,980  -->  00:02:37,420
+vertical no ponto correspondente ao valor
+de 100.
+
+23
+
+00:02:37,420  -->  00:02:42,150
+A ideia por trás dessa operação é comparar
+o comportamento das quatro diferentes
+ações
+
+24
+
+00:02:42,150  -->  00:02:51,930
+como se elas estivessem começando com o mesmo
+valor, 100. Se não fizermos isso, vamos
+
+25
+
+00:02:51,930  -->  00:02:57,710
+ver os preços de fechamento ajustados de todas as empresas
+plotadas diretamente, e não vamos ter um bom
+
+26
+
+00:02:57,710  -->  00:03:07,130
+ponto de referência. A normalização enfrenta essa questão
+e é uma prática que todo profissional aplica
+
+27
+
+00:03:07,130  -->  00:03:12,959
+em seu trabalho.
+Antes de discutir as linhas no gráfico,
+
+28
+
+00:03:12,959  -->  00:03:18,370
+deixe me fazer uma rápida observação do Python.
+Na aula anterior, nós explicamos como
+
+29
+
+00:03:18,370  -->  00:03:25,160
+funciona os comandos "loc" e "i-loc". Bem para aplicar
+"loc" nós temos que indicar que o rótulo
+
+30
+
+00:03:25,160  -->  00:03:32,460
+corresponde a primeira linha. Por que?
+Porque as datas são rótulos, e esse é
+
+31
+
+00:03:32,460  -->  00:03:39,450
+o requisito para usar o "loc". Alternativamente,
+para usar "i-loc" nós temos que indicar a
+
+32
+
+00:03:39,450  -->  00:03:45,500
+a posição de interesse - 0,
+já que estamos interessados na primeira linha.
+
+33
+
+00:03:45,500  -->  00:03:50,510
+As duas abordagens levam ao mesmo resultado.
+Existem vantagens para usar um em vez
+
+34
+
+00:03:50,510  -->  00:03:55,330
+do outro em conjuntos diferentes de dados. Aqui,
+"i-loc" 0 é mais curto para digitar e é
+
+35
+
+00:03:55,330  -->  00:04:00,810
+mais intuitivo para usar, indicando claramente
+que vamos nos referir aos preços de fechamento do
+
+36
+
+00:04:00,810  -->  00:04:07,410
+primeiro dia de negociação registrado.
+Ok. Fim da observação.
+
+37
+
+00:04:07,410  -->  00:04:14,060
+Então, ao interpretar o gráfico, nós podemos dizer que a Microsoft
+é a nossa vencedora. Ela bate as outras ações
+
+38
+
+00:04:14,060  -->  00:04:20,759
+em relação ao desempenho dos preços das ações. Desde de 1995
+até o final de 2007, no momento da crise financeira
+
+39
+
+00:04:20,759  -->  00:04:26,300
+global, a General Electric teve um desempenho
+melhor do que a Procter and Gamble, mas aparentemente,
+
+40
+
+00:04:26,300  -->  00:04:33,379
+isso não poderia sustentar a queda. As ações da Procter &
+Gamble custaram mais desde então. Finalmente,
+
+41
+
+00:04:33,379  -->  00:04:39,199
+a Ford gozou de uma liderança de curto prazo sobre a P&G,
+mas isso foi isso. O preço de fechamento ajustado
+
+42
+
+00:04:39,199  -->  00:04:46,889
+se manteve relativamente baixo.
+Bom! Na teoria, se o desempenho passado é indicativo
+
+43
+
+00:04:46,889  -->  00:04:51,639
+para o desempenho futuro esperado, esse tipo
+de análise poderá ajudá-lo a entender quais
+
+44
+
+00:04:51,639  -->  00:04:54,960
+ações tiveram o melhor desempenho historicamente.
+
+45
+
+00:04:54,960  -->  00:05:01,849
+Ok. A próxima tarefa de nossa agenda vai ser
+calcular o retorno simples dessas ações
+
+46
+
+00:05:01,849  -->  00:05:12,639
+e criar uma nova tabela com eles. E por que retornos
+simples? Porque é a abordagem preferida
+
+47
+
+00:05:12,639  -->  00:05:19,240
+quando nós investigamos algumas ações no mesmo
+período de tempo, lembram?
+
+48
+
+00:05:19,240  -->  00:05:26,419
+Você se lembram de como criar uma matriz
+NumPy? Esta é uma situação perfeita onde nós
+
+49
+
+00:05:26,419  -->  00:05:32,439
+podemos aplicar essa técnica.
+Vamos assumir pesos iguais a 0.25 para todas as quatro
+
+50
+
+00:05:32,439  -->  00:05:38,580
+ações, porque os pesos da carteira de ações precisam
+sempre somar até 1 - que significa 100% (nós estamos trabalhando com uma
+
+51
+
+00:05:38,580  -->  00:05:46,129
+única carteira!).
+Ok, então... o que nós ainda precisamos fazer é calcular
+
+52
+
+00:05:46,129  -->  00:05:51,619
+o produto do peso de cada ação pelo
+seu retorno, certo? Isso vai ser equivalente
+
+53
+
+00:05:51,619  -->  00:05:57,890
+a uma multiplicação de matrizes em matemática.
+Nós vamos precisar do método NumPy "dot". Isso
+
+54
+
+00:05:57,890  -->  00:06:04,360
+nos permite calcular produtos vetoriais ou de matrizes
+de forma rápida. Além disso, em Python, a
+
+55
+
+00:06:04,360  -->  00:06:09,069
+matriz unidimensional ou multidimensional que nós obtivemos
+é referida como o produto "dot" entre
+
+56
+
+00:06:09,069  -->  00:06:17,479
+as variáveis. Ao fazer isso, vamos multiplicar
+o peso de cada ação e seu respectivo retorno.
+
+57
+
+00:06:17,479  -->  00:06:21,539
+O que estamos esperando?! - vamos aplicar
+o método "dot" aos retornos que nós obtivemos
+
+58
+
+00:06:21,539  -->  00:06:27,069
+e os pesos da carteira que criamos.
+Ótimo!
+
+59
+
+00:06:27,069  -->  00:06:33,990
+Ou.. não tão bom, na verdade. Nós não
+esperávamos ver os números aqui? Um número que
+
+60
+
+00:06:33,990  -->  00:06:42,499
+vai nos dizer qual vai ser o retorno total
+da carteira?
+Então, por que recebemos uma matriz inteira?
+
+61
+
+00:06:42,499  -->  00:06:46,940
+Porque nós multiplicamos cada valor da
+tabela com os
+retornos e os respectivos pesos indicados. Nós
+
+62
+
+00:06:46,940  -->  00:06:57,490
+esquecemos de estimar o retorno médio do preço
+de cada
+ação. Assim, vamos atribuir os
+
+63
+
+00:06:57,490  -->  00:07:04,279
+retornos anuais médios das quatro ações
+para a variável "annual_returns". Ok,
+
+64
+
+00:07:04,279  -->  00:07:13,710
+estas são as quatro ações e seus respectivos retornos anuais.
+Vamos tentar estimar o produto delas agora.
+
+65
+
+00:07:13,710  -->  00:07:22,650
+Bom, nós obtivemos um único número. Legal!
+Vamos armazenar esse valor
+
+66
+
+00:07:22,650  -->  00:07:29,430
+percentual contendo apenas 3 dígitos após o ponto
+decimal. Essa linha do código nos permite fazer isso.
+
+67
+
+00:07:29,430  -->  00:07:39,649
+Bingo! 14% aproximadamente!
+Para comparar esta combinação com o desempenho
+
+68
+
+00:07:39,649  -->  00:07:45,949
+de outra carteira, nós precisamos atribuir novos pesos
+para cada ação. Nós já sabemos como isso funciona,
+
+69
+
+00:07:45,949  -->  00:07:51,009
+e já calculamos os retornos anuais,
+então precisamos seguir os mesmos passos para
+
+70
+
+00:07:51,009  -->  00:07:56,439
+obter o retorno da segunda carteira de ações.
+Eu vou definir os pesos como os que mencionamos
+
+71
+
+00:07:56,439  -->  00:08:08,399
+anteriormente. 0.4, 0.4, 0.15, e 0.05. Nós calculamos
+o produto dos retornos anuais e
+
+72
+
+00:08:08,399  -->  00:08:14,749
+o segundo conjunto de pesos e em seguida imprimimos isso
+junto com o valor de retorno da outra
+
+73
+
+00:08:14,749  -->  00:08:18,600
+carteira.
+Apresentado desta forma, um acima do outro, é
+
+74
+
+00:08:18,600  -->  00:08:23,069
+fácil de ver qual carteira tem um retorno
+maior, certo?
+
+75
+
+00:08:23,069  -->  00:08:28,749
+Muito bem! Sinta-se a vontade para praticar
+o que aprendeu nesta aula, resolvendo
+
+76
+
+00:08:28,749  -->  00:08:33,329
+o exercício anexado a ela. Boa sorte
+e obrigado por assistir!

@@ -1,0 +1,196 @@
+1
+
+00:00:01,520  -->  00:00:04,060
+Vamos atribuir o valor de 1 a x.
+
+2
+
+00:00:04,060  -->  00:00:10,210
+Podemos pedir ao computador para mostrar "Caso
+1", se x for maior que 3 e "Caso 2"
+
+3
+
+00:00:10,210  -->  00:00:13,630
+se for menor ou igual a 3.
+
+4
+
+00:00:13,630  -->  00:00:21,120
+OK, poderíamos escrever duas declarações if uma após
+a outra.
+
+5
+
+00:00:21,120  -->  00:00:28,240
+Vamos ver se conseguimos o resultado correto.
+
+6
+
+00:00:28,240  -->  00:00:32,879
+Sim, estamos no caso 2.
+
+7
+
+00:00:32,879  -->  00:00:39,310
+Há uma maneira mais curta e melhor de nos expressarmos
+aqui.
+
+8
+
+00:00:39,310  -->  00:00:44,540
+Na segunda parte, em vez de dizermos "Se
+x é menor ou igual a 3", podemos
+
+9
+
+00:00:44,540  -->  00:00:47,750
+escrever diretamente "else" e inserir dois-pontos.
+
+10
+
+00:00:47,750  -->  00:00:54,440
+A declaração "Else" dirá ao computador para executar
+o comando seguinte em todos os outros casos.
+
+11
+
+00:00:54,440  -->  00:01:00,129
+Em nosso pequeno programa isso significaria "em
+todos os casos quando x não é maior do que 3".
+
+12
+
+00:01:00,129  -->  00:01:04,170
+Que se traduz em "quando x é menor ou
+igual a 3".
+
+13
+
+00:01:04,170  -->  00:01:08,840
+Vamos verificar se o que fizemos foi correto.
+
+14
+
+00:01:08,840  -->  00:01:10,640
+Bingo!
+
+15
+
+00:01:10,640  -->  00:01:12,729
+Caso número 2!
+
+16
+
+00:01:12,729  -->  00:01:16,810
+Esta imagem se soma à que vimos
+na lição anterior.
+
+17
+
+00:01:16,810  -->  00:01:22,409
+Em vez de levar a nenhum resultado, se a condição
+for falsa, chegaremos à parte "else" do código.
+
+18
+
+00:01:22,409  -->  00:01:27,590
+No nosso caso, este é o comando print
+“caso 2”.
+
+19
+
+00:01:27,590  -->  00:01:32,479
+Independentemente da condição inicial ser
+satisfeita, chegaremos ao ponto final, assim
+
+20
+
+00:01:32,479  -->  00:01:38,640
+o computador concluiu toda a operação
+e está pronto para executar uma nova.
+
+21
+
+00:01:38,640  -->  00:01:40,119
+Maravilha!
+
+22
+
+00:01:40,119  -->  00:01:44,399
+Agora, por favor, permita-me compartilhar duas notas
+sobre o assunto.
+
+23
+
+00:01:44,399  -->  00:01:48,479
+Não caia na armadilha de organizar seu código
+de qualquer maneira.
+
+24
+
+00:01:48,479  -->  00:01:53,880
+Há uma maneira correta de fazer isso e a indentação
+desempenha um papel fundamental novamente.
+
+25
+
+00:01:53,880  -->  00:01:58,770
+Se você colocar o comando "else" logo
+abaixo da primeira palavra impressa, nada irá
+
+26
+
+00:01:58,770  -->  00:02:01,630
+acontecer.
+
+27
+
+00:02:01,630  -->  00:02:06,140
+Lembre-se de colocar as palavras-chave if e else
+alinhados verticalmente!
+
+28
+
+00:02:06,140  -->  00:02:12,860
+Esse é o momento adequado para introduzir a você
+a noção de blocos de código.
+
+29
+
+00:02:12,860  -->  00:02:17,040
+O comando if, que é a condição mais
+o comando print correspondente forma o
+
+30
+
+00:02:17,040  -->  00:02:19,260
+primeiro bloco do código.
+
+31
+
+00:02:19,260  -->  00:02:23,560
+Toda a declaração else forma outro bloco
+de código próprio.
+
+32
+
+00:02:23,560  -->  00:02:27,930
+Em um programa mais extenso você terá
+vários blocos de código.
+
+33
+
+00:02:27,930  -->  00:02:32,460
+E programas mais complexos são construídos
+dessa forma.
+
+34
+
+00:02:32,460  -->  00:02:34,950
+Estamos prontos para ver o comando elif.
+
+35
+
+00:02:34,950  -->  00:02:37,280
+Obrigado e até o próximo vídeo.

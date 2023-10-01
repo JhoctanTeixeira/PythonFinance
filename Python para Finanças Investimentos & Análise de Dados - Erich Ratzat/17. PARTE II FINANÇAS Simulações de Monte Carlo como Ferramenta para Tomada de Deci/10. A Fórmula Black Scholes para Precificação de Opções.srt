@@ -1,0 +1,223 @@
+1
+00:00:00,390 --> 00:00:06,180
+A fórmula de Blake em shows é um dos instrumentos financeiros mais populares utilizado nos últimos 40
+
+2
+00:00:06,180 --> 00:00:06,790
+anos.
+
+3
+00:00:06,960 --> 00:00:15,930
+Foi derivada por Fisher Black os e Robert Merton em 1983 e desde então tornou se a principal ferramenta
+
+4
+00:00:15,930 --> 00:00:19,070
+para a determinação do preço de derivativos.
+
+5
+00:00:19,080 --> 00:00:24,660
+O quadro original desenvolvido pelos três cientistas consideravam o preço de uma opção europeia de compra
+
+6
+00:00:24,930 --> 00:00:31,680
+ou de venda e assumia a hipótese dos mercados eficientes ausência de custos de transação e nenhum pagamento
+
+7
+00:00:31,680 --> 00:00:37,890
+de dividendos além de que as variáveis volatilidade e taxa livre de risco eram conhecidas.
+
+8
+00:00:37,890 --> 00:00:42,620
+Algumas dessas hipóteses podem ser elevadas para se calcular o preço de uma opção na prática.
+
+9
+00:00:43,080 --> 00:00:45,790
+Então o que faz a fórmula de shows.
+
+10
+00:00:45,960 --> 00:00:52,560
+Ela calcula o valor de uma opção uma opção por si só é algo que gostamos e a liberdade para escolher
+
+11
+00:00:52,560 --> 00:01:00,290
+se desejamos ou não adquirir uma ação o titular da opção pode decidir que ele pretende comprar a ação
+
+12
+00:01:00,720 --> 00:01:03,390
+mas ele também pode decidir que é melhor não fazer.
+
+13
+00:01:03,870 --> 00:01:09,380
+Essa liberdade é valiosa para todos os investidores portanto ela vem com um preço.
+
+14
+00:01:09,390 --> 00:01:13,040
+Aqui está um diagrama representando o retorno de uma opção de compra.
+
+15
+00:01:13,110 --> 00:01:19,590
+O eixo Y mostra a rentabilidade de um de um investidor que compra opção de compra no eixo x.
+
+16
+00:01:19,590 --> 00:01:26,160
+Nós temos o comportamento do preço da ação subjacente para qual o investidor possui uma opção após a
+
+17
+00:01:26,160 --> 00:01:33,330
+expiração da opção o seu titular irá comparar o preço de exercício com o preço de mercado real da ação
+
+18
+00:01:33,870 --> 00:01:35,060
+subjacente.
+
+19
+00:01:35,310 --> 00:01:42,690
+Se o preço de exercício for inferior ao preço do mercado o titular da opção exercerá em contrapartida
+
+20
+00:01:42,890 --> 00:01:49,620
+se o preço de exercício for mais elevado do que o preço de mercado ele não exercer a opção porque nesse
+
+21
+00:01:49,620 --> 00:01:53,840
+caso ele compraria a ação preço superior ao seu preço de mercado.
+
+22
+00:01:54,210 --> 00:01:57,600
+Então a rentabilidade do investidor é medida sim.
+
+23
+00:01:57,900 --> 00:02:03,960
+No início ele compra opção e desembolsa o dinheiro e a sua rentabilidade se torna negativa.
+
+24
+00:02:04,080 --> 00:02:08,320
+Depois quando chegar a data de vencimento ele é capaz de usar a opção.
+
+25
+00:02:08,370 --> 00:02:13,020
+Se o preço da ação subjacente é maior que o preço de exercício.
+
+26
+00:02:13,020 --> 00:02:19,140
+Mesmo que o preço de mercado seja mais alto que o preço de exercício não significa que o investidor
+
+27
+00:02:19,140 --> 00:02:20,850
+vai lucrar com o negócio.
+
+28
+00:02:20,850 --> 00:02:27,030
+Ele precisa que o preço seja significativamente mais alto para atingir um ponto de equilíbrio financeiro
+
+29
+00:02:27,210 --> 00:02:28,800
+lucrar com o negócio.
+
+30
+00:02:28,830 --> 00:02:34,860
+A forma de Black shows proporciona uma forma intuitiva de calcular os preços das opções vai além do
+
+31
+00:02:34,860 --> 00:02:37,510
+escopo desse curso explicar como ela é derivada.
+
+32
+00:02:37,770 --> 00:02:40,220
+A matemática envolvida pode ser intimidante.
+
+33
+00:02:40,350 --> 00:02:43,590
+Provavelmente vai ser preciso um curso só para explicar isso.
+
+34
+00:02:44,100 --> 00:02:50,370
+Felizmente podemos usar a fórmula sem precisar entender como e como ela é derivada mas simplesmente
+
+35
+00:02:50,370 --> 00:02:53,760
+compreender seus ingredientes e o seu significado.
+
+36
+00:02:53,790 --> 00:02:55,830
+Isso é o que vamos fazer na sala.
+
+37
+00:02:55,860 --> 00:02:57,860
+Aqui está a fórmula de Blake em shows.
+
+38
+00:02:57,930 --> 00:03:05,850
+Ela considera as seguintes variáveis s o preço de mercado atual da ação K o preço de exercício no qual
+
+39
+00:03:05,970 --> 00:03:07,940
+a opção pode ser exercida.
+
+40
+00:03:08,100 --> 00:03:17,450
+Caso exercemos a opção podemos comprar a ação ao preço de exercício K T ao prazo da opção até o seu
+
+41
+00:03:17,450 --> 00:03:24,000
+vencimento R e a taxa livre de risco S é o desvio padrão.
+
+42
+00:03:24,250 --> 00:03:29,480
+Os outros símbolos que vemos a fórmula são o n e d 1 e D2.
+
+43
+00:03:29,590 --> 00:03:37,750
+Ele representa uma distribuição normal cumulativa e d 1 n2 são números obtidos com as seguintes fórmulas.
+
+44
+00:03:37,750 --> 00:03:43,510
+Se tivermos todos os valores necessários para o cálculo para os cálculos de Del n2 não devemos ter problemas
+
+45
+00:03:43,510 --> 00:03:48,940
+em obter esses dados e aplicá los na fórmula acima que é feita de dois componentes.
+
+46
+00:03:48,940 --> 00:03:51,700
+O primeiro nos mostra o quanto vamos receber.
+
+47
+00:03:51,700 --> 00:03:56,860
+Se a opção for exercida é o segundo componente ao montante que devemos pagar.
+
+48
+00:03:56,860 --> 00:03:58,150
+Ao exercer a opção
+
+49
+00:04:02,710 --> 00:04:06,560
+esta é a chave para compreender a forma do primeiro componente.
+
+50
+00:04:06,620 --> 00:04:13,510
+Estamos multiplicando a probabilidade de exercer a opção pelo valor recebido quando a pressão exercida
+
+51
+00:04:14,370 --> 00:04:20,280
+no segundo componente temos o valor descontado da quantia que devemos pagar para exercer a opção
+
+52
+00:04:23,140 --> 00:04:29,610
+tudo isso é feito caso o comportamento do preço da ação seguir uma distribuição normal.
+
+53
+00:04:29,660 --> 00:04:35,450
+Se alguém lhe pedir para explicar a fórmula de Blake os juros em uma única sentença você pode simplesmente
+
+54
+00:04:35,450 --> 00:04:41,180
+dizer a fórmula de Blake Scholes calcula o valor de uma opção através da diferença entre o montante
+
+55
+00:04:41,180 --> 00:04:48,050
+que você recebe se exercer a opção menos o montante que você deve pagar se exercer a opção tranquilo
+
+56
+00:04:48,650 --> 00:04:49,040
+certo.

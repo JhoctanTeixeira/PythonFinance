@@ -1,0 +1,285 @@
+1
+
+00:00:01,550  -->  00:00:06,170
+Agora que você sabe o que são listas e tuplas,
+você entenderá mais facilmente o que são
+
+2
+
+00:00:06,170  -->  00:00:08,020
+os dicionários.
+
+3
+
+00:00:08,020  -->  00:00:11,490
+Os dicionários representam outra maneira de armazenar
+dados.
+
+4
+
+00:00:11,490  -->  00:00:14,710
+Cada valor está associado a uma determinada chave.
+
+5
+
+00:00:14,710  -->  00:00:19,909
+Mais precisamente, uma chave e seu respectivo valor
+formam um par de chave-valores.
+
+6
+
+00:00:19,909  -->  00:00:25,480
+Neste exemplo temos quatro chaves.
+
+7
+
+00:00:25,480  -->  00:00:28,659
+Diferentes nomes de animais estão ligados a
+cada um deles.
+
+8
+
+00:00:28,659  -->  00:00:34,370
+Preste atenção que nem parênteses nem
+colchetes funcionarão neste caso - você precisará
+
+9
+
+00:00:34,370  -->  00:00:36,370
+de chaves.
+
+10
+
+00:00:36,370  -->  00:00:43,410
+Depois que um determinado dicionário for criado,
+um valor pode ser acessado por sua chave, ao invés
+
+11
+
+00:00:43,410  -->  00:00:45,949
+de seu índice!
+
+12
+
+00:00:45,949  -->  00:00:57,940
+K1 pode ser usado para cat enquanto K3 - para mouse!
+
+13
+
+00:00:57,940  -->  00:01:04,449
+Da mesma forma, que fazemos com as listas, podemos
+adicionar um novo valor ao dicionário da seguinte
+
+14
+
+00:01:04,449  -->  00:01:13,450
+maneira: a estrutura a ser aplicada aqui é o nome do
+dicionário, novo nome da chave entre colchetes, o sinal de
+
+15
+
+00:01:13,450  -->  00:01:17,860
+igualdade e o nome do novo valor.
+
+16
+
+00:01:17,860  -->  00:01:21,420
+O valor que vamos atribuir à chave número 5 é
+"parrot", papagaio em português.
+
+17
+
+00:01:21,420  -->  00:01:27,820
+Vou apertar Shift e Enter e...
+Pronto!
+
+18
+
+00:01:27,820  -->  00:01:34,560
+Substituir um valor segue a mesma sintaxe;
+apenas deixe a nova variável corresponder a uma
+
+19
+
+00:01:34,560  -->  00:01:36,180
+chave existente.
+
+20
+
+00:01:36,180  -->  00:01:43,340
+A partir desse momento, ligado à segunda
+chave, não veremos mais a palavra dog.
+
+21
+
+00:01:43,340  -->  00:01:46,420
+Olha só! É um esquilo agora.
+
+22
+
+00:01:46,420  -->  00:01:52,040
+Acredito que você já percebeu que uma lista pode ser usada
+em um par de chave-valores.
+
+23
+
+00:01:52,040  -->  00:01:56,790
+E você está certo.
+
+24
+
+00:01:56,790  -->  00:02:00,330
+Vamos analisar outro exemplo.
+
+25
+
+00:02:00,330  -->  00:02:06,720
+Digamos que apenas Peter trabalha no departamento 1, mas
+3 pessoas trabalham no departamento 2 - Jennifer,
+
+26
+
+00:02:06,720  -->  00:02:08,530
+Michael e Tommy.
+
+27
+
+00:02:08,530  -->  00:02:11,520
+Vamos verificar?
+
+28
+
+00:02:11,520  -->  00:02:14,010
+Certo.
+
+29
+
+00:02:14,010  -->  00:02:21,320
+Como pode ver, nosso segundo elemento é uma lista.
+
+30
+
+00:02:21,320  -->  00:02:26,510
+Existe outra maneira de preencher um dicionário.
+
+31
+
+00:02:26,510  -->  00:02:31,670
+Vou criar uma nova variável e usarei
+chaves vazias para indicar que será
+
+32
+
+00:02:31,670  -->  00:02:33,100
+um dicionário.
+
+33
+
+00:02:33,100  -->  00:02:36,840
+Eu não vou colocar nenhuma chave ou valores dentro
+das chaves.
+
+34
+
+00:02:36,840  -->  00:02:46,210
+Em vez disso, atribuirei as chaves e os valores
+um a um e, no final, meu dicionário
+
+35
+
+00:02:46,210  -->  00:02:48,100
+estará preenchido.
+
+36
+
+00:02:48,100  -->  00:02:51,320
+Muito bom!
+
+37
+
+00:02:51,320  -->  00:02:59,120
+E se eu pedir pelo team "Center", eu verei
+o nome Hector.
+
+38
+
+00:02:59,120  -->  00:03:05,810
+Deixa eu te mostrar um recurso interessante
+do Python.
+
+39
+
+00:03:05,810  -->  00:03:15,400
+Usando o método "get" e colocando como argumento o nome de um time
+digamos "Small Forward" temos um valor correspondente. Agora, o computador
+
+40
+
+00:03:15,400  -->  00:03:22,270
+não exibirá um erro se solicitarmos o
+nome do "Coach", cujo nome não
+
+41
+
+00:03:22,270  -->  00:03:23,950
+faz parte do meu dicionário.
+
+42
+
+00:03:23,950  -->  00:03:29,870
+"None" é o valor padrão que o Python retorna
+nos casos em que um objeto não existe
+
+43
+
+00:03:29,870  -->  00:03:32,360
+dentro de um determinado dicionário.
+
+44
+
+00:03:32,360  -->  00:03:38,120
+Agora você pode imaginar do que os dicionários
+são capazes de fazer!
+
+45
+
+00:03:38,120  -->  00:03:42,700
+Por exemplo, podemos usar nomes de empresas
+como chaves e seus preços de mercado como
+
+46
+
+00:03:42,700  -->  00:03:44,870
+valores... certo?
+
+47
+
+00:03:44,870  -->  00:03:45,959
+Muito bom!
+
+48
+
+00:03:45,959  -->  00:03:50,550
+Você está indo mais fundo em programação!
+
+49
+
+00:03:50,550  -->  00:03:55,200
+Lembre-se de que as coisas permanecerão bem abstratas,
+a menos que você dedique um tempo para praticar e aplicar
+
+50
+
+00:03:55,200  -->  00:03:57,200
+o que aprendeu nessas lições.
+
+51
+
+00:03:57,200  -->  00:04:02,360
+Então, arregace as mangas e faça os exercícios
+dessa aula!
+
+52
+
+00:04:02,360  -->  00:04:03,290
+Obrigado por assistir.

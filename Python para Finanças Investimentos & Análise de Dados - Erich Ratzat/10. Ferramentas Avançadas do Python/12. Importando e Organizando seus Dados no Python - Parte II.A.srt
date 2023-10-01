@@ -1,0 +1,475 @@
+1
+
+00:00:01,360  -->  00:00:06,810
+Em nossa aula anterior, extraímos os dados
+históricos de preços da P&G desde 1995.
+
+2
+
+00:00:06,810  -->  00:00:09,660
+Vamos dar uma olhada neles.
+
+3
+
+00:00:09,660  -->  00:00:12,950
+Sao muitos dados!
+
+4
+
+00:00:12,950  -->  00:00:17,590
+O Python nem mostra o intervalo inteiro.
+
+5
+
+00:00:17,590  -->  00:00:22,190
+Vou te dar um conselho - depois de carregar seus dados,
+sempre de uma examinada neles.
+
+6
+
+00:00:22,190  -->  00:00:27,810
+Uma breve análise preliminar não faz mal,
+mas pode ser útil e evitar uma perda
+
+7
+
+00:00:27,810  -->  00:00:29,820
+de tempo valioso.
+
+8
+
+00:00:29,820  -->  00:00:34,180
+Se houver algo errado com os dados,
+é melhor encontrá-lo o quanto antes.
+
+9
+
+00:00:34,180  -->  00:00:38,460
+Vamos ver como o Pandas organiza os dados.
+
+10
+
+00:00:38,460  -->  00:00:42,060
+As duas primeiras linhas não são contadas como linhas
+com dados.
+
+11
+
+00:00:42,060  -->  00:00:50,010
+"Close, High, Low, Open, Volume" são apenas
+os nomes das colunas, enquanto as informações
+
+12
+
+00:00:50,010  -->  00:00:53,370
+nesta célula referem-se aos rótulos das linhas.
+
+13
+
+00:00:53,370  -->  00:00:58,860
+Os dados que extraímos são séries temporais - temos
+aqui registrados todos os dias de negociação,
+
+14
+
+00:00:58,860  -->  00:01:05,650
+do preço da P&G.
+
+15
+
+00:01:05,650  -->  00:01:11,470
+É por isso que, nesta célula, especificamos os
+rótulos abaixo referentes a uma data ou "Date" no inglês.
+
+16
+
+00:01:11,470  -->  00:01:20,720
+Portanto, a linha zero com dados é essa
+aqui, a primeira é essa, e assim por diante...
+
+17
+
+00:01:20,720  -->  00:01:21,880
+Ok.
+
+18
+
+00:01:21,880  -->  00:01:23,530
+Os dados parecem corretos.
+
+19
+
+00:01:23,530  -->  00:01:29,020
+Nós temos cinco colunas contendo informações
+de preço e volume de negociação.
+
+20
+
+00:01:29,020  -->  00:01:35,330
+Vamos ver os valores dos dados que temos aqui.
+
+21
+
+00:01:35,330  -->  00:01:42,170
+Quando extraímos tudo, os dados desde
+primeiro de janeiro de 1995, você acha que são mostradas
+
+22
+
+00:01:42,170  -->  00:01:46,760
+informações sobre todos os dias ou apenas sobre
+os dias de negociação?
+
+23
+
+00:01:46,760  -->  00:01:52,210
+O segundo caso significa que sábados, domingos
+e feriados nacionais não terão cotação, já que o mercado de ações
+
+24
+
+00:01:52,210  -->  00:01:54,750
+não está aberto nesses dias.
+
+25
+
+00:01:54,750  -->  00:01:59,770
+Parece que é o segundo caso - não
+há dados para primeiro de janeiro, nada sobre
+
+26
+
+00:01:59,770  -->  00:02:02,820
+os dias 7 e 8 de janeiro...
+
+27
+
+00:02:02,820  -->  00:02:03,820
+Ok!
+
+28
+
+00:02:03,820  -->  00:02:07,689
+Os dados que temos aqui incluem apenas os dias de
+negociação.
+
+29
+
+00:02:07,689  -->  00:02:13,650
+Portanto, podemos concluir que os dados estão corretos
+e bem organizados, e não faltam
+
+30
+
+00:02:13,650  -->  00:02:14,650
+valores.
+
+31
+
+00:02:14,650  -->  00:02:18,910
+Portanto, podemos prosseguir com uma análise mais detalhada.
+
+32
+
+00:02:18,910  -->  00:02:24,069
+Para resolver a mesma tarefa, os arquivos CSV também
+podem ser muito úteis.
+
+33
+
+00:02:24,069  -->  00:02:29,150
+Nos próximos vídeos vamos mostrar
+detalhadamente como você pode fazer upload e usar informações
+
+34
+
+00:02:29,150  -->  00:02:32,330
+desse tipo de documento no Python.
+
+35
+
+00:02:32,330  -->  00:02:37,560
+Por enquanto, lembre-se que depois de concluir
+essa operação, seu Data-Frame vai aparecer
+
+36
+
+00:02:37,560  -->  00:02:39,520
+da seguinte maneira:
+
+37
+
+00:02:39,520  -->  00:02:43,849
+Além das mesmas cinco colunas que você baixou
+do 'Morningstar', há uma sexta
+
+38
+
+00:02:43,849  -->  00:02:46,410
+coluna chamada de "Adjusted Close".
+
+39
+
+00:02:46,410  -->  00:02:52,140
+Ela se refere ao preço de fechamento ajustado
+e para o primeiro ano dos dados, os valores parecem baixos demais.
+
+40
+
+00:02:52,140  -->  00:02:54,460
+Pelo menos em comparação com o que vemos aqui.
+
+41
+
+00:02:54,460  -->  00:02:59,080
+Mas no final do período, podemos ver que
+é igual ao preço de fechamento.
+
+42
+
+00:02:59,080  -->  00:03:03,569
+A diferença se deve aos dividendos pagos aos
+acionistas e a outras mudanças no preço
+
+43
+
+00:03:03,569  -->  00:03:08,990
+das ações, como desdobramento de ações, aumento de
+capital, e assim por diante.
+
+44
+
+00:03:08,990  -->  00:03:13,940
+Os profissionais normalmente baseiam suas análises
+nos preços ajustados de fechamento.
+
+45
+
+00:03:13,940  -->  00:03:19,860
+Os arquivos CSV também contem esses valores, e por isso
+nós aconselhamos que você use esses documentos
+
+46
+
+00:03:19,860  -->  00:03:21,280
+ao longo do curso.
+
+47
+
+00:03:21,280  -->  00:03:26,880
+No entanto, se você preferir os dados on-line, você vai poder
+continuar usando os preços de fechamento.
+
+48
+
+00:03:26,880  -->  00:03:31,240
+Então, mesmo que você obtenha números
+diferentes nos resultados, você vai estar
+
+49
+
+00:03:31,240  -->  00:03:36,030
+apto para aprender as ferramentas
+financeiras e de programação que ensinamos.
+
+50
+
+00:03:36,030  -->  00:03:37,030
+Tudo certo?!
+
+51
+
+00:03:37,030  -->  00:03:43,840
+Alguns métodos do Pandas podem acelerar essa análise
+para você.
+
+52
+
+00:03:43,840  -->  00:03:48,879
+Usando o comando .info vai informar que estamos examinando
+um objeto de data-frame.
+
+53
+
+00:03:48,880  -->  00:03:54,340
+Você pode ver quantos dados existem na tabela e o
+intervalo de tempo.
+
+54
+
+00:03:54,760  -->  00:04:00,920
+Aqui, você pode ver facilmente o número
+de dados, pois cada linha representa um valor.
+
+55
+
+00:04:00,930  -->  00:04:05,450
+Isso te diz imediatamente que não há dados
+faltantes, o que é ótimo.
+
+56
+
+00:04:05,450  -->  00:04:10,582
+Finalmente, além da coluna "Volume",
+contendo valores inteiros, os dados no
+
+57
+
+00:04:10,582  -->  00:04:14,099
+restante das colunas são do tipo decimais.
+
+58
+
+00:04:14,099  -->  00:04:16,019
+Ok.
+
+59
+
+00:04:16,019  -->  00:04:21,269
+"Head" e "Tail" são dois métodos
+que você pode usar quando você quiser ver as
+
+60
+
+00:04:21,269  -->  00:04:29,580
+primeiras e as últimas cinco linhas de seus dados.
+
+61
+
+00:04:29,580  -->  00:04:33,990
+Se você estiver interessado em um número diferente
+de linhas no começo ou no fim, você precisa
+
+62
+
+00:04:33,990  -->  00:04:36,419
+indicar o número específico dentro dos parênteses.
+
+63
+
+00:04:36,419  -->  00:04:44,529
+Vamos ver a primeira e as últimas 20
+linhas do nosso conjunto de dados...
+
+64
+
+00:04:44,529  -->  00:04:48,150
+Feito.
+
+65
+
+00:04:48,150  -->  00:04:51,770
+Muito bom!
+
+66
+
+00:04:51,770  -->  00:04:56,479
+Estamos a um passo de concluir o conceito
+de organização de dados.
+
+67
+
+00:04:56,479  -->  00:05:01,599
+Nós aprendemos como podemos do Morningstar um objeto do
+Data-Frame com 5 colunas,
+
+68
+
+00:05:01,599  -->  00:05:02,599
+certo?
+
+69
+
+00:05:02,599  -->  00:05:09,199
+Assim, a próxima questão lógica seria, "Como
+podemos criar uma conjunto de dados que contem 5 colunas,
+
+70
+
+00:05:09,199  -->  00:05:13,919
+mostrando os preços de fechamento ajustados de
+5 empresas diferentes?
+
+71
+
+00:05:13,919  -->  00:05:20,300
+Nós queremos repetir o mesmo procedimento que acabamos
+de fazer para a "Proctor & Gamble" para, por exemplo, a Microsoft,
+
+72
+
+00:05:20,300  -->  00:05:23,770
+AT&T, Ford, e General Eletric.
+
+73
+
+00:05:23,770  -->  00:05:28,149
+Mas vou precisar apenas das colunas de preço de fechamento
+das tabelas dessas ações.
+
+74
+
+00:05:28,149  -->  00:05:30,059
+A tarefa agora é simples.
+
+75
+
+00:05:30,059  -->  00:05:32,039
+Aqui está como podemos fazer isso.
+
+76
+
+00:05:32,039  -->  00:05:37,729
+Antes de mais nada, isso vai ser um problema para a API do
+Morningstar.
+
+77
+
+00:05:37,729  -->  00:05:42,659
+Quando você extrai dados de várias ações ao mesmo tempo,
+é provável que você obtenha uma tabela
+
+78
+
+00:05:42,659  -->  00:05:46,699
+na qual não verá valores em todas as colunas.
+
+79
+
+00:05:46,699  -->  00:05:54,479
+Os arquivos CSV anexados contêm justamente os
+dados que você precisa, então, mais uma vez, eles
+
+80
+
+00:05:54,479  -->  00:05:56,499
+são a melhor opção.
+
+81
+
+00:05:56,499  -->  00:06:02,999
+Então, se você é um usuário do Python 3, pode
+acessar informações da API do IEX.
+
+82
+
+00:06:02,999  -->  00:06:08,590
+Nesse caso, você não vai obter um conjunto de dados
+tão completo quanto os fornecidos nos
+
+83
+
+00:06:08,590  -->  00:06:15,090
+arquivos CSV, mas você vai poder resolver
+o problema usando os preços de fechamento.
+
+84
+
+00:06:15,090  -->  00:06:19,520
+Vamos mostrar como extrair dados do IEX
+em nosso próximo vídeo.
+
+85
+
+00:06:19,520  -->  00:06:20,529
+Obrigado por assistir!

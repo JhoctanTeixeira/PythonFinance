@@ -1,0 +1,291 @@
+1
+00:00:01,120 --> 00:00:02,610
+Muito Bom Excelente.
+
+2
+00:00:02,680 --> 00:00:07,600
+Essa será uma aula que envolverá mais conceitos avançados de finanças e matemática.
+
+3
+00:00:08,230 --> 00:00:12,220
+Felizmente não haverá grandes surpresas do ponto de vista do pai.
+
+4
+00:00:12,250 --> 00:00:18,040
+Por isso espero que você aceite esse desafio pois será uma grande oportunidade de aplicar o que aprendemos
+
+5
+00:00:18,040 --> 00:00:18,970
+até aqui.
+
+6
+00:00:19,060 --> 00:00:26,980
+Vamos importar tudo o que usamos até agora não PAI OU SAI pai pandas e morte para o clipe dessa vez
+
+7
+00:00:26,980 --> 00:00:32,360
+vamos calcular o preço de uma opção de compra de uma forma mais sofisticada em relação ao ano anterior
+
+8
+00:00:33,410 --> 00:00:39,890
+para comparar as duas abordagens de maneira sensata usaremos os mesmos dados iremos basear essa análise
+
+9
+00:00:39,890 --> 00:00:47,730
+com a ação da própria BM para o mesmo período de primeiro de janeiro de 2007 até 21 de março de 2017.
+
+10
+00:00:47,780 --> 00:00:54,590
+Novamente estaremos interessados nos preços de fechamento ajustado ok já que vamos analisar o comportamento
+
+11
+00:00:54,590 --> 00:00:55,720
+de uma única ação.
+
+12
+00:00:55,790 --> 00:01:03,750
+é apropriado usar o setor nos logarítmico muito bom o que há de tão especial nessa abordagem então o
+
+13
+00:01:03,750 --> 00:01:09,630
+método e as fórmulas que aplicarem aqui para calcular o preço da opção de compra são diferentes.
+
+14
+00:01:09,630 --> 00:01:14,460
+Anteriormente usamos a fórmula padrão para calcular o preço de uma opção de compra.
+
+15
+00:01:14,520 --> 00:01:20,610
+No entanto como um financista você gostaria de executar milhares de experimentos para ter a certeza
+
+16
+00:01:20,610 --> 00:01:27,720
+de que o preço que escolheu será o mais preciso há simulações de Monte Carlo podem nos fornecer milhares
+
+17
+00:01:27,720 --> 00:01:30,060
+de possibilidades para os preços das opções.
+
+18
+00:01:30,330 --> 00:01:37,580
+Então poderemos calcular a média do Prof. associado para esses valores gerados aleatoriamente e descontados
+
+19
+00:01:37,590 --> 00:01:39,150
+até o valor de hoje.
+
+20
+00:01:39,180 --> 00:01:45,990
+O truque está na fórmula que vamos usar para calcular os preços futuros será uma outra versão do movimento
+
+21
+00:01:45,990 --> 00:01:53,050
+browniano uma fórmula aproximada e abordagem utilizada será chamada de descredibilização de aula.
+
+22
+00:01:53,310 --> 00:01:58,860
+Há muita literatura sobre esse tópico e nós não precisamos saber toda derivação de corte para tirar
+
+23
+00:01:58,860 --> 00:02:00,510
+vantagem dessa forma.
+
+24
+00:02:00,510 --> 00:02:09,870
+Aqui está o preço da ação no dia t é igual ao preço da ação observada no dia anterior tem menos 1 vez
+
+25
+00:02:09,920 --> 00:02:16,770
+exigir elevada potência da taxa livre de risco e menos de metade da variância do retorno logarítmico
+
+26
+00:02:17,040 --> 00:02:23,340
+multiplicado por um intervalo de tempo fixo chamaremos de Delta T mais o desvio padrão multiplicado
+
+27
+00:02:23,340 --> 00:02:30,210
+pela raiz quadrada de Delta T vezes um componente aleatório Z vamos passar por vários passos que irão
+
+28
+00:02:30,210 --> 00:02:34,570
+nos permitir atribuir valores às variáveis nessa longa fórmula.
+
+29
+00:02:34,590 --> 00:02:40,470
+A primeira coisa que faremos é atribuir uma taxa livre de risco para a variável e nas águas passadas
+
+30
+00:02:40,470 --> 00:02:47,250
+usamos dois e meio por cento e vamos fazer a mesma coisa aqui em seguida podemos obter o desvio padrão
+
+31
+00:02:47,250 --> 00:02:54,900
+do setor nos lugares secos e armazenado e armazená lo em uma variável chamada ST 10 nós imediatamente
+
+32
+00:02:54,900 --> 00:02:57,780
+verificamos seu tipo para verificar se é uma série.
+
+33
+00:02:58,260 --> 00:03:01,580
+Pretendemos usá lo em operações de Barueri mais à frente.
+
+34
+00:03:01,590 --> 00:03:09,540
+Por isso é necessário transformá lo numa matriz ND usando novamente ponto velhos e um bom truque para
+
+35
+00:03:09,540 --> 00:03:13,450
+armazenar o novo objeto é uma variável que tem o mesmo nome.
+
+36
+00:03:13,740 --> 00:03:19,460
+Então depois de executar essa célula teremos STF como uma matriz não pai.
+
+37
+00:03:19,680 --> 00:03:27,840
+ótimo vamos trabalhar com o mesmo horizonte de tempo estamos prevendo para um ano a frente então o número
+
+38
+00:03:27,840 --> 00:03:35,040
+do intervalo de tempo deve corresponder ao número de dias de negociação um ano nós atribui essa variável
+
+39
+00:03:35,160 --> 00:03:40,540
+o valor de 250 agora podemos criar um valor fixo de intervalo de tempo.
+
+40
+00:03:40,540 --> 00:03:46,900
+O componente Delta T atribuindo a ele a fração T sobre o número de vezes do intervalo
+
+41
+00:03:50,070 --> 00:03:50,810
+a seguir.
+
+42
+00:03:50,840 --> 00:03:56,780
+Quantas vezes queremos simular o componente aleatório Z anteriormente quando previmos os preços futuros
+
+43
+00:03:56,790 --> 00:03:57,490
+das ações.
+
+44
+00:03:57,530 --> 00:03:59,600
+Escolhemos dez vezes certo.
+
+45
+00:03:59,690 --> 00:04:06,350
+Podemos escolher um número muito maior aqui e depois projetar no gráfico apenas 10 desses resultados.
+
+46
+00:04:06,350 --> 00:04:08,700
+Então por que não escolher 10 mil por exemplo.
+
+47
+00:04:08,900 --> 00:04:11,080
+Nós podemos fazer isso com o Python.
+
+48
+00:04:11,080 --> 00:04:12,310
+Isso é moleza.
+
+49
+00:04:12,410 --> 00:04:18,440
+O componente aleatório Z será uma matriz com componentes aleatórios extraídos de uma distribuição normal
+
+50
+00:04:18,620 --> 00:04:24,430
+que como já foi mencionado implica em uma distribuição normal com média zero e desvio padrão.
+
+51
+00:04:24,810 --> 00:04:31,160
+A dimensão da matriz que esses valores ocupar serão definidos pelo número de intervalos de tempo acrescido
+
+52
+00:04:31,160 --> 00:04:34,690
+por um e o número de iterações ótimo.
+
+53
+00:04:34,940 --> 00:04:43,070
+Finalmente você está bem familiarizado com como podemos criar um array vazio s da mesma dimensão do
+
+54
+00:04:43,070 --> 00:04:44,730
+componente aleatório Z.
+
+55
+00:04:44,780 --> 00:04:52,130
+O método zero lei nos permite fazer isso facilmente e para preencher essa primeira linha com o último
+
+56
+00:04:52,130 --> 00:04:57,370
+preço da Procter Gamble podemos usar o método Locke para extrair o valor de nossos dados.
+
+57
+00:04:57,440 --> 00:04:58,430
+OK.
+
+58
+00:04:58,420 --> 00:05:05,390
+Então além de mudar a fórmula que difere daquela que usamos para calcular o preço futuro das ações algumas
+
+59
+00:05:05,390 --> 00:05:08,210
+aulas atrás o resto é quase idêntico.
+
+60
+00:05:08,210 --> 00:05:14,900
+Vamos fazer um loop pediu para o número de intervalos de tempo +1 e vamos criar uma matriz completa
+
+61
+00:05:14,900 --> 00:05:21,720
+de preços de ações como a dimensão dos intervalos de tempo mais um para o número de interações.
+
+62
+00:05:21,860 --> 00:05:28,220
+Mais precisamente 250 mais do que 291 e teremos 10 mil iterações.
+
+63
+00:05:28,340 --> 00:05:36,220
+Por isso a dimensão dessa matriz é 250 1 por 10 mil para pilotar apenas 10 simulações.
+
+64
+00:05:36,210 --> 00:05:42,050
+Podemos usar um truque do médio piloto Felipe depois de especificar nos que gostaríamos de pilotar o
+
+65
+00:05:42,050 --> 00:05:42,780
+S.
+
+66
+00:05:42,780 --> 00:05:50,430
+Poderíamos adicionar um operador índex onde designam ambos todos os 251 intervalos de tempo que devem
+
+67
+00:05:50,430 --> 00:05:57,600
+ser pilotados digitando 2 pontos antes da vírgula e depois uma vez que não estamos dispostos a ver todos
+
+68
+00:05:57,600 --> 00:05:59,900
+os 10 mil potenciais resultados.
+
+69
+00:05:59,940 --> 00:06:07,260
+Podemos limitar o gráfico a mostrar somente os 10 primeiros que geramos digitando 2 pontos 10
+
+70
+00:06:10,810 --> 00:06:11,450
+ok.
+
+71
+00:06:11,500 --> 00:06:13,560
+Nossa simulação agora se completa.
+
+72
+00:06:13,750 --> 00:06:18,290
+Vamos fazer uma pequena pausa e em seguida calcular o preço da opção de compra.
+
+73
+00:06:18,320 --> 00:06:19,450
+Tivemos no próximo vídeo.

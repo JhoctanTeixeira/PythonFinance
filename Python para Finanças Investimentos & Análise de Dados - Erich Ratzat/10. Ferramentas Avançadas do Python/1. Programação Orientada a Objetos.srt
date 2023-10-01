@@ -1,0 +1,395 @@
+1
+
+00:00:00,900  -->  00:00:04,330
+Você já ouviu falar de programação orientada a objetos?
+
+2
+
+00:00:04,330  -->  00:00:08,290
+Ela também é conhecida pela sigla em ingles OOP.
+
+3
+
+00:00:08,290  -->  00:00:13,469
+Nesta lição vamos falar sobre ela
+e esse assunto permitirá que você lide com conceitos
+
+4
+
+00:00:13,469  -->  00:00:15,829
+de programação mais avançados.
+
+5
+
+00:00:15,829  -->  00:00:20,400
+Além disso, a programação orientada a objetos é um pré-requisito
+para outro conceito importante: o de módulos.
+
+6
+
+00:00:20,400  -->  00:00:23,669
+Nós falaremos sobre isso na nossa próxima aula.
+
+7
+
+00:00:23,669  -->  00:00:27,199
+Podemos dizer que todo valor em Python é considerado um objeto.
+
+8
+
+00:00:27,199  -->  00:00:32,720
+Números inteiros, números reais, strings, listas... eles todos
+são objetos.
+
+9
+
+00:00:32,720  -->  00:00:35,290
+Pense neles como objetos lógicos.
+
+10
+
+00:00:35,290  -->  00:00:41,360
+Portanto, a programação orientada a objetos refere-se
+ao conceito de interação com um ou
+
+11
+
+00:00:41,360  -->  00:00:43,260
+mais objetos.
+
+12
+
+00:00:43,260  -->  00:00:51,740
+Hoje existem várias linguagem que suportam
+programação orientada a objetos - Java, PHP, Python e C++ são exemplos.
+
+13
+
+00:00:52,400  -->  00:00:58,180
+A razão pela qual a programação evoluiu para esse
+nível é conceitual - objetos nos permitem
+
+14
+
+00:00:58,190  -->  00:01:00,790
+modelar conceitos do mundo real.
+
+15
+
+00:01:00,790  -->  00:01:06,030
+Por exemplo, podemos ter uma lista contendo
+o número exato de visitantes em uma galeria
+
+16
+
+00:01:06,030  -->  00:01:07,430
+para o mês de março.
+
+17
+
+00:01:07,430  -->  00:01:13,360
+Esta é uma lista contendo 31 dados
+já que março tem 31 dias.
+
+18
+
+00:01:13,360  -->  00:01:19,970
+Ou podemos inserir nomes das galerias como
+valores de string em um dicionário chamado “Galleries” por exemplo.
+
+19
+
+00:01:19,970  -->  00:01:25,960
+Um objeto contém dados como um número
+ou uma string, além das operações que
+
+20
+
+00:01:25,960  -->  00:01:28,500
+nos permitem manipular os dados.
+
+21
+
+00:01:29,060  -->  00:01:30,040
+Ok.
+
+22
+
+00:01:30,120  -->  00:01:31,100
+Excelente.
+
+23
+
+00:01:31,100  -->  00:01:37,820
+A próxima coisa que faremos é introduzir o
+conceitos de classes, atributos e métodos.
+
+24
+
+00:01:37,820  -->  00:01:43,850
+Cada objeto pertence a alguma classe que define
+as regras para criar esse objeto.
+
+25
+
+00:01:43,850  -->  00:01:48,450
+E, podemos anexar um certo número de atributos
+a ele.
+
+26
+
+00:01:48,450  -->  00:01:53,840
+Vamos usar uma metáfora como exemplo que tornará
+as coisas muito mais claras.
+
+27
+
+00:01:53,840  -->  00:01:56,270
+Tio Archibald fabrica bicicletas.
+
+28
+
+00:01:56,270  -->  00:01:59,870
+Então, ele pertence à classe "fabricante de bicicletas".
+
+29
+
+00:01:59,870  -->  00:02:03,680
+Ele conhece muito bem as regras para produzir uma bicicleta.
+
+30
+
+00:02:03,680  -->  00:02:05,800
+Essa, por exemplo, é uma bicicleta que ele fez.
+
+31
+
+00:02:05,800  -->  00:02:10,200
+Portanto, é um objeto da classe "fabricante de bicicletas".
+
+32
+
+00:02:10,200  -->  00:02:15,580
+Como um objeto, ele tem certos atributos que
+se referem ao estado daquele objeto.
+
+33
+
+00:02:15,590  -->  00:02:21,489
+Sua cor, tamanho e tipo (mountain bike ou
+road bike são atributos que podem ser atribuídos
+
+34
+
+00:02:21,489  -->  00:02:22,950
+a ele).
+
+35
+
+00:02:22,950  -->  00:02:28,329
+Um método é algo diferente. - é o resultado
+de uma sequência lógica que pode ser
+
+36
+
+00:02:28,329  -->  00:02:30,510
+aplicada ao objeto.
+
+37
+
+00:02:30,510  -->  00:02:37,329
+Pode ser uma operação como vire à esquerda,
+vire à direita, desacelere ou acelere.
+
+38
+
+00:02:37,329  -->  00:02:42,989
+Essas ações podem ser aplicadas ao objeto,
+mas é importante que, durante a programação,
+
+39
+
+00:02:42,989  -->  00:02:49,220
+o foco esteja no objeto e não na
+ação, como em outros tipos de linguagem de programação.
+
+40
+
+00:02:49,220  -->  00:02:50,220
+É isso.
+
+41
+
+00:02:50,220  -->  00:02:56,370
+Vamos fornecer um exemplo prático que ajudará
+você a visualizar esses conceitos ainda melhor.
+
+42
+
+00:02:56,370  -->  00:03:00,459
+Podemos criar uma lista com três números reais, e esse
+será o nosso objeto.
+
+43
+
+00:03:00,459  -->  00:03:06,360
+Às vezes as pessoas se referem a objetos com
+a palavra instancia ou podem dizer propriedades
+
+44
+
+00:03:06,360  -->  00:03:08,379
+ao invés de atributos.
+
+45
+
+00:03:08,379  -->  00:03:12,590
+Não tem problema, pois esses termos podem ser usados ​​de forma intercambiável.
+
+46
+
+00:03:12,590  -->  00:03:17,690
+O objeto que criamos pertence à classe "List"
+do Python.
+
+47
+
+00:03:17,690  -->  00:03:21,379
+Um atributo dessa lista é o tipo de
+dados nela.
+
+48
+
+00:03:21,379  -->  00:03:26,389
+Tecnicamente, uma lista pode conter vários tipos
+de dados, como números inteiros e strings.
+
+49
+
+00:03:26,389  -->  00:03:31,579
+Por isso, é importante definir o tipo de
+dados usados ​​aqui.
+
+50
+
+00:03:31,579  -->  00:03:32,590
+Esses são números reais ou floats.
+
+51
+
+00:03:32,590  -->  00:03:38,239
+Um método que podemos aplicar a este objeto é
+“extend” ou “index” como vimos anteriormente
+
+52
+
+00:03:38,239  -->  00:03:41,099
+na seção sobre "Seqüências".
+
+53
+
+00:03:41,099  -->  00:03:46,529
+E por favor, preste atenção; essas operações
+podem ser executadas somente depois que criamos
+
+54
+
+00:03:46,529  -->  00:03:48,340
+o objeto.
+
+55
+
+00:03:48,340  -->  00:03:53,749
+A diferença entre uma função e um método
+é sutil e pode ser confusa.
+
+56
+
+00:03:53,749  -->  00:03:57,920
+Tente lembrar que um método é uma função especial.
+
+57
+
+00:03:57,920  -->  00:04:03,400
+Como qualquer outra função, um método pode ter muitos
+parâmetros de vários tipos de dados, mas certamente
+
+58
+
+00:04:03,400  -->  00:04:07,749
+irá conter o objeto que será usado
+com um deles.
+
+59
+
+00:04:07,749  -->  00:04:12,900
+Um método pertence a uma determinada classe, enquanto
+uma função existe por conta própria.
+
+60
+
+00:04:12,900  -->  00:04:17,730
+Olhando novamente para nosso exemplo: "bike-makers" - fabricante de bicicletas,
+se não houver uma bicicleta que tenha sido produzida
+
+61
+
+00:04:17,730  -->  00:04:21,139
+não há como aplicar o método
+“turn left” (que significa virar à esquerda).
+
+62
+
+00:04:21,139  -->  00:04:26,409
+Um dos parâmetros do método "turn left"
+deve ser um objeto da bicicleta.
+
+63
+
+00:04:26,409  -->  00:04:31,690
+Para evitar confusão entre os termos método
+e função, a sintaxe do Python é diferente
+
+64
+
+00:04:31,690  -->  00:04:33,699
+para cada situação.
+
+65
+
+00:04:33,699  -->  00:04:39,290
+Como vimos em aulas anteriores, o nome
+do método não acompanha parênteses.
+
+66
+
+00:04:39,290  -->  00:04:45,030
+Ele vem após o nome do objeto a ser
+usado e o ponto.
+
+67
+
+00:04:45,030  -->  00:04:46,720
+Ótimo!
+
+68
+
+00:04:46,720  -->  00:04:50,860
+Este conceito irá ajudá-lo na sua trajetória para
+se tornar um excelente programador.
+
+69
+
+00:04:51,400  -->  00:04:55,700
+Vamos manter o bom trabalho e continuar
+com o próximo vídeo, onde vamos explicar
+
+70
+
+00:04:55,700  -->  00:04:58,120
+os módulos e pacotes.
+
+71
+
+00:04:58,130  -->  00:04:59,249
+Obrigado por assistir!

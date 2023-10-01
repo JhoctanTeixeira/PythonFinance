@@ -1,0 +1,365 @@
+1
+
+00:00:00,110  -->  00:00:03,009
+Ótimo, estamos indo muito bem, na verdade.
+
+2
+
+00:00:03,009  -->  00:00:08,450
+Nós explicamos o que é uma regressão e como
+isso nos ajuda a prever o desenvolvimento de certas
+
+3
+
+00:00:08,450  -->  00:00:09,450
+variáveis.
+
+4
+
+00:00:09,450  -->  00:00:13,889
+Nesta aula, vamos nos aprofundar e aprender
+como distinguir entre regressões que
+
+5
+
+00:00:13,889  -->  00:00:20,130
+são confiáveis ​​e regressões que não explicam
+uma porção suficientemente grande da variabilidade
+
+6
+
+00:00:20,130  -->  00:00:22,380
+da variável dependente.
+
+7
+
+00:00:22,380  -->  00:00:23,380
+Você está pronto?
+
+8
+
+00:00:23,380  -->  00:00:24,380
+Ótimo!
+
+9
+
+00:00:24,380  -->  00:00:25,650
+Então vamos começar.
+
+10
+
+00:00:25,650  -->  00:00:30,640
+Nós sabemos de fato que mais de uma variável
+determina o desenvolvimento dos preços de uma casa.
+
+11
+
+00:00:30,640  -->  00:00:36,800
+Sim, o tamanho é importante; no entanto, existem
+outros fatores importante, como a localização,
+
+12
+
+00:00:36,800  -->  00:00:41,940
+a vizinhança, ano de construção, …
+Todas essas características influenciam no preço
+
+13
+
+00:00:41,940  -->  00:00:42,940
+de uma casa.
+
+14
+
+00:00:42,940  -->  00:00:49,590
+Assim, uma simples regressão contendo apenas uma
+variável omitirá alguns fatores importantes
+
+15
+
+00:00:49,590  -->  00:00:54,239
+e provavelmente fornecerá uma estimativa que se desvia
+do preço real.
+
+16
+
+00:00:54,239  -->  00:00:59,710
+Isso não significa que uma regressão simples não seja
+útil, porque ainda pode ter um alto poder
+
+17
+
+00:00:59,710  -->  00:01:05,780
+preditivo; no entanto, precisamos saber que não vai
+nos fornecer uma equação capaz de estimar
+
+18
+
+00:01:05,780  -->  00:01:09,280
+os preços das casas com precisão absoluta.
+
+19
+
+00:01:09,280  -->  00:01:13,310
+Podemos esperar um erro, e o modelo de regressão
+pode ser escrito como:
+
+20
+
+00:01:13,310  -->  00:01:20,060
+Y = alpha + beta * X + error.
+
+21
+
+00:01:20,060  -->  00:01:25,920
+Quando falamos de observações de amostras, os
+erros são chamados de resíduos.
+
+22
+
+00:01:25,920  -->  00:01:31,710
+No gráfico XY que vimos antes, podemos desenhar linhas
+retas conectando a linha de regressão de melhor
+
+23
+
+00:01:31,710  -->  00:01:39,340
+ajuste e os pontos de dados reais, e a distância
+dessas linhas nos dará os resíduos.
+
+24
+
+00:01:39,340  -->  00:01:45,620
+A linha de melhor ajuste é assim chamada
+pois minimiza a soma quadrada das
+
+25
+
+00:01:45,620  -->  00:01:48,140
+distâncias desses resíduos.
+
+26
+
+00:01:48,140  -->  00:01:53,780
+Se você desenhar uma linha diferente neste gráfico,
+os resíduos quadrados serão maiores do que
+
+27
+
+00:01:53,780  -->  00:01:58,610
+a soma dos resíduos quadrados da melhor
+linha de ajuste.
+
+28
+
+00:01:58,610  -->  00:02:04,150
+Esta é a razão pela qual os coeficientes encontrados com
+esta técnica são chamados de estimativas OLS (do inglês: Ordinary Least Squares)
+
+29
+
+00:02:04,150  -->  00:02:08,700
+OLS em português é chamado de Método dos Mínimos Quadrados.
+
+30
+
+00:02:08,700  -->  00:02:14,610
+Nós precisamos encontrar uma linha que minimize a
+distância entre ela e as observações de dados
+
+31
+
+00:02:14,610  -->  00:02:17,790
+reais que estamos usando para calcular uma regressão.
+
+32
+
+00:02:17,790  -->  00:02:18,790
+Certo.
+
+33
+
+00:02:18,790  -->  00:02:25,180
+Então, é assim que calculamos os coeficientes de regressão
+e uma equação que nos permite prever
+
+34
+
+00:02:25,180  -->  00:02:27,290
+a variável independente.
+
+35
+
+00:02:27,290  -->  00:02:31,000
+Antes de criar uma regressão, use a sua intuição.
+
+36
+
+00:02:31,000  -->  00:02:34,520
+Precisamos pensar na seguinte questão.
+
+37
+
+00:02:34,520  -->  00:02:38,069
+Todas as regressões são igualmente boas?
+
+38
+
+00:02:38,069  -->  00:02:43,860
+Será que existem variáveis explicativas que fazem um
+trabalho melhor ao descrever certas variáveis
+
+39
+
+00:02:43,860  -->  00:02:45,170
+independentes?
+
+40
+
+00:02:45,170  -->  00:02:46,810
+Sim!
+
+41
+
+00:02:46,810  -->  00:02:51,950
+O tamanho da casa é um dos melhores indicadores de
+preços das casas; portanto, faz sentido
+
+42
+
+00:02:51,950  -->  00:02:57,100
+explorar a relação entre as duas variáveis
+por meio de uma regressão.
+
+43
+
+00:02:57,100  -->  00:03:03,020
+Faz sentido usar uma regressão entre
+a idade dos proprietários e os preços das casas?
+
+44
+
+00:03:03,020  -->  00:03:04,720
+Provavelmente não, certo?
+
+45
+
+00:03:04,720  -->  00:03:10,420
+Não esperamos que os compradores sejam influenciados
+pela idade da pessoa que vai vender a casa.
+
+46
+
+00:03:10,420  -->  00:03:16,980
+Portanto, por definição, podemos dizer que todas as equações
+de regressão não são iguais.
+
+47
+
+00:03:16,980  -->  00:03:20,830
+Algumas têm um poder explicativo maior do que as
+outras.
+
+48
+
+00:03:20,830  -->  00:03:26,030
+Precisamos de uma ferramenta que nos permita medir
+essa propriedade e nos habilite distinguir
+
+49
+
+00:03:26,030  -->  00:03:31,470
+regressões com bom, razoável, e fraco poder
+explicativo.
+
+50
+
+00:03:31,470  -->  00:03:36,800
+Felizmente, os estatísticos criaram
+uma ferramenta fácil de entender.
+
+51
+
+00:03:36,800  -->  00:03:39,300
+Que se chama R quadrado.
+
+52
+
+00:03:39,300  -->  00:03:45,319
+Para entendermos o R quadrado, nós precisamos pensar
+na variabilidade total dos dados.
+
+53
+
+00:03:45,319  -->  00:03:49,520
+Que é a medida para a dispersão e para
+variabilidade dos dados?
+
+54
+
+00:03:49,520  -->  00:03:51,220
+A variância, certo?
+
+55
+
+00:03:51,220  -->  00:03:59,269
+Ok, então vamos usar um conceito muito próximo de
+uma variância - a soma total dos quadrados (TSS na sigla em inglês).
+
+56
+
+00:03:59,269  -->  00:04:03,400
+O TSS fornece uma noção da variabilidade dos
+dados.
+
+57
+
+00:04:03,400  -->  00:04:09,159
+A fórmula para a variância de Y é a mesma,
+mas N - 1 é omitido.
+
+58
+
+00:04:09,159  -->  00:04:14,299
+Já calculamos a soma dos
+quadrados dos resíduos para obter os coeficientes
+
+59
+
+00:04:14,299  -->  00:04:23,559
+de regressão; portanto, podemos obter o R quadrado
+com a seguinte fórmula - 1 menos SSR
+
+60
+
+00:04:23,559  -->  00:04:25,830
+dividido por TSS.
+
+61
+
+00:04:25,830  -->  00:04:34,460
+Normalmente, o R quadrado é visto como um valor
+percentual, e pode variar de 0 a 100%.
+
+62
+
+00:04:34,460  -->  00:04:39,069
+Quanto maior for o valor, maior o poder
+explicativo do modelo de regressão.
+
+63
+
+00:04:39,069  -->  00:04:46,729
+Normalmente, uma regressão simples com um R quadrado
+de menos de 10% tem pouco valor preditivo.
+
+64
+
+00:04:46,729  -->  00:04:52,400
+Uma regressão de uma variável com um R quadrado
+de 30% ou mais é um indicador sólido de desempenho
+
+65
+
+00:04:52,400  -->  00:04:52,410
+futuro.

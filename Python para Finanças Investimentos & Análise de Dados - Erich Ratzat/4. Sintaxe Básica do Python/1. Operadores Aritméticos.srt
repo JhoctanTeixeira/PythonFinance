@@ -1,0 +1,283 @@
+1
+
+00:00:00,989  -->  00:00:01,989
+Ótimo!
+
+2
+
+00:00:01,989  -->  00:00:03,720
+Estamos progredindo bastante mesmo!
+
+3
+
+00:00:03,720  -->  00:00:07,899
+Nós já vimos algumas das noções básicas da sintaxe
+Python e a maneira como ele funciona.
+
+4
+
+00:00:07,899  -->  00:00:12,089
+Nessa aula, vamos continuar a construir
+nosso conhecimento sobre a sintaxe do Python.
+
+5
+
+00:00:12,089  -->  00:00:17,460
+Estamos a um passo de abordar os aspectos essenciais,
+e depois poderemos mergulhar em tarefas mais
+
+6
+
+00:00:17,460  -->  00:00:19,840
+interessantes de programação.
+
+7
+
+00:00:19,840  -->  00:00:23,730
+O próximo tópico que veremos são os operadores
+aritméticos.
+
+8
+
+00:00:23,730  -->  00:00:26,960
+Os sinais de adição e subtração são simples
+de usar.
+
+9
+
+00:00:26,960  -->  00:00:31,800
+Tecnicamente falando, na equação que você
+vê aqui, 1 e 2 são chamados operandos, enquanto
+
+10
+
+00:00:31,800  -->  00:00:35,000
+nessa outra, os operandos são 3 e 5.
+
+11
+
+00:00:35,000  -->  00:00:40,090
+Os sinais de mais e menos são chamados operadores,
+e dado que eles também representam operações aritméticas,
+
+12
+
+00:00:40,090  -->  00:00:44,600
+eles podem ser chamados de operadores aritméticos.
+
+13
+
+00:00:44,600  -->  00:00:47,780
+A divisão é mais interessante.
+
+14
+
+00:00:47,790  -->  00:00:54,320
+Se queremos dividir 15 por 3, nós usaremos
+o sinal de barra.
+
+15
+
+00:00:54,320  -->  00:00:58,520
+O que acontecerá se tentarmos dividir 16 por
+3?
+
+16
+
+00:00:59,640  -->  00:01:01,040
+Olha só 5 de novo!
+
+17
+
+00:01:01,040  -->  00:01:06,700
+Sim, o resultado foi 5 porque no Python 2,
+o quociente é sempre um inteiro por padrão.
+
+18
+
+00:01:06,710  -->  00:01:12,200
+Matematicamente, se dividirmos o inteiro 16
+por 3, obteremos um quociente de 5 e o
+
+19
+
+00:01:12,200  -->  00:01:14,750
+restante 1.
+
+20
+
+00:01:14,750  -->  00:01:20,300
+Se usarmos números reais, ou decimais, o número decimal
+16.0 dividido por 3 irá resultar no valor decimal
+
+21
+
+00:01:20,300  -->  00:01:21,929
+de 5.33.
+
+22
+
+00:01:21,929  -->  00:01:28,009
+Portanto, obtemos como um quociente o inteiro
+5 e nenhuma informação sobre o restante
+
+23
+
+00:01:28,009  -->  00:01:30,980
+da divisão de 16 por 3.
+
+24
+
+00:01:30,980  -->  00:01:35,580
+Essa é uma das poucas diferenças substanciais
+entre o Python 2 e o 3.
+
+25
+
+00:01:35,580  -->  00:01:42,200
+No Python 3, você teria 5.33 direto
+como resposta, ou um decimal, porque o software
+
+26
+
+00:01:42,200  -->  00:01:45,990
+vai entender que seu primeiro número era um valor
+decimal.
+
+27
+
+00:01:45,990  -->  00:01:51,530
+Para evitar isso, quando usarmos o Python 2, devemos
+olhar o quociente do decimal 16.0 dividido
+
+28
+
+00:01:51,530  -->  00:01:55,439
+por 3 e não o inteiro 16 dividido por
+3.
+
+29
+
+00:01:55,440  -->  00:02:00,480
+Portanto, devemos transformar o número inteiro
+em um decimal ou digitá-lo como um decimal diretamente.
+
+30
+
+00:02:06,240  -->  00:02:07,260
+Olha só!
+
+31
+
+00:02:07,380  -->  00:02:08,900
+Essa é a resposta correta.
+
+32
+
+00:02:09,220  -->  00:02:13,440
+Agora, vamos obter o restante da divisão
+de 16 por 3.
+
+33
+
+00:02:13,440  -->  00:02:17,560
+Como podemos fazer o Python dar "1" como
+resposta?
+
+34
+
+00:02:17,560  -->  00:02:20,390
+O operador que pode nos ajudar é o sinal de
+porcentagem.
+
+35
+
+00:02:20,390  -->  00:02:27,460
+Eu vou digitar 16, sinal de porcentagem, 3, e quando
+eu executar o comando, vou obter o resto da divisão.
+
+36
+
+00:02:27,460  -->  00:02:29,420
+O nosso resultado então é "1".
+
+37
+
+00:02:29,720  -->  00:02:30,740
+Bom.
+
+38
+
+00:02:31,940  -->  00:02:34,280
+Multiplicação.
+
+39
+
+00:02:34,420  -->  00:02:38,240
+Como de costume, nós podemos usar o sinal de asterisco quando nós
+queremos multiplicar.
+
+40
+
+00:02:38,250  -->  00:02:43,890
+Por exemplo, 5 asterisco 3 nos dará um resultado
+de 15.
+
+41
+
+00:02:43,890  -->  00:02:48,320
+Só para registrar, você pode atribuir qualquer operação
+aritmética a uma variável.
+
+42
+
+00:02:48,320  -->  00:02:56,460
+Se atribuirmos 5 vezes 3 à variável x,
+e em seguida chamarmos x, vamos obter 15 novamente.
+
+43
+
+00:02:56,460  -->  00:02:57,870
+Ótimo!
+
+44
+
+00:02:57,870  -->  00:03:01,680
+Como você calcularia 5 elevado a 3?
+
+45
+
+00:03:01,680  -->  00:03:04,320
+Usando dois asteriscos.
+
+46
+
+00:03:04,320  -->  00:03:11,310
+Digite 5, dois asteriscos, 3, e ... aqui está
+- 125!
+
+47
+
+00:03:11,310  -->  00:03:13,350
+Fácil, certo?
+
+48
+
+00:03:13,350  -->  00:03:14,370
+Ok.
+
+49
+
+00:03:14,370  -->  00:03:17,300
+Basicamente, era isso sobre operadores aritméticos.
+
+50
+
+00:03:17,300  -->  00:03:21,720
+Fique atento na próxima aula onde vamos
+explorar alguns outros operadores úteis.
+
+51
+
+00:03:21,720  -->  00:03:22,760
+Obrigado por assistir!

@@ -1,0 +1,214 @@
+1
+
+00:00:00,760  -->  00:00:05,390
+Antes de prosseguirmos com o curso, vamos
+analisar rapidamente como é
+
+2
+
+00:00:05,390  -->  00:00:07,180
+trabalhar com dados financeiros.
+
+3
+
+00:00:07,180  -->  00:00:12,050
+Para começar, existem muitas fontes online que
+fornecem informações sobre dados financeiros.
+
+4
+
+00:00:12,050  -->  00:00:16,090
+Elas podem ser divididas em duas categorias - as pagas
+e as gratuitas.
+
+5
+
+00:00:16,090  -->  00:00:21,160
+É claro que, os dados pagos tendem a ser
+melhor estruturados e raramente
+
+6
+
+00:00:21,160  -->  00:00:24,180
+contêm valores faltantes.
+
+7
+
+00:00:24,180  -->  00:00:29,699
+Alternativamente, as fontes de dados gratuitas não contêm
+necessariamente informações erradas.
+
+8
+
+00:00:29,700  -->  00:00:34,040
+Elas podem oferecer dados de qualidade boa o suficiente
+para ajudá-lo a gerenciar suas finanças pessoais,
+
+9
+
+00:00:34,040  -->  00:00:35,980
+entre outras coisas.
+
+10
+
+00:00:35,980  -->  00:00:42,080
+As vezes esses dados não são tão precisos ou tão
+ricos quando comparados aos dados fornecidos pelos sites
+
+11
+
+00:00:42,090  -->  00:00:43,090
+pagos.
+
+12
+
+00:00:43,090  -->  00:00:48,989
+É por isso que nós baseamos nosso curso em dados
+de fontes gratuitas - eles se adaptam perfeitamente
+
+13
+
+00:00:48,989  -->  00:00:53,339
+aos nossos objetivos e são gratuitos
+para o usuário.
+
+14
+
+00:00:53,340  -->  00:00:55,600
+Então, vamos recapitular.
+
+15
+
+00:00:55,600  -->  00:01:01,760
+Sobre o que é o curso Python para Finanças: Fundamentos de Investimentos
+e Análise de Dados?
+
+16
+
+00:01:01,860  -->  00:01:07,780
+Até este ponto, este curso tem se concentrado
+em ensinar habilidades de programação em Python.
+
+17
+
+00:01:07,790  -->  00:01:13,460
+Para o restante do curso, além disso, vamos
+olhar para os fundamentos das finanças e
+
+18
+
+00:01:13,460  -->  00:01:14,460
+investimentos.
+
+19
+
+00:01:14,460  -->  00:01:19,530
+Vamos passar por vários tópicos do mundo das finanças
+e mostraremos como eles podem ser aplicados
+
+20
+
+00:01:19,530  -->  00:01:22,340
+aos dados da vida real usando o Python.
+
+21
+
+00:01:22,980  -->  00:01:29,100
+Então, é importante enfatizar que essas
+três ferramentas são o foco principal deste curso.
+
+22
+
+00:01:29,560  -->  00:01:33,980
+Essas ferramentas lhe darão as habilidades necessárias
+que o mercado precisa.
+
+23
+
+00:01:33,990  -->  00:01:39,060
+Outro ingrediente crucial para fazer boas
+análises é em relação aos dados que você usará.
+
+24
+
+00:01:39,060  -->  00:01:44,409
+Assim, você pode ter certeza de que lidar com informações de
+alta qualidade terá um impacto positivo
+
+25
+
+00:01:44,409  -->  00:01:47,210
+no resultado do seu trabalho.
+
+26
+
+00:01:47,210  -->  00:01:53,190
+No entanto, a quantidade de dados disponíveis está em constante
+mudança e não há maneira de você chegar
+
+27
+
+00:01:53,190  -->  00:01:58,710
+exatamente às mesmas conclusões se você fizesse
+a mesma análise hoje e outra digamos, daqui um
+
+28
+
+00:01:58,710  -->  00:01:59,710
+ano.
+
+29
+
+00:01:59,710  -->  00:02:05,000
+Além disso, você verá que ao usar
+dados de fontes online gratuitas,
+
+30
+
+00:02:05,000  -->  00:02:10,649
+é compreensível que, às vezes,
+você encontre alguns erros ou encontre alguns
+
+31
+
+00:02:10,649  -->  00:02:13,040
+valores faltantes.
+
+32
+
+00:02:13,040  -->  00:02:18,459
+No entanto, insistimos que as importantes habilidades
+e ferramentas que você irá aprender são
+
+33
+
+00:02:18,459  -->  00:02:24,139
+universais seja quando estiver programando em Python,
+seja pensando analiticamente e resolvendo exercícios
+
+34
+
+00:02:24,139  -->  00:02:26,610
+financeiros usando o Python.
+
+35
+
+00:02:26,610  -->  00:02:31,400
+Assim, os dados vêm como um ingrediente secundário.
+
+36
+
+00:02:31,400  -->  00:02:35,819
+Tendo dito isso, vamos passar para o próximo
+vídeo, onde nós vamos analisar
+
+37
+
+00:02:35,819  -->  00:02:40,690
+as atuais fontes de dados financeiros online que
+você pode usar quando estiver fazendo o curso.
+
+38
+
+00:02:40,690  -->  00:02:41,690
+Vejo você lá!

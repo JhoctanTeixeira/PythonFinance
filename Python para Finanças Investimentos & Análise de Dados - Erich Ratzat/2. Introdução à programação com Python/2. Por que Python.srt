@@ -1,0 +1,480 @@
+1
+1
+
+00:00:01,060  -->  00:00:05,520
+Embora possa ser novidade para alguns de vocês, a
+linguagem Python já existe há mais de
+2
+
+2
+
+00:00:05,520  -->  00:00:07,250
+duas décadas.
+3
+
+3
+
+00:00:07,250  -->  00:00:10,210
+Existem dois motivos principais pelos quais você deve aprender
+Python.
+4
+
+4
+
+00:00:10,210  -->  00:00:15,450
+Primeiro, ele possui algumas vantagens técnicas em
+comparação com outras linguagens de programação.
+5
+
+5
+
+00:00:15,450  -->  00:00:20,109
+E segundo, sua aplicação prática abrange
+vários setores.
+6
+
+6
+
+00:00:20,109  -->  00:00:24,610
+É uma ferramenta computacional poderosa quando temos
+que resolver tarefas complicadas na área
+7
+
+7
+
+00:00:24,610  -->  00:00:31,259
+das finanças, econometria, ciência de
+dados e machine learning.
+8
+
+8
+
+00:00:31,259  -->  00:00:36,180
+Portanto, é um passo perfeito para
+alguém que quer aprender a programar e
+9
+
+9
+
+00:00:36,180  -->  00:00:39,360
+está determinado a seguir uma carreira como cientista de dados.
+10
+
+10
+
+00:00:39,360  -->  00:00:43,680
+Aqui está uma descrição um pouco mais técnica
+do Python.
+11
+
+11
+
+00:00:43,680  -->  00:00:49,220
+É uma linguagem de programação de alto nível,
+de uso geral e de código aberto.
+12
+
+12
+
+00:00:49,220  -->  00:00:54,340
+Vamos dividir essa definição em várias
+partes e tentar entender cada um desses
+13
+
+13
+
+00:00:54,340  -->  00:00:55,340
+atributos.
+14
+
+14
+
+00:00:55,340  -->  00:00:58,710
+Software de código aberto (OSS):
+Código aberto significa que é gratuito.
+15
+
+15
+
+00:00:58,710  -->  00:01:03,910
+O Python tem uma comunidade científica grande e ativa
+com acesso ao código-fonte do software
+16
+
+16
+
+00:01:03,910  -->  00:01:09,950
+e contribui para seu desenvolvimento e atualização
+contínua, dependendo das necessidades do usuário.
+17
+
+17
+
+00:01:09,950  -->  00:01:15,310
+Esta é a principal razão pela qual o Python é multi-plataforma.
+Está disponível para todos os principais sistemas operacionais:
+18
+
+18
+
+00:01:15,310  -->  00:01:19,840
+Windows, Mac, e Linux.
+19
+
+19
+
+00:01:19,840  -->  00:01:24,590
+O lado bom disso é que o Python pode ser usado rapidamente
+em qualquer lugar.
+20
+
+20
+
+00:01:24,590  -->  00:01:31,389
+Linguagens específicas como MATLAB e
+o SAS, que também são usadas para resolver problemas financeiros
+21
+
+21
+
+00:01:31,389  -->  00:01:32,799
+e econométricos, são pagas.
+22
+
+22
+
+00:01:32,799  -->  00:01:36,389
+Isso faz com que a popularidade do Python aumente ainda mais.
+23
+
+23
+
+00:01:36,389  -->  00:01:40,679
+Propósito geral:
+Sim, vamos aprofundar em uma das aplicações específicas
+24
+
+24
+
+00:01:40,679  -->  00:01:44,729
+do Python - análise de dados financeiros.
+25
+
+25
+
+00:01:44,729  -->  00:01:49,560
+No entanto, você deve saber que existe um amplo
+conjunto de campos onde ele pode ser aplicado.
+26
+
+26
+
+00:01:49,560  -->  00:01:54,439
+Por exemplo, o Python pode ser usado para programação web
+através do framework Django.
+27
+
+27
+
+00:01:54,439  -->  00:01:59,079
+Embora isso esteja além do escopo deste
+curso, você deve ficar sabendo da ampla gama
+28
+
+28
+
+00:01:59,079  -->  00:02:04,499
+de possibilidades e a interoperabilidade com
+outras linguagens de programação. Talvez por isso
+29
+
+29
+
+00:02:04,499  -->  00:02:10,650
+que algumas grandes empresas escolheram o Python
+como sua principal linguagem de programação.
+30
+
+30
+
+00:02:10,650  -->  00:02:15,030
+Alto nível:
+Essa questão isso é um pouco mais técnica.
+31
+
+31
+
+00:02:15,030  -->  00:02:20,349
+De um modo geral, os computadores podem executar programas
+escritos em linguagens de baixo nível, também
+32
+
+32
+
+00:02:20,349  -->  00:02:22,460
+chamadas de linguagem de máquina.
+33
+
+33
+
+00:02:22,460  -->  00:02:28,530
+Portanto, um programa escrito em uma linguagem de alto nível
+deve ser primeiro interpretado em uma linguagem de baixo nível
+34
+
+34
+
+00:02:28,530  -->  00:02:32,269
+antes de poder ser executado.
+35
+
+35
+
+00:02:32,269  -->  00:02:34,540
+Esse processo leva um tempo.
+36
+
+36
+
+00:02:34,540  -->  00:02:39,620
+Há softwares especializados e aplicativos
+que farão essa interpretação para você.
+37
+
+37
+
+00:02:39,620  -->  00:02:44,060
+As vantagens de usar uma linguagem de alto nível
+são enormes.
+38
+
+38
+
+00:02:44,060  -->  00:02:48,420
+Uma delas é que é difícil de programar e entender as linguagens
+de baixo nível.
+39
+
+39
+
+00:02:48,420  -->  00:02:51,579
+Elas são muito técnicas.
+40
+
+40
+
+00:02:51,579  -->  00:02:56,540
+Linguagens de alto nível empregam uma sintaxe muito
+mais próxima da lógica humana, o que a torna bem
+41
+
+41
+
+00:02:56,540  -->  00:02:58,620
+mais fácil de aprender e implementar.
+42
+
+42
+
+00:02:58,620  -->  00:03:03,849
+Ela permite que o programador se concentre na tarefa
+em questão, em vez de tentar descobrir linhas de
+43
+
+43
+
+00:03:03,849  -->  00:03:06,650
+código ilegíveis.
+44
+
+44
+
+00:03:06,650  -->  00:03:11,530
+Para resumir as vantagens técnicas que
+fazem do Python uma poderosa linguagem de programação,
+45
+
+45
+
+00:03:11,530  -->  00:03:16,450
+muitas vezes a escolhida em relação à outras linguagens,
+podemos dizer o seguinte:
+46
+
+46
+
+00:03:16,450  -->  00:03:21,350
+- É gratuita e atualizada constantemente;
+- Pode ser usada em vários campos do mundo real;
+47
+
+47
+
+00:03:21,350  -->  00:03:27,840
+- Não requer muito tempo para processar
+cálculos e possui uma sintaxe intuitiva que
+48
+
+48
+
+00:03:27,840  -->  00:03:31,550
+permite cálculos quantitativos complexos.
+49
+
+49
+
+00:03:31,550  -->  00:03:37,140
+O que dissemos até agora demonstra a enorme
+aplicabilidade prática do Python.
+50
+
+50
+
+00:03:37,140  -->  00:03:41,140
+É de fato uma das linguagens de programação
+mais populares em vários campos.
+51
+
+51
+
+00:03:41,140  -->  00:03:43,530
+Um deles é o mundo das finanças.
+52
+
+52
+
+00:03:43,530  -->  00:03:49,280
+Basta considerar que hoje os bancos e instituições
+financeiras gastam mais em tecnologia do que
+53
+
+53
+
+00:03:49,280  -->  00:03:51,480
+qualquer outra indústria!
+54
+
+54
+
+00:03:51,480  -->  00:03:56,280
+Milhares de desenvolvedores trabalham em instituições
+financeiras para manter os software existente
+55
+
+55
+
+00:03:56,280  -->  00:03:59,099
+e criar novos programas.
+56
+
+56
+
+00:03:59,099  -->  00:04:03,359
+Há uma demanda crescente por pessoas que tenham
+sólidos conhecimentos sobre o mundo das finanças
+57
+
+57
+
+00:04:03,359  -->  00:04:07,180
+e que saibam programar em Python.
+58
+
+58
+
+00:04:07,180  -->  00:04:11,140
+Está claro que estamos vivendo na era do Big
+Data.
+59
+
+59
+
+00:04:11,140  -->  00:04:15,780
+Pessoas em diferentes disciplinas como economia
+finanças, ciência da computação, marketing, e
+60
+
+60
+
+00:04:15,780  -->  00:04:19,370
+muitas outras podem ter acesso a grandes quantidades de dados.
+61
+
+61
+
+00:04:19,370  -->  00:04:23,229
+Falamos em Big Data quando temos milhões
+de observações.
+62
+
+62
+
+00:04:23,229  -->  00:04:28,490
+Em tais situações, os recursos computacionais
+de aplicativos tradicionais de processamento de dados,
+63
+
+63
+
+00:04:28,490  -->  00:04:32,560
+como o Microsoft Excel, se tornam insuficientes.
+64
+
+64
+
+00:04:32,560  -->  00:04:38,060
+Precisamos de uma ferramenta mais poderosa para lidar
+com Big Data da mesma maneira, independentemente do
+65
+
+65
+
+00:04:38,060  -->  00:04:39,990
+campo de aplicação.
+66
+
+66
+
+00:04:39,990  -->  00:04:45,169
+O Python é perfeito para essas situações, pois
+nos dá flexibilidade.
+67
+
+67
+
+00:04:45,169  -->  00:04:49,940
+Para concluir, a popularidade do Python
+está calcada em dois pilares principais.
+68
+
+68
+
+00:04:49,940  -->  00:04:54,630
+A primeira é que é uma linguagem de programação
+fácil de aprender projetada para ser lida com facilidade, com
+69
+
+69
+
+00:04:54,630  -->  00:04:57,500
+uma sintaxe clara e intuitiva.
+70
+
+70
+
+00:04:57,500  -->  00:05:02,500
+E a segunda razão é que sua facilidade de uso
+não diminui seu potencial.
+71
+
+71
+
+00:05:02,500  -->  00:05:08,090
+O Python pode executar uma variedade de cálculos complexos
+e é uma das linguagens de programação mais poderosas
+72
+
+72
+
+00:05:08,090  -->  00:05:09,910
+preferidas pelos especialistas.

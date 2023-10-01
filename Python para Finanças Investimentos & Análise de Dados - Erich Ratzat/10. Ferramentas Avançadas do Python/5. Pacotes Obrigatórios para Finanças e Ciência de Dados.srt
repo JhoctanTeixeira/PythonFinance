@@ -1,0 +1,350 @@
+1
+
+00:00:00,390  -->  00:00:01,390
+Tudo certo?!
+
+2
+
+00:00:01,390  -->  00:00:02,390
+Excelente!
+
+3
+
+00:00:02,390  -->  00:00:05,899
+Vamos ver as bibliotecas que usaremos
+neste curso.
+
+4
+
+00:00:05,899  -->  00:00:12,410
+Todo mundo que usa o Python para computação científica
+usa o NumPy, um pacote de terceiros que nos permite
+
+5
+
+00:00:12,410  -->  00:00:15,260
+trabalhar com arrays ou matrizes multidimensionais.
+
+6
+
+00:00:15,260  -->  00:00:20,740
+Falaremos mais sobre arrays em nossa próxima
+aula, mas, por enquanto, pense nelas como tabelas
+
+7
+
+00:00:20,740  -->  00:00:22,310
+de elementos.
+
+8
+
+00:00:22,310  -->  00:00:27,000
+Arrays representam uma maneira poderosa de organizar
+e processar dados.
+
+9
+
+00:00:27,000  -->  00:00:32,800
+Por causa disso, o NumPy é uma biblioteca fundamental
+para aqueles que trabalham manipulando grandes
+
+10
+
+00:00:32,800  -->  00:00:35,540
+volumes de informações.
+
+11
+
+00:00:36,800  -->  00:00:41,440
+"Pandas" é um pacote que melhora o NumPy
+ainda mais.
+
+12
+
+00:00:41,440  -->  00:00:46,770
+Ele nos permite organizar dados em forma de tabelas
+e anexar rótulos descritivos às
+
+13
+
+00:00:46,770  -->  00:00:52,420
+linhas e colunas da tabela, e não apenas
+números, como é com o NumPy.
+
+14
+
+00:00:52,420  -->  00:00:57,800
+Além disso, o Pandas é dotado de uma ampla
+gama de ferramentas, facilitando o nosso trabalho com
+
+15
+
+00:00:57,800  -->  00:01:00,859
+vários formatos de dados e dados faltantes.
+
+16
+
+00:01:00,859  -->  00:01:04,759
+É perfeito para trabalhar com séries temporais
+e bancos de dados enormes.
+
+17
+
+00:01:04,759  -->  00:01:10,479
+Portanto, se você quiser fazer ciência de dados
+com o Python, Pandas é um pacote essencial
+
+18
+
+00:01:10,479  -->  00:01:12,390
+que você precisará.
+
+19
+
+00:01:12,390  -->  00:01:17,530
+Quando tivermos trabalhando com os tópicos financeiros
+neste curso, nós usaremos o Pandas em todas as
+
+20
+
+00:01:17,530  -->  00:01:18,820
+nossas aulas.
+
+21
+
+00:01:18,820  -->  00:01:24,490
+Quando você fizer os exercícios do curso, você
+verá por que ele é considerado a principal ferramenta de análise
+
+22
+
+00:01:24,490  -->  00:01:26,470
+de dados do Python.
+
+23
+
+00:01:26,470  -->  00:01:31,640
+E se você se perguntar sobre o nome do pacote,
+ele vem do termo de econometria "Panel
+
+24
+
+00:01:31,640  -->  00:01:36,960
+Data" referentes a conjuntos de dados multidimencionais.
+
+25
+
+00:01:37,160  -->  00:01:42,280
+Quando seus cálculos estiverem prontos, é vital
+saber como apresentar os resultados obtidos
+
+26
+
+00:01:42,280  -->  00:01:43,620
+em um gráfico.
+
+27
+
+00:01:43,620  -->  00:01:49,320
+"Matplotlib" é uma biblioteca de gráficos bidimensionais
+especialmente projetada para visualização
+
+28
+
+00:01:49,320  -->  00:01:51,750
+de cálculos NumPy.
+
+29
+
+00:01:51,750  -->  00:01:58,320
+Além disso, contém um grande conjunto de ferramentas
+que podem ajudá-lo a ajustar um gráfico do seu gosto.
+
+30
+
+00:01:58,980  -->  00:02:05,159
+NumPy, Pandas, e Matplotlib são partes de
+um grupo maior de bibliotecas o SciPy.
+
+31
+
+00:02:05,159  -->  00:02:12,050
+Não nos aprofundaremos em suas peculiaridades,
+mas, para resumir, o SciPy é um ecossistema do Python
+
+32
+
+00:02:12,050  -->  00:02:18,040
+que contém muitas ferramentas para cálculos científicos,
+adequados aos campos da matemática, machine
+
+33
+
+00:02:18,040  -->  00:02:23,680
+learning, inteligência artificial, engenharia
+e muitos outros mais.
+
+34
+
+00:02:24,060  -->  00:02:28,260
+Em relação aos módulos, você já viu o módulo
+"math".
+
+35
+
+00:02:28,600  -->  00:02:35,200
+Este nome sem dúvida já nos diz que ele contém
+funções matemáticas.
+
+36
+
+00:02:35,210  -->  00:02:41,050
+Também vamos usar o "random", que nos permite trabalhar com
+geradores de números aleatórios.
+
+37
+
+00:02:41,050  -->  00:02:47,500
+Um módulo importante para análise e modelagem
+estatística, é o "Stats models" que contém
+
+38
+
+00:02:47,500  -->  00:02:54,760
+uma extensa lista de funções de estatística descritiva,
+gráficos, regressões, e muito mais.
+
+39
+
+00:02:54,940  -->  00:03:00,480
+Estes são os três principais módulos que precisaremos
+ao longo do restante deste curso.
+
+40
+
+00:03:00,510  -->  00:03:04,860
+Você notou que importei todas essas bibliotecas
+e módulos diretamente?
+
+41
+
+00:03:04,870  -->  00:03:08,920
+Então, eles devem estar contidos na biblioteca
+padrão do Python, certo?
+
+42
+
+00:03:08,920  -->  00:03:10,830
+Bem, eles não estão.
+
+43
+
+00:03:10,830  -->  00:03:15,020
+No entanto, quando instalamos o Anaconda, eles
+já estão incluídos no pacote.
+
+44
+
+00:03:15,140  -->  00:03:19,320
+É por isso que você não precisa instalá-los
+separadamente, como você deve fazer se
+
+45
+
+00:03:19,330  -->  00:03:25,390
+usar algum outro software para programar em
+Python.
+
+46
+
+00:03:25,390  -->  00:03:29,420
+Agora vamos ver como você pode instalar um pacote
+se você não o tem no seu computador.
+
+47
+
+00:03:29,420  -->  00:03:35,939
+Pandas, como uma biblioteca, fornece acesso a um
+grande conjunto de classes e funções, mas outras extensões
+
+48
+
+00:03:35,940  -->  00:03:37,760
+podem ser adicionadas.
+
+49
+
+00:03:37,760  -->  00:03:44,500
+Durante o curso, vamos utilizar o pacote
+"Pandas Data Reader".
+
+50
+
+00:03:45,780  -->  00:03:54,920
+A maneira mais rápida de instalá-lo é abrir
+o menu Iniciar e procurar o "Prompt do Anaconda".
+
+51
+
+00:03:56,960  -->  00:04:02,620
+Digite "pip install pandas-data reader"
+dessa maneira.
+
+52
+
+00:04:04,260  -->  00:04:09,940
+"Pip" por si só significa "pip install
+packages" ou "pip installs Python".
+
+53
+
+00:04:09,950  -->  00:04:12,880
+Estranho não é? Mas.. é verdade.
+
+54
+
+00:04:12,880  -->  00:04:16,680
+Agora pressione "Enter".
+
+55
+
+00:04:21,360  -->  00:04:26,600
+Quando a operação estiver concluída, veja como você
+pode importar facilmente o módulo.
+
+56
+
+00:04:28,640  -->  00:04:35,440
+Esta é uma das maneiras mais rápidas e fáceis
+de instalar módulos e pacotes no seu computador.
+
+57
+
+00:04:36,080  -->  00:04:37,280
+Ótimo!
+
+58
+
+00:04:37,280  -->  00:04:38,800
+Estamos progredindo!
+
+59
+
+00:04:38,800  -->  00:04:44,610
+Agora que já vimos os preparativos preliminares,
+podemos nos concentrar em usar o Python para executar
+
+60
+
+00:04:44,610  -->  00:04:47,730
+manipulação de dados e operacoes financeiras.
+
+61
+
+00:04:47,730  -->  00:04:51,300
+Em nossa próxima aula, vamos aprender sobre arrays.
+
+62
+
+00:04:51,300  -->  00:04:52,350
+Obrigado por assistir!

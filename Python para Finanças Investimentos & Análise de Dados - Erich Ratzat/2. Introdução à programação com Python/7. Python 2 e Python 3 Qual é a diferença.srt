@@ -1,0 +1,253 @@
+1
+1
+
+00:00:00,729  -->  00:00:05,110
+Não há dúvida de que é confuso para os novatos
+falar que há uma linguagem de programação com
+2
+
+2
+
+00:00:05,110  -->  00:00:07,710
+duas versões ativamente utilizadas.
+3
+
+3
+
+00:00:07,710  -->  00:00:12,999
+E embora o mundo esteja progressivamente caminhando
+para o uso exclusivo do Python 3, Python 2 ainda
+4
+
+4
+
+00:00:12,999  -->  00:00:18,640
+possui um escopo de aplicação extremamente amplo,
+especialmente em certas áreas de negócios.
+5
+
+5
+
+00:00:18,640  -->  00:00:22,950
+Por enquanto, não se preocupe se quando falarmos
+sobre as diferenças entre versões parecer
+6
+
+6
+
+00:00:22,950  -->  00:00:24,849
+um pouco técnico demais.
+7
+
+7
+
+00:00:24,849  -->  00:00:29,779
+Agora é o momento certo para apresentar este tópico,
+embora talvez seja melhor compreendido
+8
+
+8
+
+00:00:29,779  -->  00:00:34,660
+quando você estiver mais familiarizado com o Python, então,
+sinta-se à vontade para voltar a este vídeo conforme
+9
+
+9
+
+00:00:34,660  -->  00:00:36,399
+for avançando nas aulas.
+10
+
+10
+
+00:00:36,399  -->  00:00:42,010
+Também vale a pena lembrar que, embora
+essas diferenças não sejam sem importância, elas
+11
+
+11
+
+00:00:42,010  -->  00:00:45,920
+não afetarão significativamente o bom andamento
+deste curso.
+12
+
+12
+
+00:00:45,920  -->  00:00:49,770
+Existem apenas três casos em que você
+terá que alterar um símbolo ou dois para transferir
+13
+
+13
+
+00:00:49,770  -->  00:00:53,050
+um código do Python de uma versão para outra.
+14
+
+14
+
+00:00:53,050  -->  00:00:58,120
+Portanto, não nos aprofundaremos em uma
+análise das diferenças programáticas entre
+15
+
+15
+
+00:00:58,120  -->  00:00:59,280
+as duas.
+16
+
+16
+
+00:00:59,280  -->  00:01:04,180
+No entanto, vamos dar uma olhada nas diferenças
+sintáticas que serão visíveis durante o
+17
+
+17
+
+00:01:04,180  -->  00:01:06,290
+curso.
+18
+
+18
+
+00:01:06,290  -->  00:01:11,820
+A primeira diferença é o uso do comando "print",
+que é uma palavra-chave que exibe ou imprime
+19
+
+19
+
+00:01:11,820  -->  00:01:14,910
+o valor de uma determinada variável.
+20
+
+20
+
+00:01:14,910  -->  00:01:21,040
+Por exemplo, para uma variável z com um valor
+de 100, você precisará digitar e executar
+21
+
+21
+
+00:01:21,040  -->  00:01:27,500
+"print Z" se você estiver usando Python 2.
+22
+
+22
+
+00:01:27,500  -->  00:01:34,320
+Se você estiver usando o Python 3, no entanto, você
+terá que escrever e executar "print, abra
+23
+
+23
+
+00:01:34,320  -->  00:01:42,840
+parênteses, Z, fecha parênteses", para obter
+o mesmo resultado.
+24
+
+24
+
+00:01:42,840  -->  00:01:47,930
+A segunda diferença é que o Python 2 e
+o 3 dividem números inteiros de maneira diferente.
+25
+
+25
+
+00:01:47,930  -->  00:01:54,060
+No Python 2, a divisão de dois inteiros é
+sempre um inteiro.
+26
+
+26
+
+00:01:54,060  -->  00:02:01,020
+Por exemplo, 16 dividido por 3 será igual a 5.
+27
+
+27
+
+00:02:01,020  -->  00:02:06,840
+Já no Python 3, o quociente é convertido
+em decimal (float em ingles).
+28
+
+28
+
+00:02:06,840  -->  00:02:13,620
+Então, 16 dividido por 3 irá retornar como resultado
+5 ponto 33.
+29
+
+29
+
+00:02:13,620  -->  00:02:19,730
+Por fim, gostaria de mencionar que
+vamos chamar a atenção desses casos
+30
+
+30
+
+00:02:19,730  -->  00:02:24,939
+nas aulas em que apresentaremos
+o comando "print" e a divisão em Python.
+31
+
+31
+
+00:02:24,939  -->  00:02:30,569
+Além disso, descrevemos as principais diferenças
+entre as duas versões com mais detalhes nos
+32
+
+32
+
+00:02:30,569  -->  00:02:34,959
+últimos slides da Parte
+I do curso.
+33
+
+33
+
+00:02:34,959  -->  00:02:39,040
+Este arquivo pode ser baixado lá na seção de
+recursos desta aula.
+34
+
+34
+
+00:02:39,040  -->  00:02:43,390
+E fique a vontade para prosseguir com a versão do Python
+que você preferir.
+35
+
+35
+
+00:02:43,390  -->  00:02:49,609
+Além disso, se você tiver alguma dúvida sobre este tópico,
+fique à vontade para entrar em contato e faremos
+36
+
+36
+
+00:02:49,609  -->  00:02:53,209
+o possível para tirar suas dúvidas.
+37
+
+37
+
+00:02:53,209  -->  00:02:55,069
+Por enquanto é isso.
+38
+
+38
+
+00:02:55,069  -->  00:02:56,269
+Obrigado por assistir!

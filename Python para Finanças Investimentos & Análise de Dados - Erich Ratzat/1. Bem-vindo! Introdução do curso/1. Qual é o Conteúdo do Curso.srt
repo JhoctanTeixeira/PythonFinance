@@ -1,0 +1,310 @@
+0
+1
+00:00:01,390 --> 00:00:02,870
+Olá, meu nome é Erich,
+1
+
+2
+00:00:02,890 --> 00:00:09,260
+sou formado em Economia, possuo MBA em finanças e mestrado em Engenharia Financeira com foco em algorítmos de investimentos.
+2
+
+3
+00:00:09,460 --> 00:00:13,360
+e tenho o prazer de recebê-lo no curso Python para Finanças em português.
+3
+
+4
+00:00:13,360 --> 00:00:17,980
+Este é o primeiro curso da 365 Careers adaptado para um idioma diferente do inglês,
+4
+
+5
+00:00:18,280 --> 00:00:22,900
+Então estou muito contente que o idioma escolhido tenha sido o português e as pessoas que falam português
+5
+
+6
+00:00:22,900 --> 00:00:27,610
+em qualquer lugar do mundo terão mais facilidade para assistir ao conteúdo do curso.
+6
+
+7
+00:00:27,620 --> 00:00:33,120
+Eu também gostaria de apresentar meus dois co-autores neste projeto Martin e Ned.
+7
+
+8
+00:00:33,130 --> 00:00:38,350
+Martin é formado em ciências econômicas e sociais com forte foco em métodos quantitativos e modelos econométricos.
+8
+
+9
+00:00:38,790 --> 00:00:44,020
+ele é um entusiasta quando o assunto é finanças e o mundo da ciência de dados o fascina. Dado que o curso
+9
+
+10
+00:00:44,020 --> 00:00:49,330
+é composto de dois blocos principais programação em Python e Finanças precisamos de alguma ajuda com
+10
+
+11
+00:00:49,330 --> 00:00:50,920
+os tópicos de finanças.
+11
+
+12
+00:00:50,950 --> 00:00:58,270
+é aqui que entra a contribuição de Ned. Ned é o fundador da 365 careeres e tem mestrado em finanças.
+12
+
+13
+00:00:58,270 --> 00:01:04,300
+Ele possui experiência prática tendo trabalhado como financial advisory na PwC e como analista financeiro
+13
+
+14
+00:01:04,350 --> 00:01:09,820
+na Coca-Cola. Esse curso é perfeito para aqueles que gostariam de aprender como programar em Python e como
+14
+
+15
+00:01:09,820 --> 00:01:13,540
+usar o Python para fazer análises financeiras e de investimentos.
+15
+
+16
+00:01:13,690 --> 00:01:15,880
+Tudo o que vamos estudar tem uma aplicação no mundo real.
+16
+
+17
+00:01:16,390 --> 00:01:21,400
+Espero que você esteja animado pois você veio ao lugar certo na hora certa. Vamos dar uma olhada no
+17
+
+18
+00:01:21,400 --> 00:01:22,990
+conteúdo do curso.
+18
+
+19
+00:01:23,020 --> 00:01:25,540
+Primeiro aprendemos o básico do Python.
+19
+
+20
+00:01:25,780 --> 00:01:29,610
+Uma das linguagens de programação mais usadas no mundo atualmente.
+20
+
+21
+00:01:29,860 --> 00:01:35,800
+Essa parte do curso é fundamental para aqueles que não têm experiência anterior ou precisam de uma rápida
+21
+
+22
+00:01:35,800 --> 00:01:41,590
+atualização. Não precisa se preocupar pois preparamos o curso para aprendizado ficará fácil com muitos
+22
+
+23
+00:01:41,590 --> 00:01:46,190
+exemplos e explicações claras aprenderemos sobre sintaxe,
+23
+
+24
+00:01:46,270 --> 00:01:52,900
+tipos de dados, operadores, declarações condicionais, funções, listas, tuplas, dicionários, loops e muito
+24
+
+25
+00:01:52,900 --> 00:01:53,460
+mais.
+25
+
+26
+00:01:53,830 --> 00:01:59,950
+Então assim que tivermos uma base sólida estaremos prontos para começar a aprender sobre algumas técnicas
+26
+
+27
+00:01:59,950 --> 00:02:02,730
+mais avançadas do Python. Por exemplo,
+27
+
+28
+00:02:02,950 --> 00:02:08,770
+Nessas lições ensinaremos o que é programação orientada a objetos e como importar bibliotecas e módulos
+28
+
+29
+00:02:08,770 --> 00:02:13,810
+úteis para fazer análises financeiras em Python, além de aprender como trabalhar com arrays,
+29
+
+30
+00:02:13,810 --> 00:02:19,930
+você aprenderá como limpar e organizar seus dados uma ferramenta crucial para qualquer trabalho de análise
+30
+
+31
+00:02:19,930 --> 00:02:20,670
+de dados.
+31
+
+32
+00:02:21,400 --> 00:02:27,130
+Pois bem depois de passarmos por essas aulas estaremos prontos para mergulhar na segunda parte do curso
+32
+
+33
+00:02:27,270 --> 00:02:28,780
+que é sensacional.
+33
+
+34
+00:02:28,780 --> 00:02:34,660
+Você aprenderá sobre risco e retorno de ações como formar carteiras de investimentos como calcular o
+34
+
+35
+00:02:34,660 --> 00:02:36,890
+risco e o retorno dessas carteiras.
+35
+
+36
+00:02:36,940 --> 00:02:42,310
+Como calcular a correlação entre ativos financeiros e como diversificar um portfólio. Aprenderá o que
+36
+
+37
+00:02:42,310 --> 00:02:44,570
+é uma regressão e como interpretá la.
+37
+
+38
+00:02:44,710 --> 00:02:49,630
+Além disso falaremos sobre a análise da fronteira eficiente de Markowitz e aprendermos a verificar se
+38
+
+39
+00:02:49,630 --> 00:02:52,750
+o portfólio está ou não na fronteira eficiente.
+39
+
+40
+00:02:52,750 --> 00:02:58,950
+Aprendemos o que é um beta de uma ação e como ele influencia a taxa de retorno desejado dos investidores.
+40
+
+41
+00:02:59,200 --> 00:03:02,780
+Além de explicar como aplicar o CAPM na prática.
+41
+
+42
+00:03:03,140 --> 00:03:04,420
+Parece incrível certo?
+42
+
+43
+00:03:04,950 --> 00:03:09,960
+Espere aí que ainda não terminamos. Também aprenderemos como trabalhar com regressões multivariadas e
+43
+
+44
+00:03:09,970 --> 00:03:12,210
+como realizar simulações de Monte Carlo.
+44
+
+45
+00:03:12,220 --> 00:03:18,220
+Na verdade faremos três simulações de Monte Carlo uma no contexto das finanças corporativas outra para
+45
+
+46
+00:03:18,220 --> 00:03:20,720
+estimar o preço de uma opção de ação.
+46
+
+47
+00:03:20,780 --> 00:03:25,980
+Em seguida uma terceira para precificar uma ação. Você aprenderá como fazer tudo isso.
+47
+
+48
+00:03:25,990 --> 00:03:29,250
+A abordagem que usamos torna tudo muito fácil de entender.
+48
+
+49
+00:03:29,750 --> 00:03:35,280
+Primeiro Ned irá explicar a teoria que você precisa para entender um determinado conceito.
+49
+
+50
+00:03:35,290 --> 00:03:42,450
+Em seguida mostraremos como aplicar a teoria na prática usando o Python. Para aproveitar ao máximo o desse curso
+50
+
+51
+00:03:42,450 --> 00:03:48,750
+por favor não pule nenhuma aula pois gradualmente iremos construir seu conhecimento e os conceitos que você
+51
+
+52
+00:03:48,750 --> 00:03:55,020
+aprenderá na primeira parte do curso serão úteis mais tarde. As lições esse curso contém vários recursos
+52
+
+53
+00:03:55,020 --> 00:03:58,850
+para download que ajudarão você a reforçar o que aprendeu.
+53
+
+54
+00:03:58,950 --> 00:04:04,740
+Notas do curso, arquivos de exercícios, materiais PDF, arquivos de notebook tudo está incluso no curso e
+54
+
+55
+00:04:04,740 --> 00:04:13,430
+pode ser baixado facilmente, então sinta se à vontade para postar na área de discussão do curso quando
+55
+
+56
+00:04:13,430 --> 00:04:19,390
+tiver alguma dificuldade, quiser fazer alguma pergunta ou simplesmente desejar compartilhar algo com
+56
+
+57
+00:04:19,390 --> 00:04:20,900
+a comunidade.
+57
+
+58
+00:04:20,900 --> 00:04:27,860
+Esse curso vai ser incrível e além disso você terá acesso gratuito a dois de nossos outros cursos Begginer
+58
+
+59
+00:04:27,950 --> 00:04:29,270
+to Pro in PowerPoint
+59
+
+60
+00:04:29,300 --> 00:04:35,430
+desde que você complete 50% do curso; e
+“The Power Modeling Bootcamp: Advanced Excel in 10 days”
+60
+
+61
+00:04:35,450 --> 00:04:37,540
+desde que você complete 100% do curso.
+61
+
+62
+00:04:38,030 --> 00:04:43,700
+Você está animado? Ótimo! Mergulhe de cabeça no curso e vamos começar essa jornada juntos!

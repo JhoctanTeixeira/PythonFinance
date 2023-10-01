@@ -1,0 +1,207 @@
+1
+
+00:00:00,560  -->  00:00:06,149
+Nós aprendemos que o risco de uma carteira pode ser
+descrito como a soma de dois componentes:
+
+2
+
+00:00:06,149  -->  00:00:10,330
+A variância das ações contidas
+na carteira,
+
+3
+
+00:00:10,330  -->  00:00:17,119
+e o produto das covariâncias entre
+as ações e seus desvios-padrão.
+
+4
+
+00:00:17,119  -->  00:00:23,050
+E estamos prontos para apresentar um conceito muito
+importante - existem dois tipos de risco de
+
+5
+
+00:00:23,050  -->  00:00:24,750
+investimento.
+
+6
+
+00:00:24,750  -->  00:00:33,210
+Risco sistemático e não sistemático, também conhecido
+como risco não diversificado e diversificado.
+
+7
+
+00:00:33,210  -->  00:00:39,000
+O primeiro componente, a variância das
+ações em uma carteira, pode ser visto como
+
+8
+
+00:00:39,000  -->  00:00:41,270
+riscos não diversificados.
+
+9
+
+00:00:41,270  -->  00:00:46,640
+Independentemente do número de ações contidas
+em uma carteira e da relação entre
+
+10
+
+00:00:46,640  -->  00:00:51,300
+essas ações, esse componente vai continuar
+existindo.
+
+11
+
+00:00:51,300  -->  00:00:56,830
+Essa é a incerteza que é característica
+de todo o mercado.
+
+12
+
+00:00:56,830  -->  00:01:03,360
+Risco sistemático é aquele proveniente da mudança
+diária nos preços das ações e é causado por eventos
+
+13
+
+00:01:03,360  -->  00:01:05,510
+que afetam todas as empresas.
+
+14
+
+00:01:05,510  -->  00:01:09,710
+Uma recessão da economia é um risco
+sistemático.
+
+15
+
+00:01:09,710  -->  00:01:16,579
+Outros riscos sistemáticos podem ser desfavoráveis:
+as demandas do consumidor, as guerras, terremotos e todos
+
+16
+
+00:01:16,579  -->  00:01:20,939
+os riscos capazes de afetar todas as empresas em
+uma economia.
+
+17
+
+00:01:20,939  -->  00:01:27,280
+A incerteza decorrente do risco sistemático
+é algo que temos que aceitar quando investimos.
+
+18
+
+00:01:27,280  -->  00:01:33,649
+Felizmente, muito pode ser feito sobre o segundo
+componente - o risco não sistemático, também conhecido
+
+19
+
+00:01:33,649  -->  00:01:36,520
+como risco idiossincrático.
+
+20
+
+00:01:36,520  -->  00:01:43,700
+Esse risco está associado a empresas específicas, ou até mesmo indústrias específicas,
+e pode ser mitigado através da diversificação.
+
+21
+
+00:01:43,700  -->  00:01:51,259
+Há várias pesquisas acadêmicas que mostram que se nós construirmos uma
+carteira contendo pelo menos entre 25 a 30 ações
+
+22
+
+00:01:51,259  -->  00:01:56,950
+que não estão correlacionadas, o risco não sistemáticos
+irá quase desaparecer.
+
+23
+
+00:01:56,950  -->  00:02:02,060
+Não é uma coincidência que muitos fundos de
+investimento tentam oferecer aos seus clientes a
+
+24
+
+00:02:02,060  -->  00:02:07,609
+oportunidade de investir em um veículo de investimento,
+como um fundo de investimento que contém as
+
+25
+
+00:02:07,609  -->  00:02:11,430
+mesmas ações que o índice S&P500.
+
+26
+
+00:02:11,430  -->  00:02:18,280
+Se você possui uma carteira de 500 ações, o
+único risco a que está exposto é o risco
+
+27
+
+00:02:18,280  -->  00:02:24,140
+sistemático, e isso não significa que seu
+retorno vai ser menor que o esperado.
+
+28
+
+00:02:24,140  -->  00:02:29,310
+Alguns investidores institucionais vão ainda mais longe
+e constroem carteiras com títulos que não sejam
+
+29
+
+00:02:29,310  -->  00:02:34,030
+do mesmo país, o que em teoria ajuda a reduzir a
+correlação entre esses títulos ainda
+
+30
+
+00:02:34,030  -->  00:02:39,030
+mais e reduz o risco geral da
+carteira.
+
+31
+
+00:02:39,030  -->  00:02:44,480
+Na próxima aula, vamos tentar calcular
+o risco sistemático e não sistemático de uma
+
+32
+
+00:02:44,480  -->  00:02:45,480
+carteira.
+
+33
+
+00:02:45,480  -->  00:02:50,670
+Primeiro, vamos fazer isso para uma carteira de
+duas ações e, em seguida, vamos ver como o risco geral
+
+34
+
+00:02:50,670  -->  00:02:55,600
+da carteira muda quando adicionamos mais
+ações.
+
+35
+
+00:02:55,600  -->  00:02:56,780
+É isso por enquanto.
+
+36
+
+00:02:56,780  -->  00:02:57,550
+Obrigado por assistir!

@@ -1,0 +1,437 @@
+1
+
+00:00:00,989  -->  00:00:02,120
+Tudo certo?!
+
+2
+
+00:00:02,120  -->  00:00:03,120
+Excelente!
+
+3
+
+00:00:03,120  -->  00:00:08,250
+Agora que ja falamos um pouco sobre a teoria, estamos
+prontos para colocá-la em prática e calcular
+
+4
+
+00:00:08,250  -->  00:00:12,420
+a taxa de retorno de um ativo usando o Python.
+
+5
+
+00:00:12,420  -->  00:00:18,250
+Na primeira célula que vocês veem aqui, nós vamos
+importar o NumPy e o módulo de dados remoto
+
+6
+
+00:00:18,250  -->  00:00:20,970
+do pacote "Pandas Data reader".
+
+7
+
+00:00:20,970  -->  00:00:26,869
+A terceira linha do código é nova para vocês - nós
+importamos "Matplotlib Pyplot", que é uma
+
+8
+
+00:00:26,869  -->  00:00:31,919
+coleção de funções de estilos distintas do
+Matplotlib que vai nos permitir trabalhar com
+
+9
+
+00:00:31,919  -->  00:00:35,260
+gráficos e editar seus elementos facilmente.
+
+10
+
+00:00:35,260  -->  00:00:38,420
+Eu vou mudar o nome do pacote para "PLT".
+
+11
+
+00:00:38,420  -->  00:00:43,760
+As próximas linhas de código que você vai ver aqui
+devem ser familiares - nós estamos simplesmente importando
+
+12
+
+00:00:43,760  -->  00:00:49,900
+dados da "Procter & Gamble" do Yahoo Finance
+para o período de 1 de janeiro de 1995
+
+13
+
+00:00:49,900  -->  00:00:51,550
+até hoje.
+
+14
+
+00:00:51,550  -->  00:00:57,220
+Para confirmar que fizemos essa operação corretamente,
+vamos verificar os primeiros e últimos cinco dados
+
+15
+
+00:00:57,220  -->  00:01:05,100
+observados.
+
+16
+
+00:01:05,100  -->  00:01:06,800
+Ok?!
+
+17
+
+00:01:06,800  -->  00:01:10,130
+Tudo parece estar certo.
+
+18
+
+00:01:10,130  -->  00:01:14,640
+É uma prática muito boa pesquisar na internet
+e verificar se os dados que você está usando são os que
+
+19
+
+00:01:14,640  -->  00:01:15,860
+você de fato precisa.
+
+20
+
+00:01:15,860  -->  00:01:20,659
+Nós baixamos nossos dados do Yahoo Finance, então
+nós podemos esperar que sejam os mesmos valores que estão
+
+21
+
+00:01:20,659  -->  00:01:21,920
+no site.
+
+22
+
+00:01:21,920  -->  00:01:27,040
+Vamos dar uma olhada lá no Yahoo Finance.
+
+23
+
+00:01:27,040  -->  00:01:34,369
+Pesquise por 'PG' que é o símbolo da Procter & Gamble,
+e em seguida clique em "Historical Data".
+
+24
+
+00:01:34,369  -->  00:01:37,950
+A ultima linha nao ira aparecer em nosso Notebook
+porque esse dia de negocioacao ainda nao
+
+25
+
+00:01:37,950  -->  00:01:38,950
+terminou.
+
+26
+
+00:01:38,950  -->  00:01:42,719
+Entretanto, se voce checar os preços dia a dia
+no Jupyter, voce vai ver
+
+27
+
+00:01:42,719  -->  00:01:48,909
+que eles estao corretos com os preços da P&G
+no site Yahoo Finance.
+
+28
+
+00:01:48,909  -->  00:01:51,390
+Ótimo!
+
+29
+
+00:01:51,390  -->  00:01:54,280
+Nós podemos usar esses dados para nossa análise.
+
+30
+
+00:01:54,280  -->  00:02:03,039
+Nós temos tudo que precisamos para calcular
+a taxa de retorno da P&G desde 1995 até hoje.
+
+31
+
+00:02:03,039  -->  00:02:08,289
+Como dissemos na aula anterior, a taxa simples de
+retorno pode ser calculada pela diferença
+
+32
+
+00:02:08,289  -->  00:02:14,010
+entre o preço da ação no dia 1 menos seu preço
+no dia 0, dividido pelo preço
+
+33
+
+00:02:14,010  -->  00:02:15,750
+no dia 0.
+
+34
+
+00:02:15,750  -->  00:02:19,720
+E quando falamos preço estamos falando do
+preço de fechamento ajustado.
+
+35
+
+00:02:19,720  -->  00:02:24,310
+Esse ajustado significa que o preço reflete
+o pagamento de dividendos e outras operações
+
+36
+
+00:02:24,310  -->  00:02:27,600
+como desmembramento de ações.
+
+37
+
+00:02:27,600  -->  00:02:32,160
+Para nossas análises, iremos usar
+o preço de fechamento ajustado como referencia
+
+38
+
+00:02:32,160  -->  00:02:37,750
+para nossos cálculos. Esse preço pode ser visto
+na coluna mais a direita da nossa tabela.
+
+39
+
+00:02:37,750  -->  00:02:43,130
+Um método alternativo para escrever a fórmula do
+retorno simples é: preço de hoje
+
+40
+
+00:02:43,130  -->  00:02:46,620
+dividido pelo preço de ontem menos um.
+
+41
+
+00:02:46,620  -->  00:02:50,620
+Isso vai ficar mais fácil de ver em nosso
+exemplo.
+
+42
+
+00:02:50,620  -->  00:02:56,990
+Nós iremos dividir o preço no dia 1 pelo
+preço no dia 0, e então subtrair
+
+43
+
+00:02:56,990  -->  00:02:58,460
+1…
+
+44
+
+00:02:58,460  -->  00:02:59,930
+Ok.
+
+45
+
+00:02:59,930  -->  00:03:01,400
+Ótimo.
+
+46
+
+00:03:01,400  -->  00:03:08,570
+Conseguimos extrair mais de 5.000
+dados diários de preço da ação da P&G.
+
+47
+
+00:03:08,570  -->  00:03:12,900
+Para cada um deles, nós iremos calcular a
+taxa simples de retorno.
+
+48
+
+00:03:12,900  -->  00:03:17,970
+O primeiro retorno diário nesse série vai ser
+igual ao preço ajustado em
+
+49
+
+00:03:17,970  -->  00:03:26,130
+4 de janeiro de 1995, dividido pelo preço ajustado
+de 3 de janeiro de 1995 menos
+
+50
+
+00:03:26,130  -->  00:03:27,130
+um.
+
+51
+
+00:03:27,130  -->  00:03:29,010
+E assim por diante.
+
+52
+
+00:03:29,010  -->  00:03:32,290
+A melhor maneira de organizar isso é criar uma
+coluna para esses dados.
+
+53
+
+00:03:32,290  -->  00:03:35,710
+Aqui está como podemos criar uma coluna.
+
+54
+
+00:03:35,710  -->  00:03:41,960
+Eu irei começar com o nome que usamos para
+classificar nossos dados, que é PG e com
+
+55
+
+00:03:41,960  -->  00:03:46,190
+colchetes eu irei digitar o nome da nova
+coluna que queremos criar.
+
+56
+
+00:03:46,190  -->  00:03:50,340
+O nome vai ser “Simple return”, beleza?
+
+57
+
+00:03:50,340  -->  00:03:51,340
+Ok.
+
+58
+
+00:03:51,340  -->  00:03:57,560
+Agora, dentro do parenteses, eu vou indicar o preço
+de fechamento ajustado para um determinado dia e então dividí-lo
+
+59
+
+00:03:57,560  -->  00:04:00,480
+pelo preço de fechamento ajustado do dia anterior.
+
+60
+
+00:04:00,480  -->  00:04:02,210
+E como que eu faço isso?
+
+61
+
+00:04:02,210  -->  00:04:06,230
+Como voce pode ver, a função "shift" nos ajuda
+nisso.
+
+62
+
+00:04:06,230  -->  00:04:09,920
+O argumento que passamos para a função vai determinar
+o número de dias anteriores que queremos trabalhar.
+
+63
+
+00:04:09,920  -->  00:04:14,600
+Aqui, eu vou precisar do dia de nogociação
+imediatemente anterior.
+
+64
+
+00:04:14,600  -->  00:04:17,980
+Para isso nós iremos colocar como argumento o número 1.
+
+65
+
+00:04:17,980  -->  00:04:23,009
+A série inteira no denominador vai ser alterada,
+e nós podemos facilmente dividir o preço de hoje da ação
+
+66
+
+00:04:23,009  -->  00:04:26,389
+pelo seu preço de ontem.
+
+67
+
+00:04:26,389  -->  00:04:31,490
+Para completar a fórmula, nós precisamos fechar
+os parenteses e diminuir 1.
+
+68
+
+00:04:31,490  -->  00:04:37,599
+Vamos imprimir a variável e ver se tudo funcionou
+de maneira correta.
+
+69
+
+00:04:37,599  -->  00:04:40,960
+Perfeito!
+
+70
+
+00:04:40,960  -->  00:04:45,960
+Nós obtivemos uma série de dados, e parece
+que o resultado era o que queríamos.
+
+71
+
+00:04:45,960  -->  00:04:50,219
+Ele está exibindo o percentual de mudança diária
+do preço de fechamento ajustado.
+
+72
+
+00:04:50,219  -->  00:04:53,710
+Na maioria dos dias, esse número vai ser menor do que 1%.
+
+73
+
+00:04:53,710  -->  00:04:59,380
+Movimentos significantes no preço de uma determinada ação
+não acontecem todo dia.
+
+74
+
+00:04:59,380  -->  00:05:04,740
+Por favor preste atenção no primeiro valor da
+série - aparece "NaN" e significa: "not a number"
+
+75
+
+00:05:04,740  -->  00:05:09,689
+"não é um número" e faz sentido porque não
+existe um dia anterior ao nosso primeiro dia
+
+76
+
+00:05:09,689  -->  00:05:15,229
+que é o dia 3 de janeiro de 1995.
+
+77
+
+00:05:15,229  -->  00:05:20,009
+Fique ligado na próxima lição, onde iremos
+usar esses números para fazer análises estatísticas
+
+78
+
+00:05:20,009  -->  00:05:21,569
+e gráficos.
+
+79
+
+00:05:21,569  -->  00:05:22,470
+Obrigado por assistir!

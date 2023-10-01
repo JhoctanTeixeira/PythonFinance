@@ -1,0 +1,497 @@
+1
+1
+
+00:00:00,410  -->  00:00:01,650
+Vamos lá!
+2
+
+2
+
+00:00:01,650  -->  00:00:06,399
+O que você precisa saber sobre programação
+se você está apenas começando?
+3
+
+3
+
+00:00:06,399  -->  00:00:09,740
+Todos nós temos que lidar com certas tarefas em
+nossas vidas diárias.
+4
+
+4
+
+00:00:09,740  -->  00:00:14,879
+Muitas das quais podemos resolver sozinhos, enquanto outras,
+especialmente as mais complicadas,
+5
+
+5
+
+00:00:14,879  -->  00:00:17,830
+podem ser resolvidos com a ajuda de um computador
+6
+
+6
+
+00:00:17,830  -->  00:00:22,460
+Suponha que você tenha definido um problema que deva
+ser resolvido e que você saiba os passos que devem ser
+7
+
+7
+
+00:00:22,460  -->  00:00:24,429
+realizados para resolvê-lo.
+8
+
+8
+
+00:00:24,429  -->  00:00:29,949
+Mesmo que você possa estruturar a lógica perfeitamente
+e digitar uma solução brilhante,
+9
+
+9
+
+00:00:29,949  -->  00:00:35,760
+o computador não a entenderá, pois ele entende
+apenas 0 e 1.
+10
+
+10
+
+00:00:35,760  -->  00:00:37,400
+Nenhum outro símbolo.
+11
+
+11
+
+00:00:37,400  -->  00:00:42,950
+Semelhante a um interruptor de luz - ele reconhece
+duas fases - ligado e desligado.
+12
+
+12
+
+00:00:42,950  -->  00:00:48,230
+Para descrever um problema da vida real para o
+computador, você precisa criar um tipo específico
+13
+
+13
+
+00:00:48,230  -->  00:00:54,340
+de texto, chamado código-fonte ou um código legível
+que o software possa ler e então processar
+14
+
+14
+
+00:00:54,340  -->  00:00:58,620
+para o computador em 0s e 1s.
+15
+
+15
+
+00:00:58,620  -->  00:01:03,800
+Um programa é uma sequência de instruções que
+designa como executar uma computação.
+16
+
+16
+
+00:01:03,800  -->  00:01:08,540
+Portanto, a definição formal de programação
+é a seguinte:
+17
+
+17
+
+00:01:08,540  -->  00:01:13,550
+Pegar uma tarefa e escrevê-la em uma linguagem
+de programação que o computador possa entender
+18
+
+18
+
+00:01:13,550  -->  00:01:15,950
+e executar.
+19
+
+19
+
+00:01:15,950  -->  00:01:19,440
+Você não precisa ser um nerd ou um cientista da computação
+para programar.
+20
+
+20
+
+00:01:19,440  -->  00:01:24,140
+Na verdade, o campo da ciência da computação
+não é o estudo da programação; isso são
+21
+
+21
+
+00:01:24,140  -->  00:01:27,990
+coisas diferentes e pode confundir os iniciantes.
+22
+
+22
+
+00:01:27,990  -->  00:01:32,210
+A ciência da computação é sobre entender o que
+os computadores podem fazer.
+23
+
+23
+
+00:01:32,210  -->  00:01:38,290
+Programação, por sua vez, é a atividade de dizer
+ao computador para fazer algo que a gente queira.
+24
+
+24
+
+00:01:38,290  -->  00:01:40,670
+Pense no mundo em que vivemos hoje.
+25
+
+25
+
+00:01:40,670  -->  00:01:44,750
+Existem mais de mil linguagens de
+programação e cada linguagem é
+26
+
+26
+
+00:01:44,750  -->  00:01:47,970
+projetada para executar tarefas específicas.
+27
+
+27
+
+00:01:47,970  -->  00:01:52,920
+Então, dependendo do campo ao qual seu
+problema se aplica, apenas algumas linguagens podem ser
+28
+
+28
+
+00:01:52,920  -->  00:01:54,590
+úteis.
+29
+
+29
+
+00:01:54,590  -->  00:02:00,860
+Por exemplo, o PHP é bom para programação web,
+mas não é adequado para dispositivos de programação.
+30
+
+30
+
+00:02:00,860  -->  00:02:05,780
+Já C++ pode definitivamente ajudá-lo com o
+isso, enquanto que o Python e o R são algumas das
+31
+
+31
+
+00:02:05,780  -->  00:02:11,310
+ferramentas favoritas dos cientistas de dados e pessoas
+do setor financeiro.
+32
+
+32
+
+00:02:11,310  -->  00:02:15,860
+Quando você encontrar um programador experiente, não
+pense que ele pode programar em todas as linguagens
+33
+
+33
+
+00:02:15,860  -->  00:02:16,860
+que existem.
+34
+
+34
+
+00:02:16,860  -->  00:02:21,700
+É bem mais provável que ele possa trabalhar com uma
+ou talvez algumas linguagens, mas certamente ele tem
+35
+
+35
+
+00:02:21,700  -->  00:02:23,660
+um ótimo domínio sobre elas.
+36
+
+36
+
+00:02:23,660  -->  00:02:25,290
+Tudo certo até aqui? Ok.
+37
+
+37
+
+00:02:25,290  -->  00:02:28,920
+Mas como alguém se torna bom em programação?
+38
+
+38
+
+00:02:28,920  -->  00:02:34,330
+Em primeiro lugar, programação requer habilidades de resolução
+de problemas e envolve pensamento abstrato.
+39
+
+39
+
+00:02:34,330  -->  00:02:39,910
+Você deve entender sua tarefa de modo claro,
+e depois dividi-la em uma seqüência de
+40
+
+40
+
+00:02:39,910  -->  00:02:46,190
+instruções (ou etapas menores)
+que o computador possa executar.
+41
+
+41
+
+00:02:46,190  -->  00:02:51,420
+Por exemplo, John é solicitado por seu chefe para
+fazer o seguinte: criar um programa que adicione
+42
+
+42
+
+00:02:51,420  -->  00:02:55,850
+10 a qualquer número que seu chefe insira
+no teclado.
+43
+
+43
+
+00:02:55,850  -->  00:03:02,370
+O raciocínio correto seria: se x é um número
+desconhecido, precisamos de um resultado que seja x +
+44
+
+44
+
+00:03:02,370  -->  00:03:03,370
+10.
+45
+
+45
+
+00:03:03,370  -->  00:03:07,580
+Depois de criar essas etapas, com a
+ajuda de uma linguagem de programação, você digitará
+46
+
+46
+
+00:03:07,580  -->  00:03:10,540
+linhas de código bem organizadas.
+47
+
+47
+
+00:03:10,540  -->  00:03:15,090
+Então a segunda parte crucial a desenvolver é
+o pensamento mecanicista.
+48
+
+48
+
+00:03:15,090  -->  00:03:19,870
+Infelizmente, os computadores só podem executar
+o que você pede para eles fazerem. Eles não
+49
+
+49
+
+00:03:19,870  -->  00:03:23,230
+vão entender o que você imaginou ou quis dizer pelas
+instruções que você forneceu.
+50
+
+50
+
+00:03:23,230  -->  00:03:27,209
+Eles simplesmente vão executar o código sem
+interpretar o resultado.
+51
+
+51
+
+00:03:27,209  -->  00:03:29,970
+O lado bom, é que nós podemos fazer isso.
+52
+
+52
+
+00:03:29,970  -->  00:03:35,160
+Humanos podem entender e interpretar instruções de código
+e ajustá-lo sempre que necessário.
+53
+
+53
+
+00:03:35,160  -->  00:03:39,680
+E é por isso que o conhecimento sólido sobre
+a sintaxe de uma linguagem de programação e a capacidade
+54
+
+54
+
+00:03:39,680  -->  00:03:45,380
+de entender o código do computador é de suma
+importância - isso afetará positivamente seu
+55
+
+55
+
+00:03:45,380  -->  00:03:51,810
+processo de raciocínio, permitindo que você divida
+seu problema em pequenas partes que o computador consiga executar.
+56
+
+56
+
+00:03:51,810  -->  00:03:57,580
+No exemplo fornecido acima, John deve
+pensar nas seguintes subtarefas: primeiro, ele
+57
+
+57
+
+00:03:57,580  -->  00:04:02,990
+deve definir uma função que use x como
+um argumento e, em seguida, retorne como resultado final
+58
+
+58
+
+00:04:02,990  -->  00:04:06,099
+uma variável igual a x + 10.
+59
+
+59
+
+00:04:06,099  -->  00:04:08,670
+É assim que esse problema pode ser resolvido.
+60
+
+60
+
+00:04:08,670  -->  00:04:13,140
+Independentemente do problema que você esteja enfrentando, ou
+a linguagem de programação que você está usando, seu
+61
+
+61
+
+00:04:13,140  -->  00:04:15,740
+estilo de programação é importantíssimo.
+62
+
+62
+
+00:04:15,740  -->  00:04:17,440
+Lembre-se disso.
+63
+
+63
+
+00:04:17,440  -->  00:04:20,050
+Ter apenas 3 linhas de código é fácil
+de entender.
+64
+
+64
+
+00:04:20,050  -->  00:04:25,570
+Porém, na prática, você provavelmente trabalhará
+com centenas de linhas de código que serão
+65
+
+65
+
+00:04:25,570  -->  00:04:27,440
+compartilhadas com outras pessoas.
+66
+
+66
+
+00:04:27,440  -->  00:04:33,560
+Se o seu código for difícil de ler, ou desnecessariamente
+complicado, cheio de variáveis com nomes
+67
+
+67
+
+00:04:33,560  -->  00:04:37,700
+sem significado, ele será mal visto por
+outros programadores.
+68
+
+68
+
+00:04:37,700  -->  00:04:42,190
+Portanto, ao longo deste curso, prestaremos
+atenção às práticas recomendadas que ajudarão
+69
+
+69
+
+00:04:42,190  -->  00:04:46,030
+você a organizar seu código da melhor maneira!
+70
+
+70
+
+00:04:46,030  -->  00:04:50,380
+Os desafios de programação são excelente à medida que
+desenvolvem seu pensamento mecanicista e suas habilidades
+71
+
+71
+
+00:04:50,380  -->  00:04:51,710
+para resolver problemas.
+72
+
+72
+
+00:04:51,710  -->  00:04:56,910
+Isso envolve a formulação de problemas, decompondo-os
+em etapas bem definidas, e as comunicando
+73
+
+73
+
+00:04:56,910  -->  00:05:00,590
+ao computador de maneira organizada.
+74
+
+74
+
+00:05:00,590  -->  00:05:01,660
+Por enquanto era isso!
+75
+
+75
+
+00:05:01,660  -->  00:05:02,750
+Obrigado por assistir!

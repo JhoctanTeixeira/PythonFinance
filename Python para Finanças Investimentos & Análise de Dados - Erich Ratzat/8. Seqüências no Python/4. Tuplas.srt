@@ -1,0 +1,185 @@
+1
+
+00:00:01,200  -->  00:00:07,500
+Tupla é outro tipo de sequências de dados,
+mas diferentemente das listas, elas são imutáveis.
+
+2
+
+00:00:07,500  -->  00:00:12,720
+Tuplas não podem ser alteradas ou modificadas, você
+não pode acrescentar ou excluir elementos.
+
+3
+
+00:00:14,780  -->  00:00:20,340
+A sintaxe que indica que você está trabalhando com uma
+tupla e não uma lista é que os elementos
+
+4
+
+00:00:20,340  -->  00:00:27,840
+das tuplas são colocados entre parênteses e
+não entre colchetes.
+
+5
+
+00:00:27,840  -->  00:00:34,360
+A propósito, a tupla é o tipo de sequência
+padrão no Python, então, se eu puder listar três valores
+
+6
+
+00:00:34,360  -->  00:00:38,179
+aqui, o computador perceberá a nova variável
+como uma tupla.
+
+7
+
+00:00:38,179  -->  00:00:44,719
+Poderíamos dizer também que os três valores foram
+inseridos em uma tupla.
+
+8
+
+00:00:44,719  -->  00:00:49,949
+Pela mesma razão, podemos atribuir um número
+de valores ao mesmo número de variáveis.
+
+9
+
+00:00:49,949  -->  00:00:52,579
+Você se lembra que vimos isso há algumas
+aulas atrás?
+
+10
+
+00:00:52,579  -->  00:00:58,250
+No lado esquerdo do sinal de igualdade acabamos
+de adicionar uma tupla de variáveis ​​e
+
+11
+
+00:00:58,250  -->  00:01:00,540
+à direita, uma tupla de valores.
+
+12
+
+00:01:03,080  -->  00:01:09,020
+É por isso que o termo técnico correto para
+essa atividade é a atribuição de tupla.
+
+13
+
+00:01:09,820  -->  00:01:16,040
+Da mesma forma que fizemos nas listas, podemos indexar
+valores indicando sua posição entre colchetes.
+
+14
+
+00:01:16,980  -->  00:01:22,400
+É por isso que obtivemos o primeiro número
+da tupla x, que foi o 40.
+
+15
+
+00:01:23,460  -->  00:01:27,439
+Além disso, também podemos colocar tuplas dentro de
+listas.
+
+16
+
+00:01:27,439  -->  00:01:34,229
+Dessa forma, cada tupla se torna um elemento separado
+dentro da lista.
+
+17
+
+00:01:34,229  -->  00:01:42,780
+Tuplas são semelhantes às listas, mas há
+algumas diferenças sutis que não devemos ignorar.
+
+18
+
+00:01:42,780  -->  00:01:47,700
+Elas podem ser bastante úteis quando lidamos com
+diferentes valores separados por vírgulas.
+
+19
+
+00:01:47,700  -->  00:01:55,950
+Por exemplo, se temos como variáveis
+"idade" e "anos de escola" ​​e eu tenho os respectivos números
+
+20
+
+00:01:55,950  -->  00:02:04,159
+em um formato de string, separados por uma vírgula (daí
+o nome valores separados por vírgulas), o método
+
+21
+
+00:02:04,159  -->  00:02:09,940
+"split" com a indicação de uma vírgula dentro dos
+parênteses atribuirá 30 como valor para
+
+22
+
+00:02:09,940  -->  00:02:16,120
+idade e 17 como valor para anos de escola.
+
+23
+
+00:02:17,120  -->  00:02:21,900
+Podemos imprimir as duas variáveis ​​separadamente
+para verificar o resultado.
+
+24
+
+00:02:21,910  -->  00:02:26,920
+Tudo parece estar correto - ótimo!
+
+25
+
+00:02:26,920  -->  00:02:32,159
+Por fim, podemos ter tuplas como sendo o retorno
+de uma função.
+
+26
+
+00:02:32,159  -->  00:02:36,840
+Isso é útil porque uma função (que só pode
+retornar um valor único) pode
+
+27
+
+00:02:36,840  -->  00:02:43,569
+produzir uma tupla contendo múltiplos valores.
+
+28
+
+00:02:43,569  -->  00:02:52,400
+Olhe esse código que calcula a área e o perímetro de um quadrado;
+Vou colocar apenas o comprimento do lado de um quadrado e, como resultado
+
+29
+
+00:02:52,400  -->  00:02:57,680
+a função "square info" retornará
+uma tupla.
+
+30
+
+00:02:57,680  -->  00:03:07,939
+A tupla me dirá a área e o perímetro
+do quadrado.
+
+31
+
+00:03:07,939  -->  00:03:10,769
+É assim que podemos trabalhar com tuplas em Python!
+
+32
+
+00:03:10,769  -->  00:03:11,840
+Obrigado por assistir!

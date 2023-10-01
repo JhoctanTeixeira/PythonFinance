@@ -1,0 +1,192 @@
+1
+
+00:00:00,780  -->  00:00:05,109
+Você provavelmente notou que falamos sobre os valores booleanos
+algumas vezes.
+
+2
+
+00:00:05,109  -->  00:00:10,490
+Gostaríamos de fazer um pequeno vídeo
+que visa explicar sua aplicação.
+
+3
+
+00:00:10,490  -->  00:00:14,559
+vamos atribuir o valor 2 a variável x.
+
+4
+
+00:00:14,559  -->  00:00:19,530
+O que você verá a seguir é a construção do comando
+if-else: se o valor da variável x
+
+5
+
+00:00:19,530  -->  00:00:23,840
+for maior que 4, imprima "Correct".
+
+6
+
+00:00:23,840  -->  00:00:27,190
+Em todos os outros casos, imprima "Incorrect".
+
+7
+
+00:00:27,190  -->  00:00:33,180
+Então, qual é o elemento booleano que temos
+nessa lógica computacional?
+
+8
+
+00:00:33,180  -->  00:00:39,120
+Basicamente, depois de inserir a declaração if,
+o computador anexará um valor booleano
+
+9
+
+00:00:39,120  -->  00:00:40,120
+a ele.
+
+10
+
+00:00:40,120  -->  00:00:44,199
+Dependendo do valor de seu resultado: verdadeiro
+ou falso ele produzirá um dos
+
+11
+
+00:00:44,199  -->  00:00:48,100
+resultados sugeridos, “Correct” ou “Incorrect”.
+
+12
+
+00:00:48,100  -->  00:00:53,879
+Se a primeira afirmação for verdadeira, ou seja, se
+x for maior que 4, o programa irá imprimir
+
+13
+
+00:00:53,879  -->  00:00:56,179
+a declaração correspondente “Correct”.
+
+14
+
+00:00:56,179  -->  00:01:02,909
+Caso contrário, "Else", que significa que se a afirmação "x maior
+que 4" nao é verdadeira, ou mais precisamente: for "Falsa",
+
+15
+
+00:01:02,909  -->  00:01:05,799
+a afirmação “Incorrect” será impressa.
+
+16
+
+00:01:05,799  -->  00:01:11,030
+De uma certa perspectiva, tudo em um
+sistema de computador é booleano, compreendendo seqüências
+
+17
+
+00:01:11,030  -->  00:01:14,140
+de zeros e uns, "falsos" e "verdadeiros".
+
+18
+
+00:01:14,140  -->  00:01:17,470
+É por isso que estamos dando ênfase ao
+valor booleano.
+
+19
+
+00:01:17,470  -->  00:01:23,700
+Isso nos ajuda a entender a lógica computacional geral
+e a maneira como as condicionais funcionam em Python.
+
+20
+
+00:01:23,700  -->  00:01:24,920
+Ok.
+
+21
+
+00:01:24,920  -->  00:01:26,140
+Excelente.
+
+22
+
+00:01:26,140  -->  00:01:27,939
+Podemos para por aqui.
+
+23
+
+00:01:27,939  -->  00:01:30,509
+Esta não foi uma seção fácil, certo?
+
+24
+
+00:01:30,509  -->  00:01:33,850
+Mas você aprendeu muito e está progredindo
+bastante.
+
+25
+
+00:01:33,850  -->  00:01:38,530
+Agora você sabe mais sobre condicionais em Python,
+e entende o fluxo dos comandos if-,
+
+26
+
+00:01:38,530  -->  00:01:40,990
+elif-, e else.
+
+27
+
+00:01:40,990  -->  00:01:46,679
+Além disso, você viu mais uma vez que entender
+a sintaxe do Python é crucial para a
+
+28
+
+00:01:46,679  -->  00:01:48,780
+a execução do seu código.
+
+29
+
+00:01:48,780  -->  00:01:52,229
+Onde você digita o sinal de dois pontos e o espaçamento
+realmente importam.
+
+30
+
+00:01:52,229  -->  00:01:57,950
+Por último você viu que a ordem que você declara
+seus comandos leva a um resultado específico.
+
+31
+
+00:01:57,950  -->  00:02:02,109
+Se você alterar a ordem dos seus comandos,
+o resultado poderá mudar, e isso pode levar
+
+32
+
+00:02:02,109  -->  00:02:04,490
+a resultados não desejados por você.
+
+33
+
+00:02:04,490  -->  00:02:05,820
+Maravilha!
+
+34
+
+00:02:05,820  -->  00:02:10,090
+Em nossa próxima seção, vamos mergulhar no
+mundo das funções do Python.
+
+35
+
+00:02:10,090  -->  00:02:12,040
+Vejo você lá. E obrigado por assistir!

@@ -1,0 +1,139 @@
+1
+00:00:00,920 --> 00:00:06,270
+A biblioteca padrão do Python é uma coleção de módulos que já estão disponíveis assim que você instala
+
+2
+00:00:06,270 --> 00:00:07,280
+o programa.
+
+3
+00:00:07,280 --> 00:00:15,170
+Você se lembra da função nativa ler que usamos em aulas passadas nós usamos diretamente e não tivemos
+
+4
+00:00:15,170 --> 00:00:20,910
+que escrever o código manualmente para contar o número de elementos em um objeto certo.
+
+5
+00:00:21,020 --> 00:00:27,320
+Da mesma forma usamos os métodos da classe list para aumentar uma lista e não tivemos que definir o
+
+6
+00:00:27,320 --> 00:00:30,500
+método por conta própria antes de aplicá lo bem.
+
+7
+00:00:30,530 --> 00:00:35,810
+Isso ocorreu porque os desenvolvedores do Python prepararam uma certa quantidade de código para ser
+
+8
+00:00:35,810 --> 00:00:39,460
+executado automaticamente quando você inicia um novo arquivo.
+
+9
+00:00:39,530 --> 00:00:45,350
+Existe um conjunto de módulos no início do seu programa você não pode vê lo mas eles estão lá com todas
+
+10
+00:00:45,350 --> 00:00:52,340
+aquelas funções nativas como a função LEGO ou a classe destes ou seja esses módulos formam a chamada
+
+11
+00:00:52,340 --> 00:00:53,730
+biblioteca padrão.
+
+12
+00:00:53,750 --> 00:00:59,240
+A linguagem Python tem uma ampla aplicação prática para usar a linguagem não é obrigatório instalar
+
+13
+00:00:59,240 --> 00:01:01,420
+todos os módulos existentes no mundo.
+
+14
+00:01:01,490 --> 00:01:07,670
+Assim além da biblioteca padrão que vem com a instalação normal as pessoas baixam os módulos e pacotes
+
+15
+00:01:07,670 --> 00:01:13,460
+que necessitam e estatísticos ficarão inclinados a instalar um módulo contendo um grande conjunto de
+
+16
+00:01:13,460 --> 00:01:15,370
+funções e métodos estatísticos.
+
+17
+00:01:15,680 --> 00:01:21,350
+Enquanto um cientista de dados provavelmente usará alguns pacotes específicos que vão ajudá lo a organizar
+
+18
+00:01:21,360 --> 00:01:25,480
+seus dados em tabelas e assim por diante.
+
+19
+00:01:25,480 --> 00:01:32,740
+E é assim também que faremos em algumas futuras em breve PC ficaremos as bibliotecas relevantes para
+
+20
+00:01:32,740 --> 00:01:39,980
+nossas aulas sobre finanças mas antes de chegarmos lá por favor preste atenção ao seguinte.
+
+21
+00:01:39,980 --> 00:01:42,680
+Não espere criar módulos o tempo todo.
+
+22
+00:01:42,680 --> 00:01:45,550
+é verdade que esse é um dos melhores recursos do peito.
+
+23
+00:01:45,800 --> 00:01:49,670
+Mas isso geralmente é feito por pessoas altamente especializadas
+
+24
+00:01:53,170 --> 00:01:54,030
+por exemplo.
+
+25
+00:01:54,070 --> 00:01:59,710
+Alguns desenvolvedores criaram um determinado módulo estatístico que pode ser importado e usado por
+
+26
+00:01:59,710 --> 00:02:01,190
+qualquer pessoa.
+
+27
+00:02:01,240 --> 00:02:07,410
+Se você é um estatístico que ficará feliz em aproveitar este módulo específico da sua área na maioria
+
+28
+00:02:07,410 --> 00:02:12,910
+dos casos os módulos serão gratuitos e você poderá baixá los e usá los em seus cálculos.
+
+29
+00:02:13,830 --> 00:02:20,400
+Depois que o módulo é lançado ele ainda pode ser melhorado e atualizado com frequência são uma melhoria
+
+30
+00:02:20,400 --> 00:02:26,610
+importantíssima na eficiência do peito uma vez estabelecidos e comprovadamente funcionais.
+
+31
+00:02:26,610 --> 00:02:32,490
+Os módulos podem facilmente serem reutilizados inúmeras vezes facilitando o trabalho de milhares de
+
+32
+00:02:32,490 --> 00:02:33,210
+usuários.
+
+33
+00:02:36,460 --> 00:02:42,430
+Em nossa próxima aula iremos focar na parte técnica aprender como importar um módulo em um arquivo novo.
+
+34
+00:02:43,150 --> 00:02:44,950
+Veja você lá novamente.
+
+35
+00:02:45,100 --> 00:02:46,120
+Obrigado por assistir.

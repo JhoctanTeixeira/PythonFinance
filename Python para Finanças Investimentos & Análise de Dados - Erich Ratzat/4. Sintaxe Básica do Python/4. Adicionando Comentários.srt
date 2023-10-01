@@ -1,0 +1,114 @@
+1
+
+00:00:00,810  -->  00:00:05,910
+Quando seu código se tornar maior,
+e por maior, eu quero dizer códigos com dezenas ou centenas
+
+2
+
+00:00:05,910  -->  00:00:10,590
+de linhas, começa ficar difícil entender
+como seu trabalho foi estruturado, porque
+
+3
+
+00:00:10,590  -->  00:00:12,400
+existem muitas linhas.
+
+4
+
+00:00:12,400  -->  00:00:16,590
+O que você poderia fazer nessas situações é deixar
+comentários ao longo do código.
+
+5
+
+00:00:16,590  -->  00:00:22,100
+Comentários são sentenças não executadas por um
+computador; ele não as lê como instruções.
+
+6
+
+00:00:22,100  -->  00:00:26,599
+O segredo aqui é colocar o sinal de jogo da velha no início
+de cada linha que você gostaria de inserir como um
+
+7
+
+00:00:26,599  -->  00:00:27,599
+comentário.
+
+8
+
+00:00:27,600  -->  00:00:31,320
+Vou improvisar com uma frase aleatória para você ver...
+
+9
+
+00:00:31,920  -->  00:00:35,140
+“This is just a comment and not code”.
+
+10
+
+00:00:35,140  -->  00:00:37,800
+Execute com Shift e Enter.
+
+11
+
+00:00:37,800  -->  00:00:43,060
+Quando você executa esta célula, não aparece resultado nenhum,
+porque o comentário não conta como código.
+
+12
+
+00:00:44,400  -->  00:00:49,180
+Vamos adicionar um código - imprima 7 e 2 na
+mesma linha.
+
+13
+
+00:00:50,120  -->  00:00:53,240
+Aperte Shift e Enter.
+
+14
+
+00:00:53,620  -->  00:00:59,780
+Olha lá! Nós obtivemos 7 e 2, e o
+comentário marcado com a hashtag não produziu
+
+15
+
+00:00:59,780  -->  00:01:01,140
+nenhum resultado.
+
+16
+
+00:01:01,300  -->  00:01:04,240
+Essa linha fica visível apenas para o programador.
+
+17
+
+00:01:04,240  -->  00:01:07,620
+O computador apenas executou o comando "print".
+
+18
+
+00:01:08,260  -->  00:01:12,580
+Se quisermos deixar um comentário em duas
+linhas, precisamos colocar o sinal de jogo da velha
+
+19
+
+00:01:12,590  -->  00:01:15,620
+no começo de cada uma.
+
+20
+
+00:01:15,620  -->  00:01:22,070
+Esses dois serão comentários, imprima 1... e
+vamos obter 1.
+
+21
+
+00:01:22,070  -->  00:01:23,689
+Funcionou, certo?!

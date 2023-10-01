@@ -1,0 +1,223 @@
+1
+00:00:00,830 --> 00:00:06,770
+As agressões muito variadas estendem a análise que vimos até agora que foi considerando uma única variável
+
+2
+00:00:07,210 --> 00:00:13,250
+é razoável esperar que ao considerar mais variáveis na equação de regressão vamos melhorar o seu poder
+
+3
+00:00:13,250 --> 00:00:20,060
+explicativo e vamos ser uma ideia melhor do quadro completo das circunstâncias que determinam o comportamento
+
+4
+00:00:20,060 --> 00:00:27,760
+da variável que estamos tentando prever pense no exemplo que demos antes de casas e seus preços quando
+
+5
+00:00:27,760 --> 00:00:29,590
+o comprador adquire uma casa.
+
+6
+00:00:29,590 --> 00:00:36,370
+Ele normalmente quer entender tudo sobre a propriedade ele está interessado no tamanho da casa mas ele
+
+7
+00:00:36,370 --> 00:00:42,610
+também está interessado na sua localização número de quartos condição atual proximidade e boas escolas
+
+8
+00:00:42,610 --> 00:00:44,560
+e transporte os vizinhos.
+
+9
+00:00:44,590 --> 00:00:50,750
+E assim por diante todos esses fatores desempenham um papel e afetam a determinação de seu preço.
+
+10
+00:00:51,220 --> 00:00:58,450
+Portanto uma regressão que considera múltiplas variáveis deve fornecer previsões mais próximas a resultados
+
+11
+00:00:58,450 --> 00:01:04,620
+reais o principal problema que precisamos das variáveis certas.
+
+12
+00:01:04,620 --> 00:01:10,440
+Caso contrário os resultados poderão ser enganadores como já estamos familiarizados com as agressões
+
+13
+00:01:10,450 --> 00:01:11,200
+simples.
+
+14
+00:01:11,280 --> 00:01:18,150
+Podemos facilmente compreender as agressões múltiplas a fórmula da equação da regressão é quase a mesma
+
+15
+00:01:18,160 --> 00:01:26,160
+com a ligeira diferença que podemos ter múltiplos coeficientes beta e variáveis explicativas cabe ao
+
+16
+00:01:26,160 --> 00:01:33,620
+analista decidir escolher quantas variáveis explicativas devem ser incluídas na equação.
+
+17
+00:01:33,770 --> 00:01:40,170
+Se o número de variáveis explicativas for superior a 1 podemos falar sobre uma regressão múltipla.
+
+18
+00:01:40,220 --> 00:01:47,440
+O princípio segundo o qual a regressão muito variada e calculada é o mesmo da regressão simples.
+
+19
+00:01:47,650 --> 00:01:54,040
+Estamos estimando a melhor linha de tendência que minimiza a soma dos quadrados dos resíduos.
+
+20
+00:01:54,040 --> 00:01:59,920
+é mais difícil representar a linha de tendência em um gráfico agora pois estamos usando múltiplas dimensões
+
+21
+00:01:59,920 --> 00:02:06,250
+nesse caso se tivermos mais de duas variáveis independentes as coisas tornam se complicadas.
+
+22
+00:02:06,250 --> 00:02:12,630
+Se tivermos 3 você pode usar um sofisticado gráfico tridimensional mas você já viu um gráfico com quatro
+
+23
+00:02:12,630 --> 00:02:14,030
+ou mais dimensões.
+
+24
+00:02:14,110 --> 00:02:14,670
+Eu nunca vi.
+
+25
+00:02:14,670 --> 00:02:21,230
+Para ser honesto mas para entender como os coeficientes de regressão são obtidos tente imaginar que
+
+26
+00:02:21,230 --> 00:02:27,620
+o software que você está usando sabe como calcular a equação da melhor linha de tendência em 4 5 6 ou
+
+27
+00:02:27,620 --> 00:02:29,100
+mais dimensões.
+
+28
+00:02:29,270 --> 00:02:34,880
+Fórmulas matemáticas tornam essa tarefa possível semelhante ao que vimos antes.
+
+29
+00:02:35,000 --> 00:02:42,750
+O erro ao quadrado irá nos ajudar a determinar o quão poderosa a regressão que obtivemos é de fato recapitular
+
+30
+00:02:43,430 --> 00:02:45,350
+o erro e o quadrado vai de 0 a 1.
+
+31
+00:02:45,840 --> 00:02:51,000
+E quanto mais variáveis incluímos na equação mais alto esperamos que seja seu valor.
+
+32
+00:02:51,680 --> 00:03:00,370
+Há duas maneiras principais de verificar se uma variável explicativa é útil primeiro podemos executar
+
+33
+00:03:00,370 --> 00:03:07,480
+uma regressão com uma variável e depois executar uma nova regressão sem a variável ou com uma variável
+
+34
+00:03:07,480 --> 00:03:16,270
+diferente devemos observar como é o quadrado afetado nesse caso se ele for mais alto na primeira vez
+
+35
+00:03:16,450 --> 00:03:22,420
+então essa variável independente tem um bom poder exploratório e seu valor contribui para a explicação
+
+36
+00:03:22,420 --> 00:03:25,610
+do valor da variável dependente.
+
+37
+00:03:25,650 --> 00:03:33,990
+Outro mecanismo a nossa disposição e o valor dos coeficientes Beta um valor em estatística e a probabilidade
+
+38
+00:03:33,990 --> 00:03:41,390
+de obter um resultado que é mais extremo do que aquele que obtivemos então nesse caso essa probabilidade
+
+39
+00:03:41,390 --> 00:03:45,200
+de que os coeficientes beta que estimamos deveria ter sido diferente
+
+40
+00:03:49,210 --> 00:03:52,060
+um valor baixo é uma coisa boa.
+
+41
+00:03:52,060 --> 00:03:59,220
+Ele fornece garantia de que o verdadeiro coeficiente beta difere de zero e nos ajuda a explicar a variável
+
+42
+00:03:59,220 --> 00:04:08,890
+dependente um valor inferior a cinco por cento nos permite afirmar Estamos 95% confiantes de que o coeficiente
+
+43
+00:04:08,890 --> 00:04:12,250
+beta que estimamos é diferente do que zero.
+
+44
+00:04:12,490 --> 00:04:19,080
+Geralmente aceita se ter valores mais baixos que 5 por cento ou sendo mais conservador inferior a 1
+
+45
+00:04:19,080 --> 00:04:28,190
+por cento e assim podemos executar uma regressão muito variada por favor saiba que os coeficientes beta
+
+46
+00:04:28,190 --> 00:04:34,610
+estimados numa regressão muito variada ainda podem ser interpretados como um impacto marginal que uma
+
+47
+00:04:34,610 --> 00:04:41,840
+variável explicativa tem sobre a variável dependente mas isso somente é verdade se todas as outras variáveis
+
+48
+00:04:41,870 --> 00:04:48,940
+permanecerem constantes então se tivermos uma regressão que mostra como o retorno esperado de uma ação
+
+49
+00:04:49,180 --> 00:04:55,570
+é uma função do crescimento do PIB do país e da taxa de crescimento da indústria e obtivemos um coeficiente
+
+50
+00:04:55,570 --> 00:05:02,500
+beta de 0,8 para o crescimento do PIB e o coeficiente beta de 1,2 para o crescimento da indústria podemos
+
+51
+00:05:02,500 --> 00:05:10,150
+dizer que para cada aumento percentual do crescimento do PIB espera se que a empresa ganhe 0,8 por cento
+
+52
+00:05:10,540 --> 00:05:16,610
+se o crescimento esperado da indústria permanecer o mesmo o retorno esperado e o crescimento do PIB
+
+53
+00:05:16,850 --> 00:05:18,580
+são inter-relacionados.
+
+54
+00:05:18,830 --> 00:05:29,400
+Nessa regressão e não podemos interpretar um sem o outro muito bom excelente até aqui agora que você
+
+55
+00:05:29,400 --> 00:05:31,350
+sabe o que é uma regressão múltipla.
+
+56
+00:05:31,350 --> 00:05:38,650
+Gostaríamos de lhe mostrar como calculado em divirta se com nossas próximas aulas e obrigado por.

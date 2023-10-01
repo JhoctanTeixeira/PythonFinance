@@ -1,0 +1,243 @@
+1
+1
+
+00:00:01,140  -->  00:00:06,129
+OK, nesta lição, faremos um tour rápido
+pelo painel do Jupyter.
+2
+
+2
+
+00:00:06,129  -->  00:00:10,170
+Assim que você carregar o notebook, o painel
+do Jupyter vai abrir.
+3
+
+3
+
+00:00:10,170  -->  00:00:13,970
+Cada arquivo e diretório tem uma caixa de seleção
+ao lado.
+4
+
+4
+
+00:00:13,970  -->  00:00:19,279
+Ao selecionar e deselecionar um item, voce pode
+manipular o respectivo objeto - isso
+5
+
+5
+
+00:00:19,279  -->  00:00:26,650
+significa que voce pode duplicar ou fechar um
+arquivo.
+6
+
+6
+
+00:00:26,650  -->  00:00:30,230
+Além disso, você pode renomear e excluir pastas.
+7
+
+7
+
+00:00:30,230  -->  00:00:35,699
+O menu seleção permite que você selecione todos
+os arquivos do mesmo tipo no console
+8
+
+8
+
+00:00:35,699  -->  00:00:38,430
+ao clicar em expandir o botão.
+9
+
+9
+
+00:00:38,430  -->  00:00:51,750
+Por exemplo, voce pode marcar todas as pastas
+ou todos os arquivos em execução.
+10
+
+10
+
+00:00:51,750  -->  00:01:15,420
+Você também pode marcar essa opção
+que vai selecionar todos os itens na
+11
+
+11
+
+00:01:15,420  -->  00:01:19,060
+página.
+12
+
+12
+
+00:01:19,060  -->  00:01:23,649
+A lógica em relação ao gerenciamento das pastas
+é a mesma de um sistema operacional
+13
+
+13
+
+00:01:23,649  -->  00:01:31,860
+- arquivos podem ser agrupados em pastas, e
+pastas podem conter outras pastas.
+14
+
+14
+
+00:01:31,860  -->  00:01:36,530
+Pelo botão "Upload" no canto superior direito,
+voce pode fazer um upload de um arquivo
+15
+
+15
+
+00:01:36,530  -->  00:01:38,540
+na pasta em que voce está.
+16
+
+16
+
+00:01:38,540  -->  00:01:44,330
+A janela padrão do explorer se abre e quando
+voce seleciona um arquivo e clica em "Open",
+17
+
+17
+
+00:01:44,330  -->  00:01:49,880
+ele irá imediatamente aparecer em seu diretório.
+18
+
+18
+
+00:01:49,880  -->  00:01:55,049
+E por fim, você pode expandir o botão "New".
+19
+
+19
+
+00:01:55,049  -->  00:02:01,380
+Da lista que aparece, voce provavelmente precisará
+criar um arquivo novo, uma pasta nova,
+20
+
+20
+
+00:02:01,380  -->  00:02:03,420
+ou um novo arquivo de notebook.
+21
+
+21
+
+00:02:03,420  -->  00:02:11,870
+Esse arquivo notebook pode conter código em
+qualquer linguagem de programação dos seus "Notebooks".
+22
+
+22
+
+00:02:11,870  -->  00:02:16,920
+Quando você cria um novo arquivo do Python,
+ele será salvo no formato IPython Notebook
+23
+
+23
+
+00:02:16,920  -->  00:02:21,290
+com a extenção .ipynb
+24
+
+24
+
+00:02:21,290  -->  00:02:28,620
+Não tenha medo desse novo nome, IPython
+- pense nele como um antecessor do Jupyter.
+25
+
+25
+
+00:02:28,620  -->  00:02:33,930
+Considere o formato IPython Notebook como
+um formato de arquivo como tantos outros.
+26
+
+26
+
+00:02:33,930  -->  00:02:37,090
+Ok, vamos realizar algumas operações.
+27
+
+27
+
+00:02:37,090  -->  00:02:41,360
+Vou renomear esta pasta para "Exercises".
+28
+
+28
+
+00:02:41,360  -->  00:02:43,660
+Ok.
+29
+
+29
+
+00:02:43,660  -->  00:02:45,959
+Pronto.
+30
+
+30
+
+00:02:45,959  -->  00:02:53,209
+Agora vou criar um novo arquivo IPython
+expandindo o botão "New" e
+31
+
+31
+
+00:02:53,209  -->  00:02:56,930
+selecionando um dos dois formatos do Python
+que eu tenho aqui.
+32
+
+32
+
+00:02:56,930  -->  00:03:00,530
+Vamos usar o formato padrão do Python.
+33
+
+33
+
+00:03:00,530  -->  00:03:03,379
+O navegador abre imediatamente uma nova aba
+para mim.
+34
+
+34
+
+00:03:03,379  -->  00:03:06,740
+Este é o shell interativo que mencionamos
+anteriormente.
+35
+
+35
+
+00:03:06,740  -->  00:03:10,970
+É aqui que você vai escrever seu código e ver
+seu resultado.
+36
+
+36
+
+00:03:10,970  -->  00:03:13,400
+Mais sobre isso na nossa próxima aula.
+37
+
+37
+
+00:03:13,400  -->  00:03:14,480
+Obrigado por assistir!

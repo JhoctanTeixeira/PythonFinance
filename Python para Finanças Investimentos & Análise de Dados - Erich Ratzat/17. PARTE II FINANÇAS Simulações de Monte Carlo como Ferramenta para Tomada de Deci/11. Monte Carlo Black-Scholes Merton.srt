@@ -1,0 +1,271 @@
+1
+00:00:01,190 --> 00:00:05,990
+Nosso objetivo nas próximas aulas será calcular o preço de uma opção de compra.
+
+2
+00:00:06,020 --> 00:00:12,650
+Vamos aplicar a fórmula de Black Chorus método que apresentamos nosso vídeo anterior na próxima aula.
+
+3
+00:00:12,680 --> 00:00:18,830
+Daremos um exemplo de como os profissionais às vezes usam mais ferramentas matemáticas complexas para
+
+4
+00:00:18,830 --> 00:00:21,350
+obter melhores resultados.
+
+5
+00:00:21,360 --> 00:00:25,350
+Não vamos colocar nenhum gráfico aqui então por favor importe ou não pai.
+
+6
+00:00:25,380 --> 00:00:26,310
+O pandas.
+
+7
+00:00:26,310 --> 00:00:34,220
+O pandas atribuída é o módulo menor agora estamos prontos para começar nesse exercício.
+
+8
+00:00:34,220 --> 00:00:40,940
+Vamos criar funções que nos permitirá calcular os valores do DEM e do D2 que precisamos para aplicar
+
+9
+00:00:40,950 --> 00:00:47,870
+na fórmula de Black em shows e precificar uma opção de compra os parâmetros que incluírem são o preço
+
+10
+00:00:47,870 --> 00:00:51,200
+atual da ação e se o preço de exercício K.
+
+11
+00:00:51,440 --> 00:00:59,040
+A taxa livre de risco é o desvio padrão é o tempo que é medido em anos tenho certeza que você tem um
+
+12
+00:00:59,040 --> 00:01:05,120
+olho bem treinado para detectar as fórmulas para as variáveis D e B2 inscritas nessa célula.
+
+13
+00:01:05,160 --> 00:01:11,040
+A única diferença entre os dois números é que ainda não adicionamos a variância dividida por dois enquanto
+
+14
+00:01:11,040 --> 00:01:17,310
+em b2 devemos subtrair da beleza para aplicar a fórmula de Black shows.
+
+15
+00:01:17,360 --> 00:01:23,390
+Não vamos precisar da distribuição PBF que usamos quando fizermos a previsão dos preços futuros das
+
+16
+00:01:23,390 --> 00:01:24,210
+ações.
+
+17
+00:01:24,290 --> 00:01:31,460
+Em vez disso vamos precisar da distribuição normal cumulativa não vamos mais a fundo aqui mas por favor
+
+18
+00:01:31,460 --> 00:01:37,910
+assuma que a teoria estatística nos leva a usar a distribuição normal cumulativa neste caso como essa
+
+19
+00:01:37,910 --> 00:01:41,200
+distribuição mostra como os dados se acumulam no tempo.
+
+20
+00:01:41,270 --> 00:01:44,900
+O seu resultado nunca pode ser inferior a 0 ou superior.
+
+21
+00:01:45,210 --> 00:01:53,420
+1 é o último ponto no gráfico que ilustra como os dados foram acumulados então a CBF terá como argumento
+
+22
+00:01:53,420 --> 00:02:00,220
+o valor a partir dos dados ele nos mostrará que parte dos dados estão abaixo desse valor.
+
+23
+00:02:00,350 --> 00:02:05,130
+Por exemplo o argumento de zero levará a um resultado de 0,5.
+
+24
+00:02:05,270 --> 00:02:11,560
+Já que é a média da distribuição normal padrão é metade dos dados se encontram abaixo desse valor.
+
+25
+00:02:11,570 --> 00:02:15,940
+O argumento de 0,25 implica em 0,6.
+
+26
+00:02:16,250 --> 00:02:21,530
+E o argumento de 0,75 e aproximadamente 0,77.
+
+27
+00:02:21,690 --> 00:02:28,370
+O argumento tão grande como o 9 resulta em 1 porque espera se que seja o maior valor em nosso conjunto
+
+28
+00:02:28,370 --> 00:02:29,120
+de dados.
+
+29
+00:02:29,180 --> 00:02:35,510
+Agora podemos introduzir a função de Black Shores ela terá os mesmos parâmetros que d e D2.
+
+30
+00:02:35,750 --> 00:02:43,070
+O preço atual da ação o preço de exercício a taxa livre de risco o desvio padrão e o tempo medido em
+
+31
+00:02:43,070 --> 00:02:43,810
+anos.
+
+32
+00:02:43,880 --> 00:02:47,270
+Observe como a fórmula é mostrada aqui é escrito em Python.
+
+33
+00:02:47,750 --> 00:02:53,320
+Essa parte se refere ao n 1 e multiplicado pelo preço da ação S.
+
+34
+00:02:53,450 --> 00:02:59,990
+Desse montante devemos deduzir o produto do preço de exercício K é elevado à potência da taxa livre
+
+35
+00:02:59,990 --> 00:03:08,120
+de risco com sinal negativo vezes ter o tempo e o n de B2 se traduz no valor da função da distribuição
+
+36
+00:03:08,120 --> 00:03:09,870
+cumulativa com o argumento.
+
+37
+00:03:09,890 --> 00:03:13,440
+A função D2 do ponto de vista do pai.
+
+38
+00:03:13,640 --> 00:03:19,160
+Esse é um exemplo de como podemos usar uma função dentro de outra função ótimo.
+
+39
+00:03:19,520 --> 00:03:20,140
+Ok.
+
+40
+00:03:20,290 --> 00:03:23,080
+Definimos todas as funções necessárias.
+
+41
+00:03:23,080 --> 00:03:26,770
+Agora vamos aplicá las para a ação da própria guerra.
+
+42
+00:03:27,520 --> 00:03:34,480
+Vamos fazer o download dos dados a partir de primeiro de janeiro de 2007 de novo então o método Locke
+
+43
+00:03:34,780 --> 00:03:39,980
+com menos um escrito dentro do operador Index irá trazer o preço da ação atual.
+
+44
+00:03:40,300 --> 00:03:43,560
+Ok temos um valor para nossa variável S.
+
+45
+00:03:43,630 --> 00:03:48,390
+Outro argumento que poderemos extrair dos nossos dados é o desvio padrão.
+
+46
+00:03:48,430 --> 00:03:54,720
+Agora precisamos mencionar que os profissionais normalmente aplicam certas fórmulas ou como dizem usam
+
+47
+00:03:54,820 --> 00:03:57,510
+interpolações para calcular esse valor.
+
+48
+00:03:57,610 --> 00:04:03,970
+No nosso caso usaremos como aproximação o desvio padrão do retorno logarítmico dessa ação e tenho certeza
+
+49
+00:04:03,970 --> 00:04:06,200
+que você pode fazer isso de olhos fechados.
+
+50
+00:04:06,360 --> 00:04:13,220
+Nós armazenarem o resultado obtido na variável ST 10 ok vamos ver o que vai dar.
+
+51
+00:04:13,570 --> 00:04:20,780
+Podemos calcular o preço de uma opção de compra agora vamos manter a taxa livre de risco em 2,5 por
+
+52
+00:04:20,780 --> 00:04:23,960
+cento que corresponde ao rendimento do título de 10 anos.
+
+53
+00:04:23,950 --> 00:04:30,740
+O governo americano como fizemos em aulas anteriores lembra vamos assumir que o preço do exercício é
+
+54
+00:04:30,740 --> 00:04:36,000
+igual a 110 e o horizonte de tempo é de um ano beleza.
+
+55
+00:04:36,100 --> 00:04:44,650
+Nessa fase temos os valores para todos os cinco parâmetros que precisamos se usarmos esses valores nas
+
+56
+00:04:44,650 --> 00:04:52,360
+três funções que criamos seremos capazes de encontrar D1 e D2 e em seguida obter o preço da opção de
+
+57
+00:04:52,360 --> 00:05:03,880
+compra que é aproximadamente 1,68 maravilha conseguimos fixar o preço da opção de compra.
+
+58
+00:05:03,940 --> 00:05:10,090
+Será que é possível ter um preço de opção muito mais baixo do que o preço real das ações.
+
+59
+00:05:10,180 --> 00:05:17,920
+Com certeza o valor da opção depende de inúmeros parâmetros tais como o preço do exercício o tempo para
+
+60
+00:05:17,920 --> 00:05:23,120
+o vencimento e a volatilidade não é diretamente proporcional ao preço do ativo.
+
+61
+00:05:23,230 --> 00:05:29,770
+Aqui nós que lhe mostramos como calcular o preço de uma opção de compra compacto se você executar novamente
+
+62
+00:05:29,770 --> 00:05:35,690
+o mesmo código com valores diferentes para o período de vencimento para o mesmo desvio padrão ou preço
+
+63
+00:05:35,690 --> 00:05:39,220
+do exercício você obterá o preço de opção diferente.
+
+64
+00:05:39,250 --> 00:05:45,850
+Os profissionais implementam fórmulas matemáticas muito mais complexas e loops para especificar a opção
+
+65
+00:05:45,850 --> 00:05:52,990
+dentro de um bilionésimo do seu valor porque ao investir dezenas de milhões as mínimas diferenças importam
+
+66
+00:05:53,470 --> 00:05:58,330
+nos acompanhe nosso próximo vídeo onde iremos lhe mostrar como podemos calcular o preço de uma opção
+
+67
+00:05:58,420 --> 00:06:00,760
+de uma forma mais sofisticada.
+
+68
+00:06:00,760 --> 00:06:01,690
+Obrigado por achar.

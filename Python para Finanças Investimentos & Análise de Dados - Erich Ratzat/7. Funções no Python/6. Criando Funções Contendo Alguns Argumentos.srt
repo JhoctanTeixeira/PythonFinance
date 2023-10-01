@@ -1,0 +1,88 @@
+1
+
+00:00:00,869  -->  00:00:02,810
+Estamos quase lá.
+
+2
+
+00:00:02,810  -->  00:00:07,410
+Nesta lição, vamos aprender como trabalhar
+com mais de um parâmetro em uma função.
+
+3
+
+00:00:07,410  -->  00:00:12,330
+A maneira como isso é feito em Python é colocando
+todos os argumentos dentro dos parênteses
+
+4
+
+00:00:12,330  -->  00:00:16,630
+separados por uma vírgula.
+
+5
+
+00:00:16,630  -->  00:00:22,770
+Ao chamar a função que temos aqui - "subtract_bc" com os argumentos
+10, 3, e 2...
+
+6
+
+00:00:22,770  -->  00:00:27,690
+O resultado é 4.
+
+7
+
+00:00:27,690  -->  00:00:30,730
+Parece fácil para adicionar novos paramentos, certo?
+
+8
+
+00:00:30,730  -->  00:00:31,730
+E de fato é!
+
+9
+
+00:00:31,730  -->  00:00:35,039
+Apenas tenha cuidado com a ordem em que você
+declara seus valores.
+
+10
+
+00:00:35,039  -->  00:00:43,260
+No nosso caso eu atribuí o valor 10 para a variável
+"a", 3 para "b" e 2 para "c".
+
+11
+
+00:00:43,260  -->  00:00:49,859
+Caso contrário, a ordem não importará se e
+somente se você especificar os nomes das variáveis
+
+12
+
+00:00:49,859  -->  00:01:02,109
+dentro dos parênteses dessa forma: "b" é igual
+a 3, "a" é igual a 10 e "c" é igual a 2.
+
+13
+
+00:01:02,109  -->  00:01:06,730
+E claro, podemos obter a mesma resposta.
+4!
+
+14
+
+00:01:06,730  -->  00:01:09,840
+É assim que podemos trabalhar com funções que
+possuem vários argumentos.
+
+15
+
+00:01:09,840  -->  00:01:10,840
+Ótimo!
+
+16
+
+00:01:10,840  -->  00:01:12,760
+Vamos ver o que vem a seguir!

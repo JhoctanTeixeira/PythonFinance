@@ -1,0 +1,388 @@
+1
+
+00:00:01,140  -->  00:00:02,630
+Nós estamos indo muito bem.
+
+2
+
+00:00:02,630  -->  00:00:07,470
+Agora que aprendemos mais sobre retornos
+de ações e o que são índices de ações, vai
+
+3
+
+00:00:07,470  -->  00:00:11,690
+ser ótimo aprender como calcular tudo isso
+em Python.
+
+4
+
+00:00:11,690  -->  00:00:16,660
+As bibliotecas que usaremos serão as mesmas de antes,
+e as ações que usaremos serão algumas do
+
+5
+
+00:00:16,660  -->  00:00:23,460
+S&P 500, NASDAQ, DAX da Alemanha, e London
+Financial Times Stock Exchange, também chamado de
+
+6
+
+00:00:23,460  -->  00:00:25,650
+"Footsie".
+
+7
+
+00:00:25,650  -->  00:00:30,529
+Observem como um chapéu é adicionado antes de cada ticker
+- isso é para indicar que estamos lidando com
+
+8
+
+00:00:30,529  -->  00:00:32,820
+dados de índices de mercado.
+
+9
+
+00:00:32,820  -->  00:00:39,430
+Se o símbolo do DAX e do
+FTSE parecerem intuitivos, por outro lado o "GSPC"
+
+10
+
+00:00:39,430  -->  00:00:45,800
+vai se referir ao S&P 500, enquanto "IXIC"
+vai nos fornecer dados da NASDAQ.
+
+11
+
+00:00:45,800  -->  00:00:51,269
+Eles podem ser um pouco confusos, mas depois
+de um tempo, você vai se acostumar com as siglas.
+
+12
+
+00:00:51,269  -->  00:00:52,969
+Continuando...
+
+13
+
+00:00:52,969  -->  00:00:58,679
+Nós estamos extraindo dados dos últimos 20 anos,
+então o primeiro valor vai ser de primeiro de janeiro
+
+14
+
+00:00:58,679  -->  00:01:03,780
+de 1997.
+
+15
+
+00:01:03,780  -->  00:01:08,930
+A primeira coisa que podemos notar é que
+os valores dos índices são mais altos em
+
+16
+
+00:01:08,930  -->  00:01:13,180
+relação aos preços de fechamento ajustados das
+empresas que vimos anteriormente.
+
+17
+
+00:01:13,180  -->  00:01:19,729
+No entanto, isso é natural, uma vez que os índices
+são cestas compostas por muitas ações.
+
+18
+
+00:01:19,729  -->  00:01:20,729
+Ok.
+
+19
+
+00:01:20,729  -->  00:01:24,700
+Vamos plotar esses dados em um gráfico.
+
+20
+
+00:01:24,700  -->  00:01:30,290
+Como vimos antes, nós vamos normalizá-lo para
+100 novamente.
+
+21
+
+00:01:30,290  -->  00:01:34,369
+Vamos interpretar esse gráfico agora.
+
+22
+
+00:01:34,369  -->  00:01:39,560
+Veja que perto do ano 2000 nós observamos um aumento
+geral do valor dos índices.
+
+23
+
+00:01:39,560  -->  00:01:45,869
+Isso porque no período entre 1995
+e 2001, houve a bolha da internet e os
+
+24
+
+00:01:45,869  -->  00:01:51,409
+mercados de ações em países industrializados,
+como EUA, Reino Unido, e Alemanha, foram impulsionados por
+
+25
+
+00:01:51,409  -->  00:01:55,360
+um aumento significativo no valor das empresas
+de internet.
+
+26
+
+00:01:55,360  -->  00:02:01,900
+Sendo compostas principalmente por empresas de tecnologia,
+a NASDAQ retrata muito melhor essa tendência.
+
+27
+
+00:02:01,900  -->  00:02:07,750
+Em relação aos outros índices, em um determinado
+período houve uma queda drastica da performance.
+
+28
+
+00:02:07,750  -->  00:02:12,230
+Nos anos seguinte, a Alemanha apresentou estabilidade
+e crescimento.
+
+29
+
+00:02:12,230  -->  00:02:18,450
+É claro, as crises econômicas e financeiras
+de 2007-2008, bem como a crise da dívida
+
+30
+
+00:02:18,450  -->  00:02:22,780
+em 2011, refletiu essa situção.
+
+31
+
+00:02:22,780  -->  00:02:30,510
+Mas no longo prazo, observando os resultados
+de 1997 até hoje, nós podemos dizer que em geral,
+
+32
+
+00:02:30,510  -->  00:02:36,459
+todos os índices tiverem um bom desempenho, com apenas uma
+queda do FTSE abaixo do nível inicial
+
+33
+
+00:02:36,459  -->  00:02:38,650
+de crescimento.
+
+34
+
+00:02:38,650  -->  00:02:43,159
+A NASDAQ tem melhor performance em determinados períodos,
+e seu desempenho está ligado a variações ligeiramente
+
+35
+
+00:02:43,159  -->  00:02:46,099
+mais acentuadas em certos momentos.
+
+36
+
+00:02:46,099  -->  00:02:51,849
+O mercado Alemão é aquele que demonstra
+real persistência e estabilidade.
+
+37
+
+00:02:51,849  -->  00:02:53,629
+Ótimo!
+
+38
+
+00:02:53,629  -->  00:02:58,690
+Vamos explicar essa análise com alguns números.
+
+39
+
+00:02:58,690  -->  00:03:06,040
+Nós precisamos calcular os retornos simples do índices.
+
+40
+
+00:03:06,040  -->  00:03:11,489
+O resultado dessa célula mostra os retornos
+anuais.
+
+41
+
+00:03:11,489  -->  00:03:12,500
+Muito bom!
+
+42
+
+00:03:12,500  -->  00:03:14,739
+Nosso raciocínio estava correto!
+
+43
+
+00:03:14,739  -->  00:03:17,380
+Todos os quatro números são positivos!
+
+44
+
+00:03:17,380  -->  00:03:21,769
+A implicação é que a média das
+empresas listadas sob os quatro índices
+
+45
+
+00:03:21,769  -->  00:03:27,020
+garantiu aos investidores uma taxa positiva de
+retorno nas últimas duas décadas.
+
+46
+
+00:03:27,020  -->  00:03:33,560
+Além disso, se nos perguntarmos quem produziu melhores resultados,
+a NASDAQ ou o S&P 500, aqui está a
+
+47
+
+00:03:33,560  -->  00:03:34,980
+resposta.
+
+48
+
+00:03:34,980  -->  00:03:42,760
+Aparentemente, pelo menos por este período, a NASDAQ
+superou facilmente o S&P 500.
+
+49
+
+00:03:42,760  -->  00:03:49,060
+O S&P 500 está em terceiro lugar porque
+o índice alemão DAX o superou.
+
+50
+
+00:03:49,060  -->  00:03:55,680
+E por fim, vamos pegar o preço de
+fechamento de uma empresa e comparar seu desempenho
+
+51
+
+00:03:55,680  -->  00:03:57,379
+com um dos índices.
+
+52
+
+00:03:57,379  -->  00:04:02,989
+Vamos optar pela Standard and Poor’s mais
+uma vez, e depois incluir o índice
+
+53
+
+00:04:02,989  -->  00:04:04,110
+Dow Jones.
+
+54
+
+00:04:04,110  -->  00:04:09,510
+Este último é um índice, que agreda os
+preços das 30 maiores empresas dos EUA e
+
+55
+
+00:04:09,510  -->  00:04:11,959
+atribui a elas pesos iguais.
+
+56
+
+00:04:11,959  -->  00:04:17,860
+É um bom indicador de tendência no
+sistema econômico americano.
+
+57
+
+00:04:17,860  -->  00:04:22,910
+Certo, nós vemos os números nas três colunas.
+
+58
+
+00:04:22,910  -->  00:04:27,670
+Eles vão de 100 a mais de 20,000
+unidades!
+
+59
+
+00:04:27,670  -->  00:04:29,630
+Isso nos assusta?
+
+60
+
+00:04:29,630  -->  00:04:30,700
+De forma alguma!
+
+61
+
+00:04:30,700  -->  00:04:31,880
+Nós sabemos o que fazer.
+
+62
+
+00:04:31,880  -->  00:04:35,450
+Nós vamos normalizar nossos dados.
+
+63
+
+00:04:35,450  -->  00:04:40,120
+E quando fizermos isso, vamos estar prontos para ver
+
+64
+
+00:04:40,120  -->  00:04:44,200
+que a P&G teve uma performance melhor nos últimos 10 anos.
+
+65
+
+00:04:44,200  -->  00:04:48,320
+É assim que fazemos para comparar o desempenho
+das ações e dos índices de ações.
+
+66
+
+00:04:48,320  -->  00:04:53,720
+Esse é o primeiro tipo de análise que você precisa
+realizar ao trabalhar com o mercado de ações.
+
+67
+
+00:04:53,720  -->  00:04:55,110
+Você está animado?
+
+68
+
+00:04:55,110  -->  00:04:56,230
+Ótimo!
+
+69
+
+00:04:56,230  -->  00:05:00,820
+Os tópicos que vamos ver a seguir serão cada
+vez mais interessantes.
+
+70
+
+00:05:00,820  -->  00:05:01,790
+Obrigado por assistir!

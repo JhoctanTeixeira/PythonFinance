@@ -1,0 +1,203 @@
+1
+00:00:00,830 --> 00:00:06,020
+Nessa aula vamos lhe mostrar como a simulação de Monte Carlo pode ser usada para modelar a evolução
+
+2
+00:00:06,020 --> 00:00:12,260
+dos preços dos ativos tais como as ações o preço de uma ação é algo que observamos olhando para trás
+
+3
+00:00:12,320 --> 00:00:13,360
+no passado.
+
+4
+00:00:13,430 --> 00:00:16,750
+No entanto o seu preço futura desconhecido certo.
+
+5
+00:00:16,880 --> 00:00:23,850
+A única informação que temos é sobre o seu preço histórico amanhã as ações das empresas podem subir
+
+6
+00:00:24,000 --> 00:00:24,510
+ou cair.
+
+7
+00:00:24,960 --> 00:00:26,120
+Ninguém sabe.
+
+8
+00:00:26,400 --> 00:00:33,950
+Vamos dar uma olhada na seguinte forma o preço de uma ação hoje é igual ao preço da mesma ação ontem
+
+9
+00:00:34,260 --> 00:00:41,730
+multiplicado por ser elevado à potência de um é o retorno logaritmo da ação.
+
+10
+00:00:41,750 --> 00:00:44,210
+Se essa equação parece um pouco estranha para você.
+
+11
+00:00:44,480 --> 00:00:50,480
+Lembre se do princípio da álgebra de acordo com o qual é elevado a potência de um logaritmo natural
+
+12
+00:00:50,720 --> 00:00:57,830
+nos dá um número que estamos tentando transformá lo em logaritmo aqui R é igual ao logaritmo natural
+
+13
+00:00:57,830 --> 00:01:00,740
+do preço de hoje dividido pelo preço de ontem.
+
+14
+00:01:01,580 --> 00:01:06,530
+Então os dois termos se cancelam e obtemos uma igualdade.
+
+15
+00:01:06,530 --> 00:01:09,910
+Essa é uma equação em que devemos nos familiarizar.
+
+16
+00:01:10,220 --> 00:01:17,030
+O seu principal ponto é que nos permite representar o preço das ações de hoje como uma função do preço
+
+17
+00:01:17,030 --> 00:01:23,640
+da ação de ontem e do retorno diário que vamos ter sabemos o preço da ação de ontem.
+
+18
+00:01:23,710 --> 00:01:29,800
+Até aqui está tudo bem não sabemos o que é pois é uma variável aleatória.
+
+19
+00:01:29,800 --> 00:01:37,200
+O movimento browniano é um conceito que nos permite modelar esse tipo de aleatoriedade a forma que podemos
+
+20
+00:01:37,200 --> 00:01:39,580
+usar é feita de dois componentes.
+
+21
+00:01:39,660 --> 00:01:44,470
+O primeiro se chama drift e o segundo é a volatilidade da ação.
+
+22
+00:01:44,640 --> 00:01:49,400
+O drift é a direção que as taxas de retorno tiveram no passado.
+
+23
+00:01:49,500 --> 00:01:53,600
+é a melhor aproximação do futuro que nós temos.
+
+24
+00:01:53,650 --> 00:01:59,600
+Primeiro vamos começar por calcular os retornos diários da ação em seu passado histórico.
+
+25
+00:01:59,890 --> 00:02:07,010
+Só precisamos calcular o logaritmo natural da diferença entre o preço atual e seu preço anterior.
+
+26
+00:02:07,180 --> 00:02:14,140
+Beleza uma vez que calculamos o setor no diário no período histórico podemos facilmente calcular sua
+
+27
+00:02:14,140 --> 00:02:17,560
+média se o desvio padrão e sua variância.
+
+28
+00:02:17,770 --> 00:02:20,550
+Nós já aprendemos a fazer isso certo.
+
+29
+00:02:20,560 --> 00:02:25,210
+Isso nos permite calcular o drift que é igual ao retorno médio diário.
+
+30
+00:02:25,210 --> 00:02:33,410
+Menos 0,5 vezes a variância reconhecemos que os valores históricos estão iludidos no futuro.
+
+31
+00:02:33,410 --> 00:02:39,990
+Portanto um componente aleatório é incluído aqui 0,5 vezes a variância.
+
+32
+00:02:40,610 --> 00:02:47,290
+O drift é o retorno diário esperado da ação o segundo componente de um movimento browniano.
+
+33
+00:02:47,310 --> 00:02:55,270
+A variável aleatória é dada pela volatilidade histórica da ação multiplicada por um número aleatório
+
+34
+00:02:55,270 --> 00:02:57,690
+Z que fica entre 0 e 1.
+
+35
+00:02:58,420 --> 00:03:01,900
+O número aleatório de 0 a 1 é um percentual.
+
+36
+00:03:01,900 --> 00:03:08,980
+Se assumirmos que o retorno futuro esperado tem distribuição normal o percentual z entre 0 e 1 vai nos
+
+37
+00:03:08,980 --> 00:03:16,480
+dar o número de desvios padrão em relação à média podemos fazer isso porque os estatísticos já calcularam
+
+38
+00:03:16,480 --> 00:03:23,380
+a distância entre a média e eventos que têm uma dada probabilidade de ocorrer uma probabilidade entre
+
+39
+00:03:23,380 --> 00:03:27,220
+0 e 1.
+
+40
+00:03:27,230 --> 00:03:34,550
+Assim por exemplo a distância entre a média e eventos com uma probabilidade menor do que 99 virgula
+
+41
+00:03:34,610 --> 00:03:38,360
+7 por cento possuem três desvios padrão.
+
+42
+00:03:38,480 --> 00:03:44,190
+é assim que devemos determinar o componente variável do movimento browniano.
+
+43
+00:03:44,300 --> 00:03:50,390
+A equação do preço de uma ação hoje se situa o preço de ontem multiplicado por c elevado à potência
+
+44
+00:03:50,390 --> 00:03:51,240
+do drift.
+
+45
+00:03:51,470 --> 00:03:59,740
+Mas o valor aleatório se repetirmos esse cálculo mil vezes seremos capazes de simular a evolução do
+
+46
+00:03:59,740 --> 00:04:05,210
+preço da ação amanhã e avaliar a probabilidade que irá seguir um certo padrão.
+
+47
+00:04:06,380 --> 00:04:13,160
+Além disso essa é uma ótima maneira de avaliar os prós e contras do investimento já que obtivemos um
+
+48
+00:04:13,160 --> 00:04:17,460
+limite superior e inferior ao executar a simulação de Monte Carlo.
+
+49
+00:04:17,480 --> 00:04:23,120
+Esses são os mecanismos que você precisa entender ao usar uma simulação de Monte Carlo para precificação
+
+50
+00:04:23,120 --> 00:04:24,860
+de ativos na proximal.
+
+51
+00:04:24,890 --> 00:04:26,780
+Vamos aplicar essa técnica em Python.

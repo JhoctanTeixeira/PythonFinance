@@ -1,0 +1,107 @@
+1
+00:00:01,100 --> 00:00:01,800
+Muito bem.
+
+2
+00:00:01,850 --> 00:00:02,750
+Excelente.
+
+3
+00:00:02,750 --> 00:00:08,600
+Agora que sabemos como calcular o valor de uma ação e avaliar seu risco através da sua variância e desvio
+
+4
+00:00:08,600 --> 00:00:09,190
+padrão.
+
+5
+00:00:09,290 --> 00:00:15,410
+Estamos prontos para introduzir um conceito importante dissemos que sendo todo o resto igual.
+
+6
+00:00:15,410 --> 00:00:23,350
+Investidores racionais querem maximizar seu setor correto beleza mas também sabemos que o investidor
+
+7
+00:00:23,380 --> 00:00:25,450
+racional é avesso ao risco.
+
+8
+00:00:25,630 --> 00:00:28,270
+As pessoas não gostam de arriscar seu dinheiro.
+
+9
+00:00:28,270 --> 00:00:33,840
+Elas querem menos incerteza e mais clareza para a taxa de retorno do investimento.
+
+10
+00:00:33,850 --> 00:00:39,640
+Os investidores nacionais temem que o investimento arriscado possa resultar em perdas significativas
+
+11
+00:00:39,850 --> 00:00:43,570
+e preferem investir seu dinheiro em ativos que não são tão voláteis.
+
+12
+00:00:43,570 --> 00:00:48,280
+ótimo então fica claro que essas duas dimensões devem ser combinadas.
+
+13
+00:00:48,280 --> 00:00:54,700
+Os investidores racionais querem maximizar a sua taxa de retorno e minimizar o risco de seus investimentos.
+
+14
+00:00:54,760 --> 00:01:00,880
+Eles necessitam então de uma medida ajustada de risco e retorno uma ferramenta que lhes permita comparar
+
+15
+00:01:00,880 --> 00:01:07,420
+diferentes ativos pois estarão interessados em investir naqueles que irão fornecer um maior retorno
+
+16
+00:01:07,660 --> 00:01:10,270
+para um determinado montante de risco.
+
+17
+00:01:10,270 --> 00:01:16,630
+Foi assim que William Sharpe inventou o tão famoso índice de Sharpe é uma ótima maneira de fazer uma
+
+18
+00:01:16,630 --> 00:01:25,600
+comparação adequada entre ações e portfólios e decidir qual é melhor em termos de risco e retorno aqui
+
+19
+00:01:25,600 --> 00:01:32,650
+está o cálculo do índice de Sharpe no numerador temos o excesso de retorno de uma ação temos que subtrair
+
+20
+00:01:32,750 --> 00:01:38,040
+o retorno da taxa de risco e no denominador temos o desvio padrão da ação.
+
+21
+00:01:38,160 --> 00:01:45,210
+Se aumentarmos a taxa esperada de retorno de uma ação o seu índice vai aumentar e logicamente se aumentarmos
+
+22
+00:01:45,210 --> 00:01:48,800
+o desvio padrão da ação o seu índice vai diminuir.
+
+23
+00:01:49,020 --> 00:01:55,680
+Faz sentido faz isso nos permite comparar ativos financeiros e portfólios de maneira rápida.
+
+24
+00:01:55,680 --> 00:02:02,030
+Além disso nos permite compreender se a performance de um determinado fundo de investimento é satisfatório
+
+25
+00:02:02,040 --> 00:02:09,710
+quando levamos em conta o risco ajustado um fundo poderia alegar que ele superou seus concorrentes.
+
+26
+00:02:09,710 --> 00:02:18,170
+Mas no entanto sabemos que muitas vezes esse rendimento superior vem às custas de um portfólio muito
+
+27
+00:02:18,170 --> 00:02:19,040
+mais arriscado.

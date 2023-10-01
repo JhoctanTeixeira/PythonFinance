@@ -1,0 +1,398 @@
+1
+
+00:00:00,969  -->  00:00:08,240
+Em resumo, os operadores lógicos em Python são
+as palavras "not", "and", e "or".
+
+2
+
+00:00:08,240  -->  00:00:12,750
+Elas comparam declarações e retornam
+os valores Booleanos - "True" ou
+
+3
+
+00:00:12,750  -->  00:00:17,020
+"False" - por isso são chamados de operadores
+Booleanos.
+
+4
+
+00:00:17,020  -->  00:00:20,960
+Vamos começar dando um exemplo com
+"and".
+
+5
+
+00:00:20,960  -->  00:00:24,960
+"And" verifica se as duas declarações
+em torno dele são "True".
+
+6
+
+00:00:24,960  -->  00:00:29,280
+Vamos usar apenas os valores Booleanos "True"
+e "False" por enquanto.
+
+7
+
+00:00:29,280  -->  00:00:35,500
+"True" e "True" vai resultar em "True",
+enquanto "True" e "False" vai nos dar
+
+8
+
+00:00:35,500  -->  00:00:38,460
+uma resposta "False".
+
+9
+
+00:00:39,320  -->  00:00:45,740
+"False" e "False" naturalmente vai
+resultar em "False".
+
+10
+
+00:00:45,960  -->  00:00:47,680
+Ok.
+
+11
+
+00:00:48,080  -->  00:00:52,300
+"Or" verifica se pelo menos uma das
+duas afirmações é "True".
+
+12
+
+00:00:52,300  -->  00:01:00,440
+Portando, "False" ou "False" vai
+retornar como "False", enquanto "True" ou
+
+13
+
+00:01:00,440  -->  00:01:05,480
+"True" vai retornar como "True".
+
+14
+
+00:01:05,720  -->  00:01:10,760
+Nesta célula, "True" ou "False" vai
+retornar como "True".
+
+15
+
+00:01:10,760  -->  00:01:16,400
+A ordem que estão as duas declarações
+não importa, então "False" ou "True"
+
+16
+
+00:01:16,400  -->  00:01:22,150
+vai continuar resultando em "True", também.
+
+17
+
+00:01:22,150  -->  00:01:28,340
+O operador "Not" é simplesmente
+o oposto de uma afirmação dada.
+
+18
+
+00:01:28,960  -->  00:01:35,020
+"Not True" resulta em "False", "Not
+False" resulta em "True".
+
+19
+
+00:01:35,580  -->  00:01:38,520
+Vamos ver um exemplo um pouco diferente.
+
+20
+
+00:01:38,520  -->  00:01:43,960
+A ideia é mostrar a vocês que nesta célula
+os operadores Booleanos podem ser aplicados não apenas
+
+21
+
+00:01:43,960  -->  00:01:45,700
+esses tipos de valores.
+
+22
+
+00:01:45,700  -->  00:01:53,510
+A declaração "3 é maior que 5" é "False",
+enquanto "10 é menor ou igual a 20" é
+
+23
+
+00:01:53,510  -->  00:01:55,240
+“True”.
+
+24
+
+00:01:56,020  -->  00:02:01,840
+"False and True" implica em "False",
+e esse foi o nosso resultado.
+
+25
+
+00:02:02,120  -->  00:02:03,580
+Muito Bom.
+
+26
+
+00:02:06,960  -->  00:02:10,720
+A diversão começa quando você combina esses operadores
+lógicos.
+
+27
+
+00:02:10,729  -->  00:02:16,760
+Nessas ocasiões, você precisa respeitar a ordem
+de importância desses três operadores.
+
+28
+
+00:02:16,760  -->  00:02:22,940
+A ordem é: "not" vem primeiro, depois nós temos
+"and", e finalmente "or".
+
+29
+
+00:02:22,940  -->  00:02:26,550
+Os exemplos nessas 3 células vão ajudar vocês
+a enxergarem melhor isso.
+
+30
+
+00:02:26,550  -->  00:02:34,150
+No comando "True and not True", nós
+precisamos primeiro considerar o que o operador "not"
+
+31
+
+00:02:34,150  -->  00:02:35,150
+vai fazer.
+
+32
+
+00:02:35,150  -->  00:02:37,640
+Isso vai ser aplicado ao valor "True".
+
+33
+
+00:02:37,640  -->  00:02:39,620
+E "not True" significa "False".
+
+34
+
+00:02:39,620  -->  00:02:45,840
+Portando, o que está escrito nesta célula precisa
+ser interpretado como "True e False".
+
+35
+
+00:02:45,840  -->  00:02:49,560
+Agora, o operador restante "And" pode
+ser aplicado.
+
+36
+
+00:02:49,560  -->  00:02:52,220
+"True e False" nos leva ao resultado falso.
+
+37
+
+00:02:52,220  -->  00:02:54,500
+Vamos executar esta célula.
+
+38
+
+00:02:54,500  -->  00:02:57,440
+A resposta correta é - "False".
+
+39
+
+00:02:58,620  -->  00:03:01,900
+Vamos fazer um exemplo com todos os três operadores
+Booleanos.
+
+40
+
+00:03:01,910  -->  00:03:10,450
+"False ou not True e True" logicamente
+é o mesmo que "False ou False e True",
+
+41
+
+00:03:10,450  -->  00:03:15,280
+porque antes de qualquer coisa, "not True"
+precisa ser lido como "False".
+
+42
+
+00:03:15,280  -->  00:03:20,410
+Então, "and" tem uma vantagem sobre "or".
+
+43
+
+00:03:20,410  -->  00:03:25,330
+É por isso que vamos nos concentrar na frase
+"False e True".
+
+44
+
+00:03:25,330  -->  00:03:29,040
+O resultado vai ser "False".
+
+45
+
+00:03:29,040  -->  00:03:34,010
+Nós ficamos agora com "False" ou "False".
+
+46
+
+00:03:34,010  -->  00:03:37,670
+Os dois valores são "False", o que sempre
+nos leva a "False".
+
+47
+
+00:03:37,670  -->  00:03:43,860
+Ao executar com as teclas "Shift e Enter" e...
+como esperado vamos ter: "False"!
+
+48
+
+00:03:45,300  -->  00:03:49,540
+Para solidificar o conceito, vamos passar
+por outro exemplo semelhante.
+
+49
+
+00:03:49,540  -->  00:03:57,080
+"True and not True or True" é o mesmo
+que "True and False or True" porque inicialmente,
+
+50
+
+00:03:57,320  -->  00:03:59,820
+"not" é o que mais importa.
+
+51
+
+00:03:59,830  -->  00:04:05,720
+Agora, "And" vai converter "True and False"
+em "False".
+
+52
+
+00:04:05,720  -->  00:04:10,350
+Agora, nós podemos pensar sobre o restante "False
+or True".
+
+53
+
+00:04:10,350  -->  00:04:15,580
+Porque o operador "or" precisa de pelo menos uma
+declaração "True" para retornar "True",
+
+54
+
+00:04:15,580  -->  00:04:18,340
+nosso resultado depois de executar a célula vai ser...
+
+55
+
+00:04:18,460  -->  00:04:19,640
+“True”!
+
+56
+
+00:04:19,720  -->  00:04:21,900
+Ótimo!
+
+57
+
+00:04:24,600  -->  00:04:27,260
+Vamos falar agora sobre os operadores de identidade.
+
+58
+
+00:04:27,260  -->  00:04:31,490
+Os operadores de identidades são palavras "is"
+e "is not".
+
+59
+
+00:04:31,490  -->  00:04:36,000
+Eles funcionam de maneira similar ao sinal de dupla
+igualdade e ao ponto de exclamação e igualdade
+
+60
+
+00:04:36,000  -->  00:04:38,500
+que vimos anteriormente.
+
+61
+
+00:04:39,060  -->  00:04:43,120
+Vamos ilustrar suas aplicações com
+os seguintes exemplos.
+
+62
+
+00:04:43,120  -->  00:04:51,520
+Se dissermos que 5 é 6, nós vamos entender imediatamente
+que isso é falso, o mesmo se escrevêssemos isso
+
+63
+
+00:04:51,520  -->  00:04:57,220
+assim, com o duplo sinal de igualdade.
+
+64
+
+00:04:57,220  -->  00:05:05,430
+Se tivéssemos dito "5 is not 6", isso seria verdade,
+e seria o mesmo se escrevêssemos "5,
+
+65
+
+00:05:05,430  -->  00:05:08,620
+ponto de exclamação sinal de igual 6".
+
+66
+
+00:05:08,620  -->  00:05:14,580
+Ótimo, vocês aprenderam muito sobre operadores
+em Python e sobre essa parte da sintaxe.
+
+67
+
+00:05:14,580  -->  00:05:19,370
+Este é o momento certo para mergulharmos em algo
+mais interessante.
+
+68
+
+00:05:19,370  -->  00:05:24,100
+A partir da próxima aula, nós vamos trabalhar
+com um tópico que faz parte do dia a dia
+
+69
+
+00:05:24,100  -->  00:05:27,110
+de todo programador - vamos falar sobre as condicionais.
+
+70
+
+00:05:27,110  -->  00:05:33,170
+Você está preparado para ir mais a fundo, então.. faça
+os exercícios e até o próximo video!
+
+71
+
+00:05:33,170  -->  00:05:34,439
+Obrigado por assistir!

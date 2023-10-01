@@ -1,0 +1,171 @@
+1
+00:00:01,500 --> 00:00:02,660
+Ok ok.
+
+2
+00:00:02,730 --> 00:00:09,090
+Na sauna vamos continuar a explorar como as simulações de Monte Carlo podem ser aplicadas na prática.
+
+3
+00:00:09,240 --> 00:00:15,390
+Em particular vamos ver como podemos executar uma simulação ou tentar prever o preço futuro de uma ação
+
+4
+00:00:15,390 --> 00:00:16,680
+de uma empresa.
+
+5
+00:00:16,680 --> 00:00:21,440
+Existe um grupo de bibliotecas e módulos que podem ser usados para executar essa tarefa.
+
+6
+00:00:22,050 --> 00:00:25,320
+Mas a boa notícia é que você já usou todos eles.
+
+7
+00:00:25,650 --> 00:00:32,790
+Além dos clássicos não pai e pandas nós precisaremos do norte do site pai e de alguns outros recursos
+
+8
+00:00:32,790 --> 00:00:39,340
+específicos do México Felipe mais uma vez a empresa que vamos usar para a nossa análise será a Procter
+
+9
+00:00:39,340 --> 00:00:39,990
+Gamble.
+
+10
+00:00:40,890 --> 00:00:47,870
+O período que vamos considerar vai ser um dos últimos dez anos a partir de primeiro de janeiro de 2007.
+
+11
+00:00:48,090 --> 00:00:52,140
+Queremos prever o preço futuro das ações a própria origem nesse exercício.
+
+12
+00:00:52,440 --> 00:00:59,180
+Então a primeira coisa que vamos fazer é estimar o seu retorno logaritmo histórico ou uma outra maneira
+
+13
+00:00:59,180 --> 00:01:05,690
+de obter o retorno simples ou o setor nos logaritmos e discutiremos isso em mais detalhe no documento
+
+14
+00:01:05,690 --> 00:01:07,970
+do notebook anexo dessa.
+
+15
+00:01:08,170 --> 00:01:18,260
+O método que vamos aplicar aqui é chamado de Percent e para usá lo você deve digitar pct antes de abrir
+
+16
+00:01:18,260 --> 00:01:19,700
+e fechar parentes.
+
+17
+00:01:19,700 --> 00:01:26,480
+Feito isso você vai obter o retorno simples de um conjunto de dados podemos criar a fórmula para o setor
+
+18
+00:01:26,480 --> 00:01:29,320
+nos logaritmos usando o log do pai.
+
+19
+00:01:29,370 --> 00:01:35,320
+Em seguida digitando em mais um setor no simples extraídos dos nossos dados.
+
+20
+00:01:35,850 --> 00:01:38,990
+E aqui está uma tabela com todos os logaritmos da Procter Gamble.
+
+21
+00:01:39,470 --> 00:01:40,360
+Incrível.
+
+22
+00:01:40,760 --> 00:01:46,920
+No primeiro gráfico podemos ver os preços da P&amp;G vem subindo gradualmente durante a última década.
+
+23
+00:01:46,970 --> 00:01:51,710
+No segundo gráfico notamos um setor nos logaritmos e não os preços da Procter Gamble.
+
+24
+00:01:52,250 --> 00:01:59,770
+A imagem diz que o setor nos obedece a uma distribuição normal com uma média estável ótimo.
+
+25
+00:01:59,810 --> 00:02:06,770
+Agora vamos explorar a sua média e variância pois vamos precisar desses dados para o cálculo do movimento
+
+26
+00:02:06,770 --> 00:02:07,760
+browniano.
+
+27
+00:02:07,780 --> 00:02:09,310
+Falamos na nossa aula anterior.
+
+28
+00:02:09,350 --> 00:02:17,100
+Você se lembra nós já sabemos calcular como calcular a média e a variância mesmo depois de algumas linhas
+
+29
+00:02:17,100 --> 00:02:17,970
+de código.
+
+30
+00:02:17,970 --> 00:02:26,210
+Aqui estão os números obtidos então o que vamos fazer com eles primeiro vou calcular o drift.
+
+31
+00:02:26,220 --> 00:02:32,630
+Estudamos em nossa aula anterior e a melhor aproximação das taxas futuras de retorno de uma ação.
+
+32
+00:02:32,840 --> 00:02:40,280
+A fórmula que usaremos aqui será o que é igual ao retorno do logaritmo médio menos metade da sua variância
+
+33
+00:02:41,430 --> 00:02:42,460
+muito bom.
+
+34
+00:02:42,540 --> 00:02:48,720
+Obtivemos um número pequeno e isso não deve assustar você porque vamos fazer todo esse exercício sem
+
+35
+00:02:48,810 --> 00:02:54,950
+analisar os nossos indicadores e porque isso porque vamos tentar prever o retorno diário.
+
+36
+00:02:54,970 --> 00:02:56,220
+Ação da Procter&amp;Gamble.
+
+37
+00:02:57,140 --> 00:02:58,300
+ótimo.
+
+38
+00:02:58,350 --> 00:03:06,060
+Em seguida vamos criar uma variável chamada ST 10 e vamos atribuir a ela o desvio padrão dos retornos
+
+39
+00:03:06,060 --> 00:03:13,740
+logaritmo dissemos que o movimento browniano compreende a soma do drift e a variância ajustada por ser
+
+40
+00:03:14,040 --> 00:03:21,710
+elevada potência e por isso vamos utilizar isso na segunda parte da expressão OK montamos o primeiro
+
+41
+00:03:21,710 --> 00:03:27,350
+elemento do movimento browniano na nossa simulação na próxima aula vamos criar o segundo componente
+
+42
+00:03:27,560 --> 00:03:28,490
+e mostrar a você.
+
+43
+00:03:28,490 --> 00:03:33,500
+Como isso poderia nos permitir fazer uma simulação sobre o preço futuro da ação de uma empresa.

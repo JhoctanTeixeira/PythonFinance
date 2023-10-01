@@ -1,0 +1,103 @@
+1
+00:00:01,000 --> 00:00:06,160
+Uma simulação de Monte Carlo é uma ferramenta importante que encontra várias aplicações no mundo dos
+
+2
+00:00:06,160 --> 00:00:08,230
+negócios e das Finanças.
+
+3
+00:00:08,230 --> 00:00:14,170
+Quando fazemos uma simulação de Monte Carlo estamos interessados em observar os possíveis diferentes
+
+4
+00:00:14,170 --> 00:00:21,550
+resultados de um evento futuro o que acontece na vida real é apenas um dos possíveis resultados de qualquer
+
+5
+00:00:21,550 --> 00:00:29,060
+evento se um jogador de basquete faz um arremesso no final de um jogo e o jogo está empatado a duas
+
+6
+00:00:29,060 --> 00:00:39,060
+possibilidades ele marca e ganha o jogo ou não ganha o que vemos a prática e o evento se tornando realidade.
+
+7
+00:00:39,060 --> 00:00:45,810
+No entanto isso não nos diz muito sobre a probabilidade do jogador acertar o arremesso com antecedência
+
+8
+00:00:46,270 --> 00:00:56,270
+certo e aí que uma simulação de Monte Carlo pode nos ajudar podemos usar dados do passado algo algo
+
+9
+00:00:56,270 --> 00:00:57,620
+que nós já sabemos.
+
+10
+00:00:57,650 --> 00:01:04,910
+Para criar uma simulação um novo conjunto de dados fictícios mas de qualidade essas realizações são
+
+11
+00:01:04,910 --> 00:01:12,380
+geradas pela observação da distribuição dos dados históricos e pelo cálculo de sua média e variância.
+
+12
+00:01:12,380 --> 00:01:18,920
+O novo conjunto de dados é maior do que o inicial e nos permite ver o que teria acontecido se o jogador
+
+13
+00:01:18,920 --> 00:01:25,900
+tivesse feito o arremesso mil vezes por exemplo essa informação é valiosa pois nos permite ter uma boa
+
+14
+00:01:25,990 --> 00:01:33,100
+aproximação da probabilidade de diferentes resultados e pode nos ajudar a tomar uma decisão bem fundamentada
+
+15
+00:01:34,390 --> 00:01:40,060
+as simulações de Monte Carlo são utilizadas em finanças avaliação de investimentos gestão de ativos
+
+16
+00:01:40,270 --> 00:01:47,990
+gestão de risco para estimar perdas com seguros na fixação de preços de opções e outros derivativos.
+
+17
+00:01:48,040 --> 00:01:54,370
+O alto nível de incerteza nas Finanças faz a simulação de Monte Carlo uma ferramenta valiosa que melhora
+
+18
+00:01:54,370 --> 00:01:59,530
+o processo de tomada de decisão quando inúmeras variáveis aleatórias estão em jogo.
+
+19
+00:01:59,530 --> 00:02:03,760
+Por favor dê uma olhada no arquivo do notebook que vem com essa aula.
+
+20
+00:02:03,760 --> 00:02:08,770
+Ele explica um conceito muito importante que usaremos quando fizemos as simulações.
+
+21
+00:02:08,770 --> 00:02:13,930
+Você vai aprender o que é uma distribuição normal nas próximas aulas vamos aprender a mecânica de uma
+
+22
+00:02:13,930 --> 00:02:18,070
+simulação de Monte Carlo e como ela pode ser aplicada no mundo das finanças.
+
+23
+00:02:18,070 --> 00:02:20,230
+Daremos três exemplos práticos.
+
+24
+00:02:20,260 --> 00:02:26,450
+A estimativa do preço das ações de uma empresa o cálculo do EBIT e o preço de uma opção de ação.
+
+25
+00:02:26,540 --> 00:02:27,490
+Interessante não.
+
+26
+00:02:28,300 --> 00:02:30,070
+Vamos ver isso então até lá.

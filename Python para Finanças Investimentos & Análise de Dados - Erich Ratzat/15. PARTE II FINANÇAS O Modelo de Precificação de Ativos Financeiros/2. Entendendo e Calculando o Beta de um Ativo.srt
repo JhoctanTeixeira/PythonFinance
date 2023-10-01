@@ -1,0 +1,329 @@
+1
+
+00:00:00,170  -->  00:00:05,600
+Nesta lição, apresentaremos o conceito de "beta"
+que é um dos principais pilares do
+
+2
+
+00:00:05,600  -->  00:00:08,460
+modelo de precificação de ativos CAPM.
+
+3
+
+00:00:08,460  -->  00:00:15,090
+O beta nos ajuda a quantificar a relação entre
+uma ação e a carteira de ações do mercado em geral.
+
+4
+
+00:00:15,090  -->  00:00:21,310
+Lembre-se que a carteira de ações do mercado compreende
+todas as ações no mercado - ações
+
+5
+
+00:00:21,310  -->  00:00:28,310
+com baixo retorno esperado em baixo risco, e
+ações com alto retorno esperado e alto
+
+6
+
+00:00:28,310  -->  00:00:29,310
+risco.
+
+7
+
+00:00:29,310  -->  00:00:34,920
+Se houver uma crise na economia, é
+razoável esperar que os preços da maioria dos ativos
+
+8
+
+00:00:34,920  -->  00:00:41,129
+que compõem a carteira de mercado diminuam
+e a carteira de mercado tenha uma taxa
+
+9
+
+00:00:41,129  -->  00:00:46,359
+de retorno negativa, digamos, -5%.
+
+10
+
+00:00:46,359  -->  00:00:51,539
+Os investidores não podem se proteger por meio
+da diversificação, porque isso é risco
+
+11
+
+00:00:51,539  -->  00:00:52,539
+sistêmico.
+
+12
+
+00:00:52,539  -->  00:00:53,539
+Lembra do risco sistêmico, certo?
+
+13
+
+00:00:53,539  -->  00:00:59,499
+No entanto, alguns ativos da carteira de mercado
+são menos arriscados (eles têm um menor
+
+14
+
+00:00:59,499  -->  00:01:03,969
+desvio padrão) e irão se desvalorizar menos do que
+o mercado.
+
+15
+
+00:01:03,969  -->  00:01:12,649
+Por exemplo, a ação A é menos volátil do que
+a carteira de mercado e irá se desvalorizar apenas 3%.
+
+16
+
+00:01:12,649  -->  00:01:18,080
+Por outro lado, algumas ações têm um alto
+nível de volatilidade e baixa performance em tempos
+
+17
+
+00:01:18,080  -->  00:01:19,500
+de crise.
+
+18
+
+00:01:19,500  -->  00:01:25,920
+E esse é o caso da ação B, que irá se
+desvalorizar 7%.
+
+19
+
+00:01:25,920  -->  00:01:31,079
+Quando a economia se recuperar da crise
+e voltar a crescer, a carteira de mercado se
+
+20
+
+00:01:31,079  -->  00:01:34,540
+sairá bem e terá um retorno de 9%.
+
+21
+
+00:01:34,540  -->  00:01:42,899
+A ação A que possui uma baixa relação risco-retorno
+irá valorizar +5%, enquanto a ação B,
+
+22
+
+00:01:42,899  -->  00:01:47,080
+que é uma ação mais volátil irá valorizar 12%.
+
+23
+
+00:01:47,080  -->  00:01:48,950
+Ok?
+
+24
+
+00:01:48,950  -->  00:01:54,860
+Este exemplo nos permite ver que as ações
+podem ter comportamentos diferentes em relação
+
+25
+
+00:01:54,860  -->  00:01:56,569
+ao desempenho do mercado.
+
+26
+
+00:01:56,569  -->  00:02:02,429
+Algumas ações são mais seguras e perderão menos e
+também ganharão menos do que a carteira de mercado, enquanto
+
+27
+
+00:02:02,429  -->  00:02:07,969
+ações mais arriscadas irão se sair bem
+quando a economia voltar a crescer e sairão mal
+
+28
+
+00:02:07,969  -->  00:02:09,879
+em tempos de crise.
+
+29
+
+00:02:09,879  -->  00:02:13,260
+E é precisamente aí que o beta é útil.
+
+30
+
+00:02:13,260  -->  00:02:19,350
+Ele nos permite medir a relação entre
+uma ação e a carteira de mercado.
+
+31
+
+00:02:19,350  -->  00:02:26,129
+O beta pode ser calculado como a covariância entre
+a ação e o mercado dividido pela variância
+
+32
+
+00:02:26,129  -->  00:02:27,650
+do mercado.
+
+33
+
+00:02:27,650  -->  00:02:31,980
+Ele mede o risco de mercado que não pode ser
+evitado através da diversificação.
+
+34
+
+00:02:31,980  -->  00:02:35,431
+Quanto mais volátil uma ação, maior seu beta.
+
+35
+
+00:02:35,431  -->  00:02:36,431
+O beta de uma ação costuma ficar entre
+-1 e 2.
+
+36
+
+00:02:36,431  -->  00:02:42,150
+Um beta de 0 significa que a ação não responde nem
+positivamente, nem negativamente a um movimento do mercado.
+
+37
+
+00:02:42,150  -->  00:02:48,159
+As ações com um beta inferior a 1 são chamadas
+de defensivas porque se o mercado tiver baixa performance
+
+38
+
+00:02:48,159  -->  00:02:51,610
+essas ações costumam perder menos do que o mercado.
+
+39
+
+00:02:51,610  -->  00:02:56,820
+Ações com beta de 1 irão ter uma performance
+muito parecida com a do mercado.
+
+40
+
+00:02:56,820  -->  00:03:02,830
+E por fim, ações com beta maior do que
+1 são mais voláteis do que o mercado e irão ter
+
+41
+
+00:03:02,830  -->  00:03:08,629
+desempenho melhor que este quando a economia vai bem
+por outro lado perdem mais quando a economia vai mal.
+
+42
+
+00:03:08,629  -->  00:03:12,769
+Essa análise do beta pode ser confirmada na vida real.
+
+43
+
+00:03:12,769  -->  00:03:18,120
+Algumas empresas, como o Walmart, são menos dependentes
+do ciclo econômico.
+
+44
+
+00:03:18,120  -->  00:03:21,740
+Seus clientes precisam comprar alimentos e
+produtos domésticos.
+
+45
+
+00:03:21,740  -->  00:03:26,219
+Eles podem gastar um pouco menos, mas não podem deixar de
+comprar comida, não é mesmo?
+
+46
+
+00:03:26,219  -->  00:03:27,219
+Ok.
+
+47
+
+00:03:27,219  -->  00:03:28,909
+E quanto aos fabricantes de carros?
+
+48
+
+00:03:28,909  -->  00:03:31,240
+Será que eles são afetados por uma recessão?
+
+49
+
+00:03:31,240  -->  00:03:32,459
+Certamente.
+
+50
+
+00:03:32,459  -->  00:03:37,020
+Na recessão as pessoas acabam com menos dinheiro e optam por manter seus
+veículos antigos por mais tempo.
+
+51
+
+00:03:37,020  -->  00:03:41,590
+A indústria automobilística pode esperar uma queda
+significativa nas receitas.
+
+52
+
+00:03:41,590  -->  00:03:47,030
+Isso ilustra como uma recessão pode ter
+um impacto diferente em diferentes empresas.
+
+53
+
+00:03:47,030  -->  00:03:49,909
+E sobre o beta das nossas duas empresas?
+
+54
+
+00:03:49,909  -->  00:03:53,579
+O beta do Walmart é 0.09.
+
+55
+
+00:03:53,579  -->  00:03:58,329
+Esse valor é muito próximo de zero e essa ação pode ser considerada
+independente do comportamento da carteira de mercado.
+
+56
+
+00:03:58,329  -->  00:04:04,239
+O beta da Ford é 1.1 o que a torna um ativo mais arriscado.
+
+57
+
+00:04:04,239  -->  00:04:07,609
+No final dessa aula, devemos lembrar
+o seguinte:
+
+58
+
+00:04:07,609  -->  00:04:13,489
+O beta é uma medida que demonstra quão volátil
+um ativo é quando comparado ao resto
+
+59
+
+00:04:13,489  -->  00:04:13,510
+do mercado.

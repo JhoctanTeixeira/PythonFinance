@@ -1,0 +1,279 @@
+1
+
+00:00:01,170  -->  00:00:02,420
+Tudo bem.
+
+2
+
+00:00:02,420  -->  00:00:07,240
+Nossa próxima tarefa será criar uma função
+com um parâmetro.
+
+3
+
+00:00:07,240  -->  00:00:11,930
+Vamos criar a função "plus ten" com um parâmetro
+”a”, que nos dê a soma de “a”
+
+4
+
+00:00:11,930  -->  00:00:16,500
+e 10 como resultado...
+
+5
+
+00:00:16,500  -->  00:00:20,070
+Sempre comece com a palavra reservada "def"
+
+6
+
+00:00:20,070  -->  00:00:29,520
+Então, digite o nome da função, “plus
+ten”, e dentro dos parênteses coloque
+
+7
+
+00:00:29,520  -->  00:00:33,180
+o parametro “a”.
+
+8
+
+00:00:33,180  -->  00:00:38,139
+A última coisa a escrever nesta linha é
+o sinal de dois pontos.
+
+9
+
+00:00:38,139  -->  00:00:40,559
+Ótimo.
+
+10
+
+00:00:40,559  -->  00:00:43,030
+O que vem a seguir é muito importante.
+
+11
+
+00:00:43,030  -->  00:00:48,289
+Não esqueça de retornar um valor
+da função.
+
+12
+
+00:00:48,289  -->  00:00:53,899
+Se olharmos para a função que escrevemos na
+lição anterior, não havia valor para retornar.
+
+13
+
+00:00:53,899  -->  00:00:57,960
+Ela simplesmente imprimia uma certa declaração.
+
+14
+
+00:00:57,960  -->  00:00:59,440
+As coisas são diferentes agora.
+
+15
+
+00:00:59,440  -->  00:01:04,730
+Vamos precisar desta função para fazer um cálculo
+específico para nós e não simplesmente imprimir alguma coisa.
+
+16
+
+00:01:04,730  -->  00:01:10,590
+Digite “return “a” + 10”.
+
+17
+
+00:01:10,590  -->  00:01:13,509
+Este será o corpo desta função.
+
+18
+
+00:01:13,509  -->  00:01:21,380
+Agora vamos chamar “plus ten” com o argumento
+2 especificado entre parênteses.
+
+19
+
+00:01:21,380  -->  00:01:23,740
+Incrível!
+
+20
+
+00:01:23,740  -->  00:01:25,940
+Funcionou.
+
+21
+
+00:01:25,940  -->  00:01:30,479
+Assim que criamos uma função, podemos executá-la
+repetidamente alterando seu argumento.
+
+22
+
+00:01:30,479  -->  00:01:37,350
+Eu posso executar “plus ten” com o argumento
+5 e desta vez a resposta será 15.
+
+23
+
+00:01:37,350  -->  00:01:38,650
+Ótimo!
+
+24
+
+00:01:38,650  -->  00:01:42,549
+Preste atenção ao seguinte.
+
+25
+
+00:01:42,549  -->  00:01:46,840
+Quando definimos uma função, especificamos entre parênteses
+um parâmetro.
+
+26
+
+00:01:46,840  -->  00:01:50,970
+Na função “plus ten”, "a" é
+um parâmetro.
+
+27
+
+00:01:50,970  -->  00:01:56,850
+Depois, quando chamamos essa função, é correto
+dizer que fornecemos um argumento e não um parâmetro.
+
+28
+
+00:01:56,850  -->  00:02:05,420
+Então podemos dizer execute "plus ten" com o argumento
+2, execute "plus ten" com o argumento 5.
+
+29
+
+00:02:05,420  -->  00:02:11,480
+As pessoas costumam confundir os comandos print e return, e
+as situações em que podemos usá-los.
+
+30
+
+00:02:11,480  -->  00:02:16,420
+Para entender o conceito melhor, tente imaginar
+o seguinte.
+
+31
+
+00:02:16,420  -->  00:02:20,970
+Existe um argumento x, que serve como um
+input ou uma entrada em uma função como a que temos
+
+32
+
+00:02:20,970  -->  00:02:22,000
+aqui.
+
+33
+
+00:02:22,000  -->  00:02:25,430
+A função nesse caso é x mais 10.
+
+34
+
+00:02:25,430  -->  00:02:31,200
+Dado que x é uma entrada, podemos pensar nisso
+como um valor que já conhecemos, assim a combinação
+
+35
+
+00:02:31,200  -->  00:02:34,870
+de x e da função nos dará o valor de
+saída y.
+
+36
+
+00:02:34,870  -->  00:02:42,560
+Bom, em programação return diz respeito ao valor
+de y; ele simplesmente diz para o computador depois
+
+37
+
+00:02:42,560  -->  00:02:48,689
+que a operação é executada pela função f,
+retorne para mim o valor de y.
+
+38
+
+00:02:48,689  -->  00:02:54,549
+O comando “Return” funciona como uma conexão entre o
+segundo e o terceiro passo do processo.
+
+39
+
+00:02:54,549  -->  00:02:59,569
+Em outras palavras, uma função pode receber uma entrada
+de uma ou mais variáveis ​​e retornar uma única
+
+40
+
+00:02:59,569  -->  00:03:03,260
+saída composta de um ou mais valores.
+
+41
+
+00:03:03,260  -->  00:03:06,880
+É por isso que o comando "return" pode ser usado apenas
+uma vez em uma função.
+
+42
+
+00:03:06,880  -->  00:03:14,440
+Portanto, podemos dizer que o conceito de uma função
+se aplica à programação quase perfeitamente.
+
+43
+
+00:03:14,440  -->  00:03:17,170
+Existem algumas outras vantagens a considerar.
+
+44
+
+00:03:17,170  -->  00:03:21,750
+Você também pode atribuir um nome mais intuitivo
+a uma função “plus ten” em português é “somar
+
+45
+
+00:03:21,750  -->  00:03:25,040
+10" e a função ainda será executada
+corretamente.
+
+46
+
+00:03:25,040  -->  00:03:27,439
+Este é um sinal de bom design.
+
+47
+
+00:03:27,439  -->  00:03:33,709
+Em um arquivo com 1000 linhas de código,
+Se você chamar todas as suas funções de x1 x2 x3
+
+48
+
+00:03:33,709  -->  00:03:39,940
+e assim por diante, seus colegas ficarão confusos
+e um tanto quanto descontentes.
+
+49
+
+00:03:39,940  -->  00:03:45,270
+Nomear as funções de forma clara e concisa torna
+o seu código fácil de entender,
+
+50
+
+00:03:45,270  -->  00:03:47,950
+e ele será considerado como sendo de bom estilo.

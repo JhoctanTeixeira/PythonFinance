@@ -1,0 +1,267 @@
+1
+00:00:00,810 --> 00:00:01,530
+ótimo.
+
+2
+00:00:01,610 --> 00:00:07,340
+Estamos no início da sessão onde você vai ver como podemos usar uma simulação de Monte Carlo para projetar
+
+3
+00:00:07,340 --> 00:00:09,700
+receitas e despesas futuras de uma empresa.
+
+4
+00:00:10,460 --> 00:00:15,470
+Vamos importar duas ferramentas que nos ajudarão com a análise financeira.
+
+5
+00:00:15,620 --> 00:00:23,910
+Dessa vez não pai em piloto líbio pai piloto serão suficientes o nosso objetivo nesse exercício é prever
+
+6
+00:00:23,910 --> 00:00:27,350
+o lucro bruto futuro de uma empresa.
+
+7
+00:00:27,350 --> 00:00:33,140
+Para isso precisaremos dos valores da receita esperada e do custo esperado das mercadorias vendidas
+
+8
+00:00:33,560 --> 00:00:42,200
+no Brasil prevemos para CMV nos Estados Unidos chamamos de cotas vamos começar rodando mil simulações
+
+9
+00:00:42,200 --> 00:00:49,080
+as receitas esperadas na empresa suponha que você tenha considerado receita do ano passado e tenha uma
+
+10
+00:00:49,080 --> 00:00:51,740
+ideia sobre o crescimento esperado das receitas.
+
+11
+00:00:52,230 --> 00:01:01,070
+Então as receitas esperadas para este ano serão de 170 milhões com um desvio padrão de 20 milhões para
+
+12
+00:01:01,070 --> 00:01:02,350
+simplificar as coisas.
+
+13
+00:01:02,360 --> 00:01:04,310
+Vamos trabalhar com milhões.
+
+14
+00:01:04,310 --> 00:01:09,350
+Portanto vou atribuir o valor de 170 a variável.
+
+15
+00:01:09,500 --> 00:01:17,680
+Corte e que significa receita média e o valor de 20 a variável andar escola St Andrews.
+
+16
+00:01:17,910 --> 00:01:20,600
+10 significa desvio padrão da Receita.
+
+17
+00:01:20,670 --> 00:01:21,770
+ótimo.
+
+18
+00:01:21,780 --> 00:01:26,500
+O próximo valor é importante que precisamos especificar o número de iterações.
+
+19
+00:01:26,580 --> 00:01:30,440
+Pretendemos produzir mil simulações de uma distribuição normal.
+
+20
+00:01:30,630 --> 00:01:38,660
+Então numa variável chamada iterações você terá no valor de mil a próxima linha de código executar a
+
+21
+00:01:38,660 --> 00:01:41,000
+simulação de receitas futuras.
+
+22
+00:01:41,150 --> 00:01:49,070
+Vamos aplicar o gerador aleatório da distribuição normal do nome do não pai não pai ponto renda um ponto
+
+23
+00:01:49,080 --> 00:01:50,370
+normal.
+
+24
+00:01:50,420 --> 00:01:56,570
+Os argumentos que temos aqui são a receita média esperada o seu desvio padrão e o número de iterações
+
+25
+00:01:57,050 --> 00:01:58,460
+que gostaríamos de executar.
+
+26
+00:01:58,970 --> 00:02:04,010
+Ok então vamos armazenar essa informação em uma variável chamada Red.
+
+27
+00:02:04,130 --> 00:02:07,070
+E como pode ver nós queremos mil valores
+
+28
+00:02:10,100 --> 00:02:14,500
+a maioria desses valores estão próximos da média que escolhemos.
+
+29
+00:02:14,510 --> 00:02:23,890
+Isso é ótimo vamos pilotar essas observações e ver a sua distribuição agora fica ainda mais claro que
+
+30
+00:02:23,890 --> 00:02:32,170
+os valores simulados estão centrados na média de 170 é óbvio que quase todos os dados se situam na região
+
+31
+00:02:32,170 --> 00:02:41,690
+entre 150 e 190 os dois valores são iguais à média menos um desvio padrão e a média mais um desvio padrão
+
+32
+00:02:42,170 --> 00:02:44,060
+para mil observações.
+
+33
+00:02:44,060 --> 00:02:54,100
+Raramente observarmos situações fora desses limites muito bem é assim que podemos interpretar a distribuição
+
+34
+00:02:54,100 --> 00:03:00,130
+de receitas esperadas e com impacto para o custo das mercadorias vendidas.
+
+35
+00:03:00,130 --> 00:03:04,540
+Vamos rolar um pouco mais para baixo para ver como podemos simular sua evolução.
+
+36
+00:03:04,540 --> 00:03:11,880
+Suponha que você tenha experiência nesse negócio e é capaz de dizer que tipicamente o montante da CMV
+
+37
+00:03:12,000 --> 00:03:15,780
+é aproximadamente 60 por cento da receita anual da empresa.
+
+38
+00:03:15,840 --> 00:03:22,090
+Sessenta por cento de sua receita gasta para produzir as mercadorias que a empresa vende e o que queremos
+
+39
+00:03:22,090 --> 00:03:24,240
+dizer com aproximadamente.
+
+40
+00:03:24,520 --> 00:03:31,150
+Bem se os valores históricos você me vê já foram no passado iguais a 55 por cento da receita depois
+
+41
+00:03:31,150 --> 00:03:35,370
+de 62 63 e finalmente 55 por cento novamente.
+
+42
+00:03:35,500 --> 00:03:42,460
+Você pode razoavelmente considerar uma distribuição normal com uma média de 60 por cento e a estimativa
+
+43
+00:03:42,790 --> 00:03:45,030
+terá um desvio padrão de 10 por cento.
+
+44
+00:03:45,030 --> 00:03:52,120
+Tenha cuidado para não digitar 6 por cento não importa se você estiver desviando 6 por cento do valor
+
+45
+00:03:52,120 --> 00:03:58,750
+da receita para definir a distribuição ele deve desviar 10 por cento em relação à média do próprio CMV
+
+46
+00:03:59,200 --> 00:03:59,890
+ótimo.
+
+47
+00:04:00,040 --> 00:04:04,820
+Aqui está como podemos escrever isso em Python sem me ver dinheiro gasto.
+
+48
+00:04:04,840 --> 00:04:11,480
+Portanto devemos colocar um sinal de menos na frente então a expressão deve refletir a multiplicação
+
+49
+00:04:11,480 --> 00:04:19,000
+das receitas em 60 por cento Preste Atenção por favor pois o que vem a seguir é crucial para essa análise.
+
+50
+00:04:19,000 --> 00:04:21,880
+Não vamos simular o CMV mil vezes.
+
+51
+00:04:22,060 --> 00:04:30,160
+Isso já foi feito para as receitas e temos mil observações delas devemos atribuir um valor aleatório
+
+52
+00:04:30,160 --> 00:04:33,270
+de CMV a cada uma dessas mil observações.
+
+53
+00:04:33,290 --> 00:04:37,280
+Fiquei sem me ver então é um percentual das receitas.
+
+54
+00:04:37,300 --> 00:04:43,480
+é por isso que o valor da receita que obtivemos deve ser multiplicado por um valor extraído de uma distribuição
+
+55
+00:04:43,480 --> 00:04:49,490
+normal aleatória com uma média de 0,6 e o desvio padrão de 0,1.
+
+56
+00:04:49,510 --> 00:04:56,650
+Se tivéssemos colocado 0,6 diretamente isso teria significado que o CMV de sempre equivaleria a 60 por
+
+57
+00:04:56,650 --> 00:04:57,900
+cento das receitas.
+
+58
+00:04:57,950 --> 00:05:05,210
+Isso não é verdade o percentual irá provavelmente variar e nós decidimos que o seu desvio padrão é igual
+
+59
+00:05:05,210 --> 00:05:11,670
+a 10% o meu pai nos permite incorporar o desvio esperado.
+
+60
+00:05:11,790 --> 00:05:15,630
+Por isso vamos tirar proveito dessa característica dita no código aqui
+
+61
+00:05:18,960 --> 00:05:25,620
+quando colocarmos os resultados em um gráfico vemos o típico comportamento de uma distribuição normal.
+
+62
+00:05:25,760 --> 00:05:32,480
+é interessante notar que se voltarmos a executar a aproximação do CMV nem sempre obteremos o mesmo o
+
+63
+00:05:32,480 --> 00:05:40,440
+mesmo valor médio das observações eles podem estar dispersos 80 90 100 ou 110.
+
+64
+00:05:40,540 --> 00:05:42,610
+Não tem problema.
+
+65
+00:05:42,720 --> 00:05:49,050
+O importante é que sempre que rodar o desvio padrão de 100 MB será cerca de 10 por cento da sua média
+
+66
+00:05:50,550 --> 00:05:57,150
+bom excelente se mudamos todas as variáveis para calcular o lucro bruto futuro vamos lhe mostrar como
+
+67
+00:05:57,150 --> 00:06:01,100
+fazer isso na nossa próxima obrigado por.

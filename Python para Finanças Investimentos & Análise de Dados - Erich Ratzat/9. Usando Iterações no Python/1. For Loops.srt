@@ -1,0 +1,172 @@
+1
+
+00:00:00,650  -->  00:00:04,650
+A iteração é um bloco de construção fundamental
+de todos os programas.
+
+2
+
+00:00:04,650  -->  00:00:08,950
+É a capacidade de executar um determinado código
+repetidamente.
+
+3
+
+00:00:08,950  -->  00:00:14,759
+Nesta seção, vamos nos concentrar em alguns exemplos
+de processos de iteração em Python.
+
+4
+
+00:00:14,759  -->  00:00:18,500
+Para começar, nós preparamos uma lista chamada
+"even".
+
+5
+
+00:00:18,500  -->  00:00:23,240
+Ele contém todos os números pares de 0 a
+20.
+
+6
+
+00:00:23,240  -->  00:00:25,539
+Imagine que queremos que esses números sejam impressos.
+
+7
+
+00:00:25,539  -->  00:00:34,330
+Dessa forma, nós podemos escrever o seguinte
+“para n em par”, dois pontos, que significaria
+
+8
+
+00:00:34,330  -->  00:00:42,220
+para cada elemento "n" na lista "even",
+faça o seguinte: imprima o elemento.
+
+9
+
+00:00:42,220  -->  00:00:46,440
+Nesse caso, "n" é chamado de variável de loop.
+
+10
+
+00:00:46,440  -->  00:00:51,370
+Não é necessário ter dado o nome de "n"; qualquer
+outro nome também teria funcionado.
+
+11
+
+00:00:51,370  -->  00:00:55,790
+A expressão imprima "n" age como a parte principal do nosso
+loop
+
+12
+
+00:00:55,790  -->  00:01:00,570
+Não se esqueça da indentação para executar
+o loop corretamente.
+
+13
+
+00:01:00,570  -->  00:01:05,440
+O comando no corpo do loop é executado
+uma vez para cada elemento na lista par.
+
+14
+
+00:01:05,440  -->  00:01:10,910
+Agora, vamos repassar os passos que resultaram nesse
+este pedaço de código.
+
+15
+
+00:01:10,910  -->  00:01:14,460
+O loop começa pegando um elemento "n" da
+nossa lista.
+
+16
+
+00:01:14,460  -->  00:01:17,980
+Em seguida, o computador executa o corpo
+do loop.
+
+17
+
+00:01:17,980  -->  00:01:21,440
+No nosso caso, ele simplesmente irá imprimir essa variável.
+
+18
+
+00:01:21,440  -->  00:01:28,630
+Quando o computador terminar com essa operação,
+chamada iteração ou passagem do loop, o Python
+
+19
+
+00:01:28,630  -->  00:01:36,220
+retornará ao comando "for" e escolherá
+o próximo elemento "n" que está na lista
+
+20
+
+00:01:36,220  -->  00:01:37,840
+par.
+
+21
+
+00:01:37,840  -->  00:01:42,920
+Em seguida, ele irá imprimir e assim por diante,
+até que o corpo do loop tenha sido executado
+
+22
+
+00:01:42,920  -->  00:01:48,620
+para todos os elementos disponíveis na lista.
+
+23
+
+00:01:49,900  -->  00:01:54,900
+Ok. Vamos aplicar esse código para ver o
+resultado.
+
+24
+
+00:01:54,900  -->  00:02:00,530
+Exatamente como esperado, todos números foram indicados
+em uma coluna.
+
+25
+
+00:02:00,530  -->  00:02:03,810
+E se quiséssemos vê-los ordenados em uma
+única linha?
+
+26
+
+00:02:03,810  -->  00:02:09,289
+Uma vírgula após o elemento "n" no comando
+"imprima n" nos ajudará a conseguir isso.
+
+27
+
+00:02:09,289  -->  00:02:13,849
+A vírgula indicará que cada próximo elemento
+do loop deve ser colocado na mesma
+
+28
+
+00:02:13,849  -->  00:02:18,189
+linha.
+
+29
+
+00:02:18,189  -->  00:02:23,400
+Esta foi uma breve mas importante introdução
+ao conceito de iteração em programação.
+
+30
+
+00:02:23,400  -->  00:02:25,739
+Vejo você no próximo vídeo. E obrigado por assistir!

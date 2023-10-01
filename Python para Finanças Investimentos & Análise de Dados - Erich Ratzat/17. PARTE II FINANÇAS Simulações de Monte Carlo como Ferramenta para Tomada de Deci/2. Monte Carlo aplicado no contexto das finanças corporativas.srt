@@ -1,0 +1,131 @@
+1
+00:00:00,600 --> 00:00:06,360
+Dado que uma simulação de Monte Carlo lida com a incerteza ela pode ter muitas aplicações no mundo das
+
+2
+00:00:06,360 --> 00:00:06,980
+finanças.
+
+3
+00:00:07,470 --> 00:00:12,480
+Sem dúvida algumas aplicações estão na área das finanças corporativas.
+
+4
+00:00:12,540 --> 00:00:16,880
+Os gerentes financeiros enfrentam muitas incógnitas em seu trabalho.
+
+5
+00:00:16,890 --> 00:00:23,340
+Eles devem prever a performance das receitas os custos das mercadorias vendidas as despesas operacionais
+
+6
+00:00:23,510 --> 00:00:31,060
+e cada valor é afetado por muitos outros fatores cujo comportamento pode ser considerado aleatório.
+
+7
+00:00:31,080 --> 00:00:36,600
+é por isso que uma ferramenta que reduza a complexidade e melhor os processos de tomada de decisão pode
+
+8
+00:00:36,600 --> 00:00:37,590
+ser útil.
+
+9
+00:00:37,590 --> 00:00:42,750
+Nesse exemplo as receitas do ano corrente são iguais às receitas do ano passado.
+
+10
+00:00:42,750 --> 00:00:51,680
+Vezes mais a taxa de crescimento das receitas as receitas do ano passado estão disponíveis a variável
+
+11
+00:00:51,680 --> 00:00:52,250
+aleatória.
+
+12
+00:00:52,250 --> 00:00:54,710
+Nesse caso a taxa de crescimento da receita.
+
+13
+00:00:55,130 --> 00:01:02,090
+Então um programa de computador nos permitiria simular a evolução das receitas digamos mil vezes e obter
+
+14
+00:01:02,090 --> 00:01:05,720
+um valor máximo mínimo e médio das receitas.
+
+15
+00:01:05,720 --> 00:01:11,540
+Legal isso pode ser útil para um gerente financeiro pois permitiria que ele tivesse uma noção abrangente
+
+16
+00:01:11,540 --> 00:01:17,540
+da direção das receitas da empresa e quais os montantes máximos mínimos dessas receitas que ele pode
+
+17
+00:01:17,540 --> 00:01:17,930
+esperar.
+
+18
+00:01:18,740 --> 00:01:23,190
+Os dois primeiros parâmetros crescimento da receita e desvio padrão pode ser.
+
+19
+00:01:23,190 --> 00:01:29,840
+Podem ser obtidos olhando para dados históricos ou podem ser arbitrariamente escolhidos baseado na intuição
+
+20
+00:01:29,840 --> 00:01:31,330
+de quem está trabalhando.
+
+21
+00:01:31,340 --> 00:01:37,460
+A lógica do Custo das Mercadorias Vendidas e das despesas operacionais é quase a mesma com uma única
+
+22
+00:01:37,460 --> 00:01:38,100
+diferença.
+
+23
+00:01:38,390 --> 00:01:44,930
+Precisamos representar o CMV Custo da mercadoria vendida e as despesas operacionais como um percentual
+
+24
+00:01:44,930 --> 00:01:45,940
+das receitas.
+
+25
+00:01:45,950 --> 00:01:50,540
+Em seguida modelar a evolução do percentual dessas mesmas receitas.
+
+26
+00:01:50,570 --> 00:01:57,140
+Isso nos permite obter os valores do CMV e das despesas operacionais que estão em linha com as receitas
+
+27
+00:01:57,140 --> 00:02:04,190
+esperadas à empresa já que intuitivamente o CMV e as despesas operacionais dependem das receitas da
+
+28
+00:02:04,190 --> 00:02:05,210
+empresa.
+
+29
+00:02:05,270 --> 00:02:11,330
+Se as receitas forem baixas não haverá necessidade para gastar muito com estoques pois serão produzidos
+
+30
+00:02:11,330 --> 00:02:12,350
+menos produtos.
+
+31
+00:02:12,740 --> 00:02:19,590
+Quando você deduzir o CMV da receita de uma empresa você obterá seu lucro bruto na nossa próxima aula
+
+32
+00:02:19,590 --> 00:02:23,850
+aprendermos a estimar o lucro bruto de uma empresa através da simulação de Monte Carlo.
+
+33
+00:02:24,030 --> 00:02:24,560
+Obrigado por.

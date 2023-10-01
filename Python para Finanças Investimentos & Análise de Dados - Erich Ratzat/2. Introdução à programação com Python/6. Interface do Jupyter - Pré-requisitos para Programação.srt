@@ -1,0 +1,592 @@
+1
+1
+
+00:00:01,170  -->  00:00:02,170
+Ok.
+2
+
+2
+
+00:00:02,170  -->  00:00:03,170
+Ótimo.
+3
+
+3
+
+00:00:03,170  -->  00:00:07,010
+Agora que sabemos mais sobre o dashboard
+estamos prontos para examinar o shell e ver
+4
+
+4
+
+00:00:07,010  -->  00:00:10,260
+como podemos programar no Jupyter.
+5
+
+5
+
+00:00:10,260  -->  00:00:12,690
+Esse campo que você vê aqui é chamado de célula.
+6
+
+6
+
+00:00:12,690  -->  00:00:14,969
+Você pode acessá-la apertando "Enter".
+7
+
+7
+
+00:00:14,969  -->  00:00:19,610
+Uma vez feito isso, você poderá ver
+o cursor, então pode começar a digitar
+8
+
+8
+
+00:00:19,610  -->  00:00:20,740
+seu código.
+9
+
+9
+
+00:00:20,740  -->  00:00:23,939
+A caixa cinza é chamada de campo de entrada.
+10
+
+10
+
+00:00:23,939  -->  00:00:26,830
+Agora, voce está em modo edição.
+11
+
+11
+
+00:00:26,830  -->  00:00:32,279
+A borda verde da célula e o pequeno lápis
+no canto superior direito indicam isso.
+12
+
+12
+
+00:00:32,279  -->  00:00:36,120
+Para sair do modo edição, voce deve apertar
+o botão "Escape" ou "Esc".
+13
+
+13
+
+00:00:36,120  -->  00:00:40,870
+Ao pressionar o "Esc", voce volta ao
+modo comando, que permite a edição
+14
+
+14
+
+00:00:40,870  -->  00:00:43,260
+do notebook de modo geral.
+15
+
+15
+
+00:00:43,260  -->  00:00:46,249
+É por isso que o cursor e o lápis somem.
+16
+
+16
+
+00:00:46,249  -->  00:00:50,829
+A borda da célula voltou a ficar cinza e sua
+margem esquerda está azul agora.
+17
+
+17
+
+00:00:50,829  -->  00:00:54,600
+Agora irei apertar o "Enter" novamente.
+18
+
+18
+
+00:00:54,600  -->  00:01:03,679
+Vou escrever um código curto que diz que x é uma lista
+composta de quatro números: 1, 2, 3, e 4.
+19
+
+19
+
+00:01:03,679  -->  00:01:09,780
+Depois disso, posso pedir ao computador para imprimir
+essa lista para mim digitando "x".
+20
+
+20
+
+00:01:09,780  -->  00:01:12,820
+Eu posso executar esses comandos de duas formas.
+21
+
+21
+
+00:01:12,820  -->  00:01:17,000
+A primeira é segurar a tecla Ctrl e apertar
+Enter.
+22
+
+22
+
+00:01:17,000  -->  00:01:22,480
+Ao fazer isso, o computador irá executar o
+código na célula, e eu vou "ficar" ali,
+23
+
+23
+
+00:01:22,480  -->  00:01:26,530
+significa que eu não vou ter criado ou selecionado
+outra célula.
+24
+
+24
+
+00:01:26,530  -->  00:01:32,040
+Observe que um campo de saída com o mesmo
+número do campo da entrada apareceu.
+25
+
+25
+
+00:01:32,040  -->  00:01:36,219
+Os campos de entrada e saída de mesmo número
+são agrupados juntos.
+26
+
+26
+
+00:01:36,219  -->  00:01:40,850
+A saída representa a resposta do computador
+aos seus comandos no campo da entrada
+27
+
+27
+
+00:01:40,850  -->  00:01:45,560
+e esse campo não pode ser modificado.
+28
+
+28
+
+00:01:45,560  -->  00:01:49,499
+A segunda opção permite escrever um código
+de maneira mais fluída.
+29
+
+29
+
+00:01:49,499  -->  00:01:53,950
+Para executar esse mesmo código, aperte e segure
+a tecla "Shift" e aperte "Enter".
+30
+
+30
+
+00:01:53,950  -->  00:01:58,639
+Os dois comandos anteriores estão sendo executados
+e então uma nova célula em que voce pode escrever seu código
+31
+
+31
+
+00:01:58,639  -->  00:02:00,530
+é criada.
+32
+
+32
+
+00:02:00,530  -->  00:02:05,729
+Se voce usar "Shift" e "Enter", voce
+pode continuar a escrever seu código de maneira fácil.
+33
+
+33
+
+00:02:05,729  -->  00:02:11,700
+Você também pode cortar, copiar, e
+colar as células.
+34
+
+34
+
+00:02:11,700  -->  00:02:14,200
+Você pode usar esses botões no menu principal.
+35
+
+35
+
+00:02:14,200  -->  00:02:20,190
+Como somos adeptos da ergonomia, sugerimos
+que você se acostume com os atalhos do teclado.
+36
+
+36
+
+00:02:20,190  -->  00:02:24,610
+Quando estiver programando, você terá que usar
+principalmente o teclado, portanto, vale a pena memorizar
+37
+
+37
+
+00:02:24,610  -->  00:02:28,209
+algumas teclas de atalho que vão permitir que você
+trabalhe mais rápido.
+38
+
+38
+
+00:02:28,209  -->  00:02:31,459
+Vamos ver como podemos aplicar esse atalhos
+39
+
+39
+
+00:02:31,459  -->  00:02:32,590
+na prática.
+40
+
+40
+
+00:02:32,590  -->  00:02:37,480
+Vou cortar essa célula ao selecioná-la e
+apertando a tecla x.
+41
+
+41
+
+00:02:37,480  -->  00:02:42,590
+Lembre-se que você sempre pode usar as setas do
+teclado para navegar ao longo do seu arquivo.
+42
+
+42
+
+00:02:42,590  -->  00:02:49,250
+Eu vou apertao a seta para cima e apertar a tecla "v"
+para colar.
+43
+
+43
+
+00:02:49,250  -->  00:02:50,310
+E pronto!
+44
+
+44
+
+00:02:50,310  -->  00:02:54,780
+Minha célula subiu até aqui, abaixo da célula
+que eu tinha selecionado antes de apertar a
+45
+
+45
+
+00:02:54,780  -->  00:02:55,780
+tecla "v".
+46
+
+46
+
+00:02:55,780  -->  00:02:59,629
+Agora vou apertar a tecla "c" para copiar
+a mesma célula.
+47
+
+47
+
+00:02:59,629  -->  00:03:05,989
+Vou usar novamente as setas para ir para baixo
+dessa vez, e no final vou apertar a tecla "v"
+48
+
+48
+
+00:03:05,989  -->  00:03:07,329
+de novo.
+49
+
+49
+
+00:03:07,329  -->  00:03:11,200
+Aparentemente, essa célula foi copiada e colada
+abaixo.
+50
+
+50
+
+00:03:11,200  -->  00:03:16,800
+Os outros dois botões no menu não podem ser
+substituídos por teclas de atalho.
+51
+
+51
+
+00:03:16,800  -->  00:03:22,019
+Eles permitem que você mova uma célula selecionada para cima
+ou para baixo, exatamente como eu estou fazendo agora.
+52
+
+52
+
+00:03:22,019  -->  00:03:27,879
+Observe que o campo de saída correspondente
+se move junto com a célula de entrada.
+53
+
+53
+
+00:03:27,879  -->  00:03:29,290
+Ótimo!
+54
+
+54
+
+00:03:29,290  -->  00:03:34,000
+Em vez de executar um comando com Shift
+e Enter, você pode preferir clicar neste
+55
+
+55
+
+00:03:34,000  -->  00:03:38,060
+botão com o mouse - o resultado
+será o mesmo.
+56
+
+56
+
+00:03:38,060  -->  00:03:42,459
+O que é interessante é que, quando você trabalha
+com um código mais complexo que requer cálculos
+57
+
+57
+
+00:03:42,459  -->  00:03:48,390
+mais difíceis do computador, enquanto executa
+o código, uma pequena estrela aparecerá aqui,
+58
+
+58
+
+00:03:48,390  -->  00:03:51,510
+antes dos colchetes.
+59
+
+59
+
+00:03:51,510  -->  00:03:57,670
+Às vezes, esse processo pode demorar muito
+para ser concluído, então para pará-lo ou cancelá-lo,
+60
+
+60
+
+00:03:57,670  -->  00:04:04,410
+basta apertar o clássico símbolo de "stop".
+61
+
+61
+
+00:04:04,410  -->  00:04:08,959
+Tem outras três teclas de atalhos que podem acelerar
+muito sua produtividade enquanto escreve seu código.
+62
+
+62
+
+00:04:08,959  -->  00:04:11,299
+Suponha que eu selecionei esta célula.
+63
+
+63
+
+00:04:11,299  -->  00:04:16,019
+Depois que eu pressiono a tecla "A", uma nova célula
+vazia será inserida acima dela.
+64
+
+64
+
+00:04:16,019  -->  00:04:23,820
+Se eu selecionar a mesma célula e pressionar a tecla "B",
+outra célula será criada logo abaixo.
+65
+
+65
+
+00:04:23,820  -->  00:04:28,000
+Imagine que meu último passo foi um erro e eu
+preciso excluir essa célula vazia.
+66
+
+66
+
+00:04:28,000  -->  00:04:34,640
+Neste caso, ela já foi selecionada
+então eu posso pressionar a tecla "D" duas vezes, e
+67
+
+67
+
+00:04:34,640  -->  00:04:37,400
+ela desaparecerá prontamente.
+68
+
+68
+
+00:04:37,400  -->  00:04:39,330
+Ótimo!
+69
+
+69
+
+00:04:39,330  -->  00:04:42,150
+Todas as células que vimos até agora eram células
+contendo código.
+70
+
+70
+
+00:04:42,150  -->  00:04:45,090
+Vamos ver o que é uma célula de marcação.
+71
+
+71
+
+00:04:45,090  -->  00:04:51,030
+É uma célula que contém somente documentação -
+em outras palavras, contém um texto não executado como um código.
+72
+
+72
+
+00:04:51,030  -->  00:04:55,510
+Ela conterá alguma mensagem que você gostaria
+de deixar para o leitor do arquivo.
+73
+
+73
+
+00:04:55,510  -->  00:05:00,220
+Para converter uma célula selecionada em uma célula de
+marcação, você deve expandir essa lista e
+74
+
+74
+
+00:05:00,220  -->  00:05:05,270
+optar por "markdown", ou simplesmente pressionar o
+botão "M".
+75
+
+75
+
+00:05:05,270  -->  00:05:10,360
+Pressione "Enter" para acessar a célula e digite
+algum texto.
+76
+
+76
+
+00:05:10,360  -->  00:05:14,470
+Quando eu executo esta célula, o resultado será uma
+simples instrução.
+77
+
+77
+
+00:05:14,470  -->  00:05:21,620
+Agora, se você quiser transformar uma célula de marcação de volta
+em uma célula de código, selecione a célula e escolha "Code"
+78
+
+78
+
+00:05:21,620  -->  00:05:26,750
+do menu superior ou pressione a tecla
+"Y".
+79
+
+79
+
+00:05:26,750  -->  00:05:30,790
+Para concluir, há duas vantagens em usar o
+Jupyter.
+80
+
+80
+
+00:05:30,790  -->  00:05:36,310
+Primeiro, quando seu código se torna longo, células
+de marcação se tornam úteis, pois permitem
+81
+
+81
+
+00:05:36,310  -->  00:05:40,220
+que você deixe comentários e explique a solução
+que você criou.
+82
+
+82
+
+00:05:40,220  -->  00:05:44,090
+É por isso que os profissionais adoram usá-lo.
+83
+
+83
+
+00:05:44,090  -->  00:05:48,620
+O outro benefício de usar este aplicativo é que você
+pode selecionar e executar qualquer célula que
+84
+
+84
+
+00:05:48,620  -->  00:05:54,190
+desejar - você não precisa executar todas as células
+anteriores para executar uma célula específica!!
+85
+
+85
+
+00:05:54,190  -->  00:06:00,820
+Isso permite resolver um problema em partes
+e economiza muito tempo de computação.
+86
+
+86
+
+00:06:00,820  -->  00:06:04,040
+Esta foi uma aula mais longa, mas indispensável.
+87
+
+87
+
+00:06:04,040  -->  00:06:08,370
+Vimos tudo que você precisa saber
+antes de começar a programar.
+88
+
+88
+
+00:06:08,370  -->  00:06:12,420
+A partir da próxima aula, vamos nos focar
+no Python mesmo.
+89
+
+89
+
+00:06:12,420  -->  00:06:13,500
+Obrigado por assistir!

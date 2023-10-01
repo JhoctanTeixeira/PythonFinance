@@ -1,0 +1,380 @@
+1
+
+00:00:01,349  -->  00:00:07,689
+Nesta lição, apresentaremos a você outro
+conceito muito importante - fatiamento.
+
+2
+
+00:00:07,689  -->  00:00:12,020
+No futuro, quando estiver trabalhando em Python, você
+normalmente terá que lidar com dados que são bem
+
+3
+
+00:00:12,020  -->  00:00:13,300
+grandes.
+
+4
+
+00:00:13,300  -->  00:00:17,621
+Muitos dos problemas que você vai enfrentar
+vai ser apenas em uma pequena parte dos dados e, nesses
+
+5
+
+00:00:17,621  -->  00:00:21,000
+casos, você pode aplicar o fatiamento.
+
+6
+
+00:00:21,000  -->  00:00:25,610
+Imagine que você queira usar a lista
+"Participants" que vimos anteriormente para obter uma segunda lista bem
+
+7
+
+00:00:25,610  -->  00:00:30,670
+menor que contenha apenas dois nomes
+- Leila e Maria.
+
+8
+
+00:00:30,670  -->  00:00:37,699
+Em Python isso significaria extrair os
+elementos da primeira e segunda posição.
+
+9
+
+00:00:37,699  -->  00:00:42,711
+Para acessar esses elementos, vamos abrir os
+colchetes da mesma forma que fizemos com a indexação e
+
+10
+
+00:00:42,711  -->  00:00:47,680
+escrever 1 dois pontos e 3.
+
+11
+
+00:00:47,680  -->  00:00:52,019
+O primeiro número corresponde precisamente à
+primeira posição de interesse, enquanto
+
+12
+
+00:00:52,019  -->  00:00:56,420
+o segundo número é uma posição acima da última
+posição que precisamos.
+
+13
+
+00:00:56,420  -->  00:00:59,760
+No nosso caso 2 mais 1 é igual a 3.
+
+14
+
+00:00:59,760  -->  00:01:01,010
+Beleza?!
+
+15
+
+00:01:01,010  -->  00:01:06,170
+Podemos dizer que acabamos de fatiar nossa lista
+"Participants" para obter uma nova com os nomes Leila
+
+16
+
+00:01:06,170  -->  00:01:07,469
+e Maria.
+
+17
+
+00:01:07,469  -->  00:01:13,100
+Eu sei que este pedaço de sintaxe parece um pouco estranho,
+mas não é tão sem sentido.
+
+18
+
+00:01:13,100  -->  00:01:17,939
+Vamos pegar os dois primeiros nomes da lista,
+John e Leila.
+
+19
+
+00:01:17,939  -->  00:01:24,329
+Neste caso, você não precisa de um número
+no começo e pode começar digitando
+
+20
+
+00:01:24,329  -->  00:01:25,329
+dois pontos.
+
+21
+
+00:01:25,329  -->  00:01:29,899
+Ok, então ao digitar o sinal de dois pontos e o número 2, obtemos
+exatamente os 2 primeiros elementos.
+
+22
+
+00:01:29,899  -->  00:01:32,290
+Muito bom!
+
+23
+
+00:01:32,290  -->  00:01:35,020
+E como posso obter os dois últimos?
+
+24
+
+00:01:35,020  -->  00:01:39,270
+Uma maneira seria indicar a quarta posição
+que corresponde a George e não deixar
+
+25
+
+00:01:39,270  -->  00:01:42,289
+nada depois dos dois pontos.
+
+26
+
+00:01:42,289  -->  00:01:46,979
+Isso significaria extrair todos os elementos
+da quarta posição inclusive até o final
+
+27
+
+00:01:46,979  -->  00:01:50,789
+da nossa lista.
+
+28
+
+00:01:50,789  -->  00:01:55,140
+Outra maneira de obter o mesmo resultado seria
+colocar um sinal de menos na frente do número
+
+29
+
+00:01:55,140  -->  00:01:56,729
+2.
+
+30
+
+00:01:56,729  -->  00:02:02,800
+Assim, o Python irá inverter a direção da
+contagem, começando do final até o
+
+31
+
+00:02:02,800  -->  00:02:04,060
+início.
+
+32
+
+00:02:04,060  -->  00:02:07,280
+Quantos elementos estamos pedindo?
+
+33
+
+00:02:07,280  -->  00:02:08,910
+2.
+
+34
+
+00:02:08,910  -->  00:02:12,160
+Vamos executar.
+
+35
+
+00:02:12,160  -->  00:02:17,940
+E aqui está o resultado que obtivemos:
+George e Catherine em uma nova lista.
+
+36
+
+00:02:17,940  -->  00:02:19,960
+Perfeito.
+
+37
+
+00:02:22,580  -->  00:02:28,160
+Ok, vamos verificar alguns métodos adicionais
+que podem ser aplicados à listas.
+
+38
+
+00:02:28,170  -->  00:02:32,640
+Suponhamos que você saiba que Maria está na sua lista,
+mas não sabe a posição dela.
+
+39
+
+00:02:32,640  -->  00:02:36,160
+Em outras palavras, você gostaria de obter o
+índice do elemento Maria da
+
+40
+
+00:02:36,160  -->  00:02:38,250
+lista "Participants".
+
+41
+
+00:02:38,250  -->  00:02:43,410
+Vamos chamar o método index e indicar
+a variável string de interesse entre parênteses.
+
+42
+
+00:02:43,410  -->  00:02:47,350
+O computador nos diz que Maria está na segunda
+posição.
+
+43
+
+00:02:47,350  -->  00:02:50,180
+E está mesmo.
+
+44
+
+00:02:50,930  -->  00:02:53,800
+A próxima funcionalidade é bem interessante.
+
+45
+
+00:02:53,810  -->  00:02:57,310
+Eu vou te mostrar que é possível criar uma
+lista de listas.
+
+46
+
+00:02:57,310  -->  00:03:01,570
+Meu objetivo será criar uma lista chamada "Bigger
+List", que contém a lista
+
+47
+
+00:03:01,570  -->  00:03:05,900
+"Participants" e uma nova lista que eu chamarei de "Newcomers".
+
+48
+
+00:03:05,900  -->  00:03:09,870
+Vamos deixar a última lista ter os nomes: Joshua
+e Brittany.
+
+49
+
+00:03:09,870  -->  00:03:11,730
+Apertando Shift e Enter...
+
+50
+
+00:03:11,730  -->  00:03:14,890
+Ok, nós criamos a lista "Newcomers".
+
+51
+
+00:03:14,890  -->  00:03:19,760
+Tudo que eu preciso fazer na próxima célula é escrever
+o nome da variável "Bigger List"
+
+52
+
+00:03:19,760  -->  00:03:24,570
+e entre parênteses os nomes das
+listas que eu gostaria de incluir.
+
+53
+
+00:03:24,570  -->  00:03:28,010
+Vamos verificar se isso funciona.
+
+54
+
+00:03:28,010  -->  00:03:30,520
+Sim, funciona.
+
+55
+
+00:03:30,520  -->  00:03:33,280
+As duas listas são mostradas na ordem sugerida.
+
+56
+
+00:03:33,280  -->  00:03:34,450
+Ótimo!
+
+57
+
+00:03:34,450  -->  00:03:38,840
+Um importante método que poderia ordenar os nomes
+das pessoas em ordem alfabética
+
+58
+
+00:03:38,840  -->  00:03:41,250
+é o método sort.
+
+59
+
+00:03:41,250  -->  00:03:48,800
+Como você pode ver, depois de aplicá-lo à nossa lista
+o nome Catherine vem em primeiro lugar e Peter aparece em último.
+
+60
+
+00:03:48,800  -->  00:03:53,110
+Se dentro dos colchetes dissermos que gostaríamos
+que os nomes fossem classificados em uma ordem inversa
+
+61
+
+00:03:53,110  -->  00:03:59,880
+declarando "reverse é igual True", Peter
+seria o primeiro e Catherine a última.
+
+62
+
+00:03:59,880  -->  00:04:05,270
+É claro que, se nossos elementos fossem números,
+em vez de nomes de pessoas, esse método
+
+63
+
+00:04:05,270  -->  00:04:09,820
+funcionaria da mesma forma sem problemas.
+
+64
+
+00:04:09,820  -->  00:04:15,020
+Observe como neste exemplo eu classifiquei os
+números de 1 a 5 do menor para o
+
+65
+
+00:04:15,020  -->  00:04:18,130
+maior.
+
+66
+
+00:04:18,130  -->  00:04:21,670
+E aqui - do maior para o menor.
+
+67
+
+00:04:21,670  -->  00:04:23,380
+Maravilha!
+
+68
+
+00:04:23,380  -->  00:04:25,550
+Esta foi uma aula muito importante.
+
+69
+
+00:04:25,550  -->  00:04:29,460
+Fique atento para a próxima, onde vamos
+descobrir o que é uma tupla!

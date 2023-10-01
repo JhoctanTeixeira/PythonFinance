@@ -1,0 +1,120 @@
+1
+
+00:00:01,540  -->  00:00:06,170
+Você sabe o caminho certo para interpretar o sinal
+de igual quando o objetivo for atribuir ou armazenar uma variável
+
+2
+
+00:00:06,170  -->  00:00:07,170
+certo?
+
+3
+
+00:00:07,170  -->  00:00:13,380
+Por exemplo, "armazene 5 elevado a
+3 na variável y"; "atribua 5 elevado
+
+4
+
+00:00:13,380  -->  00:00:15,770
+a 3 na variável y".
+
+5
+
+00:00:15,770  -->  00:00:22,390
+Isso significa que a partir desse momento para o computador,
+y será igual a 125.
+
+6
+
+00:00:22,390  -->  00:00:25,320
+Aqui está o que vai acontecer quando você colocar dois
+sinais de igualdade um após o outro.
+
+7
+
+00:00:25,320  -->  00:00:31,050
+Vou escrever "y == 125".
+
+8
+
+00:00:31,050  -->  00:00:37,930
+A maneira certa de ler esse código é "y
+é igual a 125".
+
+9
+
+00:00:37,930  -->  00:00:42,020
+Quando você executar este comando, o computador
+assumirá que você solicitou uma resposta para a
+
+10
+
+00:00:42,020  -->  00:00:46,030
+pergunta, "O valor de y é 125"?
+
+11
+
+00:00:46,030  -->  00:00:50,780
+É por isso que, após a execução desta célula,
+a máquina responderá com um valor Booleano
+
+12
+
+00:00:50,780  -->  00:00:58,280
+- ele retornará um valor "True" ou "False".
+
+13
+
+00:00:59,420  -->  00:01:04,880
+Vamos ver nosso resultado quando dizemos que y é
+igual a 126.
+
+14
+
+00:01:06,180  -->  00:01:07,140
+Olha lá!
+
+15
+
+00:01:07,140  -->  00:01:12,880
+O computador retornou "False" porque
+125 e 126 são de fato números diferentes.
+
+16
+
+00:01:12,920  -->  00:01:13,920
+Ótimo!
+
+17
+
+00:01:14,140  -->  00:01:19,140
+Lembre-se então que quando você quiser dizer igualdade entre
+valores e não atribuição de valores em Python,
+
+18
+
+00:01:19,140  -->  00:01:21,650
+você precisará colocar dois sinais de igualdade um após o outro.
+
+19
+
+00:01:21,650  -->  00:01:26,140
+E a resposta vai ser sempre "True" ou
+
+20
+
+00:01:26,140  -->  00:01:27,140
+“False”.
+
+21
+
+00:01:27,140  -->  00:01:32,000
+Em nosso próximo vídeo, mostraremos como as variáveis
+​​podem ser reatribuídas no Python.
+
+22
+
+00:01:32,000  -->  00:01:33,010
+Obrigado por assistir!

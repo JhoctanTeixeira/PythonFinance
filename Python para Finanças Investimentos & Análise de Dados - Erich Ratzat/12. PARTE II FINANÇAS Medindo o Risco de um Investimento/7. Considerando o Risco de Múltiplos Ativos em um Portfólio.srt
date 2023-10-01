@@ -1,0 +1,262 @@
+1
+
+00:00:00,089  -->  00:00:06,090
+Anteriormente, aprendemos a medir a
+variabilidade de um ativo financeiro e concordamos
+
+2
+
+00:00:06,090  -->  00:00:09,950
+que essa é uma das melhores medidas de risco que
+podemos usar.
+
+3
+
+00:00:09,950  -->  00:00:16,080
+Aprendemos que uma ação volátil é muito mais propensa
+a desviar-se de seus retornos históricos e
+
+4
+
+00:00:16,080  -->  00:00:17,610
+surpreender os investidores.
+
+5
+
+00:00:17,610  -->  00:00:19,430
+Ótimo!
+
+6
+
+00:00:19,430  -->  00:00:25,140
+Agora é a hora de considerar uma carteira de investimentos
+com pelo menos duas ações.
+
+7
+
+00:00:25,140  -->  00:00:30,970
+Nós aprendemos a calcular a taxa esperada
+de retorno de carteiras com duas ou mais ações,
+
+8
+
+00:00:30,970  -->  00:00:36,070
+mas nós não discutimos o cálculo
+da variância de um portfólio.
+
+9
+
+00:00:36,070  -->  00:00:42,710
+Se um portfólio tiver duas ações, seu risco
+será uma função das variâncias das
+
+10
+
+00:00:42,710  -->  00:00:47,160
+duas ações e da correlação entre
+elas.
+
+11
+
+00:00:47,160  -->  00:00:50,950
+Lembrem-se do exemplo sobre o Facebook, LinkedIn e
+o Walmart?
+
+12
+
+00:00:50,950  -->  00:00:57,360
+É razoável esperar que uma carteira contendo
+ações do Facebook e do LinkedIn tenha um risco
+
+13
+
+00:00:57,360  -->  00:01:03,899
+diferente comparado a uma carteira que contenha o Facebook
+e o Walmart (mesmo que as variações do LinkedIn
+
+14
+
+00:01:03,899  -->  00:01:06,310
+e o Walmart fossem as mesmas).
+
+15
+
+00:01:06,310  -->  00:01:12,880
+A diferença será dada pela relação
+entre os preços das duas empresas no
+
+16
+
+00:01:12,880  -->  00:01:13,880
+portfolio.
+
+17
+
+00:01:13,880  -->  00:01:14,880
+Ok.
+
+18
+
+00:01:14,880  -->  00:01:16,689
+Vamos lembrar um pouco de álgebra básica agora.
+
+19
+
+00:01:16,689  -->  00:01:26,069
+A soma de A mais B elevado ao quadrado é
+igual a A ao quadrado mais B ao quadrado mais dois
+
+20
+
+00:01:26,069  -->  00:01:27,259
+vezes AB.
+
+21
+
+00:01:27,259  -->  00:01:28,399
+Certo?
+
+22
+
+00:01:28,399  -->  00:01:29,399
+Lembra disso?
+
+23
+
+00:01:29,399  -->  00:01:31,669
+Então, prestou atenção na escola?
+
+24
+
+00:01:31,669  -->  00:01:32,669
+Ótimo!
+
+25
+
+00:01:32,669  -->  00:01:33,669
+Nós também.
+
+26
+
+00:01:33,669  -->  00:01:38,439
+Vamos fazer o mesmo para uma carteira
+contendo duas ações.
+
+27
+
+00:01:38,439  -->  00:01:44,759
+A primeira ação tem um peso de "W" 1,
+que significa "weight 1", e a segunda
+
+28
+
+00:01:44,759  -->  00:01:49,749
+ação tem um peso de "W" 2, que significa
+"weight 2".
+
+29
+
+00:01:49,749  -->  00:01:55,219
+É importante mencionar que a soma dos
+pesos é sempre igual a 1, porque os
+
+30
+
+00:01:55,219  -->  00:02:01,539
+pesos devem somar 1, pois essas são
+duas ações que formam a carteira inteira.
+
+31
+
+00:02:01,539  -->  00:02:05,489
+1 é a mesma coisa que 100%.
+
+32
+
+00:02:05,489  -->  00:02:11,689
+A variação da carteira será dada por "weight
+1" vezes o desvio padrão da primeira
+
+33
+
+00:02:11,689  -->  00:02:18,379
+ação mais "weight 2" vezes o desvio
+padrão da segunda ação elevado ao
+
+34
+
+00:02:18,379  -->  00:02:19,730
+quadrado.
+
+35
+
+00:02:19,730  -->  00:02:23,049
+O resultado é o mesmo da fórmula que temos
+acima.
+
+36
+
+00:02:23,049  -->  00:02:30,440
+"Weight 1" vezes o desvio padrão
+da primeira ação desempenha o papel de A, enquanto
+
+37
+
+00:02:30,440  -->  00:02:35,480
+"weight 2" vezes o desvio padrão
+da segunda ação é B.
+
+38
+
+00:02:35,480  -->  00:02:41,989
+E o resultado final é igual a:
+"Weight 1" elevado ao quadrado vezes
+
+39
+
+00:02:41,989  -->  00:02:48,640
+a variância da primeira ação mais "weight
+2" elevado ao quadrado vezes a variância
+
+40
+
+00:02:48,640  -->  00:02:56,030
+da segunda ação mais duas vezes o produto
+"weight 1", "weight 2" e a
+
+41
+
+00:02:56,030  -->  00:02:59,760
+covariânica entre as duas ações.
+
+42
+
+00:02:59,760  -->  00:03:01,430
+Aqui está.
+
+43
+
+00:03:01,430  -->  00:03:04,689
+É assim que calculamos a variância de um portfólio.
+
+44
+
+00:03:04,689  -->  00:03:10,499
+Isso depende de duas coisas - do desvio
+padrão das duas ações e da correlação
+
+45
+
+00:03:10,499  -->  00:03:12,230
+entre essas mesmas duas ações.
+
+46
+
+00:03:12,230  -->  00:03:17,099
+Na próxima aula, nós vamos aplicar o que
+aprendemos na prática.
+
+47
+
+00:03:17,099  -->  00:03:17,949
+Obrigado por assistir!

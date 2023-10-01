@@ -1,0 +1,131 @@
+1
+00:00:01,470 --> 00:00:05,670
+A diferença entre a receita e o CMV nos dá o lucro bruto.
+
+2
+00:00:05,670 --> 00:00:13,730
+Calcular o lucro bruto é o objetivo da sala uma vez que geramos mil receitas potenciais e valores para
+
+3
+00:00:13,730 --> 00:00:22,690
+o CMV calcular a simulação de lucro bruto exige que combinamos a receita e o CMV criamos o me ver como
+
+4
+00:00:22,690 --> 00:00:24,140
+um número negativo.
+
+5
+00:00:24,140 --> 00:00:30,890
+Por isso é correto usar um sinal de mais um sinal de menos aqui espero que você concorde que temos uma
+
+6
+00:00:30,890 --> 00:00:38,310
+distribuição normal com valor médio igual à diferença entre a média das receitas e a média do CMV a
+
+7
+00:00:38,310 --> 00:00:45,420
+partir desse momento fica fácil com a ajuda das funções Max e mim obter o maior e menor valor potencial
+
+8
+00:00:45,420 --> 00:00:46,690
+do lucro bruto.
+
+9
+00:00:46,740 --> 00:00:55,620
+Os métodos Mee e STB vão fornecer um resultado igual à média e ao desvio padrão do lucro bruto respectivamente.
+
+10
+00:00:55,650 --> 00:01:01,890
+Basicamente podemos dizer nesse momento que você fez o seu trabalho mas é uma boa ideia colocar esses
+
+11
+00:01:01,890 --> 00:01:03,740
+resultados no mesmo programa.
+
+12
+00:01:04,080 --> 00:01:10,170
+E o que seria um histograma é um outro tipo de gráfico que nos ajuda a identificar a distribuição do
+
+13
+00:01:10,170 --> 00:01:17,310
+seu resultado a sintaxe para implementá lo é idêntica à que usamos para colocar um gráfico padrão.
+
+14
+00:01:17,650 --> 00:01:26,090
+Mas a diferença é que na segunda linha depois de Belle T você precisa escrever este depois disso você
+
+15
+00:01:26,090 --> 00:01:30,300
+pode adicionar vários argumentos mas dois são realmente importantes.
+
+16
+00:01:30,320 --> 00:01:34,390
+Um deles é o valor de interesse que em nosso caso o lucro bruto.
+
+17
+00:01:34,640 --> 00:01:39,560
+O outro diz respeito às classes de frequência e o que são essas classes.
+
+18
+00:01:40,190 --> 00:01:43,370
+E como os dados serão agrupados no gráfico.
+
+19
+00:01:43,750 --> 00:01:50,090
+E há duas maneiras de usar as classes uma maneira criar uma lista na qual os elementos vão ser usados
+
+20
+00:01:50,090 --> 00:01:53,080
+para separar as classes ao longo do eixo x.
+
+21
+00:01:53,240 --> 00:02:00,950
+Se a nossa lista contém os números 40 50 60 e assim por diante até 120 então veremos observações entre
+
+22
+00:02:01,160 --> 00:02:07,790
+40 e 50 agrupados em uma classe entre 50 e 60 agrupados em outra e assim por diante.
+
+23
+00:02:07,790 --> 00:02:13,790
+Aqui as classes são muito grandes e é difícil visualizar que os nossos dados possuem uma distribuição
+
+24
+00:02:13,790 --> 00:02:19,630
+normal procedimento alternativo e atribuir o número de classes diretamente.
+
+25
+00:02:19,630 --> 00:02:26,810
+Se eu colocar 20 classes o computador irá automaticamente dividir os meus dados em 20 intervalos iguais
+
+26
+00:02:27,050 --> 00:02:31,340
+e dessa vez ficará claro que os números possuem uma distribuição normal.
+
+27
+00:02:31,340 --> 00:02:35,750
+Esse é um ótimo exemplo de uma ferramenta que pode ser útil para um gerente financeiro que trabalha
+
+28
+00:02:35,750 --> 00:02:36,830
+em uma grande empresa.
+
+29
+00:02:37,370 --> 00:02:43,550
+Embora existam distribuições mais complexas esse tipo de análise pode ajudar a prever as receitas futuras
+
+30
+00:02:43,550 --> 00:02:45,110
+custos imagens.
+
+31
+00:02:45,120 --> 00:02:50,960
+No exercício seguinte vamos pedir que você preveja o EBITDA de uma empresa que é a diferença entre o
+
+32
+00:02:50,960 --> 00:02:54,170
+lucro bruto e as despesas operacionais.
+
+33
+00:02:54,170 --> 00:02:55,160
+Obrigado por assistir.

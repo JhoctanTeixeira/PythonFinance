@@ -1,0 +1,238 @@
+1
+
+00:00:01,040  -->  00:00:06,270
+Sabemos como trabalhar com os comandos if e
+sabemos como trabalhar com funções.
+
+2
+
+00:00:06,270  -->  00:00:09,750
+Nessa aula, iremos aprender como combinar
+os dois conceitos.
+
+3
+
+00:00:09,750  -->  00:00:14,130
+Este é um conceito fundamental em programação.
+então, por favor, preste atenção!
+
+4
+
+00:00:14,130  -->  00:00:19,650
+Você utilizará essa lógica com bastante freqüência quando
+estiver programando.
+
+5
+
+00:00:19,650  -->  00:00:24,730
+A mãe de Johnny lhe falou que até o final da
+semana, se ele tiver poupado pelo menos 100 dólares,
+
+6
+
+00:00:24,730  -->  00:00:27,630
+ela iria lhe dar mais 10 dólares extras.
+
+7
+
+00:00:27,630  -->  00:00:31,980
+Se ele não conseguir poupar pelo menos 100
+dólares, então ela prefere não dar
+
+8
+
+00:00:31,980  -->  00:00:33,780
+a ele o dinheiro extra.
+
+9
+
+00:00:33,780  -->  00:00:34,790
+Claro.
+
+10
+
+00:00:34,790  -->  00:00:41,620
+Agora vamos definir uma função chamada "add_10", em português "adicione
+10", que tem como parâmetro a letra
+
+11
+
+00:00:41,620  -->  00:00:47,150
+“m” que representa o dinheiro que Johnny economizou
+no final da semana.
+
+12
+
+00:00:47,150  -->  00:00:49,760
+O que devemos dizer ao computador para fazer?
+
+13
+
+00:00:49,760  -->  00:00:55,780
+Se "m" for maior ou igual a 100,
+adicione 10 ao valor economizado.
+
+14
+
+00:00:55,780  -->  00:01:02,590
+Se não for retorne uma declaração que nos permita
+saber que Johnny deveria ter economizado mais.
+
+15
+
+00:01:02,590  -->  00:01:07,640
+Isto é, se "m" é maior que ou igual
+a 100, deixe "m" assumir o valor
+
+16
+
+00:01:07,640  -->  00:01:11,190
+de "m" mais 10.
+
+17
+
+00:01:11,190  -->  00:01:15,570
+Sim, é exatamente isso!
+
+18
+
+00:01:15,570  -->  00:01:20,150
+Nós temos "m" em ambos os lados da equação,
+e isso está perfeito.
+
+19
+
+00:01:20,150  -->  00:01:23,460
+De fato, não é uma equação.
+
+20
+
+00:01:23,460  -->  00:01:27,670
+Lembre-se de que o sinal de igualdade significa
+atribuir a expressão do lado direito
+
+21
+
+00:01:27,670  -->  00:01:31,040
+ao que está escrito no lado esquerdo.
+
+22
+
+00:01:31,040  -->  00:01:37,909
+Vamos completar a parte do if com "retorne
+m".
+
+23
+
+00:01:37,909  -->  00:01:42,700
+Para resumir logicamente, mencionamos "m" como
+um parâmetro.
+
+24
+
+00:01:42,700  -->  00:01:50,549
+Então, substituímos seu valor por um valor
+maior que "m" com 10.
+
+25
+
+00:01:50,549  -->  00:01:57,160
+No final, dizemos: de agora em diante, retorne um
+valor igual ao novo "m".
+
+26
+
+00:01:57,160  -->  00:02:02,540
+Finalmente, em todos os outros casos diga, por exemplo,
+"Economize mais!".
+
+27
+
+00:02:02,540  -->  00:02:09,399
+Johnny deveria aprender que é um bom hábito ter
+algum dinheiro guardado, certo?
+
+28
+
+00:02:09,399  -->  00:02:13,029
+Vamos ver se nossa intuição estava correta.
+
+29
+
+00:02:13,029  -->  00:02:22,370
+"Adicione 10" de 110 - bom, 120!
+
+30
+
+00:02:22,370  -->  00:02:25,730
+E se "m" era igual a 50...?
+
+31
+
+00:02:25,730  -->  00:02:27,940
+Maravilha!
+
+32
+
+00:02:27,940  -->  00:02:32,599
+Está tudo certo!
+
+33
+
+00:02:32,599  -->  00:02:37,590
+Quando você pensa nisso por uma perspectiva lógica,
+faz sentido, não é?
+
+34
+
+00:02:37,590  -->  00:02:41,730
+Os casos em que você usaria um computador para resolver
+problemas para você
+
+35
+
+00:02:41,730  -->  00:02:43,499
+pode ser feito através de funções.
+
+36
+
+00:02:43,499  -->  00:02:48,480
+Você provavelmente precisará pedir ao computador
+para executar algo se um dado parâmetro
+
+37
+
+00:02:48,480  -->  00:02:54,049
+estiver dentro de certos limites e pedir para executar
+outra coisa se o parâmetro estiver além desses
+
+38
+
+00:02:54,049  -->  00:02:55,079
+limites.
+
+39
+
+00:02:55,079  -->  00:02:59,529
+Então, combinar o seu conhecimento sobre
+condicionais e funções em Python é
+
+40
+
+00:02:59,529  -->  00:03:01,319
+uma ótima pedida!
+
+41
+
+00:03:01,319  -->  00:03:02,319
+Ótimo!
+
+42
+
+00:03:02,319  -->  00:03:04,629
+Apenas mantenha o ritmo para nosso próximo vídeo!
+
+43
+
+00:03:04,629  -->  00:03:05,589
+Obrigado por assistir.

@@ -1,0 +1,159 @@
+1
+00:00:01,130 --> 00:00:05,900
+Na aula anterior nós aprendemos como calcular a taxa simples de retorno de uma ação.
+
+2
+00:00:06,050 --> 00:00:11,060
+No entanto você deve saber que existe uma maneira alternativa de calcular a taxa de retorno.
+
+3
+00:00:11,060 --> 00:00:18,570
+Em vez de taxa simples de retorno nós poderíamos usar taxas logarítmica se também chamadas de logo retorno.
+
+4
+00:00:18,590 --> 00:00:21,500
+A diferença entre as duas abordagens é bem sutil.
+
+5
+00:00:21,650 --> 00:00:28,820
+Como discutimos em aula anterior uma vez que vamos explorar o comportamento de uma única ação a partir
+
+6
+00:00:28,820 --> 00:00:36,630
+de primeiro de janeiro de 1995 até hoje talvez seja melhor usar um log de retorno novamente ou não pai.
+
+7
+00:00:36,710 --> 00:00:41,880
+Vai ser a biblioteca que vai nos fornecer as ferramentas necessárias para esses cálculos.
+
+8
+00:00:42,470 --> 00:00:47,600
+O lado bom é que o pai oferece a possibilidade de Computação Vetorial usada.
+
+9
+00:00:47,660 --> 00:00:54,350
+Esse termo refere se à capacidade de organizar vários tipos de tarefas de processamento de dados como
+
+10
+00:00:54,350 --> 00:00:59,980
+um conjunto de expressões vetores matrizes ou matrizes multi dimensionais por exemplo.
+
+11
+00:01:00,020 --> 00:01:07,560
+A alternativa é escrever loops mas isso pode ser um trabalho tedioso e vai exigir mais tempo de computação.
+
+12
+00:01:07,580 --> 00:01:15,260
+Em outras palavras um pai é uma extensão do pai o que nos permite substituir loops por matrizes unidimensionais
+
+13
+00:01:15,260 --> 00:01:16,960
+ou multi dimensionais.
+
+14
+00:01:16,970 --> 00:01:24,050
+Essa operação chamada de virtualização é o tipo relevante de programação que suporta a programação usando
+
+15
+00:01:24,050 --> 00:01:25,010
+matrizes.
+
+16
+00:01:25,370 --> 00:01:32,660
+Ok então dito isso para calcular o setor nos logaritmos vamos ter que obter o logaritmo do preço no
+
+17
+00:01:32,660 --> 00:01:37,500
+tempo t dividido pelo preço no tempo tem menos um ok.
+
+18
+00:01:38,360 --> 00:01:45,980
+Então o primeiro logo de retorno vai ser igual ao logaritmo do preço em 4 de janeiro de 1995 dividido
+
+19
+00:01:45,980 --> 00:01:49,020
+pelo preço em 3 de janeiro de 1985.
+
+20
+00:01:49,310 --> 00:01:52,810
+Vamos precisar de uma nova comuna que vai ser chamada de log até
+
+21
+00:01:57,010 --> 00:02:05,300
+a expressão que vamos atribuir a ela vai ser a seguinte chame a função log do pacote não pai e entre
+
+22
+00:02:05,300 --> 00:02:14,100
+parênteses digite a fórmula para calcular a taxa de retorno logaritmo isso significaria pegar o preço
+
+23
+00:02:14,100 --> 00:02:20,430
+ajustado de fechamento de uma determinada observação para um determinado dia de negociação e dividi
+
+24
+00:02:20,430 --> 00:02:23,970
+lo pelo preço ajustado de fechamento do dia anterior.
+
+25
+00:02:24,210 --> 00:02:32,030
+Mais uma vez nós precisamos especificar os dados de clock porque é o fechamento ajustado entre colchetes
+
+26
+00:02:32,490 --> 00:02:33,930
+e assim como fizemos antes.
+
+27
+00:02:33,960 --> 00:02:39,530
+Vamos usar a função Shift para deslocar os preços das ações observadas no denominador.
+
+28
+00:02:39,810 --> 00:02:45,690
+O argumento que usaremos a função Shift será um pois precisamos no período anterior da série temporal
+
+29
+00:02:45,690 --> 00:02:47,370
+de uma única observação.
+
+30
+00:02:47,370 --> 00:02:47,850
+ótimo.
+
+31
+00:02:48,090 --> 00:02:54,590
+Nós obtemos uma série novamente e a maioria dos valores são menores que 1 por cento quando nós temos
+
+32
+00:02:54,600 --> 00:03:00,480
+os dados recém obtidos em um gráfico nós vemos que a taxa log de retorno se assemelha bastante com a
+
+33
+00:03:00,480 --> 00:03:02,150
+taxa simples de retorno.
+
+34
+00:03:02,190 --> 00:03:09,720
+No entanto quando calculamos o setor nos log diários e anuais nós obtemos um percentual que é significativamente
+
+35
+00:03:09,720 --> 00:03:13,170
+menor do que o que obtivemos para o setor no simples
+
+36
+00:03:16,530 --> 00:03:23,000
+em geral é preferível usar retornos simples como calculamos no setor de várias ações no mesmo período.
+
+37
+00:03:23,010 --> 00:03:28,860
+Por outro lado retorno o logaritmo é a melhor opção quando nós temos apenas uma ação e calculamos um
+
+38
+00:03:28,860 --> 00:03:34,700
+retorno ao longo de vários períodos de tempo o que é ótimo.
+
+39
+00:03:34,700 --> 00:03:36,710
+Nossa primeira tarefa está pronta.
+
+40
+00:03:37,340 --> 00:03:38,260
+Obrigado por ter.

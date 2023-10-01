@@ -1,0 +1,276 @@
+1
+
+00:00:01,079  -->  00:00:05,980
+Antes de transformar esses valores em números
+mais apresentáveis, vamos plotá-los em
+
+2
+
+00:00:05,980  -->  00:00:07,339
+um gráfico.
+
+3
+
+00:00:07,339  -->  00:00:12,760
+Não é surpresa que isso pode ser feito facilmente com apenas
+algumas linhas de código.
+
+4
+
+00:00:12,760  -->  00:00:17,470
+Da coluna recém-criada "simple
+return", nós podemos obter um gráfico com o tamanho
+
+5
+
+00:00:17,470  -->  00:00:21,019
+da figura de, digamos, 8, e 5.
+
+6
+
+00:00:21,019  -->  00:00:23,880
+Esses dois valores não vão afetar os rótulos
+em seus gráficos.
+
+7
+
+00:00:23,880  -->  00:00:27,890
+Eles simplesmente determinam o tamanho do gráfico
+na área do resultado.
+
+8
+
+00:00:27,890  -->  00:00:32,390
+Basicamente, nesta célula, nós pedimos ao Python para
+criar um gráfico.
+
+9
+
+00:00:32,390  -->  00:00:40,089
+Se executarmos isso, a parcela não será imediatamente
+mostrada na tela.
+
+10
+
+00:00:40,089  -->  00:00:45,360
+A maneira de como fazer isso é aplicando o método
+"show".
+
+11
+
+00:00:45,360  -->  00:00:50,420
+Vamos executar essa célula.
+
+12
+
+00:00:50,420  -->  00:00:52,970
+Ótimo!
+
+13
+
+00:00:52,970  -->  00:00:55,180
+Vocês esperavam algum tipo de gráfico de linhas?
+
+14
+
+00:00:55,180  -->  00:01:00,100
+Bem, esse não é o caso, pois estes são
+simplesmente os retornos diários que foram observados
+
+15
+
+00:01:00,100  -->  00:01:01,689
+ao longo do período.
+
+16
+
+00:01:01,689  -->  00:01:05,750
+Muitas vezes, retornos positivos foram seguidos
+por retornos negativos.
+
+17
+
+00:01:05,750  -->  00:01:10,890
+Como vocês podem ver, as observações diárias mais
+significativas foram principalmente negativas.
+
+18
+
+00:01:10,890  -->  00:01:15,800
+Em finanças, nós estamos acostumados a ver retornos
+negativos que têm uma magnitude muito maior
+
+19
+
+00:01:15,800  -->  00:01:17,800
+de retornos positivos.
+
+20
+
+00:01:17,800  -->  00:01:24,420
+Geralmente, retornos positivos se acumulam ao longo
+do tempo, e o preço das ações aumentam, mas quando
+
+21
+
+00:01:24,420  -->  00:01:29,940
+as coisas dão errado, o preço das ações tendem a cair
+rapidamente - como você pode ver aqui - uma
+
+22
+
+00:01:29,940  -->  00:01:34,020
+perda de 30% em um único dia.
+
+23
+
+00:01:34,020  -->  00:01:39,520
+No entanto, um investidor que esteja interessado em
+comprar ações e mantê-las por um longo prazo
+
+24
+
+00:01:39,520  -->  00:01:44,170
+está interessado principalmente na taxa média de
+retorno que as ações vão ter, certo?
+
+25
+
+00:01:44,170  -->  00:01:51,340
+Vamos calcular o retorno médio da P&G ao longo
+do período em análise.
+
+26
+
+00:01:51,340  -->  00:01:55,940
+O método chamado "mean" nos permite obter
+de pronto a média diária de
+
+27
+
+00:01:55,940  -->  00:01:58,140
+retorno.
+
+28
+
+00:01:58,140  -->  00:02:02,540
+Hum... este número parece muito pequeno!
+
+29
+
+00:02:02,540  -->  00:02:05,409
+É muito menor que um por cento!
+
+30
+
+00:02:05,409  -->  00:02:07,870
+É possível interpretar essa dado de forma significativa?
+
+31
+
+00:02:07,870  -->  00:02:14,910
+Bem, uma taxa média anual de retorno vai
+nos dizer muito mais, certo?
+
+32
+
+00:02:14,910  -->  00:02:17,180
+Lembrem-se do seguinte truque.
+
+33
+
+00:02:17,180  -->  00:02:22,650
+Os dados que nós extraímos não são compostos de 365
+observações por ano.
+
+34
+
+00:02:22,650  -->  00:02:28,060
+Não é levado em conta os dias em que não houve negociação
+como sábados, domingos e feriados.
+
+35
+
+00:02:28,060  -->  00:02:34,410
+O número de dias de negociação por ano é cerca de
+250 - as vezes 251, outras vezes 252...
+
+36
+
+00:02:34,410  -->  00:02:37,810
+Então, vamos usar o número 250.
+
+37
+
+00:02:37,810  -->  00:02:44,760
+Vou multiplicar o retorno médio diário por
+250 e vamos obter um aproximação próxima
+
+38
+
+00:02:44,760  -->  00:02:49,540
+ao retorno médio real por ano.
+
+39
+
+00:02:49,540  -->  00:02:51,970
+Esses valores parecem mais críveis, não é
+mesmo?
+
+40
+
+00:02:51,970  -->  00:02:54,370
+Vamos arredondados-los um pouco.
+
+41
+
+00:02:54,370  -->  00:02:59,230
+Para torná-lo mais apresentável, nós podemos multiplicar
+por cem, transformar em uma string, e
+
+42
+
+00:02:59,230  -->  00:03:03,160
+finalmente adicionar o sinal de porcentagem no final.
+
+43
+
+00:03:03,160  -->  00:03:07,780
+Aqui está um ótimo resultado.
+
+44
+
+00:03:07,780  -->  00:03:10,190
+Neste vídeo, vocês viram como estimar a taxa de retorno
+
+45
+
+00:03:10,190  -->  00:03:16,030
+de mercado de uma determinada ação, como plotá-
+la, e como transformá-la em um valor significativo
+
+46
+
+00:03:16,030  -->  00:03:17,470
+que seja fácil de interpretar.
+
+47
+
+00:03:17,470  -->  00:03:19,870
+Isso é um ótimo começo!
+
+48
+
+00:03:19,870  -->  00:03:24,709
+Faça uma pausa, e na próxima aula,
+nós vamos calcular os retornos
+
+49
+
+00:03:24,709  -->  00:03:26,790
+logaritmos das mesmas ações.
+
+50
+
+00:03:26,790  -->  00:03:27,769
+Obrigado por assistir!

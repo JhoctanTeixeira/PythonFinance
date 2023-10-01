@@ -1,0 +1,328 @@
+1
+1
+
+00:00:00,669  -->  00:00:05,800
+Para este curso, você precisa instalar o Python
+e o Jupyter no seu computador.
+2
+
+2
+
+00:00:05,800  -->  00:00:10,750
+Se você já os instalou, você pode continuar
+a assistir essa aula porque vamos falar algumas
+3
+
+3
+
+00:00:10,750  -->  00:00:12,590
+coisas interessantes sobre o Jupyter.
+4
+
+4
+
+00:00:12,590  -->  00:00:18,400
+Você deve se perguntar: por que não há apenas um aplicativo
+chamado Python, que você instala em seu
+5
+
+5
+
+00:00:18,400  -->  00:00:23,300
+computador e que é atualizado automaticamente
+e que executa tudo sem problemas?
+6
+
+6
+
+00:00:23,300  -->  00:00:27,140
+Lamento dizer, mas não é o caso.
+7
+
+7
+
+00:00:27,140  -->  00:00:28,790
+A realidade é diferente.
+8
+
+8
+
+00:00:28,790  -->  00:00:31,980
+Primeiro, Python é uma linguagem de programação.
+9
+
+9
+
+00:00:31,980  -->  00:00:34,739
+Ele permite que você se comunique com o computador.
+10
+
+10
+
+00:00:34,739  -->  00:00:39,379
+Para fazer isso, você precisará da ajuda de um
+software ou aplicativo específico.
+11
+
+11
+
+00:00:39,379  -->  00:00:44,870
+O nome desse aplicativo é Jupyter Notebook, que é
+mais frequentemente chamado de Jupyter. É ele que vai nos
+12
+
+12
+
+00:00:44,870  -->  00:00:45,870
+ajudar a fazer isso.
+13
+
+13
+
+00:00:45,870  -->  00:00:52,329
+É um aplicativo cliente-servidor que permite
+você editar seu código por meio de um navegador da web.
+14
+
+14
+
+00:00:52,329  -->  00:00:55,369
+Considere o seguinte gráfico.
+15
+
+15
+
+00:00:55,369  -->  00:00:57,909
+Todas as unidades representam softwares.
+16
+
+16
+
+00:00:57,909  -->  00:01:00,999
+De um lado, você tem vários kernels de linguagens.
+17
+
+17
+
+00:01:00,999  -->  00:01:06,020
+Estes são programas projetados para ler e executar
+código em uma linguagem de programação específica, como
+18
+
+18
+
+00:01:06,020  -->  00:01:08,830
+Python, R, ou Julia.
+19
+
+19
+
+00:01:08,830  -->  00:01:13,140
+A instalação do Jupyter sempre vem com
+um kernel do Python instalado.
+20
+
+20
+
+00:01:13,140  -->  00:01:16,070
+E outros kernels podem ser instalados além desse.
+21
+
+21
+
+00:01:16,070  -->  00:01:21,150
+Do outro lado você tem vários tipos
+de interfaces, onde você pode escrever seu código.
+22
+
+22
+
+00:01:21,150  -->  00:01:22,530
+Ela representa os clientes.
+23
+
+23
+
+00:01:22,530  -->  00:01:26,940
+Um exemplo de cliente é o navegador da Web.
+24
+
+24
+
+00:01:26,940  -->  00:01:31,210
+O servidor Jupyter fornece o ambiente em que*******************
+um cliente encontra o kernel
+25
+
+25
+
+00:01:31,210  -->  00:01:34,140
+de uma linguagem específica.
+26
+
+26
+
+00:01:34,140  -->  00:01:39,950
+Em nosso caso, vamos nos concentrar no Python e
+em um navegador da web como um cliente, ou como um
+27
+
+27
+
+00:01:39,950  -->  00:01:41,259
+shell interativo.
+28
+
+28
+
+00:01:41,259  -->  00:01:46,579
+Seu trabalho será armazenado em um documento conhecido por Jupyter notebook,
+e como usaremos somente a linguagem Python,
+29
+
+29
+
+00:01:46,579  -->  00:01:53,600
+ele será chamado de “IPython Notebook”
+com um arquivo no formato ".ipynb".
+30
+
+30
+
+00:01:53,600  -->  00:01:59,179
+Dito isso, podemos explicar por que o Jupyter
+é usado em muitas empresas como
+31
+
+31
+
+00:01:59,179  -->  00:02:01,689
+Google, Microsoft, e IBM.
+32
+
+32
+
+00:02:01,689  -->  00:02:07,499
+Por seu design, é ideal para demonstrações
+de conceitos de programação e treinamento.
+33
+
+33
+
+00:02:07,499  -->  00:02:13,599
+Primeiro, em grandes empresas, resolver um determinado
+problema pode exigir conhecimentos de programação em algumas linguagens
+34
+
+34
+
+00:02:13,599  -->  00:02:17,319
+digamos Python, R, Julia, ou PHP.
+35
+
+35
+
+00:02:17,319  -->  00:02:22,099
+Ao invés de instalar diferentes interfaces
+para cada kernel de linguagem que você precisa, o Jupyter
+36
+
+36
+
+00:02:22,099  -->  00:02:26,170
+permite que você use a mesma estrutura do tipo de
+arquivo do notebook.
+37
+
+37
+
+00:02:26,170  -->  00:02:31,709
+De modo simples, cada notebook que você cria se conectará
+ao kernel da linguagem que você solicitar.
+38
+
+38
+
+00:02:31,709  -->  00:02:37,030
+Saiba também que este arquivo pode ser
+armazenado localmente ou em um servidor remoto.
+39
+
+39
+
+00:02:37,030  -->  00:02:43,140
+Portanto, o Jupyter facilita muito a comunicação
+entre as equipes de uma empresa.
+40
+
+40
+
+00:02:43,140  -->  00:02:49,470
+Segundo, o Jupyter não é um editor de texto que
+abre uma nova janela toda vez que você executa
+41
+
+41
+
+00:02:49,470  -->  00:02:54,430
+uma parte diferente do seu código, como é o caso
+de alguns outros aplicativos.
+42
+
+42
+
+00:02:54,430  -->  00:02:59,659
+No mesmo arquivo, você pode ter somente texto para
+passar uma mensagem ao usuário, pode ter o próprio
+43
+
+43
+
+00:02:59,659  -->  00:03:06,239
+código do Python, e resultados do código como
+gráficos, equações, figuras
+44
+
+44
+
+00:03:06,239  -->  00:03:07,510
+entre outros.
+45
+
+45
+
+00:03:07,510  -->  00:03:12,720
+Isso simplifica imensamente o processo do fluxo de
+trabalho, e o Jupyter Notebook vem sendo cada vez mais
+46
+
+46
+
+00:03:12,720  -->  00:03:14,970
+preferido em relação a outros pacotes de software.
+47
+
+47
+
+00:03:14,970  -->  00:03:20,120
+E é por isso que vamos utilizá-lo também!
+O próximo passo vai ser instalar o software Anaconda
+48
+
+48
+
+00:03:20,120  -->  00:03:24,970
+- que é um pacote de software que contém tanto a
+linguagem de programação Python quanto o
+49
+
+49
+
+00:03:24,970  -->  00:03:26,409
+aplicativo Jupyter Notebook.
+50
+
+50
+
+00:03:26,409  -->  00:03:27,099
+Obrigado por assistir!

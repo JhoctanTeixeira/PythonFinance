@@ -1,0 +1,346 @@
+1
+
+00:00:01,010  -->  00:00:03,620
+Existem quatro maneiras de importar um módulo.
+
+2
+
+00:00:03,620  -->  00:00:09,370
+Nesta aula, nós vamos ver todas as quatro,
+e então, depois de vê-las, você poderá
+
+3
+
+00:00:09,370  -->  00:00:12,840
+decidir qual delas usará quando estiver trabalhando
+sozinho.
+
+4
+
+00:00:12,840  -->  00:00:16,840
+Vamos aprender como importar o módulo
+"math".
+
+5
+
+00:00:16,840  -->  00:00:19,810
+Ele contém múltiplas funções matemáticas.
+
+6
+
+00:00:19,810  -->  00:00:26,610
+Entre eles está a função "s.q.r.t."
+que calcula a raiz quadrada de um argumento.
+
+7
+
+00:00:26,610  -->  00:00:32,660
+Por padrão, este módulo não faz parte da
+biblioteca padrão do Python, mas vem instalado
+
+8
+
+00:00:32,660  -->  00:00:35,239
+com todo o pacote do Anaconda.
+
+9
+
+00:00:35,239  -->  00:00:39,039
+Então, para usar seus recursos, você deve importá-lo.
+
+10
+
+00:00:39,039  -->  00:00:43,429
+Vamos ver quatro opções disponíveis para
+fazer isso.
+
+11
+
+00:00:43,429  -->  00:00:45,850
+Você pode digitar "import math".
+
+12
+
+00:00:45,850  -->  00:00:49,890
+Agora, o código do módulo "math" será
+executado.
+
+13
+
+00:00:49,890  -->  00:00:56,269
+Para aplicar a função "s.q.r.t." corretamente,
+devemos respeitar a seguinte sintaxe: digite
+
+14
+
+00:00:56,269  -->  00:01:04,059
+o nome do módulo, "math", o operador ponto,
+o nome da função de interesse, "s.q.r.t.",
+
+15
+
+00:01:04,059  -->  00:01:07,220
+e um argumento entre parênteses.
+
+16
+
+00:01:07,220  -->  00:01:09,640
+E obtemos o float 4.
+
+17
+
+00:01:09,640  -->  00:01:10,640
+Ótimo!
+
+18
+
+00:01:10,640  -->  00:01:16,080
+Se você soubesse de antemão que não precisaria
+de todas as funções e classes fornecidas no
+
+19
+
+00:01:16,080  -->  00:01:21,230
+módulo "math", e que "s.q.r.t." a raiz quadrada
+é a única função que você usará, você poderia
+
+20
+
+00:01:21,230  -->  00:01:23,920
+digitar "from math import s.q.r.t.".
+
+21
+
+00:01:23,920  -->  00:01:29,430
+A sintaxe permitiria que você omitisse o nome
+do módulo e o operador ponto ao chamar
+
+22
+
+00:01:29,430  -->  00:01:30,750
+esta função.
+
+23
+
+00:01:30,750  -->  00:01:37,180
+"S.q.r.t." pode ser aplicada diretamente ao argumento,
+digamos, 25, e você obterá
+
+24
+
+00:01:37,180  -->  00:01:39,980
+o resultado desejado.
+
+25
+
+00:01:39,980  -->  00:01:44,990
+A terceira opção que veremos é aquela que os especialistas
+provavelmente mais gostam.
+
+26
+
+00:01:44,990  -->  00:01:50,090
+Em códigos mais complexos, você verá como
+os módulos ou suas funções podem ser renomeados
+
+27
+
+00:01:50,090  -->  00:01:54,110
+simplesmente porque usar nomes mais curtos pode
+economizar tempo.
+
+28
+
+00:01:54,110  -->  00:02:00,590
+Se escrevermos "from math import "s.q.r.t."
+as "s", nós podemos usar "s" ao invés de
+
+29
+
+00:02:00,590  -->  00:02:03,750
+“s.q.r.t”.
+
+30
+
+00:02:03,750  -->  00:02:08,869
+Executando esta função para o número 36, teremos como resultado
+o valor de 6.
+
+31
+
+00:02:08,869  -->  00:02:10,849
+Ótimo!
+
+32
+
+00:02:10,849  -->  00:02:12,830
+Módulos podem ser renomeados também.
+
+33
+
+00:02:12,830  -->  00:02:14,819
+Vamos refazer o primeiro tipo de opção.
+
+34
+
+00:02:14,819  -->  00:02:19,900
+Digite "import math as m".
+
+35
+
+00:02:19,900  -->  00:02:27,269
+Assim, "m" ponto "s.q.r.t" de
+49 resultará em 7.0.
+
+36
+
+00:02:27,269  -->  00:02:28,749
+Consegue ver?
+
+37
+
+00:02:28,749  -->  00:02:34,170
+A quarta opção é geralmente desaprovada
+por especialistas, mas pode ser apropriada para
+
+38
+
+00:02:34,170  -->  00:02:36,629
+sessões interativas.
+
+39
+
+00:02:36,629  -->  00:02:42,370
+Digite "from math import *" e todos os
+recursos de "math" - funções, classes
+
+40
+
+00:02:42,370  -->  00:02:45,629
+ou métodos - serão importados.
+
+41
+
+00:02:45,629  -->  00:02:49,340
+Interprete isso como "importe tudo de
+math".
+
+42
+
+00:02:49,340  -->  00:02:54,829
+Para verificar que fizemos a coisa certa, vamos aplicar
+"s.q.r.t" para o número 64.
+
+43
+
+00:02:54,829  -->  00:02:58,249
+Aqui esta nosso resultado.
+
+44
+
+00:02:58,249  -->  00:02:59,760
+Excelente!
+
+45
+
+00:02:59,760  -->  00:03:05,249
+O problema é que essa opção pode ser problemática
+para o Python em algumas situações.
+
+46
+
+00:03:05,249  -->  00:03:09,980
+Suponha que você importou tudo de "math"
+e depois importou um segundo módulo que
+
+47
+
+00:03:09,980  -->  00:03:13,010
+contém uma função "s.q.r.t.".
+
+48
+
+00:03:13,010  -->  00:03:17,029
+E se o segundo módulo usar a função
+de maneira diferente?
+
+49
+
+00:03:17,029  -->  00:03:22,340
+Qual dos dois o software deve aplicar
+quando você digitar "s.q.r.t" de 81?
+
+50
+
+00:03:22,340  -->  00:03:27,299
+O Python escolherá uma das duas funções,
+mas você não poderá selecionar aquela
+
+51
+
+00:03:27,299  -->  00:03:29,159
+que deve ser aplicada.
+
+52
+
+00:03:29,159  -->  00:03:36,709
+Este é um sinal de códigos não muito profissionais, por isso
+é evitado por especialistas em arquivos mais longos.
+
+53
+
+00:03:36,709  -->  00:03:41,930
+Além disso, para obter mais referências, você pode
+ler sobre os recursos relacionados ao módulo
+
+54
+
+00:03:41,930  -->  00:03:42,930
+"math".
+
+55
+
+00:03:42,930  -->  00:03:45,420
+Digite "help" e coloque "math" entre parênteses.
+
+56
+
+00:03:45,420  -->  00:03:48,720
+A descrição de todas as funções irá aparecer.
+
+57
+
+00:03:48,720  -->  00:03:55,120
+Se você esta interessado no significado de "s.q.r.t.",
+então você pode simplesmente digitar "help", abre parênteses,
+
+58
+
+00:03:55,120  -->  00:03:59,999
+"math", ponto, "s.q.r.t.", fecha parênteses.
+
+59
+
+00:03:59,999  -->  00:04:02,029
+Legal!
+
+60
+
+00:04:02,029  -->  00:04:03,059
+Por enquanto é isso.
+
+61
+
+00:04:03,059  -->  00:04:07,189
+Na próxima aula, discutiremos quais
+bibliotecas serão necessárias para o restante do
+
+62
+
+00:04:07,189  -->  00:04:08,189
+curso.
+
+63
+
+00:04:08,189  -->  00:04:09,299
+Obrigado por assistir!

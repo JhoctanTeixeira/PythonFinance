@@ -1,0 +1,77 @@
+1
+
+00:00:00,940  -->  00:00:02,050
+Ok, perfeito!
+
+2
+
+00:00:02,050  -->  00:00:06,500
+Eu gostaria de mostrar a você uma dica que
+será extremamente valiosa quando você se tornar um programador
+
+3
+
+00:00:06,500  -->  00:00:10,309
+avançado em Python e trabalhar com códigos
+extensos.
+
+4
+
+00:00:10,309  -->  00:00:14,559
+Este é um recurso muito útil, então, por favor, preste
+atenção.
+
+5
+
+00:00:14,559  -->  00:00:18,960
+Às vezes, o comprimento da célula não será
+suficiente para você terminar sua linha.
+
+6
+
+00:00:18,960  -->  00:00:21,090
+Linhas de código podem acabar ficando bem longas.
+
+7
+
+00:00:21,090  -->  00:00:25,220
+mas, se você quiser organizar seu
+código, você pode quebrar a linha e colocar o
+
+8
+
+00:00:25,220  -->  00:00:27,150
+restante do código na linha debaixo.
+
+9
+
+00:00:27,150  -->  00:00:33,899
+Então, 2.0 vezes 1.5 mais 5 poderia ser escrito
+em duas linhas, e o computador ainda poderia
+
+10
+
+00:00:33,899  -->  00:00:36,600
+lê-las como um único comando.
+
+11
+
+00:00:36,600  -->  00:00:40,329
+Você pode fazer isso colocando um barra invertida
+onde você gostaria que fosse o final da primeira
+
+12
+
+00:00:40,329  -->  00:00:41,469
+linha.
+
+13
+
+00:00:41,469  -->  00:00:45,579
+Isso indica que você continuará o mesmo comando
+em uma nova linha.
+
+14
+
+00:00:45,579  -->  00:00:47,980
+Legal, não é?!

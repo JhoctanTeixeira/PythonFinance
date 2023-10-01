@@ -1,0 +1,209 @@
+1
+
+00:00:00,840  -->  00:00:06,110
+Ao trabalhar com dados financeiros, você nem
+sempre baseará seus cálculos em dados
+
+2
+
+00:00:06,110  -->  00:00:07,110
+existentes.
+
+3
+
+00:00:07,110  -->  00:00:13,130
+Às vezes, será necessário executar simulações
+e examinar cenários hipotéticos, pois os
+
+4
+
+00:00:13,130  -->  00:00:14,551
+dados observados serão insuficientes.
+
+5
+
+00:00:14,551  -->  00:00:21,279
+Nessas situações, você precisará de um conjunto
+inteiro de números gerados aleatoriamente.
+
+6
+
+00:00:21,279  -->  00:00:25,350
+Não é de surpreender que o Python consiga lidar com esse
+desafio.
+
+7
+
+00:00:25,350  -->  00:00:32,020
+Primeiro, teremos que importar o módulo
+"random".
+
+8
+
+00:00:32,880  -->  00:00:40,340
+A função "random" irá gerar um
+float aleatório no intervalo de 0 a 1 (incluindo o 0,
+
+9
+
+00:00:40,340  -->  00:00:41,809
+e excluindo o 1).
+
+10
+
+00:00:41,809  -->  00:00:47,820
+O número obtido representa a probabilidade
+de um evento acontecer - a probabilidade
+
+11
+
+00:00:47,820  -->  00:00:53,220
+deve estar entre 0 e 1, certo?
+
+12
+
+00:00:56,420  -->  00:01:00,660
+Vamos imprimir a probabilidade que obtivemos.
+
+13
+
+00:01:00,660  -->  00:01:05,590
+Como você pode ver, este é um valor entre 0
+e 1.
+
+14
+
+00:01:05,590  -->  00:01:11,450
+Outro gerador aleatório é a função
+"randint" que, como seu nome sugere,
+
+15
+
+00:01:11,450  -->  00:01:16,579
+irá gerar aleatoriamente um valor inteiro sobre
+um intervalo determinado.
+
+16
+
+00:01:16,579  -->  00:01:20,679
+Vamos ver um exemplo no Júpiter. Imagine que vamos jogar um dado.
+
+17
+
+00:01:20,680  -->  00:01:25,940
+Nós gostaríamos de ver um número inteiro entre 1 e 6,
+correto?
+
+18
+
+00:01:28,140  -->  00:01:31,700
+Vamos executar o comando.
+
+19
+
+00:01:31,760  -->  00:01:34,820
+E aqui está o resultado.
+
+20
+
+00:01:34,820  -->  00:01:41,640
+Este é meu número da sorte, na verdade
+espero que você concorde que é ainda mais legal
+
+21
+
+00:01:41,649  -->  00:01:45,009
+saber que poderemos gerar mais de um único número.
+
+22
+
+00:01:45,009  -->  00:01:47,710
+Como podemos preencher um array com valores?
+
+23
+
+00:01:47,710  -->  00:01:51,819
+A palavra "array" vem da
+biblioteca NumPy, certo?
+
+24
+
+00:01:51,820  -->  00:01:55,360
+Vamos importá-lo.
+
+25
+
+00:01:58,700  -->  00:02:00,179
+Ótimo!
+
+26
+
+00:02:00,179  -->  00:02:05,829
+O código que iremos usar é o mesmo; basta anexá-lo
+à biblioteca NumPy e fornecer um terceiro
+
+27
+
+00:02:05,829  -->  00:02:08,360
+parâmetro para a função "randint".
+
+28
+
+00:02:08,360  -->  00:02:14,060
+Esse último indicará o número de linhas
+e colunas na matriz recém-criada.
+
+29
+
+00:02:14,060  -->  00:02:18,700
+Eu vou criar uma matrix de 4 por 6.
+
+30
+
+00:02:20,720  -->  00:02:21,939
+Está lá!
+
+31
+
+00:02:21,939  -->  00:02:24,790
+Estamos prontos para preencher a matrix.
+
+32
+
+00:02:24,790  -->  00:02:29,610
+Isto foi importante dizer, para mostrar que a mecânica
+do Python permite gerar números em
+
+33
+
+00:02:29,610  -->  00:02:31,720
+várias estruturas de dados.
+
+34
+
+00:02:31,720  -->  00:02:36,640
+E esse recurso será relevante mais tarde, quando
+aprendermos como executar uma simulação de Monte Carlo,
+
+35
+
+00:02:36,640  -->  00:02:41,349
+que é uma das ferramentas mais populares no mundo
+das finanças.
+
+36
+
+00:02:41,349  -->  00:02:45,180
+Interessado em aprender como você pode importar dados
+da vida real em Python?
+
+37
+
+00:02:45,180  -->  00:02:49,519
+Bem, então é isso que vamos aprender
+a fazer no nosso próximo vídeo!
+
+38
+
+00:02:49,519  -->  00:02:50,810
+Então, fique ligado!

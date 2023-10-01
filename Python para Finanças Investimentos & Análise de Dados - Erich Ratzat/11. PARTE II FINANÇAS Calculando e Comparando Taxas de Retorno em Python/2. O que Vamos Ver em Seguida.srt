@@ -1,0 +1,195 @@
+1
+
+00:00:00,080  -->  00:00:05,720
+Agora que entendemos a importância do risco
+e do retorno dos ativos financeiros, como as
+
+2
+
+00:00:05,720  -->  00:00:11,610
+ações e os títulos, nós estamos prontos para aprender como
+calcular os dois parâmetros.
+
+3
+
+00:00:11,610  -->  00:00:16,250
+Nesta parte do curso, nós vamos usar uma
+abordagem bem estruturada.
+
+4
+
+00:00:16,250  -->  00:00:21,500
+Os conceitos vão ser explicados em teoria primeiro,
+para que você entenda seu significado e propósito,
+
+5
+
+00:00:21,500  -->  00:00:26,950
+e em seguida nós vamos ensinar como realizar os
+cálculos na prática usando o
+
+6
+
+00:00:26,950  -->  00:00:28,429
+Python.
+
+7
+
+00:00:28,429  -->  00:00:35,380
+Nós estamos indo para a tríade: teoria, aplicação
+no mundo real e o uso do Python.
+
+8
+
+00:00:35,380  -->  00:00:36,380
+Muito bom!
+
+9
+
+00:00:36,380  -->  00:00:41,490
+Então, nas primeiras aulas, vamos focar
+nas taxas de retorno.
+
+10
+
+00:00:41,490  -->  00:00:46,360
+Vamos começar aprendendo como calcular
+as taxas de retorno de um único ativo financeiro.
+
+11
+
+00:00:46,360  -->  00:00:52,380
+Depois, vamos continuar calculando a
+taxa de retorno de uma carteira de ativos
+
+12
+
+00:00:52,380  -->  00:00:57,660
+e vamos explicar os índices das ações e como eles
+são compostos.
+
+13
+
+00:00:57,660  -->  00:01:02,530
+Na próxima parte, vamos aprender sobre o risco
+e a medida estatística que nos permite
+
+14
+
+00:01:02,530  -->  00:01:06,110
+medi-lo - o desvio padrão e
+a variância.
+
+15
+
+00:01:06,110  -->  00:01:12,890
+Em seguida, vamos examinar a relação entre
+dois ativos, também conhecida como correlação,
+
+16
+
+00:01:12,890  -->  00:01:19,230
+e vamos ensinar como calcular a
+correlação e a co-variância de dois ativos.
+
+17
+
+00:01:19,230  -->  00:01:23,940
+Esses são alguns dos conceitos fundamentais
+que vocês precisam aprender antes de calcular
+
+18
+
+00:01:23,940  -->  00:01:29,150
+o risco de uma carteira e aprender sobre os
+benefícios da diversificação.
+
+19
+
+00:01:29,150  -->  00:01:33,910
+O curso vai continuar com um tópico bem
+interessante - a regressão.
+
+20
+
+00:01:33,910  -->  00:01:40,770
+Você vai aprender o que é regressão, como
+executar um regressão, os coeficientes alpha e beta,
+
+21
+
+00:01:40,770  -->  00:01:45,280
+e o quão importante é o R2 em uma regressão.
+
+22
+
+00:01:45,280  -->  00:01:50,150
+Depois de termos abordado esses tópicos, vamos
+estar prontos para apresentar a teoria de portfólio eficiente
+
+23
+
+00:01:50,150  -->  00:01:55,510
+de Markowitz - um dos alicerces
+da teoria moderna das finanças.
+
+24
+
+00:01:55,510  -->  00:02:01,190
+Uma das aplicações mais interessantes de
+Markowitz é o modelo de precificação de ativos
+
+25
+
+00:02:01,190  -->  00:02:06,900
+Capital Asset Pricing Model ou CAPM que é um dos modelos mais utilizados
+no mundo das finanças corporativas hoje em dia.
+
+26
+
+00:02:06,900  -->  00:02:13,260
+Vamos aprender como calcular o custo de capital
+de uma empresa, seu coeficiente beta, e
+
+27
+
+00:02:13,260  -->  00:02:15,590
+seu Sharpe ratio.
+
+28
+
+00:02:15,590  -->  00:02:21,560
+A simulação de Monte Carlo é outro tópico
+que vamos explorar neste curso.
+
+29
+
+00:02:21,560  -->  00:02:27,470
+Vamos aplicá-la quando falarmos sobre derivativos
+e opções e quando fizermos um exercício sobre orçamento
+
+30
+
+00:02:27,470  -->  00:02:29,060
+de uma empresa.
+
+31
+
+00:02:29,060  -->  00:02:30,640
+Certo?
+
+32
+
+00:02:30,640  -->  00:02:31,640
+Ótimo!
+
+33
+
+00:02:31,640  -->  00:02:32,640
+Tenho certeza que você vai gostar bastante das próximas
+aulas!
+
+34
+
+00:02:32,640  -->  00:02:33,420
+Vamos começar então!

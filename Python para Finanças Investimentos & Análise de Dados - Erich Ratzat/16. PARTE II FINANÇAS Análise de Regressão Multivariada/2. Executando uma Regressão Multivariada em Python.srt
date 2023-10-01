@@ -1,0 +1,295 @@
+1
+00:00:01,120 --> 00:00:05,320
+Ok então passamos uma regressão simples para um mamute variada.
+
+2
+00:00:05,320 --> 00:00:07,190
+Não é assim tão difícil.
+
+3
+00:00:07,240 --> 00:00:14,250
+A parte difícil vem quando você começa a interpretar os resultados obtidos então vamos passar por esse
+
+4
+00:00:14,250 --> 00:00:22,620
+processo juntos executaram uma regressão muito variada usaremos os mesmos dados das casas que usamos
+
+5
+00:00:22,620 --> 00:00:29,320
+para regressão simples anteriormente duas coisas devem ser feitas antes de aumentar o seu conjunto de
+
+6
+00:00:29,320 --> 00:00:31,160
+variáveis independentes.
+
+7
+00:00:31,180 --> 00:00:37,690
+Primeiro escreva os nomes das colunas correspondentes às variáveis explicativas que você gostaria de
+
+8
+00:00:37,690 --> 00:00:38,510
+ter na regressão.
+
+9
+00:00:38,890 --> 00:00:44,960
+Vamos supor que as duas variáveis que gostaríamos de adicionar são o número de quartos de ano de construção.
+
+10
+00:00:45,010 --> 00:00:49,810
+Nosso objetivo é ver se elas afetam o nível de preços das casas.
+
+11
+00:00:49,810 --> 00:00:54,630
+O segundo ponto que queremos enfatizar reflete uma parte importante da sintaxe do painel.
+
+12
+00:00:55,060 --> 00:00:56,950
+Espero que você tenha pensado nisso.
+
+13
+00:00:56,950 --> 00:01:02,800
+Temos que dobrar os parentes em torno dos nomes as variáveis independentes para mostrar que o X irá
+
+14
+00:01:02,800 --> 00:01:04,220
+ser multidimensional.
+
+15
+00:01:04,280 --> 00:01:11,910
+Beleza agora com a ajuda das mesmas linhas de código executarem uma regressão de mínimos quadrados ordinários
+
+16
+00:01:12,850 --> 00:01:19,600
+vamos examinar os valores as estatísticas obtidas o coeficiente da constante saiu em notação científica
+
+17
+00:01:20,630 --> 00:01:23,470
+depois de ou transformarmos uma notação padrão.
+
+18
+00:01:23,660 --> 00:01:27,880
+Teremos um resultado próximo a 450 2000.
+
+19
+00:01:28,010 --> 00:01:33,470
+Assim os valores o coeficiente da constante e do tamanho da casa mudaram drasticamente.
+
+20
+00:01:33,470 --> 00:01:34,470
+Concorda.
+
+21
+00:01:34,490 --> 00:01:43,610
+A constante saltou de 260 mil 800 para 452 mil enquanto que o beta do tamanho da casa caiu de 402 para
+
+22
+00:01:43,610 --> 00:01:44,230
+300.
+
+23
+00:01:44,440 --> 00:01:53,120
+Quarenta e um parece que ao adicionar as outras duas variáveis independentes exploramos aquele bom resultado
+
+24
+00:01:53,120 --> 00:02:00,090
+da nossa regressão simples é que a variável tamanho da casa não consegue mais explicar o preço da casa.
+
+25
+00:02:00,140 --> 00:02:02,880
+Por favor não se apresse a chegar a tal conclusão.
+
+26
+00:02:03,140 --> 00:02:08,740
+Vamos verificar o valor do erro o quadrado dessa regressão mudou de zeros.
+
+27
+00:02:08,860 --> 00:02:12,710
+Ponto mês 7 8 para zero pontos 7 3 meia.
+
+28
+00:02:12,820 --> 00:02:19,510
+Portanto de acordo com essa estatística o segundo modelo é ligeiramente melhor em termos de poder explicativo.
+
+29
+00:02:20,320 --> 00:02:26,080
+Então pelo menos algumas das variáveis independentes têm influência sobre o preço de uma casa.
+
+30
+00:02:26,140 --> 00:02:32,290
+O coeficiente p valor é um importante indicador que devemos levar em conta eles não são suficientemente
+
+31
+00:02:32,290 --> 00:02:35,950
+pequenos sendo maiores que 5 por cento.
+
+32
+00:02:35,950 --> 00:02:41,800
+Isso significa que os três coeficientes não são estatisticamente significativos.
+
+33
+00:02:41,800 --> 00:02:47,290
+Então o que devemos inferir da nossa análise será que o tamanho da casa é um bom indicador.
+
+34
+00:02:47,290 --> 00:02:55,180
+O que você acha um pesquisador experiente executa centenas de agressões antes de chegar a uma conclusão.
+
+35
+00:02:55,270 --> 00:03:01,690
+Por exemplo agora podemos executar três ou outras agressões com duas variáveis independentes.
+
+36
+00:03:01,810 --> 00:03:07,630
+Tamanho é o número de quartos podem ser variáveis as variáveis explicativas para a primeira regressão.
+
+37
+00:03:07,780 --> 00:03:13,330
+Tamanho é ano de construção para a segunda é o número de quartos e anos de construção para a terceira
+
+38
+00:03:14,790 --> 00:03:18,330
+quando olhamos para o valor no novo resultado.
+
+39
+00:03:18,330 --> 00:03:24,330
+Podemos ver que o ano de construção não tem um valor baixo em nenhuma das duas agressões em que essa
+
+40
+00:03:24,330 --> 00:03:27,540
+variável foi usada.
+
+41
+00:03:27,610 --> 00:03:33,180
+Isso significa que o ano de construção não está relacionado com os preços das casas.
+
+42
+00:03:33,490 --> 00:03:39,560
+Nestas mesmas agressões o valor para o número de quartos e o tamanho da casa é praticamente zero.
+
+43
+00:03:39,610 --> 00:03:40,630
+O que é incrível.
+
+44
+00:03:41,020 --> 00:03:47,380
+Quando executamos uma regressão apenas com essas duas variáveis tamanho e número de quartos seu valor
+
+45
+00:03:47,380 --> 00:03:49,390
+aumenta significativamente.
+
+46
+00:03:49,390 --> 00:03:53,830
+Por isso não podemos confirmar que elas podem influenciar o preço de uma casa
+
+47
+00:03:57,250 --> 00:04:01,960
+nessa fase mesmo que a gente não consiga fazer uma conclusão precisa.
+
+48
+00:04:01,960 --> 00:04:08,710
+Estes resultados podem nos dar uma boa orientação para futuras pesquisas e isso é algo valioso.
+
+49
+00:04:08,770 --> 00:04:15,820
+O que podemos fazer é seguir primeiro o nosso resultado sugere que se conseguirmos mais dados sobre
+
+50
+00:04:15,880 --> 00:04:22,180
+mais observações como o tamanho da casa ou o número de quartos podem ser bons indicadores dos preços
+
+51
+00:04:22,180 --> 00:04:30,190
+das casas e seu valor irá provavelmente diminuir as agressões seguintes porque é bem em todos os nossos
+
+52
+00:04:30,190 --> 00:04:33,280
+cálculos o valor do r ao quadrado foi alto.
+
+53
+00:04:33,280 --> 00:04:39,080
+Isso nos dá confiança de que em geral reunimos um bom conjunto de variáveis explicativas.
+
+54
+00:04:39,130 --> 00:04:42,170
+Por isso pode não ser necessário modificar esse arranjo.
+
+55
+00:04:42,640 --> 00:04:50,180
+Além disso pode haver um problema entre essas três variáveis explicativas muito provavelmente o tamanho
+
+56
+00:04:50,180 --> 00:04:57,930
+da casa e o número de quartos estão relacionados e funcionam como uma única variável explicativa.
+
+57
+00:04:57,940 --> 00:05:05,200
+Isso significa que essas variáveis são a mesma coisa devemos coletar dados sobre outros tipos de variáveis
+
+58
+00:05:05,200 --> 00:05:11,680
+explicativas por exemplo como é a vizinhança com a distância entre a casa e o centro da cidade.
+
+59
+00:05:11,710 --> 00:05:14,130
+Se algum supermercado por perto.
+
+60
+00:05:14,140 --> 00:05:20,200
+Tudo isso pode afetar o preço de uma casa e pode alterar os coeficientes das variáveis que usamos até
+
+61
+00:05:20,200 --> 00:05:27,400
+agora se não alterarem por exemplo o tamanho da casa sempre será significativo para explicação do nível
+
+62
+00:05:27,400 --> 00:05:28,100
+de preços.
+
+63
+00:05:28,300 --> 00:05:35,140
+Independentemente do número de outras variáveis explicativas que incluímos nas agressões então poderíamos
+
+64
+00:05:35,140 --> 00:05:43,110
+facilmente inferir que o tamanho da casa definitivamente nos ajuda a explicar os preços delas seria
+
+65
+00:05:43,110 --> 00:05:49,500
+ótimo se conseguíssemos fazer isso então faz algum sentido fazer as agressões à primeira vista parece
+
+66
+00:05:49,500 --> 00:05:55,170
+que nunca conseguiremos obter a resposta certa a menos que a gente execute inúmeras agressões.
+
+67
+00:05:55,170 --> 00:06:02,280
+Além disso dados de qualidade nem sempre estão disponíveis mas por favor não se prenda a isso que agressões
+
+68
+00:06:02,310 --> 00:06:06,240
+pode sim nos dar uma boa direção para pesquisas futuras.
+
+69
+00:06:06,270 --> 00:06:12,270
+Seguir essa direção pode nos ajudar a avaliar se um determinado fator influencia o fenômeno que estamos
+
+70
+00:06:12,270 --> 00:06:13,530
+tentando explicar.
+
+71
+00:06:13,530 --> 00:06:19,260
+Além disso a análise de regressão pode ser inestimável quando estudamos o passado para compreender o
+
+72
+00:06:19,260 --> 00:06:23,030
+comportamento futuro de ativos financeiros como as ações.
+
+73
+00:06:23,070 --> 00:06:26,210
+Esse será o tópico principal da próxima sessão do Curso.
+
+74
+00:06:26,300 --> 00:06:26,910
+Te vejo lá.

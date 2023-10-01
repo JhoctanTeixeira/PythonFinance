@@ -1,0 +1,483 @@
+1
+1
+
+00:00:00,909  -->  00:00:04,400
+Existem várias maneiras de instalar o Python em
+seu computador.
+2
+
+2
+
+00:00:04,400  -->  00:00:09,820
+Mas especialmente para novos usuários, é altamente
+recomendável optar pelo Anaconda.
+3
+
+3
+
+00:00:09,820  -->  00:00:15,179
+Ele vai instalar não apenas o Python, mas também
+o Jupyter Notebook e muitos outros pacotes de computação
+4
+
+4
+
+00:00:15,180  -->  00:00:17,750
+científica e ciência de dados.
+5
+
+5
+
+00:00:18,200  -->  00:00:23,260
+Vamos abrir a página www.anaconda.com e clicar no botão
+“Downloads” na
+6
+
+6
+
+00:00:23,280  -->  00:00:24,670
+página inicial.
+7
+
+7
+
+00:00:24,670  -->  00:00:30,260
+Você tem que escolher um dos três sistemas
+operacionais: Windows, Mac ou Linux.
+8
+
+8
+
+00:00:30,260  -->  00:00:35,460
+Eu vou te mostrar como instalar o Anaconda
+no Windows, mas o procedimento é idêntico
+9
+
+9
+
+00:00:35,460  -->  00:00:39,350
+se você for usar a versão para Mac ou Linux.
+10
+
+10
+
+00:00:39,350  -->  00:00:43,890
+Agora, você deve escolher a melhor entre as quatro
+opções oferecidas.
+11
+
+11
+
+00:00:43,890  -->  00:00:47,629
+Existe a versão 2.7 e a 3.7.
+12
+
+12
+
+00:00:47,629  -->  00:00:53,900
+E também tem a versão para 32-bit ou 64-bit
+dependendo da versão do seu Windows.
+13
+
+13
+
+00:00:53,900  -->  00:00:59,359
+Eu sei que parece estranho manter não uma,
+mas duas versões de um único programa.
+14
+
+14
+
+00:00:59,359  -->  00:01:03,720
+Tanto o Python 2 quanto o Python 3 estão ativos
+desde 2008.
+15
+
+15
+
+00:01:03,720  -->  00:01:10,360
+É claro que, mais cedo ou mais tarde, todos
+passaremos a usar o Python 3, mas hoje a versão
+16
+
+16
+
+00:01:10,360  -->  00:01:13,940
+preferida pelo pessoal de finanças e ciência de dados
+é o Python 2.
+17
+
+17
+
+00:01:13,940  -->  00:01:17,530
+A maioria dos códigos que voce vai encontrar ainda é
+escrito em Python 2.
+18
+
+18
+
+00:01:17,530  -->  00:01:22,820
+Além disso, a literatura existente sobre Python
+para econometria, estatística, finanças e
+19
+
+19
+
+00:01:22,820  -->  00:01:26,210
+de ciência de dados usa o Python 2 também.
+20
+
+20
+
+00:01:26,210  -->  00:01:31,770
+Para esse curso, as diferenças entre o Python
+2.7 e 3.7 será quase insignificante.
+21
+
+21
+
+00:01:31,770  -->  00:01:39,420
+Para provar isso, nós anexamos os arquivos
+do notebook do Python 2 e do Python 3
+22
+
+22
+
+00:01:39,420  -->  00:01:44,390
+para todos os vídeos do curso onde
+fornecer o código era importante.
+23
+
+23
+
+00:01:44,390  -->  00:01:47,690
+Então, qual versão você deve instalar?
+24
+
+24
+
+00:01:47,690  -->  00:01:53,090
+Dado que gravamos o curso inteiro usando o
+Python 2, instale esta versão se você quiser
+25
+
+25
+
+00:01:53,090  -->  00:01:57,980
+usar arquivos de notebook que contém o mesmo
+código que será exibido nos vídeos.
+26
+
+26
+
+00:01:57,980  -->  00:02:03,750
+Se, em vez disso, você estiver bem com o fato
+de aparecer algumas pequenas mudanças sintáticas,
+27
+
+27
+
+00:02:03,750  -->  00:02:09,530
+ou se por alguma outra razão você preferir
+trabalhar com o Python 3, então instale esse versão,
+28
+
+28
+
+00:02:09,530  -->  00:02:14,130
+e depois use os arquivos do notebook que estão
+armazenados na pasta "Python 3" na seção de
+29
+
+29
+
+00:02:14,130  -->  00:02:16,840
+recursos das aulas.
+30
+
+30
+
+00:02:16,840  -->  00:02:23,840
+Por exemplo, se você acessar o material adicional
+da aula sobre "Variáveis",
+31
+
+31
+
+00:02:23,840  -->  00:02:29,320
+​​e clicar na pasta chamada "Python 2",
+você verá os arquivos do notebook
+32
+
+32
+
+00:02:29,320  -->  00:02:32,600
+que serão executados direto no Python 2.
+33
+
+33
+
+00:02:32,600  -->  00:02:39,960
+Da mesma maneira, se voce voltar e selecionar
+a pasta "Python 3", você vai encontrar
+34
+
+34
+
+00:02:39,960  -->  00:02:44,160
+os arquivos corretos para trabalhar com
+o Python 3.
+35
+
+35
+
+00:02:44,160  -->  00:02:46,970
+Lembre-se de que mantivemos esse princípio
+em todo o curso.
+36
+
+36
+
+00:02:46,970  -->  00:02:51,880
+Isso também é válido também para a segunda parte
+do curso, onde trataremos a parte específica de finanças.
+37
+
+37
+
+00:02:51,880  -->  00:02:54,250
+Ambas versões do Python vão funcionar.
+38
+
+38
+
+00:02:54,250  -->  00:02:58,590
+Então, cabe a você decidir qual versão instalar
+agora.
+39
+
+39
+
+00:02:58,590  -->  00:03:04,030
+Dito isso, vamos voltar ao processo de
+instalação.
+40
+
+40
+
+00:03:04,030  -->  00:03:10,260
+Para escolher entre uma versão de 32 ou 64 bits,
+basta checar seu sistema operacional.
+41
+
+41
+
+00:03:10,260  -->  00:03:15,290
+Computadores mais novos certamente rodam com
+processadores de 64 bits, mas se você quiser
+42
+
+42
+
+00:03:15,290  -->  00:03:22,520
+verificar isso antes de começar, então clique no
+botão iniciar do Windows e clique em "Configurações".
+43
+
+43
+
+00:03:22,520  -->  00:03:29,900
+Selecione o ícone "Sistema" e depois em "Sobre" para verificar
+as informações referentes ao
+44
+
+44
+
+00:03:29,900  -->  00:03:31,490
+"Tipo de Sistema".
+45
+
+45
+
+00:03:31,490  -->  00:03:38,350
+No meu caso, ele é de 64-bit, quando eu voltar
+ao site do Anaconda, vou selecionar a versão de
+46
+
+46
+
+00:03:38,350  -->  00:03:41,470
+64-bit do Python 2.7.
+47
+
+47
+
+00:03:41,470  -->  00:03:51,490
+Em seguida, precisamos encontrar um diretório onde
+queremos instalar o programa e clicar em "Save".
+48
+
+48
+
+00:03:51,490  -->  00:03:55,319
+Enquanto aguardamos a conclusão do download, você
+pode decidir se quer se cadastrar
+49
+
+49
+
+00:03:55,319  -->  00:03:56,440
+no site.
+50
+
+50
+
+00:03:56,440  -->  00:04:00,920
+Este passo não é necessário, então você
+pode simplesmente fechar a janela e
+51
+
+51
+
+00:04:00,920  -->  00:04:03,050
+pronto.
+52
+
+52
+
+00:04:03,050  -->  00:04:11,770
+Quando o download terminar, clique duas vezes
+no arquivo para executar o aplicativo.
+53
+
+53
+
+00:04:11,770  -->  00:04:17,500
+A partir daí é como instalar um programa
+qualquer no Windows.
+54
+
+54
+
+00:04:17,500  -->  00:04:25,870
+Clique em "Agree" e aperte "Next" até chegar o
+momento de especificar a pasta de destino.
+55
+
+55
+
+00:04:25,870  -->  00:04:31,940
+Você pode fazer isso depois de selecionar o botão
+"Browse".
+56
+
+56
+
+00:04:31,940  -->  00:04:37,490
+Depois de escolhida a pasta clique em
+"Next" mais uma vez.
+57
+
+57
+
+00:04:37,490  -->  00:04:40,970
+Sugerimos que você clique em ambas as opções avançadas.
+58
+
+58
+
+00:04:40,970  -->  00:04:45,850
+A primeira opção irá automatizar processos mais complicados,
+enquanto a segunda irá registrar
+59
+
+59
+
+00:04:45,850  -->  00:04:52,700
+o Anaconda como o programa padrão para o Python em seu computador
+se você não tiver instalado algum outro pacote.
+60
+
+60
+
+00:04:52,700  -->  00:04:59,330
+Finalmente, clique em “Install” e prossiga até
+ver a janela onde você pode finalizar
+61
+
+61
+
+00:04:59,330  -->  00:05:04,220
+a instalação.
+62
+
+62
+
+00:05:04,220  -->  00:05:11,000
+Nós não vamos usar o “Anaconda Cloud” ainda,
+então desmarque essa opção.
+63
+
+63
+
+00:05:11,000  -->  00:05:16,730
+O que você acabou de instalar é toda a distribuição
+do Anaconda - a linguagem Python, um editor de
+64
+
+64
+
+00:05:16,730  -->  00:05:20,139
+texto, vários aplicativos e pacotes.
+65
+
+65
+
+00:05:20,139  -->  00:05:22,670
+Você também tem instalado o Jupyter Notebook.
+66
+
+66
+
+00:05:22,670  -->  00:05:29,690
+Você pode abrir o menu inicial do Windows e
+selecionar o ícone do Anaconda por lá.
+67
+
+67
+
+00:05:29,690  -->  00:05:31,780
+Uma nova janela vai aparecer.
+68
+
+68
+
+00:05:31,780  -->  00:05:36,490
+Vai levar alguns segundos para o aplicativo
+iniciar.
+69
+
+69
+
+00:05:36,490  -->  00:05:42,080
+Quando ele estiver pronto, seu web browser irá abrir
+uma nova aba com o Dashboard do Jupyter.
+70
+
+70
+
+00:05:42,080  -->  00:05:47,740
+Em nosso próximo video, veremos esse Dashboard
+com mais detalhes e aprenderemos como usar o Jupyter.
+71
+
+71
+
+00:05:47,740  -->  00:05:48,919
+Vejo você lá!
+72
+
+72
+
+00:05:48,919  -->  00:05:49,870
+Obrigado por assistir!

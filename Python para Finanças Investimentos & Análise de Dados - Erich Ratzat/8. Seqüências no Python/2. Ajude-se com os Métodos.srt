@@ -1,0 +1,266 @@
+1
+
+00:00:00,780  -->  00:00:05,750
+Agora, um novo nome, Dwayne, precisa ser
+adicionado à lista “Participants”, e
+
+2
+
+00:00:05,750  -->  00:00:08,570
+para isso usaremos o método chamado "append".
+
+3
+
+00:00:08,570  -->  00:00:13,460
+Pense nos termos método e função como
+intercambiáveis, porque na prática, métodos
+
+4
+
+00:00:13,460  -->  00:00:15,549
+funcionam como funções.
+
+5
+
+00:00:15,549  -->  00:00:20,930
+No entanto, o termo tecnicamente correto para usar
+nesta situação é método.
+
+6
+
+00:00:20,930  -->  00:00:25,410
+Veja, essa é a sintaxe que permite chamar os
+métodos nativos do Python que já estão prontos
+
+7
+
+00:00:25,410  -->  00:00:29,690
+e que você não precisa criar eles do zero.
+
+8
+
+00:00:29,690  -->  00:00:34,010
+Após o nome do objeto que, neste
+caso, é a lista "Participants", colocaremos
+
+9
+
+00:00:34,010  -->  00:00:36,690
+um ponto final chamado operador ponto final.
+
+10
+
+00:00:36,690  -->  00:00:42,130
+esse ponto final permite chamar ou
+invocar um certo método.
+
+11
+
+00:00:42,130  -->  00:00:51,410
+Para chamar o método "append", escreva
+append, seguido de parênteses.
+
+12
+
+00:00:51,410  -->  00:00:56,479
+Para inserir o nome Dwayne em nossa lista,
+devemos colocar a string Dwayne entre
+
+13
+
+00:00:56,479  -->  00:01:00,030
+aspas dentro do parênteses.
+
+14
+
+00:01:00,030  -->  00:01:05,210
+Depois de executarmos o comando, devemos ter
+Dwayne adicionado ao nosso grupo.
+
+15
+
+00:01:05,210  -->  00:01:07,180
+Vamos apertar Shift e Enter...
+
+16
+
+00:01:07,180  -->  00:01:08,270
+Correto!
+
+17
+
+00:01:08,270  -->  00:01:09,360
+Ótimo!
+
+18
+
+00:01:09,360  -->  00:01:14,070
+Lembre-se dessa estrutura geral, porque
+temos que obedecer a ela se quisermos chamar
+
+19
+
+00:01:14,070  -->  00:01:16,289
+qualquer método existente no Python.
+
+20
+
+00:01:16,289  -->  00:01:21,729
+Alternativamente, o mesmo resultado pode ser alcançado
+usando o método "extend".
+
+21
+
+00:01:21,729  -->  00:01:24,780
+Vamos convidar George e Catherine para o nosso
+grupo.
+
+22
+
+00:01:24,780  -->  00:01:29,450
+Primeiro vamos invocar o método "extend".
+
+23
+
+00:01:29,450  -->  00:01:31,530
+Ok, bom.
+
+24
+
+00:01:31,530  -->  00:01:36,100
+Desta vez, dentro dos parênteses, nós
+teremos que adicionar colchetes, conforme vamos aumentando
+
+25
+
+00:01:36,100  -->  00:01:43,070
+a lista "Participants" ao adicionar uma lista
+especificada dentro do parênteses.
+
+26
+
+00:01:43,070  -->  00:01:49,790
+Execute a célula através do comando Shift e Enter e... você
+terá as duas listas anexadas - a lista inicial
+
+27
+
+00:01:49,790  -->  00:01:52,289
+"Participants" e a sua extensão.
+
+28
+
+00:01:52,289  -->  00:01:57,229
+Assim, você conseguiu ampliar sua lista
+original, certo?
+
+29
+
+00:01:57,229  -->  00:02:00,060
+Vamos ver mais algumas coisas antes de terminarmos essa
+lição.
+
+30
+
+00:02:00,060  -->  00:02:09,250
+Primeiro, deixe-me mostrar que os elementos de uma lista
+são tratados diretamente como "string".
+
+31
+
+00:02:09,250  -->  00:02:18,760
+Depois de imprimir este comando, podemos ver que o
+primeiro participante da nossa lista é John.
+
+32
+
+00:02:18,760  -->  00:02:23,000
+Não foi necessário colocar
+aspas aqui
+
+33
+
+00:02:23,000  -->  00:02:24,580
+para fazer isso.
+
+34
+
+00:02:24,580  -->  00:02:25,880
+Perfeito!
+
+35
+
+00:02:25,880  -->  00:02:34,060
+E por fim, a função nativa "Len" conta
+o número de elementos em um objeto.
+
+36
+
+00:02:34,060  -->  00:02:40,680
+Por exemplo, se a nossa palavra é "Dolphin",
+esta função nos diz que ela é composta de sete
+
+37
+
+00:02:40,680  -->  00:02:41,879
+letras.
+
+38
+
+00:02:41,879  -->  00:02:46,209
+Mais importante ainda, essa mesma função
+pode ser aplicada para obter o número de
+
+39
+
+00:02:46,209  -->  00:02:48,330
+elementos em uma lista.
+
+40
+
+00:02:48,330  -->  00:02:53,470
+Ao executar essa função à lista que temos aqui, ela nos mostra
+que a lista possui seis elementos.
+
+41
+
+00:02:53,470  -->  00:02:54,800
+Maravilha!
+
+42
+
+00:02:54,800  -->  00:03:00,439
+Resumindo, observe como uma função nativa do Python
+pega o objeto "Participants" como um
+
+43
+
+00:03:00,439  -->  00:03:05,450
+argumento, por outro lado quando estamos chamando
+os métodos nativos, eles são aplicados à lista
+
+44
+
+00:03:05,450  -->  00:03:09,920
+"Participants" com a ajuda do operador ponto final.
+
+45
+
+00:03:09,920  -->  00:03:14,360
+A diferença de sintaxe ajuda a distinguir
+entre os dois.
+
+46
+
+00:03:14,360  -->  00:03:17,070
+A propósito, listas podem ser cortadas também.
+
+47
+
+00:03:17,070  -->  00:03:19,739
+Mas veremos mais sobre isso em nosso próximo vídeo.
+
+48
+
+00:03:19,739  -->  00:03:20,719
+Obrigado por assistir!

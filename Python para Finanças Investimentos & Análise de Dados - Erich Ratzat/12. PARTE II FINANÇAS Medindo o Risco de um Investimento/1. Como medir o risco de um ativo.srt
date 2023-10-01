@@ -1,0 +1,275 @@
+1
+00:00:03,700 --> 00:00:07,540
+Os investidores estão sempre atrás de uma boa taxa de retorno.
+
+2
+00:00:07,580 --> 00:00:14,890
+Isso é e ninguém gosta de riscos incertezas e muito menos a possibilidade de perder uma grande parte
+
+3
+00:00:14,890 --> 00:00:16,230
+de seu investimento.
+
+4
+00:00:16,270 --> 00:00:22,250
+Dissemos que risco e retorno são as duas dimensões mais importantes na tomada de decisão de investimento
+
+5
+00:00:22,660 --> 00:00:25,180
+portanto é fácil entender o porquê.
+
+6
+00:00:25,180 --> 00:00:30,700
+Precisamos gastar uma boa parte do tempo para aprender a medir e fazer previsões sobre o risco de um
+
+7
+00:00:30,700 --> 00:00:32,310
+determinado ativo.
+
+8
+00:00:32,380 --> 00:00:34,970
+Como podemos definir o risco para o investidor.
+
+9
+00:00:35,140 --> 00:00:40,570
+Se você investir 1.000 dólares e o seu dinheiro em uma ação que está sendo negociada na bolsa de valores
+
+10
+00:00:40,900 --> 00:00:44,680
+você sabe que em média essa ação subiu 15 por cento.
+
+11
+00:00:44,680 --> 00:00:47,520
+Você gostaria de saber como a média foi feita.
+
+12
+00:00:47,530 --> 00:00:53,200
+Certo Se as ações retornaram 14 por cento em um ano e 16 por cento no ano seguinte.
+
+13
+00:00:53,200 --> 00:00:59,650
+3 e no seguinte 17 por cento no último ano da série histórica ou se a média foi o resultado de um ganho
+
+14
+00:00:59,650 --> 00:01:05,350
+de 50 por cento menos 20 por cento ou menos 20 por cento de novo e mais 50 por cento no último ano.
+
+15
+00:01:05,350 --> 00:01:08,900
+Qual a diferença entre esses dois dados.
+
+16
+00:01:08,940 --> 00:01:14,700
+No primeiro caso você sabe que seu dinheiro vai render uma quantia que está mais ou menos alinhada com
+
+17
+00:01:14,700 --> 00:01:22,800
+aquilo que você espera as coisas podem ser um pouco melhores um pouco piores mas a taxa de retorno vai
+
+18
+00:01:22,800 --> 00:01:27,940
+estar entre 13 e 17 por cento já no segundo exemplo.
+
+19
+00:01:27,960 --> 00:01:35,490
+As coisas mudam drasticamente existe uma enorme variabilidade de um ano para o outro.
+
+20
+00:01:35,580 --> 00:01:41,160
+O retorno médio é o mesmo no entanto você não sabe muito bem o que vem a seguir.
+
+21
+00:01:41,160 --> 00:01:47,310
+Se você é um investidor e mantém na carteira a ação por dois anos você pode perder 40 por cento do seu
+
+22
+00:01:47,310 --> 00:01:48,170
+investimento.
+
+23
+00:01:48,180 --> 00:01:53,890
+Se considerarmos os anos 2 e 3 tiveram menos 20 e menos 20 por cento na sequência.
+
+24
+00:01:54,030 --> 00:01:59,670
+Então aparentemente a variabilidade desempenha um papel importante no mundo das finanças.
+
+25
+00:01:59,790 --> 00:02:02,070
+é a melhor medida de risco.
+
+26
+00:02:02,070 --> 00:02:08,310
+O mercado de ações volátil é muito mais provável que se desvie do seu setor nos históricos e surpreenda
+
+27
+00:02:08,310 --> 00:02:10,980
+os investidores negativamente.
+
+28
+00:02:10,980 --> 00:02:12,470
+E isso é ruim.
+
+29
+00:02:12,900 --> 00:02:15,330
+Claro que pode surpreender positivamente também.
+
+30
+00:02:16,020 --> 00:02:22,260
+Entretanto investidores de maneira geral não gostam de surpresas e são muito mais sensíveis à possibilidade
+
+31
+00:02:22,260 --> 00:02:24,410
+de perder seu investimento inicial.
+
+32
+00:02:24,420 --> 00:02:30,210
+A maioria das pessoas prefere ter uma boa ideia sobre a taxa de retorno que pode esperar de uma ação
+
+33
+00:02:30,330 --> 00:02:35,970
+ou de uma carteira de ações e saber o que se está fazendo melhor para reduzir o risco a que está exposto
+
+34
+00:02:37,190 --> 00:02:40,070
+precisamos sempre nos lembrar disso.
+
+35
+00:02:40,070 --> 00:02:42,990
+Investidores são avessos ao risco.
+
+36
+00:02:43,050 --> 00:02:48,680
+Eles não gostam do risco por si só e o objetivo principal é medir o risco que eles estão enfrentando
+
+37
+00:02:48,800 --> 00:02:51,260
+e reduzi lo tanto quanto possível.
+
+38
+00:02:51,260 --> 00:02:58,280
+Medidas estatísticas comumente usadas como variância e desvio padrão podem nos ajudar bastante quando
+
+39
+00:02:58,280 --> 00:03:03,440
+estamos tentando quantificar o risco associado à dispersão em relação ao resultado provável.
+
+40
+00:03:04,240 --> 00:03:10,800
+Tal dispersão pode ser medida por meio da variância e do desvio padrão de determinado ativo para ser
+
+41
+00:03:10,800 --> 00:03:11,930
+mais preciso.
+
+42
+00:03:11,970 --> 00:03:17,270
+A variância de uma ação média de dispersão de um conjunto de dados ao redor de sua média.
+
+43
+00:03:17,330 --> 00:03:25,590
+A fórmula matemática é a seguinte a variância s ao quadrado é igual à soma do quadrado das diferenças
+
+44
+00:03:25,710 --> 00:03:32,730
+entre um determinado valor X e sua média dividido por ele menos um para aqueles que nunca tinham visto
+
+45
+00:03:32,730 --> 00:03:33,740
+essa fórmula.
+
+46
+00:03:33,780 --> 00:03:37,080
+Aqui são exemplo o que deve facilitar as coisas.
+
+47
+00:03:37,230 --> 00:03:44,910
+A média dos dados do primeiro exemplo é 15 por cento certo beleza vamos calcular a dispersão de cada
+
+48
+00:03:44,910 --> 00:03:52,620
+um dos 4 valores em relação à média e elevar ao quadrado nós teremos 14 por cento menos 15 por cento
+
+49
+00:03:52,620 --> 00:03:59,730
+quadrado 16 por cento menos 15 por cento ao quadrado 13 por cento menos 15 por cento quadrado 17 por
+
+50
+00:03:59,730 --> 00:04:02,380
+cento menos 15 por cento ao quadrado.
+
+51
+00:04:02,400 --> 00:04:10,960
+Estas são as quatro versões da média elevada ao quadrado vamos agora calcular a soma desses valores
+
+52
+00:04:12,440 --> 00:04:14,000
+uma vez calculada a soma.
+
+53
+00:04:14,000 --> 00:04:23,330
+Nós temos que dividir esse valor pelo número de observações que temos menos ou nesse caso tivermos quatro
+
+54
+00:04:23,330 --> 00:04:25,970
+dados então iremos ter quatro menos um.
+
+55
+00:04:26,180 --> 00:04:32,980
+Iremos dividir por três a variância igual a zero vírgula 0 0 0 33.
+
+56
+00:04:33,020 --> 00:04:38,870
+Se tirarmos a raiz quadrada da variância vamos obter o desvio padrão desse conjunto de dados que é igual
+
+57
+00:04:38,870 --> 00:04:40,970
+a 1,8 por cento.
+
+58
+00:04:41,000 --> 00:04:48,890
+Vamos calcular a variância do nosso segundo exemplo devemos usar a mesma fórmula para as quatro observações
+
+59
+00:04:48,890 --> 00:05:00,460
+que temos 50 por cento menos 15 por cento ao quadrado menos 20 por cento menos 15 por cento ao quadrado
+
+60
+00:05:02,570 --> 00:05:12,000
+menos 20 por cento menos 15 por cento ao quadrado de novo e finalmente 50 por cento menos 15 por cento
+
+61
+00:05:12,450 --> 00:05:22,570
+ao quadrado vamos somar os 4 valores e dividi lo por três e vamos obter a variância.
+
+62
+00:05:22,820 --> 00:05:34,820
+Como você pode ver o valor é bem maior agora 0,16 e o desvio padrão é maior ainda 40 por cento mas isso
+
+63
+00:05:34,820 --> 00:05:38,800
+a gente já esperava certo nesse exemplo.
+
+64
+00:05:38,900 --> 00:05:46,260
+Nós sabíamos que o menor é o maior retorno estavam a 35 por cento distantes da média que era de 15 por
+
+65
+00:05:46,260 --> 00:05:51,100
+cento então dá para fazer uma aproximação mais uma vez.
+
+66
+00:05:51,100 --> 00:05:58,270
+O segundo exemplo apresentou um conjunto de dados muito mais dispersos e tem sem dúvida um risco maior.
+
+67
+00:05:58,300 --> 00:06:02,710
+Essa é a forma como nós calculamos a variância de uma ação e seu desvio padrão.
+
+68
+00:06:02,770 --> 00:06:07,410
+Estamos progredindo em nossa próxima aula vamos aprender como fazer tudo isso em baixo.
+
+69
+00:06:07,630 --> 00:06:08,590
+Obrigado para assistir.

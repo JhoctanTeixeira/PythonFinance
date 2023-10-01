@@ -1,0 +1,208 @@
+1
+
+00:00:00,000  -->  00:00:00,033
+Edited at https://subtitletools.com
+
+2
+
+00:00:01,250  -->  00:00:05,560
+Existe outra maneira de organizar
+a definição da sua função.
+
+3
+
+00:00:05,560  -->  00:00:15,059
+Comece definindo “plus ten” com o argumento
+"a" e dois pontos.
+
+4
+
+00:00:15,059  -->  00:00:20,590
+Na próxima linha, em vez de retornar diretamente
+o valor de "a" mais 10, outra variável
+
+5
+
+00:00:20,590  -->  00:00:24,539
+pode ser criada dentro da função para transportar
+esse valor.
+
+6
+
+00:00:24,539  -->  00:00:27,710
+Eu vou usar o nome “result” aqui.
+
+7
+
+00:00:27,710  -->  00:00:31,970
+Vou atribuí-lo com o valor desejado de
+"a" mais 10.
+
+8
+
+00:00:31,970  -->  00:00:36,140
+Vamos verificar o que acabamos de fazer.
+
+9
+
+00:00:36,140  -->  00:00:40,000
+Se eu executar o código na célula, não
+receberei nada.
+
+10
+
+00:00:40,000  -->  00:00:41,140
+Por quê?
+
+11
+
+00:00:41,140  -->  00:00:47,340
+Porque nesse momento eu apenas declarei
+a variável “result” no corpo de nossa
+
+12
+
+00:00:47,340  -->  00:00:48,680
+função.
+
+13
+
+00:00:48,680  -->  00:00:58,060
+Naturalmente, para obter o resultado desejado,
+Eu também terei que retornar essa variável.
+
+14
+
+00:00:58,060  -->  00:01:02,260
+Consegue ver?
+
+15
+
+00:01:02,260  -->  00:01:07,630
+Quando eu executo "plus ten" com o argumento
+2, eu obtenho 12.
+
+16
+
+00:01:07,630  -->  00:01:09,240
+Agora está tudo bem.
+
+17
+
+00:01:09,240  -->  00:01:14,850
+Imprimir usa uma declaração ou melhor
+um objeto e fornece uma representação impressa
+
+18
+
+00:01:14,850  -->  00:01:16,560
+na célula de saída.
+
+19
+
+00:01:16,560  -->  00:01:19,860
+Apenas torna uma declaração visível
+para o programador.
+
+20
+
+00:01:19,860  -->  00:01:23,869
+Uma boa razão para fazer isso seria quando você
+tem uma quantidade enorme de código e deseja
+
+21
+
+00:01:23,869  -->  00:01:29,009
+ver as etapas intermediárias do seu programa
+serem impressas para que você possa seguir o fluxo
+
+22
+
+00:01:29,009  -->  00:01:30,040
+de controle.
+
+23
+
+00:01:30,040  -->  00:01:34,390
+Caso contrário, a função print não afeta o cálculo
+do resultado.
+
+24
+
+00:01:34,390  -->  00:01:38,450
+De maneira diferente, a expressão return não visualiza o
+resultado.
+
+25
+
+00:01:38,450  -->  00:01:41,869
+Ela especifica o que uma determinada função
+deve retornar.
+
+26
+
+00:01:41,869  -->  00:01:46,399
+É importante que você entenda o que cada uma
+das duas palavras reservadas faz.
+
+27
+
+00:01:46,399  -->  00:01:51,070
+Isso o ajudará muito ao trabalhar
+com funções.
+
+28
+
+00:01:51,070  -->  00:01:52,610
+O seguinte pode ser útil.
+
+29
+
+00:01:52,610  -->  00:01:57,110
+Deixe a mesma função também imprimir a
+declaração “outcome”.
+
+30
+
+00:01:57,110  -->  00:02:01,950
+Se colocarmos apenas “return outcome”,
+e então “return result”, o que obteremos
+
+31
+
+00:02:01,950  -->  00:02:07,649
+quando chamarmos a função?
+
+32
+
+00:02:07,649  -->  00:02:11,290
+Apenas o primeiro objeto para retornar a declaração
+“outcome”.
+
+33
+
+00:02:11,290  -->  00:02:21,319
+Se, em vez disso, imprimirmos a declaração e, em seguida,
+retornarmos 'result', obteremos o que desejamos:
+
+34
+
+00:02:21,319  -->  00:02:27,599
+a declaração “outcome” e o resultado
+do cálculo 15.
+
+35
+
+00:02:27,599  -->  00:02:32,280
+Isso foi para mostrar que podemos retornar apenas um
+único resultado de uma função.
+
+36
+
+00:02:32,280  -->  00:02:33,370
+Isso é o suficiente por agora.
+
+37
+
+00:02:33,370  -->  00:02:34,540
+Obrigado por assistir!

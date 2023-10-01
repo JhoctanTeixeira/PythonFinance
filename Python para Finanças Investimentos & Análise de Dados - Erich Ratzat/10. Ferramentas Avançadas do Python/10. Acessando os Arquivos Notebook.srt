@@ -1,0 +1,191 @@
+1
+
+00:00:00,710  -->  00:00:04,080
+Vamos falar agora como organizamos os dois tipos
+de dados.
+
+2
+
+00:00:04,080  -->  00:00:08,870
+Na seção de recursos de cada vídeo, em que
+nós trabalhamos com dados financeiros, vocês podem encontrar
+
+3
+
+00:00:08,870  -->  00:00:15,800
+pastas com os nomes "CSV" ou "Online
+Financial Data (APIs)".
+
+4
+
+00:00:15,800  -->  00:00:20,749
+Em cada uma dessas pastas, separamos os
+arquivos em dois grupos - Python 2
+
+5
+
+00:00:20,749  -->  00:00:22,699
+e Python 3.
+
+6
+
+00:00:22,699  -->  00:00:28,739
+Assim, você pode acessar o código que vai ser executado
+diretamente no Kernel do Python.
+
+7
+
+00:00:28,739  -->  00:00:34,199
+Se você vir um arquivo contido na pasta
+'Python 3' e não na 'Python 2',
+
+8
+
+00:00:34,199  -->  00:00:41,039
+isso significa que a API ou o tipo de dados
+vai funcionar somente no Python 3.
+
+9
+
+00:00:41,039  -->  00:00:46,060
+Fizemos isso para que os usuários tenham mais opções
+quando trabalharem com qualquer versão do Python.
+
+10
+
+00:00:46,060  -->  00:00:51,300
+Nós gostaríamos de enfatizar que você pode concluir
+o curso usando qualquer versão da linguagem
+
+11
+
+00:00:51,300  -->  00:00:52,520
+de programação.
+
+12
+
+00:00:52,520  -->  00:00:57,930
+Então, por exemplo, quando você clicar na seção
+"Resources" da aula sobre "Como calcular
+
+13
+
+00:00:57,930  -->  00:01:04,750
+a taxa de retorno de um ativo", você vai
+ver duas pastas do Dropbox.
+
+14
+
+00:01:04,750  -->  00:01:12,799
+Se você clicar em "CSV' e depois em "Python
+2", você vai ver os arquivos que você pode baixar
+
+15
+
+00:01:12,799  -->  00:01:16,410
+e usar no Jupyter.
+
+16
+
+00:01:16,410  -->  00:01:23,850
+Se você voltar e escolher "Online Financial
+Data (APIs)", e depois selecionar "Python
+
+17
+
+00:01:23,850  -->  00:01:28,810
+3", você verá os arquivos relevantes
+se você estiver usando
+
+18
+
+00:01:28,810  -->  00:01:30,840
+o Python 3.
+
+19
+
+00:01:30,840  -->  00:01:39,220
+Finalmente, os nomes de todos os arquivos terminam
+com "underscore CSV", "underscore Morn"
+
+20
+
+00:01:39,220  -->  00:01:45,780
+- para "Morningstar", "underscore IEX",
+e assim por diante, para ajudá-los a distinguir os arquivos
+
+21
+
+00:01:45,780  -->  00:01:48,170
+relacionados as diferentes fontes.
+
+22
+
+00:01:48,170  -->  00:01:51,750
+Arquivos CSV devem ser a sua primeira opção.
+
+23
+
+00:01:51,750  -->  00:01:57,430
+Como já dissemos esses dados foram extraídos
+da API do Yahoo Finance, no qual este
+
+24
+
+00:01:57,430  -->  00:01:59,869
+curso foi inicialmente baseado.
+
+25
+
+00:01:59,869  -->  00:02:04,130
+Isso significa que você não vai ter problemas
+com valores omissos ao trabalhar com uma ação
+
+26
+
+00:02:04,130  -->  00:02:08,760
+ou com muitas ações simultaneamente, bem como com ações estrangeiras
+e índices de mercado.
+
+27
+
+00:02:08,760  -->  00:02:13,390
+Se você quiser tentar trabalhar com as APIs,
+você pode acessar a respectiva pasta e verificar
+
+28
+
+00:02:13,390  -->  00:02:16,250
+os arquivos fornecidos nela.
+
+29
+
+00:02:16,250  -->  00:02:17,250
+Certo?!
+
+30
+
+00:02:17,250  -->  00:02:22,540
+Eu espero que você tenha gostado desse video, embora
+possa parecer um pouco técnico demais.
+
+31
+
+00:02:22,540  -->  00:02:25,140
+Agora vamos voltar aos trabalhos.
+
+32
+
+00:02:25,140  -->  00:02:30,160
+Na próxima aula nós vamos retomar a programação
+em Python e ver como importar dados da vida
+
+33
+
+00:02:30,160  -->  00:02:33,400
+real de uma fonte de dados online.
+
+34
+
+00:02:33,400  -->  00:02:34,260
+Te vejo daqui a pouco!

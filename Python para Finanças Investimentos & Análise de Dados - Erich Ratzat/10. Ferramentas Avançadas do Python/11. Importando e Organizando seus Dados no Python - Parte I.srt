@@ -1,0 +1,304 @@
+1
+
+00:00:01,140  -->  00:00:02,170
+Tudo certo?!
+
+2
+
+00:00:02,170  -->  00:00:03,170
+Ótimo!
+
+3
+
+00:00:03,170  -->  00:00:07,970
+Nessa aula nós vamos continuar a explorar
+técnicas fundamentais que vão nos ajudar a melhorar
+
+4
+
+00:00:07,970  -->  00:00:11,020
+a organização dos dados no Python.
+
+5
+
+00:00:11,020  -->  00:00:13,970
+Logicamente, o foco vai estar no pacote
+do Pandas.
+
+6
+
+00:00:13,970  -->  00:00:19,130
+E o NumPy vai nos ajudar a ilustrar melhor
+o assunto.
+
+7
+
+00:00:19,130  -->  00:00:23,230
+Um dos dois tipos de dados principais definidos no
+Pandas é "Series".
+
+8
+
+00:00:23,230  -->  00:00:28,080
+Você pode pensar nisso como uma única coluna de dados,
+um conjunto de observações relacionadas a uma única
+
+9
+
+00:00:28,080  -->  00:00:29,279
+variável.
+
+10
+
+00:00:29,279  -->  00:00:34,949
+Vamos criar a variável "s.e.r." que
+vai carregar a informação.
+
+11
+
+00:00:34,949  -->  00:00:39,649
+Essa variável vai ser do tipo "Series", e eu
+gostaria que contivesse 5 números aleatórios.
+
+12
+
+00:00:39,649  -->  00:00:47,930
+Daí eu posso usar a função "random" do NumPy
+para criar 5 números aleatórios.
+
+13
+
+00:00:47,930  -->  00:00:49,190
+Tudo bem.
+
+14
+
+00:00:49,190  -->  00:00:51,940
+Agora o que resta é atribuir um nome para a coluna.
+
+15
+
+00:00:51,940  -->  00:00:54,100
+Pode ser "Column 1", não é mesmo?
+
+16
+
+00:00:54,100  -->  00:00:55,100
+Ótimo!
+
+17
+
+00:00:55,100  -->  00:01:02,780
+Os índices ao lado esquerdo da tela
+mostram índices de linhas, contando a partir do 0, e os
+
+18
+
+00:01:02,780  -->  00:01:09,320
+cinco números gerados aleatoriamente.
+
+19
+
+00:01:09,320  -->  00:01:11,520
+Do jeito que esperávamos!
+
+20
+
+00:01:11,520  -->  00:01:15,729
+Você pode pensar em um objeto da "Series" como
+um dicionário, cujos itens são do mesmo
+
+21
+
+00:01:15,729  -->  00:01:17,030
+tipo de dados.
+
+22
+
+00:01:17,030  -->  00:01:19,920
+Aqui, nós temos números decimais, certo?
+
+23
+
+00:01:19,920  -->  00:01:24,810
+Portanto, você poderia acessar um dos elementos
+por meio de seu índice, da mesma forma que faria
+
+24
+
+00:01:24,810  -->  00:01:26,159
+com um dicionário.
+
+25
+
+00:01:26,159  -->  00:01:32,189
+"S.e.r." 2 entre colchetes vai retornar o
+terceiro valor da nossa coluna.
+
+26
+
+00:01:32,189  -->  00:01:34,079
+Ótimo!
+
+27
+
+00:01:34,079  -->  00:01:36,869
+O outro tipo de dados é chamado de "Data Frame".
+
+28
+
+00:01:36,869  -->  00:01:43,140
+É parecido com o tipo de dados "Series", mas
+com várias colunas.
+
+29
+
+00:01:43,140  -->  00:01:47,219
+Antes de lidar com o "Data Frame", nós devemos
+nos familiarizar com o seguinte:
+
+30
+
+00:01:47,219  -->  00:01:52,090
+Vamos importar dados do pacote "Pandas-data
+reader" que nós já instalamos.
+
+31
+
+00:01:52,090  -->  00:01:57,100
+Para não ficar confuso com os conjuntos de dados que vamos
+criar posteriormente, vamos
+
+32
+
+00:01:57,100  -->  00:02:03,550
+renomear este item com a seguinte convenção:
+"wb", que significa "web".
+
+33
+
+00:02:03,550  -->  00:02:05,539
+Ok?
+
+34
+
+00:02:05,539  -->  00:02:10,539
+Nosso objetivo é extrair dados do yahoo finance
+sobre a "Procter & Gamble", a partir
+
+35
+
+00:02:10,539  -->  00:02:12,800
+de primeiro de janeiro de 1995.
+
+36
+
+00:02:12,800  -->  00:02:20,040
+A função "Data Reader" vai nos permitir
+fazer isso com apenas uma linha de comando.
+
+37
+
+00:02:20,040  -->  00:02:24,580
+Vamos dar o nome de "PG" para os dados da
+"Procter & Gamble".
+
+38
+
+00:02:24,580  -->  00:02:31,980
+Colocamos o sinal de igual, e a partir do pacote "wb", usamos
+a função "Data Reader", e como parâmetro,
+
+39
+
+00:02:31,980  -->  00:02:35,349
+você precisa especificar três itens importantes.
+
+40
+
+00:02:35,349  -->  00:02:39,510
+O primeiro é o símbolo da ação da "Procter &
+Gamble's", o chamado ticker em inglês.
+
+41
+
+00:02:39,510  -->  00:02:44,430
+O ticker é um símbolo com o qual as ações das empresas
+são cotadas na bolsa de valores; por
+
+42
+
+00:02:44,430  -->  00:02:51,209
+exemplo, o ticker da "Procter &
+Gamble's" é "PG", o da Apple's é "AAPL",
+
+43
+
+00:02:51,209  -->  00:02:54,100
+e o da Microsoft's é "MSFT".
+
+44
+
+00:02:54,100  -->  00:02:55,870
+Certo?!
+
+45
+
+00:02:55,870  -->  00:03:02,470
+Então, depois de "PG", nós precisamos determinar
+uma fonte de dados.
+
+46
+
+00:03:02,470  -->  00:03:04,400
+Vamos usar o "Yahoo".
+
+47
+
+00:03:04,400  -->  00:03:05,879
+Perfeito!
+
+48
+
+00:03:05,879  -->  00:03:12,760
+Agora, vamos especificar quais dados nós queremos
+extrair.
+
+49
+
+00:03:12,760  -->  00:03:24,470
+A data de início vai ser primeiro de Janeiro
+de 1995, escrito como 1995, 1, e 1 tudo com hífen.
+
+50
+
+00:03:24,470  -->  00:03:29,590
+Não devemos esquecer de colocar os dois últimos
+itens entre aspas.
+
+51
+
+00:03:29,590  -->  00:03:31,550
+Excelente!
+
+52
+
+00:03:31,550  -->  00:03:37,090
+É assim que podemos extrair dados históricos no mundo
+real.
+
+53
+
+00:03:37,090  -->  00:03:38,930
+Legal, certo?
+
+54
+
+00:03:38,930  -->  00:03:44,209
+Na nossa próxima aula, você vai aprender ferramentas
+adicionais que vão ser úteis para analisar dados.
+
+55
+
+00:03:44,209  -->  00:03:45,269
+Obrigado por assistir!

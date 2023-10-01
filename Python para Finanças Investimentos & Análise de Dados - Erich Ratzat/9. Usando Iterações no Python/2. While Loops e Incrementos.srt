@@ -1,0 +1,186 @@
+1
+
+00:00:00,930  -->  00:00:05,680
+O mesmo resultado que vimos na aula
+anterior pode ser alcançado depois de usar o comando while
+
+2
+
+00:00:05,680  -->  00:00:08,460
+ao invés de um for loop.
+
+3
+
+00:00:08,460  -->  00:00:13,150
+No entanto, a estrutura que usaremos será
+um pouco diferente.
+
+4
+
+00:00:13,150  -->  00:00:17,340
+Inicialmente, definiremos uma variável x igual
+a zero
+
+5
+
+00:00:17,340  -->  00:00:25,030
+e diremos: enquanto esse valor é menor
+ou igual a 20, imprima x.
+
+6
+
+00:00:25,030  -->  00:00:27,590
+Mas por favor tenha muito cuidado!
+
+7
+
+00:00:27,590  -->  00:00:28,710
+De verdade!
+
+8
+
+00:00:28,710  -->  00:00:34,230
+Se você deixar esse código do jeito que está até aqui, você vai
+correr em um loop infinito e seu computador
+
+9
+
+00:00:34,230  -->  00:00:35,800
+irá parar!
+
+10
+
+00:00:35,800  -->  00:00:39,160
+Esta é sem dúvida uma situação que você quer evitar.
+
+11
+
+00:00:39,160  -->  00:00:49,200
+Portanto, tenha muito cuidado; como o elemento x sempre será
+menor que 20, seu loop será infinito.
+
+12
+
+00:00:49,200  -->  00:00:53,290
+Ele vai ficar iterando com a mesma variável repetidamente.
+
+13
+
+00:00:53,290  -->  00:00:56,090
+Isto é o que fizemos aqui com x = 0.
+
+14
+
+00:00:56,090  -->  00:01:00,590
+E a palavra "sempre" não é o que queremos em uma
+iteração.
+
+15
+
+00:01:00,590  -->  00:01:03,740
+Queremos que o loop termine.
+
+16
+
+00:01:03,740  -->  00:01:07,680
+O que deve aparecer na sequencia, o corpo do loop
+no bloco do "while", é uma linha de código
+
+17
+
+00:01:07,680  -->  00:01:13,820
+que especifica uma mudança em x ou o que deve
+acontecer ao x depois de ser impresso.
+
+18
+
+00:01:13,820  -->  00:01:20,580
+No nosso caso, vamos dizer ao computador para
+vincular x a um valor igual a x mais dois.
+
+19
+
+00:01:20,580  -->  00:01:24,530
+Vamos ver se isso funciona.
+
+20
+
+00:01:24,530  -->  00:01:25,560
+Ótimo!
+
+21
+
+00:01:25,560  -->  00:01:27,240
+Assim está muito melhor.
+
+22
+
+00:01:27,240  -->  00:01:30,880
+Na verdade, existe um termo para o que acabamos
+de fazer.
+
+23
+
+00:01:30,880  -->  00:01:36,060
+Em termos de programação, adicionar o mesmo número
+em cima de uma variável existente durante um loop
+
+24
+
+00:01:36,060  -->  00:01:38,420
+é chamado de incrementar.
+
+25
+
+00:01:38,420  -->  00:01:41,650
+A quantia que está sendo adicionada progressivamente é chamada
+de incremento.
+
+26
+
+00:01:41,650  -->  00:01:45,070
+No nosso caso, temos um incremento de 2.
+
+27
+
+00:01:45,070  -->  00:01:52,329
+Além disso, a sintaxe do Python oferece uma
+maneira especial de indicar o incremento.
+
+28
+
+00:01:52,329  -->  00:02:00,670
+"x += 2" mostra que estamos incrementando
+o valor 2 em cima do próprio x,
+
+29
+
+00:02:00,670  -->  00:02:06,300
+como se tivéssemos digitado "x = x + 2".
+
+30
+
+00:02:06,300  -->  00:02:09,979
+Como você pode ver, os dois resultados são os mesmos.
+
+31
+
+00:02:09,979  -->  00:02:15,200
+Para concluir, se você usará um for loop ou
+um while loop dependerá principalmente de suas preferências
+
+32
+
+00:02:15,200  -->  00:02:16,590
+pessoais.
+
+33
+
+00:02:16,590  -->  00:02:23,469
+O que importa é que seu código não trave
+e forneça resultados corretos, não é mesmo?
+
+34
+
+00:02:23,469  -->  00:02:24,599
+Obrigado por assistir!

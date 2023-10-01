@@ -1,0 +1,146 @@
+1
+
+00:00:00,000  -->  00:00:00,033
+Edited at https://subtitletools.com
+
+2
+
+00:00:00,669  -->  00:00:04,310
+Não é um segredo que podemos ter uma função
+dentro da função.
+
+3
+
+00:00:04,310  -->  00:00:10,210
+Por exemplo, vamos definir uma função chamada
+salário que calcula seu salário diário.
+
+4
+
+00:00:10,210  -->  00:00:19,450
+Digamos que você use as horas de trabalho como parâmetro
+e receba 25 dólares por hora.
+
+5
+
+00:00:19,450  -->  00:00:21,630
+Então isso deve funcionar.
+
+6
+
+00:00:21,630  -->  00:00:22,630
+Ok.
+
+7
+
+00:00:22,630  -->  00:00:23,630
+Bom.
+
+8
+
+00:00:23,630  -->  00:00:27,270
+Repare que eu tecnicamente não preciso do comando
+imprimir aqui.
+
+9
+
+00:00:27,270  -->  00:00:30,990
+Eu poderia imprimir o salário depois, mas
+eu realmente não preciso.
+
+10
+
+00:00:30,990  -->  00:00:37,780
+Então eu vou continuar assim, apenas retornando
+o valor que eu preciso.
+
+11
+
+00:00:37,780  -->  00:00:42,809
+Quando você faz bem seu trabalho em um dia seu chefe ficará
+muito feliz e lhe dará um bônus de 50 dólares
+
+12
+
+00:00:42,809  -->  00:00:44,389
+adicionado ao seu salário.
+
+13
+
+00:00:44,389  -->  00:00:51,489
+Portanto, irei definir a função "com bônus"
+para você.
+
+14
+
+00:00:51,489  -->  00:00:54,829
+E como parâmetro eu vou pegar novamente as
+horas de trabalho.
+
+15
+
+00:00:54,829  -->  00:01:00,739
+Mas desta vez eu vou me permitir retornar
+diretamente o salário com horas de trabalho como
+
+16
+
+00:01:00,739  -->  00:01:06,770
+um resultado que seria o valor obtido
+após a execução da função salário mais
+
+17
+
+00:01:06,770  -->  00:01:11,890
+os $50 dólares extras que você ganhou.
+
+18
+
+00:01:11,890  -->  00:01:16,679
+É assim que a primeira função está envolvida
+no resultado da segunda - é a função
+
+19
+
+00:01:16,679  -->  00:01:19,840
+dentro da função!
+
+20
+
+00:01:19,840  -->  00:01:26,560
+Vamos ver qual será o resultado se você
+trabalhou 8 horas hoje e o chefe ficou muito
+
+21
+
+00:01:26,560  -->  00:01:28,740
+feliz com o seu desempenho.
+
+22
+
+00:01:28,740  -->  00:01:33,500
+Salário com um argumento 8, e "com bônus"
+com o argumento 8.
+
+23
+
+00:01:33,500  -->  00:01:34,840
+Ótimo!
+
+24
+
+00:01:34,840  -->  00:01:40,869
+200 de compensação base e 250 com o
+bônus!
+
+25
+
+00:01:40,869  -->  00:01:44,600
+Não esqueça de fazer os exercícios após essa
+aula!
+
+26
+
+00:01:44,600  -->  00:01:47,539
+Essa é a melhor maneira de reforçar o que você
+aprendeu!
